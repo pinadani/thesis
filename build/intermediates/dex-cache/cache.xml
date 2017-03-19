@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\AndroidStudioProjects\diplomka\build\java\vuforia\Vuforia.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea4d543e6035333459e815f2e49632cafa536b64">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\Vuforia_a8867adab70d356874f87a95863b53ba8474d232.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.5\dc65bb2f51828c58b1b2b3ac585357204d54ee5f\gdx-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="dc65bb2f51828c58b1b2b3ac585357204d54ee5f">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\gdx-1.9.5_8e4d5826e1cdb18f0e3f32348bb94e05bb24299c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\libs\jpct_ae.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="36a7a26e620771cb8506481b5bd4a69ded2b7c8a">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\jpct_ae_b20e01b907096db6613de629be88d6244d87b25b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\AndroidStudioProjects\Vuforia2\samples\Card Game AR\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c6fc0bfd5f7cd754f1ac0c3f13daef419ba34d6">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\Vuforia2\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a2f404316e07a574f94b4b8d0f0e8e57e3b168f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\AndroidStudioProjects\Vuforia2\build\java\vuforia\Vuforia.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ea4d543e6035333459e815f2e49632cafa536b64">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\Vuforia2\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\2\Vuforia_0b1f5a425e44761fc84c20e81f5651b3f729e1df\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.5\dc65bb2f51828c58b1b2b3ac585357204d54ee5f\gdx-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dc65bb2f51828c58b1b2b3ac585357204d54ee5f">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\gdx-1.9.5_8e4d5826e1cdb18f0e3f32348bb94e05bb24299c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\AndroidStudioProjects\diplomka\build\java\vuforia\Vuforia.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="ea4d543e6035333459e815f2e49632cafa536b64">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\Vuforia_a8867adab70d356874f87a95863b53ba8474d232.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.5\293bbe05bfb5ca812c849e4d1f494f56509d5a6e\gdx-backend-android-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="293bbe05bfb5ca812c849e4d1f494f56509d5a6e">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.5_160b55f03f0390f941aac226e09f1a793eab87f4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\AndroidStudioProjects\Vuforia2\samples\Card Game AR\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b8e7484381770e8b32c1849e9e1925802894fb69">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\Vuforia2\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_749b49192f0c9a72fa3311f7b18a4f6322248d19\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\libs\jpct_ae.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="36a7a26e620771cb8506481b5bd4a69ded2b7c8a">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\jpct_ae_b20e01b907096db6613de629be88d6244d87b25b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.5\293bbe05bfb5ca812c849e4d1f494f56509d5a6e\gdx-backend-android-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="293bbe05bfb5ca812c849e4d1f494f56509d5a6e">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.5_160b55f03f0390f941aac226e09f1a793eab87f4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\AndroidStudioProjects\Vuforia2\samples\Card Game AR\app\libs\jpct_ae.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="36a7a26e620771cb8506481b5bd4a69ded2b7c8a">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\Vuforia2\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\2\jpct_ae_c704530117a25d78698446c04cdeec5d4439fbb5\classes.dex" />
+    </item>
+
+</items>
