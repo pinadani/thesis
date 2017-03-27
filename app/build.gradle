@@ -4,16 +4,21 @@ def VUFORIA_SDK_DIR = '../../..'
 def NATIVE_LIB_DIR = 'build/lib'
 def JAR_DIR = 'build/java/vuforia'
 
+ext {
+    firebaseLibVersion = '10.0.1'
+    supportLibVersion = '25.3.0'
+}
+
 android {
-    compileSdkVersion 22
-    buildToolsVersion '25.0.0'
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
     sourceSets.main {
         jni.srcDirs = []
         jniLibs.srcDir "$VUFORIA_SDK_DIR/$NATIVE_LIB_DIR/"
     }
     defaultConfig {
         applicationId 'cz.cvut.fit.pinadani'
-        minSdkVersion 9
+        minSdkVersion 11
         targetSdkVersion 22
         versionCode 1
         versionName "0.1"
@@ -47,8 +52,20 @@ ext {
 }
 
 dependencies {
+    compile "com.android.support:appcompat-v7:${supportLibVersion}"
+    compile "com.android.support:design:${supportLibVersion}"
+
+    // Rozpoznavani markeru
     compile files("$VUFORIA_SDK_DIR/$JAR_DIR/Vuforia.jar")
-    compile files('libs/jpct_ae.jar')
+
+    //3D modely
     compile "com.badlogicgames.gdx:gdx:$gdxVersion"
     compile "com.badlogicgames.gdx:gdx-backend-android:$gdxVersion"
+
+    // Firebase
+    compile "com.google.firebase:firebase-core:${firebaseLibVersion}"
+    compile "com.google.firebase:firebase-auth:${firebaseLibVersion}"
+
+    // Butter Knife
+    compile 'com.jakewharton:butterknife:7.0.1'
 }

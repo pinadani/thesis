@@ -20,4 +20,15 @@
 
     <string name="vuforia_key">AYhKm7n/////AAAAGahKLdo9B0CmnlKK8ivIMSUe3MMyBS8kz9SaIEbIWFdDVptCnhuBpqIhGGY6LkJj9iROhcU9t6GnMvi+cI4kQehv8nlRTdLvzGiG1G3qh7lZRKOkDQHekALQckiQgfehP6Q3pS1Hgwn1uWzVeL/aSjhwE5cQrAW+Tu23HgOzE0FxpikUs5wg0yBHTWO+GMbm27CewBY7fM/HKBDf4tINziHwEftz3pxEDbED0tzJpv0FIpN6E6Jen+e0yqYAPmPVAyjC2CwUqgSrlo/wwMrckq/rOsfEOOqWc/iW7okVLMf4Y/IbIxOjU+fwYQc5hZJV5BLyjmXyo0nK18EDDpi7VJMXfpZ+RJ6xjQum5eyz4Nv1</string>
 
+    <string name="hint_email">Email</string>
+    <string name="login_hint_password">Heslo</string>
+    <string name="login_button_login">Login</string>
+    <string name="login_forgot_password">Zapomenuté heslo</string>
+    <string name="cancel">Zrušit</string>
+    <string name="text_wait">Čekejte prosím</string>
+    <string name="login_fail">Chyba při přihlašování</string>
+    <string name="valid_empty_field">Prosím vyplňte toto pole</string>
+    <string name="invalid_email">Prosím zadejte správný email</string>
+    <string name="invalid_email_or_password">Chybný email nebo heslo</string>
+    <string name="registration">Registrace</string>
 </resources>
