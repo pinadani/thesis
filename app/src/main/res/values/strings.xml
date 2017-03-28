@@ -31,4 +31,5 @@
     <string name="invalid_email">Prosím zadejte správný email</string>
     <string name="invalid_email_or_password">Chybný email nebo heslo</string>
     <string name="registration">Registrace</string>
+    <string name="do_registration">Registrovat</string>
 </resources>
