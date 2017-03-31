@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+
+        <item name="android:colorPrimary">@color/color_primary</item>
+        <item name="android:colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="android:colorAccent">@color/color_accent</item>
+    </style>
+
+
     <style name="SampleAppsTheme" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowBackground">@android:color/black</item>
@@ -20,6 +33,9 @@
         <item name="android:paddingRight">16dp</item>
         <item name="android:paddingBottom">8dp</item>
         <item name="android:paddingTop">8dp</item>
+    </style>
+
+    <style name="MainMenuButton" parent="LoginButton">
     </style>
 
     <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">

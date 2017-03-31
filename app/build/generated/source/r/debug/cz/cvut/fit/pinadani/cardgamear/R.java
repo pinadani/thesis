@@ -2408,9 +2408,9 @@ containing a value of this type.
         public static final int bright_foreground_material_light=0x7f0b0010;
         public static final int button_material_dark=0x7f0b0011;
         public static final int button_material_light=0x7f0b0012;
-        public static final int color_primary=0x7f0b0013;
-        public static final int color_primary_dark=0x7f0b0014;
-        public static final int colora_accent=0x7f0b0015;
+        public static final int color_accent=0x7f0b0013;
+        public static final int color_primary=0x7f0b0014;
+        public static final int color_primary_dark=0x7f0b0015;
         public static final int common_google_signin_btn_text_dark=0x7f0b0067;
         public static final int common_google_signin_btn_text_dark_default=0x7f0b0016;
         public static final int common_google_signin_btn_text_dark_disabled=0x7f0b0017;
@@ -2768,7 +2768,7 @@ containing a value of this type.
         public static final int transparent_rounded_corners=0x7f020081;
     }
     public static final class id {
-        public static final int action0=0x7f0c0092;
+        public static final int action0=0x7f0c0099;
         public static final int action_bar=0x7f0c006b;
         public static final int action_bar_activity_content=0x7f0c0000;
         public static final int action_bar_container=0x7f0c006a;
@@ -2776,17 +2776,17 @@ containing a value of this type.
         public static final int action_bar_spinner=0x7f0c0001;
         public static final int action_bar_subtitle=0x7f0c0049;
         public static final int action_bar_title=0x7f0c0048;
-        public static final int action_container=0x7f0c008f;
+        public static final int action_container=0x7f0c0096;
         public static final int action_context_bar=0x7f0c006c;
-        public static final int action_divider=0x7f0c0096;
-        public static final int action_image=0x7f0c0090;
+        public static final int action_divider=0x7f0c009d;
+        public static final int action_image=0x7f0c0097;
         public static final int action_menu_divider=0x7f0c0002;
         public static final int action_menu_presenter=0x7f0c0003;
         public static final int action_mode_bar=0x7f0c0068;
         public static final int action_mode_bar_stub=0x7f0c0067;
         public static final int action_mode_close_button=0x7f0c004a;
-        public static final int action_text=0x7f0c0091;
-        public static final int actions=0x7f0c009f;
+        public static final int action_text=0x7f0c0098;
+        public static final int actions=0x7f0c00a6;
         public static final int activity_chooser_view_content=0x7f0c004b;
         public static final int add=0x7f0c001e;
         public static final int adjust_height=0x7f0c003a;
@@ -2798,19 +2798,25 @@ containing a value of this type.
         public static final int auto=0x7f0c0025;
         public static final int beginning=0x7f0c0038;
         public static final int bottom=0x7f0c0026;
-        public static final int btn_forgot_password=0x7f0c008e;
-        public static final int btn_login=0x7f0c008d;
+        public static final int btn_forgot_password=0x7f0c0090;
+        public static final int btn_login=0x7f0c008e;
+        public static final int btn_login_logout=0x7f0c0094;
+        public static final int btn_multiplayer=0x7f0c0092;
+        public static final int btn_registration=0x7f0c008f;
+        public static final int btn_reset_password=0x7f0c0089;
+        public static final int btn_singleplayer=0x7f0c0091;
+        public static final int btn_user=0x7f0c0093;
         public static final int buttonPanel=0x7f0c0052;
-        public static final int cancel_action=0x7f0c0093;
+        public static final int cancel_action=0x7f0c009a;
         public static final int center=0x7f0c0027;
         public static final int center_horizontal=0x7f0c0028;
         public static final int center_vertical=0x7f0c0029;
         public static final int checkbox=0x7f0c0062;
-        public static final int chronometer=0x7f0c009b;
+        public static final int chronometer=0x7f0c00a2;
         public static final int clip_horizontal=0x7f0c0032;
         public static final int clip_vertical=0x7f0c0033;
         public static final int collapseActionView=0x7f0c003d;
-        public static final int container_content_login=0x7f0c0089;
+        public static final int container_content_login=0x7f0c008a;
         public static final int contentPanel=0x7f0c0055;
         public static final int custom=0x7f0c005c;
         public static final int customPanel=0x7f0c005b;
@@ -2824,10 +2830,10 @@ containing a value of this type.
         public static final int design_navigation_view=0x7f0c0082;
         public static final int disableHome=0x7f0c0012;
         public static final int edit_email=0x7f0c0088;
-        public static final int edit_password=0x7f0c008c;
+        public static final int edit_password=0x7f0c008d;
         public static final int edit_query=0x7f0c006d;
         public static final int end=0x7f0c002a;
-        public static final int end_padder=0x7f0c00a5;
+        public static final int end_padder=0x7f0c00ac;
         public static final int enterAlways=0x7f0c0019;
         public static final int enterAlwaysCollapsed=0x7f0c001a;
         public static final int exitUntilCollapsed=0x7f0c001b;
@@ -2837,28 +2843,29 @@ containing a value of this type.
         public static final int fill_horizontal=0x7f0c0035;
         public static final int fill_vertical=0x7f0c002b;
         public static final int fixed=0x7f0c0046;
-        public static final int fragment_container=0x7f0c00a6;
+        public static final int fragment_container=0x7f0c00ae;
         public static final int home=0x7f0c0004;
         public static final int homeAsUp=0x7f0c0013;
         public static final int icon=0x7f0c0050;
-        public static final int icon_group=0x7f0c00a0;
+        public static final int icon_group=0x7f0c00a7;
         public static final int icon_only=0x7f0c0041;
         public static final int ifRoom=0x7f0c003e;
         public static final int image=0x7f0c004d;
-        public static final int img_logo=0x7f0c008a;
-        public static final int info=0x7f0c009c;
+        public static final int img_logo=0x7f0c008b;
+        public static final int info=0x7f0c00a3;
         public static final int input_layout_email=0x7f0c0087;
+        public static final int input_layout_password=0x7f0c0095;
         public static final int item_touch_helper_previous_elevation=0x7f0c0005;
         public static final int largeLabel=0x7f0c007c;
-        public static final int layout_login=0x7f0c008b;
+        public static final int layout_login=0x7f0c008c;
         public static final int left=0x7f0c002c;
         public static final int light=0x7f0c0045;
-        public static final int line1=0x7f0c00a1;
-        public static final int line3=0x7f0c00a3;
+        public static final int line1=0x7f0c00a8;
+        public static final int line3=0x7f0c00aa;
         public static final int listMode=0x7f0c000f;
         public static final int list_item=0x7f0c004f;
-        public static final int masked=0x7f0c00a9;
-        public static final int media_actions=0x7f0c0095;
+        public static final int masked=0x7f0c00b1;
+        public static final int media_actions=0x7f0c009c;
         public static final int middle=0x7f0c0039;
         public static final int mini=0x7f0c0037;
         public static final int multiply=0x7f0c001f;
@@ -2866,9 +2873,9 @@ containing a value of this type.
         public static final int never=0x7f0c003f;
         public static final int none=0x7f0c0014;
         public static final int normal=0x7f0c0010;
-        public static final int notification_background=0x7f0c009e;
-        public static final int notification_main_column=0x7f0c0098;
-        public static final int notification_main_column_container=0x7f0c0097;
+        public static final int notification_background=0x7f0c00a5;
+        public static final int notification_main_column=0x7f0c009f;
+        public static final int notification_main_column_container=0x7f0c009e;
         public static final int parallax=0x7f0c0030;
         public static final int parentPanel=0x7f0c0054;
         public static final int pin=0x7f0c0031;
@@ -2876,8 +2883,8 @@ containing a value of this type.
         public static final int progress_horizontal=0x7f0c0007;
         public static final int radio=0x7f0c0064;
         public static final int right=0x7f0c002d;
-        public static final int right_icon=0x7f0c009d;
-        public static final int right_side=0x7f0c0099;
+        public static final int right_icon=0x7f0c00a4;
+        public static final int right_side=0x7f0c00a0;
         public static final int screen=0x7f0c0020;
         public static final int scroll=0x7f0c001c;
         public static final int scrollIndicatorDown=0x7f0c005a;
@@ -2910,22 +2917,23 @@ containing a value of this type.
         public static final int src_over=0x7f0c0023;
         public static final int standard=0x7f0c0042;
         public static final int start=0x7f0c002e;
-        public static final int status_bar_latest_event_content=0x7f0c0094;
+        public static final int status_bar_latest_event_content=0x7f0c009b;
         public static final int submenuarrow=0x7f0c0065;
         public static final int submit_area=0x7f0c0076;
         public static final int tabMode=0x7f0c0011;
-        public static final int text=0x7f0c00a4;
-        public static final int text2=0x7f0c00a2;
+        public static final int text=0x7f0c00ab;
+        public static final int text2=0x7f0c00a9;
         public static final int textSpacerNoButtons=0x7f0c0059;
         public static final int textSpacerNoTitle=0x7f0c0058;
         public static final int text_input_password_toggle=0x7f0c0086;
         public static final int textinput_counter=0x7f0c0009;
         public static final int textinput_error=0x7f0c000a;
-        public static final int time=0x7f0c009a;
+        public static final int time=0x7f0c00a1;
         public static final int title=0x7f0c0051;
         public static final int titleDividerNoCustom=0x7f0c0060;
         public static final int title_template=0x7f0c005e;
-        public static final int toolBar=0x7f0c00a7;
+        public static final int toolBar=0x7f0c00af;
+        public static final int toolbar=0x7f0c00ad;
         public static final int top=0x7f0c002f;
         public static final int topPanel=0x7f0c005d;
         public static final int touch_outside=0x7f0c007d;
@@ -2934,7 +2942,7 @@ containing a value of this type.
         public static final int up=0x7f0c000d;
         public static final int useLogo=0x7f0c0018;
         public static final int view_offset_helper=0x7f0c000e;
-        public static final int visible=0x7f0c00a8;
+        public static final int visible=0x7f0c00b0;
         public static final int wide=0x7f0c0043;
         public static final int withText=0x7f0c0040;
         public static final int wrap_content=0x7f0c0024;
@@ -2999,27 +3007,33 @@ containing a value of this type.
         public static final int design_text_input_password_icon=0x7f03002a;
         public static final int fragment_forgot_password=0x7f03002b;
         public static final int fragment_login=0x7f03002c;
-        public static final int notification_action=0x7f03002d;
-        public static final int notification_action_tombstone=0x7f03002e;
-        public static final int notification_media_action=0x7f03002f;
-        public static final int notification_media_cancel_action=0x7f030030;
-        public static final int notification_template_big_media=0x7f030031;
-        public static final int notification_template_big_media_custom=0x7f030032;
-        public static final int notification_template_big_media_narrow=0x7f030033;
-        public static final int notification_template_big_media_narrow_custom=0x7f030034;
-        public static final int notification_template_custom_big=0x7f030035;
-        public static final int notification_template_icon_group=0x7f030036;
-        public static final int notification_template_lines_media=0x7f030037;
-        public static final int notification_template_media=0x7f030038;
-        public static final int notification_template_media_custom=0x7f030039;
-        public static final int notification_template_part_chronometer=0x7f03003a;
-        public static final int notification_template_part_time=0x7f03003b;
-        public static final int select_dialog_item_material=0x7f03003c;
-        public static final int select_dialog_multichoice_material=0x7f03003d;
-        public static final int select_dialog_singlechoice_material=0x7f03003e;
-        public static final int support_simple_spinner_dropdown_item=0x7f03003f;
-        public static final int widget_fragment_container=0x7f030040;
-        public static final int widget_toolbar=0x7f030041;
+        public static final int fragment_main_menu=0x7f03002d;
+        public static final int fragment_registration=0x7f03002e;
+        public static final int notification_action=0x7f03002f;
+        public static final int notification_action_tombstone=0x7f030030;
+        public static final int notification_media_action=0x7f030031;
+        public static final int notification_media_cancel_action=0x7f030032;
+        public static final int notification_template_big_media=0x7f030033;
+        public static final int notification_template_big_media_custom=0x7f030034;
+        public static final int notification_template_big_media_narrow=0x7f030035;
+        public static final int notification_template_big_media_narrow_custom=0x7f030036;
+        public static final int notification_template_custom_big=0x7f030037;
+        public static final int notification_template_icon_group=0x7f030038;
+        public static final int notification_template_lines_media=0x7f030039;
+        public static final int notification_template_media=0x7f03003a;
+        public static final int notification_template_media_custom=0x7f03003b;
+        public static final int notification_template_part_chronometer=0x7f03003c;
+        public static final int notification_template_part_time=0x7f03003d;
+        public static final int select_dialog_item_material=0x7f03003e;
+        public static final int select_dialog_multichoice_material=0x7f03003f;
+        public static final int select_dialog_singlechoice_material=0x7f030040;
+        public static final int support_simple_spinner_dropdown_item=0x7f030041;
+        public static final int toolbar=0x7f030042;
+        public static final int widget_fragment_container=0x7f030043;
+        public static final int widget_toolbar=0x7f030044;
+    }
+    public static final class menu {
+        public static final int menu_main=0x7f0d0000;
     }
     public static final class string {
         public static final int INIT_ERROR=0x7f060026;
@@ -3069,8 +3083,9 @@ containing a value of this type.
         public static final int appbar_scrolling_view_behavior=0x7f06003f;
         public static final int bottom_sheet_behavior=0x7f060040;
         public static final int button_OK=0x7f060041;
-        public static final int cancel=0x7f060042;
-        public static final int character_counter_pattern=0x7f060043;
+        public static final int button_reset_password=0x7f060042;
+        public static final int cancel=0x7f060043;
+        public static final int character_counter_pattern=0x7f060044;
         public static final int common_google_play_services_enable_button=0x7f060013;
         public static final int common_google_play_services_enable_text=0x7f060014;
         public static final int common_google_play_services_enable_title=0x7f060015;
@@ -3088,23 +3103,52 @@ containing a value of this type.
         public static final int common_open_on_phone=0x7f060021;
         public static final int common_signin_button_text=0x7f060022;
         public static final int common_signin_button_text_long=0x7f060023;
-        public static final int hint_email=0x7f060044;
-        public static final int invalid_email=0x7f060045;
-        public static final int invalid_email_or_password=0x7f060046;
-        public static final int login_button_login=0x7f060047;
-        public static final int login_fail=0x7f060048;
-        public static final int login_forgot_password=0x7f060049;
-        public static final int login_hint_password=0x7f06004a;
-        public static final int password_toggle_content_description=0x7f06004b;
-        public static final int path_password_eye=0x7f06004c;
-        public static final int path_password_eye_mask_strike_through=0x7f06004d;
-        public static final int path_password_eye_mask_visible=0x7f06004e;
-        public static final int path_password_strike_through=0x7f06004f;
+        public static final int default_web_client_id=0x7f060045;
+        public static final int do_registration=0x7f060046;
+        public static final int firebase_database_url=0x7f060047;
+        public static final int forgot_password_title=0x7f060048;
+        public static final int gcm_defaultSenderId=0x7f060049;
+        public static final int google_api_key=0x7f06004a;
+        public static final int google_app_id=0x7f06004b;
+        public static final int google_crash_reporting_api_key=0x7f06004c;
+        public static final int google_storage_bucket=0x7f06004d;
+        public static final int hint_email=0x7f06004e;
+        public static final int invalid_email=0x7f06004f;
+        public static final int invalid_email_or_password=0x7f060050;
+        public static final int login=0x7f060051;
+        public static final int login_button_login=0x7f060052;
+        public static final int login_fail=0x7f060053;
+        public static final int login_fail_invalid_email=0x7f060054;
+        public static final int login_fail_invalid_password_or_email=0x7f060055;
+        public static final int login_fail_week_password=0x7f060056;
+        public static final int login_forgot_password=0x7f060057;
+        public static final int login_hint_password=0x7f060058;
+        public static final int login_success=0x7f060059;
+        public static final int logout=0x7f06005a;
+        public static final int muliplayer=0x7f06005b;
+        public static final int password_toggle_content_description=0x7f06005c;
+        public static final int path_password_eye=0x7f06005d;
+        public static final int path_password_eye_mask_strike_through=0x7f06005e;
+        public static final int path_password_eye_mask_visible=0x7f06005f;
+        public static final int path_password_strike_through=0x7f060060;
+        public static final int registration=0x7f060061;
+        public static final int reset_password_fail=0x7f060062;
+        public static final int reset_password_fail_invalid_user=0x7f060063;
+        public static final int reset_password_succes=0x7f060064;
         public static final int search_menu_title=0x7f060024;
+        public static final int sign_up_fail=0x7f060065;
+        public static final int sign_up_fail_check=0x7f060066;
+        public static final int sign_up_success=0x7f060067;
+        public static final int sign_up_title=0x7f060068;
+        public static final int singleplayer=0x7f060069;
         public static final int status_bar_notification_info_overflow=0x7f060025;
-        public static final int text_wait=0x7f060050;
-        public static final int valid_empty_field=0x7f060051;
-        public static final int vuforia_key=0x7f060052;
+        public static final int text_wait=0x7f06006a;
+        public static final int user_settings=0x7f06006b;
+        public static final int valid_email_fail_email=0x7f06006c;
+        public static final int valid_email_fail_empty=0x7f06006d;
+        public static final int valid_empty_field=0x7f06006e;
+        public static final int valid_password_fail_empty=0x7f06006f;
+        public static final int vuforia_key=0x7f060070;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0800a1;
@@ -3112,12 +3156,13 @@ containing a value of this type.
         public static final int Animation_AppCompat_Dialog=0x7f0800a3;
         public static final int Animation_AppCompat_DropDownUp=0x7f0800a4;
         public static final int Animation_Design_BottomSheetDialog=0x7f0800a5;
-        public static final int Base_AlertDialog_AppCompat=0x7f0800a6;
-        public static final int Base_AlertDialog_AppCompat_Light=0x7f0800a7;
-        public static final int Base_Animation_AppCompat_Dialog=0x7f0800a8;
-        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0800a9;
-        public static final int Base_DialogWindowTitle_AppCompat=0x7f0800aa;
-        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0800ab;
+        public static final int AppTheme=0x7f0800a6;
+        public static final int Base_AlertDialog_AppCompat=0x7f0800a7;
+        public static final int Base_AlertDialog_AppCompat_Light=0x7f0800a8;
+        public static final int Base_Animation_AppCompat_Dialog=0x7f0800a9;
+        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0800aa;
+        public static final int Base_DialogWindowTitle_AppCompat=0x7f0800ab;
+        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0800ac;
         public static final int Base_TextAppearance_AppCompat=0x7f080040;
         public static final int Base_TextAppearance_AppCompat_Body1=0x7f080041;
         public static final int Base_TextAppearance_AppCompat_Body2=0x7f080042;
@@ -3136,7 +3181,7 @@ containing a value of this type.
         public static final int Base_TextAppearance_AppCompat_Medium=0x7f08004c;
         public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f08000e;
         public static final int Base_TextAppearance_AppCompat_Menu=0x7f08004d;
-        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0800ac;
+        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0800ad;
         public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f08004e;
         public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f08004f;
         public static final int Base_TextAppearance_AppCompat_Small=0x7f080050;
@@ -3156,36 +3201,36 @@ containing a value of this type.
         public static final int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f08009d;
         public static final int Base_TextAppearance_AppCompat_Widget_Button_Colored=0x7f08009e;
         public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f080097;
-        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0800ad;
+        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0800ae;
         public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f08005a;
         public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f08005b;
         public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f08005c;
         public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f08005d;
         public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f08005e;
-        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0800ae;
+        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0800af;
         public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f08005f;
         public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f080060;
         public static final int Base_Theme_AppCompat=0x7f080061;
-        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0800af;
+        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0800b0;
         public static final int Base_Theme_AppCompat_Dialog=0x7f080012;
         public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f080013;
-        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0800b0;
+        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0800b1;
         public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f080014;
         public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f080002;
         public static final int Base_Theme_AppCompat_Light=0x7f080062;
-        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0800b1;
+        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0800b2;
         public static final int Base_Theme_AppCompat_Light_Dialog=0x7f080015;
         public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f080016;
-        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0800b2;
+        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0800b3;
         public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f080017;
         public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f080003;
-        public static final int Base_ThemeOverlay_AppCompat=0x7f0800b3;
-        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0800b4;
-        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0800b5;
-        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0800b6;
+        public static final int Base_ThemeOverlay_AppCompat=0x7f0800b4;
+        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0800b5;
+        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0800b6;
+        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0800b7;
         public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f080018;
         public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f080019;
-        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0800b7;
+        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0800b8;
         public static final int Base_V11_Theme_AppCompat_Dialog=0x7f08001a;
         public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f08001b;
         public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f08001c;
@@ -3200,74 +3245,75 @@ containing a value of this type.
         public static final int Base_V22_Theme_AppCompat_Light=0x7f080095;
         public static final int Base_V23_Theme_AppCompat=0x7f080098;
         public static final int Base_V23_Theme_AppCompat_Light=0x7f080099;
-        public static final int Base_V7_Theme_AppCompat=0x7f0800b8;
-        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0800b9;
-        public static final int Base_V7_Theme_AppCompat_Light=0x7f0800ba;
-        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0800bb;
-        public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0800bc;
-        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0800bd;
-        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0800be;
-        public static final int Base_Widget_AppCompat_ActionBar=0x7f0800bf;
-        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0800c0;
-        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0800c1;
+        public static final int Base_V7_Theme_AppCompat=0x7f0800b9;
+        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0800ba;
+        public static final int Base_V7_Theme_AppCompat_Light=0x7f0800bb;
+        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0800bc;
+        public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0800bd;
+        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0800be;
+        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0800bf;
+        public static final int Base_Widget_AppCompat_ActionBar=0x7f0800c0;
+        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0800c1;
+        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0800c2;
         public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f080068;
         public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f080069;
         public static final int Base_Widget_AppCompat_ActionButton=0x7f08006a;
         public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f08006b;
         public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f08006c;
-        public static final int Base_Widget_AppCompat_ActionMode=0x7f0800c2;
-        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0800c3;
+        public static final int Base_Widget_AppCompat_ActionMode=0x7f0800c3;
+        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0800c4;
         public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f080026;
         public static final int Base_Widget_AppCompat_Button=0x7f08006d;
         public static final int Base_Widget_AppCompat_Button_Borderless=0x7f08006e;
         public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f08006f;
-        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0800c4;
+        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0800c5;
         public static final int Base_Widget_AppCompat_Button_Colored=0x7f08009a;
         public static final int Base_Widget_AppCompat_Button_Small=0x7f080070;
         public static final int Base_Widget_AppCompat_ButtonBar=0x7f080071;
-        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0800c5;
+        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0800c6;
         public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f080072;
         public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f080073;
-        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0800c6;
+        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0800c7;
         public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f080000;
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0800c7;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0800c8;
         public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f080074;
         public static final int Base_Widget_AppCompat_EditText=0x7f080027;
         public static final int Base_Widget_AppCompat_ImageButton=0x7f080075;
-        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0800c8;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0800c9;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0800ca;
+        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0800c9;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0800ca;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0800cb;
         public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f080076;
         public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f080077;
         public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f080078;
         public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f080079;
         public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f08007a;
-        public static final int Base_Widget_AppCompat_ListMenuView=0x7f0800cb;
+        public static final int Base_Widget_AppCompat_ListMenuView=0x7f0800cc;
         public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f08007b;
         public static final int Base_Widget_AppCompat_ListView=0x7f08007c;
         public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f08007d;
         public static final int Base_Widget_AppCompat_ListView_Menu=0x7f08007e;
         public static final int Base_Widget_AppCompat_PopupMenu=0x7f08007f;
         public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f080080;
-        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0800cc;
+        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0800cd;
         public static final int Base_Widget_AppCompat_ProgressBar=0x7f08001d;
         public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f08001e;
         public static final int Base_Widget_AppCompat_RatingBar=0x7f080081;
         public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f08009b;
         public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f08009c;
-        public static final int Base_Widget_AppCompat_SearchView=0x7f0800cd;
-        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0800ce;
+        public static final int Base_Widget_AppCompat_SearchView=0x7f0800ce;
+        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0800cf;
         public static final int Base_Widget_AppCompat_SeekBar=0x7f080082;
-        public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0800cf;
+        public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0800d0;
         public static final int Base_Widget_AppCompat_Spinner=0x7f080083;
         public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f080004;
         public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f080084;
-        public static final int Base_Widget_AppCompat_Toolbar=0x7f0800d0;
+        public static final int Base_Widget_AppCompat_Toolbar=0x7f0800d1;
         public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f080085;
-        public static final int Base_Widget_Design_AppBarLayout=0x7f0800d1;
-        public static final int Base_Widget_Design_TabLayout=0x7f0800d2;
-        public static final int LoginButton=0x7f0800d3;
-        public static final int LoginInput=0x7f0800d4;
+        public static final int Base_Widget_Design_AppBarLayout=0x7f0800d2;
+        public static final int Base_Widget_Design_TabLayout=0x7f0800d3;
+        public static final int LoginButton=0x7f0800d4;
+        public static final int LoginInput=0x7f0800d5;
+        public static final int MainMenuButton=0x7f0800d6;
         public static final int Platform_AppCompat=0x7f08001f;
         public static final int Platform_AppCompat_Light=0x7f080020;
         public static final int Platform_ThemeOverlay_AppCompat=0x7f080086;
@@ -3296,81 +3342,81 @@ containing a value of this type.
         public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f08003d;
         public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f08003e;
         public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f08003f;
-        public static final int SampleAppsTheme=0x7f0800d5;
-        public static final int TextAppearance_AppCompat=0x7f0800d6;
-        public static final int TextAppearance_AppCompat_Body1=0x7f0800d7;
-        public static final int TextAppearance_AppCompat_Body2=0x7f0800d8;
-        public static final int TextAppearance_AppCompat_Button=0x7f0800d9;
-        public static final int TextAppearance_AppCompat_Caption=0x7f0800da;
-        public static final int TextAppearance_AppCompat_Display1=0x7f0800db;
-        public static final int TextAppearance_AppCompat_Display2=0x7f0800dc;
-        public static final int TextAppearance_AppCompat_Display3=0x7f0800dd;
-        public static final int TextAppearance_AppCompat_Display4=0x7f0800de;
-        public static final int TextAppearance_AppCompat_Headline=0x7f0800df;
-        public static final int TextAppearance_AppCompat_Inverse=0x7f0800e0;
-        public static final int TextAppearance_AppCompat_Large=0x7f0800e1;
-        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0800e2;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0800e3;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0800e4;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0800e5;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0800e6;
-        public static final int TextAppearance_AppCompat_Medium=0x7f0800e7;
-        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0800e8;
-        public static final int TextAppearance_AppCompat_Menu=0x7f0800e9;
+        public static final int SampleAppsTheme=0x7f0800d7;
+        public static final int TextAppearance_AppCompat=0x7f0800d8;
+        public static final int TextAppearance_AppCompat_Body1=0x7f0800d9;
+        public static final int TextAppearance_AppCompat_Body2=0x7f0800da;
+        public static final int TextAppearance_AppCompat_Button=0x7f0800db;
+        public static final int TextAppearance_AppCompat_Caption=0x7f0800dc;
+        public static final int TextAppearance_AppCompat_Display1=0x7f0800dd;
+        public static final int TextAppearance_AppCompat_Display2=0x7f0800de;
+        public static final int TextAppearance_AppCompat_Display3=0x7f0800df;
+        public static final int TextAppearance_AppCompat_Display4=0x7f0800e0;
+        public static final int TextAppearance_AppCompat_Headline=0x7f0800e1;
+        public static final int TextAppearance_AppCompat_Inverse=0x7f0800e2;
+        public static final int TextAppearance_AppCompat_Large=0x7f0800e3;
+        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0800e4;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0800e5;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0800e6;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0800e7;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0800e8;
+        public static final int TextAppearance_AppCompat_Medium=0x7f0800e9;
+        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0800ea;
+        public static final int TextAppearance_AppCompat_Menu=0x7f0800eb;
         public static final int TextAppearance_AppCompat_Notification=0x7f08002b;
         public static final int TextAppearance_AppCompat_Notification_Info=0x7f08008b;
         public static final int TextAppearance_AppCompat_Notification_Info_Media=0x7f08008c;
-        public static final int TextAppearance_AppCompat_Notification_Line2=0x7f0800ea;
-        public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0800eb;
+        public static final int TextAppearance_AppCompat_Notification_Line2=0x7f0800ec;
+        public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0800ed;
         public static final int TextAppearance_AppCompat_Notification_Media=0x7f08008d;
         public static final int TextAppearance_AppCompat_Notification_Time=0x7f08008e;
         public static final int TextAppearance_AppCompat_Notification_Time_Media=0x7f08008f;
         public static final int TextAppearance_AppCompat_Notification_Title=0x7f08002c;
         public static final int TextAppearance_AppCompat_Notification_Title_Media=0x7f080090;
-        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0800ec;
-        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0800ed;
-        public static final int TextAppearance_AppCompat_Small=0x7f0800ee;
-        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0800ef;
-        public static final int TextAppearance_AppCompat_Subhead=0x7f0800f0;
-        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0800f1;
-        public static final int TextAppearance_AppCompat_Title=0x7f0800f2;
-        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0800f3;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0800f4;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0800f5;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0800f6;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0800f7;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0800f8;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0800f9;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0800fa;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0800fb;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0800fc;
-        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0800fd;
-        public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0800fe;
-        public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0800ff;
-        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f080100;
-        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f080101;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f080102;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f080103;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f080104;
-        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f080105;
-        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f080106;
-        public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f080107;
-        public static final int TextAppearance_Design_Counter=0x7f080108;
-        public static final int TextAppearance_Design_Counter_Overflow=0x7f080109;
-        public static final int TextAppearance_Design_Error=0x7f08010a;
-        public static final int TextAppearance_Design_Hint=0x7f08010b;
-        public static final int TextAppearance_Design_Snackbar_Message=0x7f08010c;
-        public static final int TextAppearance_Design_Tab=0x7f08010d;
+        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0800ee;
+        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0800ef;
+        public static final int TextAppearance_AppCompat_Small=0x7f0800f0;
+        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0800f1;
+        public static final int TextAppearance_AppCompat_Subhead=0x7f0800f2;
+        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0800f3;
+        public static final int TextAppearance_AppCompat_Title=0x7f0800f4;
+        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0800f5;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0800f6;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0800f7;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0800f8;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0800f9;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0800fa;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0800fb;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0800fc;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0800fd;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0800fe;
+        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0800ff;
+        public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f080100;
+        public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f080101;
+        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f080102;
+        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f080103;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f080104;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f080105;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f080106;
+        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f080107;
+        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f080108;
+        public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f080109;
+        public static final int TextAppearance_Design_Counter=0x7f08010a;
+        public static final int TextAppearance_Design_Counter_Overflow=0x7f08010b;
+        public static final int TextAppearance_Design_Error=0x7f08010c;
+        public static final int TextAppearance_Design_Hint=0x7f08010d;
+        public static final int TextAppearance_Design_Snackbar_Message=0x7f08010e;
+        public static final int TextAppearance_Design_Tab=0x7f08010f;
         public static final int TextAppearance_StatusBar_EventContent=0x7f08002d;
         public static final int TextAppearance_StatusBar_EventContent_Info=0x7f08002e;
         public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f08002f;
         public static final int TextAppearance_StatusBar_EventContent_Time=0x7f080030;
         public static final int TextAppearance_StatusBar_EventContent_Title=0x7f080031;
-        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f08010e;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f08010f;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f080110;
-        public static final int Theme_AppCompat=0x7f080111;
-        public static final int Theme_AppCompat_CompactMenu=0x7f080112;
+        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f080110;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f080111;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f080112;
+        public static final int Theme_AppCompat=0x7f080113;
+        public static final int Theme_AppCompat_CompactMenu=0x7f080114;
         public static final int Theme_AppCompat_DayNight=0x7f080005;
         public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f080006;
         public static final int Theme_AppCompat_DayNight_Dialog=0x7f080007;
@@ -3378,117 +3424,117 @@ containing a value of this type.
         public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f080009;
         public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f08000a;
         public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f08000b;
-        public static final int Theme_AppCompat_Dialog=0x7f080113;
-        public static final int Theme_AppCompat_Dialog_Alert=0x7f080114;
-        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f080115;
-        public static final int Theme_AppCompat_DialogWhenLarge=0x7f080116;
-        public static final int Theme_AppCompat_Light=0x7f080117;
-        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f080118;
-        public static final int Theme_AppCompat_Light_Dialog=0x7f080119;
-        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f08011a;
-        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f08011b;
-        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f08011c;
-        public static final int Theme_AppCompat_Light_NoActionBar=0x7f08011d;
-        public static final int Theme_AppCompat_NoActionBar=0x7f08011e;
-        public static final int Theme_Design=0x7f08011f;
-        public static final int Theme_Design_BottomSheetDialog=0x7f080120;
-        public static final int Theme_Design_Light=0x7f080121;
-        public static final int Theme_Design_Light_BottomSheetDialog=0x7f080122;
-        public static final int Theme_Design_Light_NoActionBar=0x7f080123;
-        public static final int Theme_Design_NoActionBar=0x7f080124;
-        public static final int ThemeOverlay_AppCompat=0x7f080125;
-        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f080126;
-        public static final int ThemeOverlay_AppCompat_Dark=0x7f080127;
-        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f080128;
-        public static final int ThemeOverlay_AppCompat_Dialog=0x7f080129;
-        public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f08012a;
-        public static final int ThemeOverlay_AppCompat_Light=0x7f08012b;
-        public static final int ToolbarTheme=0x7f08012c;
-        public static final int Widget_AppCompat_ActionBar=0x7f08012d;
-        public static final int Widget_AppCompat_ActionBar_Solid=0x7f08012e;
-        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f08012f;
-        public static final int Widget_AppCompat_ActionBar_TabText=0x7f080130;
-        public static final int Widget_AppCompat_ActionBar_TabView=0x7f080131;
-        public static final int Widget_AppCompat_ActionButton=0x7f080132;
-        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f080133;
-        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f080134;
-        public static final int Widget_AppCompat_ActionMode=0x7f080135;
-        public static final int Widget_AppCompat_ActivityChooserView=0x7f080136;
-        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f080137;
-        public static final int Widget_AppCompat_Button=0x7f080138;
-        public static final int Widget_AppCompat_Button_Borderless=0x7f080139;
-        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f08013a;
-        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f08013b;
-        public static final int Widget_AppCompat_Button_Colored=0x7f08013c;
-        public static final int Widget_AppCompat_Button_Small=0x7f08013d;
-        public static final int Widget_AppCompat_ButtonBar=0x7f08013e;
-        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f08013f;
-        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f080140;
-        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f080141;
-        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f080142;
-        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f080143;
-        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f080144;
-        public static final int Widget_AppCompat_EditText=0x7f080145;
-        public static final int Widget_AppCompat_ImageButton=0x7f080146;
-        public static final int Widget_AppCompat_Light_ActionBar=0x7f080147;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f080148;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f080149;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f08014a;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f08014b;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f08014c;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f08014d;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f08014e;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f08014f;
-        public static final int Widget_AppCompat_Light_ActionButton=0x7f080150;
-        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f080151;
-        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f080152;
-        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f080153;
-        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f080154;
-        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f080155;
-        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f080156;
-        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f080157;
-        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f080158;
-        public static final int Widget_AppCompat_Light_PopupMenu=0x7f080159;
-        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f08015a;
-        public static final int Widget_AppCompat_Light_SearchView=0x7f08015b;
-        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f08015c;
-        public static final int Widget_AppCompat_ListMenuView=0x7f08015d;
-        public static final int Widget_AppCompat_ListPopupWindow=0x7f08015e;
-        public static final int Widget_AppCompat_ListView=0x7f08015f;
-        public static final int Widget_AppCompat_ListView_DropDown=0x7f080160;
-        public static final int Widget_AppCompat_ListView_Menu=0x7f080161;
+        public static final int Theme_AppCompat_Dialog=0x7f080115;
+        public static final int Theme_AppCompat_Dialog_Alert=0x7f080116;
+        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f080117;
+        public static final int Theme_AppCompat_DialogWhenLarge=0x7f080118;
+        public static final int Theme_AppCompat_Light=0x7f080119;
+        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f08011a;
+        public static final int Theme_AppCompat_Light_Dialog=0x7f08011b;
+        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f08011c;
+        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f08011d;
+        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f08011e;
+        public static final int Theme_AppCompat_Light_NoActionBar=0x7f08011f;
+        public static final int Theme_AppCompat_NoActionBar=0x7f080120;
+        public static final int Theme_Design=0x7f080121;
+        public static final int Theme_Design_BottomSheetDialog=0x7f080122;
+        public static final int Theme_Design_Light=0x7f080123;
+        public static final int Theme_Design_Light_BottomSheetDialog=0x7f080124;
+        public static final int Theme_Design_Light_NoActionBar=0x7f080125;
+        public static final int Theme_Design_NoActionBar=0x7f080126;
+        public static final int ThemeOverlay_AppCompat=0x7f080127;
+        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f080128;
+        public static final int ThemeOverlay_AppCompat_Dark=0x7f080129;
+        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f08012a;
+        public static final int ThemeOverlay_AppCompat_Dialog=0x7f08012b;
+        public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f08012c;
+        public static final int ThemeOverlay_AppCompat_Light=0x7f08012d;
+        public static final int ToolbarTheme=0x7f08012e;
+        public static final int Widget_AppCompat_ActionBar=0x7f08012f;
+        public static final int Widget_AppCompat_ActionBar_Solid=0x7f080130;
+        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f080131;
+        public static final int Widget_AppCompat_ActionBar_TabText=0x7f080132;
+        public static final int Widget_AppCompat_ActionBar_TabView=0x7f080133;
+        public static final int Widget_AppCompat_ActionButton=0x7f080134;
+        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f080135;
+        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f080136;
+        public static final int Widget_AppCompat_ActionMode=0x7f080137;
+        public static final int Widget_AppCompat_ActivityChooserView=0x7f080138;
+        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f080139;
+        public static final int Widget_AppCompat_Button=0x7f08013a;
+        public static final int Widget_AppCompat_Button_Borderless=0x7f08013b;
+        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f08013c;
+        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f08013d;
+        public static final int Widget_AppCompat_Button_Colored=0x7f08013e;
+        public static final int Widget_AppCompat_Button_Small=0x7f08013f;
+        public static final int Widget_AppCompat_ButtonBar=0x7f080140;
+        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f080141;
+        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f080142;
+        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f080143;
+        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f080144;
+        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f080145;
+        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f080146;
+        public static final int Widget_AppCompat_EditText=0x7f080147;
+        public static final int Widget_AppCompat_ImageButton=0x7f080148;
+        public static final int Widget_AppCompat_Light_ActionBar=0x7f080149;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f08014a;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f08014b;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f08014c;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f08014d;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f08014e;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f08014f;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f080150;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f080151;
+        public static final int Widget_AppCompat_Light_ActionButton=0x7f080152;
+        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f080153;
+        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f080154;
+        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f080155;
+        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f080156;
+        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f080157;
+        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f080158;
+        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f080159;
+        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f08015a;
+        public static final int Widget_AppCompat_Light_PopupMenu=0x7f08015b;
+        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f08015c;
+        public static final int Widget_AppCompat_Light_SearchView=0x7f08015d;
+        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f08015e;
+        public static final int Widget_AppCompat_ListMenuView=0x7f08015f;
+        public static final int Widget_AppCompat_ListPopupWindow=0x7f080160;
+        public static final int Widget_AppCompat_ListView=0x7f080161;
+        public static final int Widget_AppCompat_ListView_DropDown=0x7f080162;
+        public static final int Widget_AppCompat_ListView_Menu=0x7f080163;
         public static final int Widget_AppCompat_NotificationActionContainer=0x7f080091;
         public static final int Widget_AppCompat_NotificationActionText=0x7f080092;
-        public static final int Widget_AppCompat_PopupMenu=0x7f080162;
-        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f080163;
-        public static final int Widget_AppCompat_PopupWindow=0x7f080164;
-        public static final int Widget_AppCompat_ProgressBar=0x7f080165;
-        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f080166;
-        public static final int Widget_AppCompat_RatingBar=0x7f080167;
-        public static final int Widget_AppCompat_RatingBar_Indicator=0x7f080168;
-        public static final int Widget_AppCompat_RatingBar_Small=0x7f080169;
-        public static final int Widget_AppCompat_SearchView=0x7f08016a;
-        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f08016b;
-        public static final int Widget_AppCompat_SeekBar=0x7f08016c;
-        public static final int Widget_AppCompat_SeekBar_Discrete=0x7f08016d;
-        public static final int Widget_AppCompat_Spinner=0x7f08016e;
-        public static final int Widget_AppCompat_Spinner_DropDown=0x7f08016f;
-        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f080170;
-        public static final int Widget_AppCompat_Spinner_Underlined=0x7f080171;
-        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f080172;
-        public static final int Widget_AppCompat_Toolbar=0x7f080173;
-        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f080174;
+        public static final int Widget_AppCompat_PopupMenu=0x7f080164;
+        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f080165;
+        public static final int Widget_AppCompat_PopupWindow=0x7f080166;
+        public static final int Widget_AppCompat_ProgressBar=0x7f080167;
+        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f080168;
+        public static final int Widget_AppCompat_RatingBar=0x7f080169;
+        public static final int Widget_AppCompat_RatingBar_Indicator=0x7f08016a;
+        public static final int Widget_AppCompat_RatingBar_Small=0x7f08016b;
+        public static final int Widget_AppCompat_SearchView=0x7f08016c;
+        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f08016d;
+        public static final int Widget_AppCompat_SeekBar=0x7f08016e;
+        public static final int Widget_AppCompat_SeekBar_Discrete=0x7f08016f;
+        public static final int Widget_AppCompat_Spinner=0x7f080170;
+        public static final int Widget_AppCompat_Spinner_DropDown=0x7f080171;
+        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f080172;
+        public static final int Widget_AppCompat_Spinner_Underlined=0x7f080173;
+        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f080174;
+        public static final int Widget_AppCompat_Toolbar=0x7f080175;
+        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f080176;
         public static final int Widget_Design_AppBarLayout=0x7f080093;
-        public static final int Widget_Design_BottomNavigationView=0x7f080175;
-        public static final int Widget_Design_BottomSheet_Modal=0x7f080176;
-        public static final int Widget_Design_CollapsingToolbar=0x7f080177;
-        public static final int Widget_Design_CoordinatorLayout=0x7f080178;
-        public static final int Widget_Design_FloatingActionButton=0x7f080179;
-        public static final int Widget_Design_NavigationView=0x7f08017a;
-        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f08017b;
-        public static final int Widget_Design_Snackbar=0x7f08017c;
+        public static final int Widget_Design_BottomNavigationView=0x7f080177;
+        public static final int Widget_Design_BottomSheet_Modal=0x7f080178;
+        public static final int Widget_Design_CollapsingToolbar=0x7f080179;
+        public static final int Widget_Design_CoordinatorLayout=0x7f08017a;
+        public static final int Widget_Design_FloatingActionButton=0x7f08017b;
+        public static final int Widget_Design_NavigationView=0x7f08017c;
+        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f08017d;
+        public static final int Widget_Design_Snackbar=0x7f08017e;
         public static final int Widget_Design_TabLayout=0x7f080001;
-        public static final int Widget_Design_TextInputLayout=0x7f08017d;
+        public static final int Widget_Design_TextInputLayout=0x7f08017f;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.
@@ -3497,35 +3543,35 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background cz.cvut.fit.pinadani:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit cz.cvut.fit.pinadani:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked cz.cvut.fit.pinadani:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd cz.cvut.fit.pinadani:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions cz.cvut.fit.pinadani:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft cz.cvut.fit.pinadani:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight cz.cvut.fit.pinadani:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart cz.cvut.fit.pinadani:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation cz.cvut.fit.pinadani:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout cz.cvut.fit.pinadani:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions cz.cvut.fit.pinadani:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider cz.cvut.fit.pinadani:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation cz.cvut.fit.pinadani:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height cz.cvut.fit.pinadani:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll cz.cvut.fit.pinadani:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator cz.cvut.fit.pinadani:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout cz.cvut.fit.pinadani:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon cz.cvut.fit.pinadani:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle cz.cvut.fit.pinadani:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding cz.cvut.fit.pinadani:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo cz.cvut.fit.pinadani:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode cz.cvut.fit.pinadani:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme cz.cvut.fit.pinadani:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding cz.cvut.fit.pinadani:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle cz.cvut.fit.pinadani:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle cz.cvut.fit.pinadani:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle cz.cvut.fit.pinadani:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title cz.cvut.fit.pinadani:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle cz.cvut.fit.pinadani:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background cz.cvut.fit.pinadani.cardgamear:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit cz.cvut.fit.pinadani.cardgamear:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked cz.cvut.fit.pinadani.cardgamear:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd cz.cvut.fit.pinadani.cardgamear:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions cz.cvut.fit.pinadani.cardgamear:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft cz.cvut.fit.pinadani.cardgamear:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight cz.cvut.fit.pinadani.cardgamear:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart cz.cvut.fit.pinadani.cardgamear:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation cz.cvut.fit.pinadani.cardgamear:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout cz.cvut.fit.pinadani.cardgamear:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions cz.cvut.fit.pinadani.cardgamear:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider cz.cvut.fit.pinadani.cardgamear:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation cz.cvut.fit.pinadani.cardgamear:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height cz.cvut.fit.pinadani.cardgamear:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll cz.cvut.fit.pinadani.cardgamear:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator cz.cvut.fit.pinadani.cardgamear:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout cz.cvut.fit.pinadani.cardgamear:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon cz.cvut.fit.pinadani.cardgamear:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle cz.cvut.fit.pinadani.cardgamear:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding cz.cvut.fit.pinadani.cardgamear:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo cz.cvut.fit.pinadani.cardgamear:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode cz.cvut.fit.pinadani.cardgamear:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme cz.cvut.fit.pinadani.cardgamear:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding cz.cvut.fit.pinadani.cardgamear:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle cz.cvut.fit.pinadani.cardgamear:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle cz.cvut.fit.pinadani.cardgamear:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle cz.cvut.fit.pinadani.cardgamear:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title cz.cvut.fit.pinadani.cardgamear:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle cz.cvut.fit.pinadani.cardgamear:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -3568,17 +3614,17 @@ containing a value of this type.
             0x7f010060
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#background}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:background
+          @attr name cz.cvut.fit.pinadani.cardgamear:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3586,11 +3632,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name cz.cvut.fit.pinadani:backgroundSplit
+          @attr name cz.cvut.fit.pinadani.cardgamear:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3598,11 +3644,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name cz.cvut.fit.pinadani:backgroundStacked
+          @attr name cz.cvut.fit.pinadani.cardgamear:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3614,11 +3660,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:contentInsetEnd
+          @attr name cz.cvut.fit.pinadani.cardgamear:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3630,11 +3676,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:contentInsetEndWithActions
+          @attr name cz.cvut.fit.pinadani.cardgamear:contentInsetEndWithActions
         */
         public static final int ActionBar_contentInsetEndWithActions = 25;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3646,11 +3692,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:contentInsetLeft
+          @attr name cz.cvut.fit.pinadani.cardgamear:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3662,11 +3708,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:contentInsetRight
+          @attr name cz.cvut.fit.pinadani.cardgamear:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3678,11 +3724,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:contentInsetStart
+          @attr name cz.cvut.fit.pinadani.cardgamear:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3694,21 +3740,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:contentInsetStartWithNavigation
+          @attr name cz.cvut.fit.pinadani.cardgamear:contentInsetStartWithNavigation
         */
         public static final int ActionBar_contentInsetStartWithNavigation = 24;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:customNavigationLayout
+          @attr name cz.cvut.fit.pinadani.cardgamear:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3726,21 +3772,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:displayOptions
+          @attr name cz.cvut.fit.pinadani.cardgamear:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#divider}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:divider
+          @attr name cz.cvut.fit.pinadani.cardgamear:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#elevation}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3752,11 +3798,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:elevation
+          @attr name cz.cvut.fit.pinadani.cardgamear:elevation
         */
         public static final int ActionBar_elevation = 26;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#height}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3768,11 +3814,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:height
+          @attr name cz.cvut.fit.pinadani.cardgamear:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3782,51 +3828,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:hideOnContentScroll
+          @attr name cz.cvut.fit.pinadani.cardgamear:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:homeAsUpIndicator
+          @attr name cz.cvut.fit.pinadani.cardgamear:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 28;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:homeLayout
+          @attr name cz.cvut.fit.pinadani.cardgamear:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#icon}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:icon
+          @attr name cz.cvut.fit.pinadani.cardgamear:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:indeterminateProgressStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3838,21 +3884,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:itemPadding
+          @attr name cz.cvut.fit.pinadani.cardgamear:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#logo}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:logo
+          @attr name cz.cvut.fit.pinadani.cardgamear:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3866,21 +3912,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:navigationMode
+          @attr name cz.cvut.fit.pinadani.cardgamear:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:popupTheme
+          @attr name cz.cvut.fit.pinadani.cardgamear:popupTheme
         */
         public static final int ActionBar_popupTheme = 27;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3892,21 +3938,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:progressBarPadding
+          @attr name cz.cvut.fit.pinadani.cardgamear:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:progressBarStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3916,21 +3962,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:subtitle
+          @attr name cz.cvut.fit.pinadani.cardgamear:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:subtitleTextStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#title}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3940,17 +3986,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:title
+          @attr name cz.cvut.fit.pinadani.cardgamear:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:titleTextStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -4002,12 +4048,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background cz.cvut.fit.pinadani:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit cz.cvut.fit.pinadani:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout cz.cvut.fit.pinadani:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height cz.cvut.fit.pinadani:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle cz.cvut.fit.pinadani:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle cz.cvut.fit.pinadani:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background cz.cvut.fit.pinadani.cardgamear:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit cz.cvut.fit.pinadani.cardgamear:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout cz.cvut.fit.pinadani.cardgamear:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height cz.cvut.fit.pinadani.cardgamear:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle cz.cvut.fit.pinadani.cardgamear:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle cz.cvut.fit.pinadani.cardgamear:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -4021,17 +4067,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#background}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:background
+          @attr name cz.cvut.fit.pinadani.cardgamear:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -4039,21 +4085,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name cz.cvut.fit.pinadani:backgroundSplit
+          @attr name cz.cvut.fit.pinadani.cardgamear:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:closeItemLayout
+          @attr name cz.cvut.fit.pinadani.cardgamear:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#height}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -4065,27 +4111,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:height
+          @attr name cz.cvut.fit.pinadani.cardgamear:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:subtitleTextStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:titleTextStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -4094,8 +4140,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable cz.cvut.fit.pinadani:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount cz.cvut.fit.pinadani:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable cz.cvut.fit.pinadani.cardgamear:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount cz.cvut.fit.pinadani.cardgamear:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -4104,17 +4150,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001f, 0x7f010020
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:expandActivityOverflowButtonDrawable
+          @attr name cz.cvut.fit.pinadani.cardgamear:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -4124,7 +4170,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:initialActivityCount
+          @attr name cz.cvut.fit.pinadani.cardgamear:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -4134,12 +4180,12 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout cz.cvut.fit.pinadani:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout cz.cvut.fit.pinadani:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout cz.cvut.fit.pinadani:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout cz.cvut.fit.pinadani:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_showTitle cz.cvut.fit.pinadani:showTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout cz.cvut.fit.pinadani:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout cz.cvut.fit.pinadani.cardgamear:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout cz.cvut.fit.pinadani.cardgamear:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout cz.cvut.fit.pinadani.cardgamear:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout cz.cvut.fit.pinadani.cardgamear:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_showTitle cz.cvut.fit.pinadani.cardgamear:showTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout cz.cvut.fit.pinadani.cardgamear:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -4160,47 +4206,47 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:buttonPanelSideLayout
+          @attr name cz.cvut.fit.pinadani.cardgamear:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:listItemLayout
+          @attr name cz.cvut.fit.pinadani.cardgamear:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:listLayout
+          @attr name cz.cvut.fit.pinadani.cardgamear:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:multiChoiceItemLayout
+          @attr name cz.cvut.fit.pinadani.cardgamear:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#showTitle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#showTitle}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -4210,17 +4256,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:showTitle
+          @attr name cz.cvut.fit.pinadani.cardgamear:showTitle
         */
         public static final int AlertDialog_showTitle = 6;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:singleChoiceItemLayout
+          @attr name cz.cvut.fit.pinadani.cardgamear:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
@@ -4230,8 +4276,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation cz.cvut.fit.pinadani:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_expanded cz.cvut.fit.pinadani:expanded}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation cz.cvut.fit.pinadani.cardgamear:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_expanded cz.cvut.fit.pinadani.cardgamear:expanded}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
            @see #AppBarLayout_elevation
@@ -4247,7 +4293,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppBarLayout_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#elevation}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -4259,11 +4305,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:elevation
+          @attr name cz.cvut.fit.pinadani.cardgamear:elevation
         */
         public static final int AppBarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#expanded}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#expanded}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -4273,7 +4319,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:expanded
+          @attr name cz.cvut.fit.pinadani.cardgamear:expanded
         */
         public static final int AppBarLayout_expanded = 2;
         /** Attributes that can be used with a AppBarLayoutStates.
@@ -4282,8 +4328,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_collapsed cz.cvut.fit.pinadani:state_collapsed}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayoutStates_state_collapsible cz.cvut.fit.pinadani:state_collapsible}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsed cz.cvut.fit.pinadani.cardgamear:state_collapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayoutStates_state_collapsible cz.cvut.fit.pinadani.cardgamear:state_collapsible}</code></td><td></td></tr>
            </table>
            @see #AppBarLayoutStates_state_collapsed
            @see #AppBarLayoutStates_state_collapsible
@@ -4292,7 +4338,7 @@ containing a value of this type.
             0x7f010028, 0x7f010029
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#state_collapsed}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#state_collapsed}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -4302,11 +4348,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:state_collapsed
+          @attr name cz.cvut.fit.pinadani.cardgamear:state_collapsed
         */
         public static final int AppBarLayoutStates_state_collapsed = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#state_collapsible}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#state_collapsible}
           attribute's value can be found in the {@link #AppBarLayoutStates} array.
 
 
@@ -4316,7 +4362,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:state_collapsible
+          @attr name cz.cvut.fit.pinadani.cardgamear:state_collapsible
         */
         public static final int AppBarLayoutStates_state_collapsible = 1;
         /** Attributes that can be used with a AppBarLayout_Layout.
@@ -4325,8 +4371,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags cz.cvut.fit.pinadani:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator cz.cvut.fit.pinadani:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags cz.cvut.fit.pinadani.cardgamear:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator cz.cvut.fit.pinadani.cardgamear:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_Layout_layout_scrollFlags
            @see #AppBarLayout_Layout_layout_scrollInterpolator
@@ -4335,7 +4381,7 @@ containing a value of this type.
             0x7f01002a, 0x7f01002b
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_Layout} array.
 
 
@@ -4351,17 +4397,17 @@ containing a value of this type.
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:layout_scrollFlags
+          @attr name cz.cvut.fit.pinadani.cardgamear:layout_scrollFlags
         */
         public static final int AppBarLayout_Layout_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:layout_scrollInterpolator
+          @attr name cz.cvut.fit.pinadani.cardgamear:layout_scrollInterpolator
         */
         public static final int AppBarLayout_Layout_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatImageView.
@@ -4371,7 +4417,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_srcCompat cz.cvut.fit.pinadani:srcCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat cz.cvut.fit.pinadani.cardgamear:srcCompat}</code></td><td></td></tr>
            </table>
            @see #AppCompatImageView_android_src
            @see #AppCompatImageView_srcCompat
@@ -4386,13 +4432,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#srcCompat}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#srcCompat}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:srcCompat
+          @attr name cz.cvut.fit.pinadani.cardgamear:srcCompat
         */
         public static final int AppCompatImageView_srcCompat = 1;
         /** Attributes that can be used with a AppCompatSeekBar.
@@ -4402,9 +4448,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMark cz.cvut.fit.pinadani:tickMark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint cz.cvut.fit.pinadani:tickMarkTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode cz.cvut.fit.pinadani:tickMarkTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMark cz.cvut.fit.pinadani.cardgamear:tickMark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint cz.cvut.fit.pinadani.cardgamear:tickMarkTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode cz.cvut.fit.pinadani.cardgamear:tickMarkTintMode}</code></td><td></td></tr>
            </table>
            @see #AppCompatSeekBar_android_thumb
            @see #AppCompatSeekBar_tickMark
@@ -4421,17 +4467,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatSeekBar_android_thumb = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#tickMark}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#tickMark}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:tickMark
+          @attr name cz.cvut.fit.pinadani.cardgamear:tickMark
         */
         public static final int AppCompatSeekBar_tickMark = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#tickMarkTint}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#tickMarkTint}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -4442,11 +4488,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:tickMarkTint
+          @attr name cz.cvut.fit.pinadani.cardgamear:tickMarkTint
         */
         public static final int AppCompatSeekBar_tickMarkTint = 2;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#tickMarkTintMode}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#tickMarkTintMode}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -4463,7 +4509,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:tickMarkTintMode
+          @attr name cz.cvut.fit.pinadani.cardgamear:tickMarkTintMode
         */
         public static final int AppCompatSeekBar_tickMarkTintMode = 3;
         /** Attributes that can be used with a AppCompatTextHelper.
@@ -4541,7 +4587,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps cz.cvut.fit.pinadani:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps cz.cvut.fit.pinadani.cardgamear:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -4556,14 +4602,14 @@ containing a value of this type.
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name cz.cvut.fit.pinadani:textAllCaps
+          @attr name cz.cvut.fit.pinadani.cardgamear:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a AppCompatTheme.
@@ -4572,121 +4618,121 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarDivider cz.cvut.fit.pinadani:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground cz.cvut.fit.pinadani:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme cz.cvut.fit.pinadani:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSize cz.cvut.fit.pinadani:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle cz.cvut.fit.pinadani:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarStyle cz.cvut.fit.pinadani:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle cz.cvut.fit.pinadani:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle cz.cvut.fit.pinadani:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle cz.cvut.fit.pinadani:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTheme cz.cvut.fit.pinadani:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme cz.cvut.fit.pinadani:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle cz.cvut.fit.pinadani:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle cz.cvut.fit.pinadani:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance cz.cvut.fit.pinadani:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor cz.cvut.fit.pinadani:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeBackground cz.cvut.fit.pinadani:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle cz.cvut.fit.pinadani:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable cz.cvut.fit.pinadani:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable cz.cvut.fit.pinadani:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable cz.cvut.fit.pinadani:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable cz.cvut.fit.pinadani:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable cz.cvut.fit.pinadani:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle cz.cvut.fit.pinadani:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable cz.cvut.fit.pinadani:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable cz.cvut.fit.pinadani:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground cz.cvut.fit.pinadani:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeStyle cz.cvut.fit.pinadani:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable cz.cvut.fit.pinadani:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle cz.cvut.fit.pinadani:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle cz.cvut.fit.pinadani:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle cz.cvut.fit.pinadani:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle cz.cvut.fit.pinadani:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons cz.cvut.fit.pinadani:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle cz.cvut.fit.pinadani:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme cz.cvut.fit.pinadani:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider cz.cvut.fit.pinadani.cardgamear:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground cz.cvut.fit.pinadani.cardgamear:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme cz.cvut.fit.pinadani.cardgamear:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize cz.cvut.fit.pinadani.cardgamear:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle cz.cvut.fit.pinadani.cardgamear:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle cz.cvut.fit.pinadani.cardgamear:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle cz.cvut.fit.pinadani.cardgamear:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle cz.cvut.fit.pinadani.cardgamear:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle cz.cvut.fit.pinadani.cardgamear:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme cz.cvut.fit.pinadani.cardgamear:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme cz.cvut.fit.pinadani.cardgamear:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle cz.cvut.fit.pinadani.cardgamear:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle cz.cvut.fit.pinadani.cardgamear:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance cz.cvut.fit.pinadani.cardgamear:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor cz.cvut.fit.pinadani.cardgamear:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground cz.cvut.fit.pinadani.cardgamear:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle cz.cvut.fit.pinadani.cardgamear:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable cz.cvut.fit.pinadani.cardgamear:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable cz.cvut.fit.pinadani.cardgamear:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable cz.cvut.fit.pinadani.cardgamear:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable cz.cvut.fit.pinadani.cardgamear:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable cz.cvut.fit.pinadani.cardgamear:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle cz.cvut.fit.pinadani.cardgamear:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable cz.cvut.fit.pinadani.cardgamear:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable cz.cvut.fit.pinadani.cardgamear:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground cz.cvut.fit.pinadani.cardgamear:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle cz.cvut.fit.pinadani.cardgamear:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable cz.cvut.fit.pinadani.cardgamear:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle cz.cvut.fit.pinadani.cardgamear:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle cz.cvut.fit.pinadani.cardgamear:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle cz.cvut.fit.pinadani.cardgamear:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle cz.cvut.fit.pinadani.cardgamear:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons cz.cvut.fit.pinadani.cardgamear:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle cz.cvut.fit.pinadani.cardgamear:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme cz.cvut.fit.pinadani.cardgamear:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle cz.cvut.fit.pinadani:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle cz.cvut.fit.pinadani:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle cz.cvut.fit.pinadani:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle cz.cvut.fit.pinadani:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle cz.cvut.fit.pinadani:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle cz.cvut.fit.pinadani:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle cz.cvut.fit.pinadani:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyle cz.cvut.fit.pinadani:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall cz.cvut.fit.pinadani:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkboxStyle cz.cvut.fit.pinadani:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle cz.cvut.fit.pinadani:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorAccent cz.cvut.fit.pinadani:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating cz.cvut.fit.pinadani:colorBackgroundFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal cz.cvut.fit.pinadani:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlActivated cz.cvut.fit.pinadani:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight cz.cvut.fit.pinadani:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlNormal cz.cvut.fit.pinadani:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimary cz.cvut.fit.pinadani:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark cz.cvut.fit.pinadani:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal cz.cvut.fit.pinadani:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_controlBackground cz.cvut.fit.pinadani:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding cz.cvut.fit.pinadani:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogTheme cz.cvut.fit.pinadani:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal cz.cvut.fit.pinadani:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerVertical cz.cvut.fit.pinadani:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle cz.cvut.fit.pinadani:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight cz.cvut.fit.pinadani:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextBackground cz.cvut.fit.pinadani:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextColor cz.cvut.fit.pinadani:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextStyle cz.cvut.fit.pinadani:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator cz.cvut.fit.pinadani:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle cz.cvut.fit.pinadani:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator cz.cvut.fit.pinadani:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog cz.cvut.fit.pinadani:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle cz.cvut.fit.pinadani:listMenuViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle cz.cvut.fit.pinadani:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight cz.cvut.fit.pinadani:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge cz.cvut.fit.pinadani:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall cz.cvut.fit.pinadani:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft cz.cvut.fit.pinadani:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight cz.cvut.fit.pinadani:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelBackground cz.cvut.fit.pinadani:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme cz.cvut.fit.pinadani:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth cz.cvut.fit.pinadani:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle cz.cvut.fit.pinadani:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle cz.cvut.fit.pinadani:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle cz.cvut.fit.pinadani:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle cz.cvut.fit.pinadani:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator cz.cvut.fit.pinadani:ratingBarStyleIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall cz.cvut.fit.pinadani:ratingBarStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_searchViewStyle cz.cvut.fit.pinadani:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_seekBarStyle cz.cvut.fit.pinadani:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground cz.cvut.fit.pinadani:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless cz.cvut.fit.pinadani:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle cz.cvut.fit.pinadani:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerStyle cz.cvut.fit.pinadani:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_switchStyle cz.cvut.fit.pinadani:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu cz.cvut.fit.pinadani:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem cz.cvut.fit.pinadani:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall cz.cvut.fit.pinadani:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader cz.cvut.fit.pinadani:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle cz.cvut.fit.pinadani:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle cz.cvut.fit.pinadani:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu cz.cvut.fit.pinadani:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem cz.cvut.fit.pinadani:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl cz.cvut.fit.pinadani:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle cz.cvut.fit.pinadani:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarStyle cz.cvut.fit.pinadani:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBar cz.cvut.fit.pinadani:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay cz.cvut.fit.pinadani:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay cz.cvut.fit.pinadani:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor cz.cvut.fit.pinadani:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor cz.cvut.fit.pinadani:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor cz.cvut.fit.pinadani:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor cz.cvut.fit.pinadani:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor cz.cvut.fit.pinadani:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor cz.cvut.fit.pinadani:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowNoTitle cz.cvut.fit.pinadani:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle cz.cvut.fit.pinadani.cardgamear:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle cz.cvut.fit.pinadani.cardgamear:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle cz.cvut.fit.pinadani.cardgamear:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle cz.cvut.fit.pinadani.cardgamear:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle cz.cvut.fit.pinadani.cardgamear:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle cz.cvut.fit.pinadani.cardgamear:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle cz.cvut.fit.pinadani.cardgamear:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle cz.cvut.fit.pinadani.cardgamear:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall cz.cvut.fit.pinadani.cardgamear:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle cz.cvut.fit.pinadani.cardgamear:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle cz.cvut.fit.pinadani.cardgamear:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent cz.cvut.fit.pinadani.cardgamear:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating cz.cvut.fit.pinadani.cardgamear:colorBackgroundFloating}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal cz.cvut.fit.pinadani.cardgamear:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated cz.cvut.fit.pinadani.cardgamear:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight cz.cvut.fit.pinadani.cardgamear:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal cz.cvut.fit.pinadani.cardgamear:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary cz.cvut.fit.pinadani.cardgamear:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark cz.cvut.fit.pinadani.cardgamear:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal cz.cvut.fit.pinadani.cardgamear:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground cz.cvut.fit.pinadani.cardgamear:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding cz.cvut.fit.pinadani.cardgamear:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme cz.cvut.fit.pinadani.cardgamear:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal cz.cvut.fit.pinadani.cardgamear:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical cz.cvut.fit.pinadani.cardgamear:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle cz.cvut.fit.pinadani.cardgamear:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight cz.cvut.fit.pinadani.cardgamear:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground cz.cvut.fit.pinadani.cardgamear:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor cz.cvut.fit.pinadani.cardgamear:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle cz.cvut.fit.pinadani.cardgamear:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator cz.cvut.fit.pinadani.cardgamear:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle cz.cvut.fit.pinadani.cardgamear:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator cz.cvut.fit.pinadani.cardgamear:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog cz.cvut.fit.pinadani.cardgamear:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle cz.cvut.fit.pinadani.cardgamear:listMenuViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle cz.cvut.fit.pinadani.cardgamear:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight cz.cvut.fit.pinadani.cardgamear:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge cz.cvut.fit.pinadani.cardgamear:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall cz.cvut.fit.pinadani.cardgamear:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft cz.cvut.fit.pinadani.cardgamear:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight cz.cvut.fit.pinadani.cardgamear:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground cz.cvut.fit.pinadani.cardgamear:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme cz.cvut.fit.pinadani.cardgamear:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth cz.cvut.fit.pinadani.cardgamear:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle cz.cvut.fit.pinadani.cardgamear:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle cz.cvut.fit.pinadani.cardgamear:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle cz.cvut.fit.pinadani.cardgamear:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle cz.cvut.fit.pinadani.cardgamear:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator cz.cvut.fit.pinadani.cardgamear:ratingBarStyleIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall cz.cvut.fit.pinadani.cardgamear:ratingBarStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle cz.cvut.fit.pinadani.cardgamear:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle cz.cvut.fit.pinadani.cardgamear:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground cz.cvut.fit.pinadani.cardgamear:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless cz.cvut.fit.pinadani.cardgamear:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle cz.cvut.fit.pinadani.cardgamear:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle cz.cvut.fit.pinadani.cardgamear:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle cz.cvut.fit.pinadani.cardgamear:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu cz.cvut.fit.pinadani.cardgamear:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem cz.cvut.fit.pinadani.cardgamear:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall cz.cvut.fit.pinadani.cardgamear:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader cz.cvut.fit.pinadani.cardgamear:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle cz.cvut.fit.pinadani.cardgamear:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle cz.cvut.fit.pinadani.cardgamear:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu cz.cvut.fit.pinadani.cardgamear:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem cz.cvut.fit.pinadani.cardgamear:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl cz.cvut.fit.pinadani.cardgamear:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle cz.cvut.fit.pinadani.cardgamear:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle cz.cvut.fit.pinadani.cardgamear:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar cz.cvut.fit.pinadani.cardgamear:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay cz.cvut.fit.pinadani.cardgamear:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay cz.cvut.fit.pinadani.cardgamear:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor cz.cvut.fit.pinadani.cardgamear:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor cz.cvut.fit.pinadani.cardgamear:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor cz.cvut.fit.pinadani.cardgamear:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor cz.cvut.fit.pinadani.cardgamear:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor cz.cvut.fit.pinadani.cardgamear:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor cz.cvut.fit.pinadani.cardgamear:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle cz.cvut.fit.pinadani.cardgamear:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #AppCompatTheme_actionBarDivider
            @see #AppCompatTheme_actionBarItemBackground
@@ -4836,37 +4882,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01009f, 0x7f0100a0, 0x7f0100a1
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionBarDivider
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionBarDivider
         */
         public static final int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionBarItemBackground
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionBarItemBackground
         */
         public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionBarPopupTheme
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionBarPopupTheme
         */
         public static final int AppCompatTheme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionBarSize}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4886,111 +4932,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:actionBarSize
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionBarSize
         */
         public static final int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionBarSplitStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionBarSplitStyle
         */
         public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionBarStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionBarStyle
         */
         public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionBarTabBarStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionBarTabBarStyle
         */
         public static final int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionBarTabStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionBarTabStyle
         */
         public static final int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionBarTabTextStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionBarTabTextStyle
         */
         public static final int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionBarTheme
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionBarTheme
         */
         public static final int AppCompatTheme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionBarWidgetTheme
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionBarWidgetTheme
         */
         public static final int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionButtonStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionButtonStyle
         */
         public static final int AppCompatTheme_actionButtonStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionDropDownStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionDropDownStyle
         */
         public static final int AppCompatTheme_actionDropDownStyle = 46;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionMenuTextAppearance
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionMenuTextAppearance
         */
         public static final int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4998,181 +5044,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionMenuTextColor
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionMenuTextColor
         */
         public static final int AppCompatTheme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionModeBackground
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionModeBackground
         */
         public static final int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionModeCloseButtonStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionModeCloseButtonStyle
         */
         public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionModeCloseDrawable
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionModeCloseDrawable
         */
         public static final int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionModeCopyDrawable
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionModeCopyDrawable
         */
         public static final int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionModeCutDrawable
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionModeCutDrawable
         */
         public static final int AppCompatTheme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionModeFindDrawable
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionModeFindDrawable
         */
         public static final int AppCompatTheme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionModePasteDrawable
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionModePasteDrawable
         */
         public static final int AppCompatTheme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionModePopupWindowStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionModePopupWindowStyle
         */
         public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionModeSelectAllDrawable
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionModeSelectAllDrawable
         */
         public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionModeShareDrawable
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionModeShareDrawable
         */
         public static final int AppCompatTheme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionModeSplitBackground
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionModeSplitBackground
         */
         public static final int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionModeStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionModeStyle
         */
         public static final int AppCompatTheme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionModeWebSearchDrawable
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionModeWebSearchDrawable
         */
         public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionOverflowButtonStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionOverflowButtonStyle
         */
         public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionOverflowMenuStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionOverflowMenuStyle
         */
         public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:activityChooserViewStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:activityChooserViewStyle
         */
         public static final int AppCompatTheme_activityChooserViewStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:alertDialogButtonGroupStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:alertDialogButtonGroupStyle
         */
         public static final int AppCompatTheme_alertDialogButtonGroupStyle = 94;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5182,27 +5228,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:alertDialogCenterButtons
+          @attr name cz.cvut.fit.pinadani.cardgamear:alertDialogCenterButtons
         */
         public static final int AppCompatTheme_alertDialogCenterButtons = 95;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:alertDialogStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:alertDialogStyle
         */
         public static final int AppCompatTheme_alertDialogStyle = 93;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:alertDialogTheme
+          @attr name cz.cvut.fit.pinadani.cardgamear:alertDialogTheme
         */
         public static final int AppCompatTheme_alertDialogTheme = 96;
         /**
@@ -5218,117 +5264,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:autoCompleteTextViewStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:autoCompleteTextViewStyle
         */
         public static final int AppCompatTheme_autoCompleteTextViewStyle = 101;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:borderlessButtonStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:borderlessButtonStyle
         */
         public static final int AppCompatTheme_borderlessButtonStyle = 55;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:buttonBarButtonStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:buttonBarButtonStyle
         */
         public static final int AppCompatTheme_buttonBarButtonStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:buttonBarNegativeButtonStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:buttonBarNegativeButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:buttonBarNeutralButtonStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:buttonBarNeutralButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:buttonBarPositiveButtonStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:buttonBarPositiveButtonStyle
         */
         public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:buttonBarStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:buttonBarStyle
         */
         public static final int AppCompatTheme_buttonBarStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#buttonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:buttonStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:buttonStyle
         */
         public static final int AppCompatTheme_buttonStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:buttonStyleSmall
+          @attr name cz.cvut.fit.pinadani.cardgamear:buttonStyleSmall
         */
         public static final int AppCompatTheme_buttonStyleSmall = 103;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:checkboxStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:checkboxStyle
         */
         public static final int AppCompatTheme_checkboxStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:checkedTextViewStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:checkedTextViewStyle
         */
         public static final int AppCompatTheme_checkedTextViewStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#colorAccent}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5339,11 +5385,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:colorAccent
+          @attr name cz.cvut.fit.pinadani.cardgamear:colorAccent
         */
         public static final int AppCompatTheme_colorAccent = 85;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#colorBackgroundFloating}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#colorBackgroundFloating}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5354,11 +5400,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:colorBackgroundFloating
+          @attr name cz.cvut.fit.pinadani.cardgamear:colorBackgroundFloating
         */
         public static final int AppCompatTheme_colorBackgroundFloating = 92;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5369,11 +5415,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:colorButtonNormal
+          @attr name cz.cvut.fit.pinadani.cardgamear:colorButtonNormal
         */
         public static final int AppCompatTheme_colorButtonNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5384,11 +5430,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:colorControlActivated
+          @attr name cz.cvut.fit.pinadani.cardgamear:colorControlActivated
         */
         public static final int AppCompatTheme_colorControlActivated = 87;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5399,11 +5445,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:colorControlHighlight
+          @attr name cz.cvut.fit.pinadani.cardgamear:colorControlHighlight
         */
         public static final int AppCompatTheme_colorControlHighlight = 88;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5414,11 +5460,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:colorControlNormal
+          @attr name cz.cvut.fit.pinadani.cardgamear:colorControlNormal
         */
         public static final int AppCompatTheme_colorControlNormal = 86;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#colorPrimary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5429,11 +5475,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:colorPrimary
+          @attr name cz.cvut.fit.pinadani.cardgamear:colorPrimary
         */
         public static final int AppCompatTheme_colorPrimary = 83;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5444,11 +5490,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:colorPrimaryDark
+          @attr name cz.cvut.fit.pinadani.cardgamear:colorPrimaryDark
         */
         public static final int AppCompatTheme_colorPrimaryDark = 84;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5459,21 +5505,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:colorSwitchThumbNormal
+          @attr name cz.cvut.fit.pinadani.cardgamear:colorSwitchThumbNormal
         */
         public static final int AppCompatTheme_colorSwitchThumbNormal = 90;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#controlBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:controlBackground
+          @attr name cz.cvut.fit.pinadani.cardgamear:controlBackground
         */
         public static final int AppCompatTheme_controlBackground = 91;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5485,51 +5531,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:dialogPreferredPadding
+          @attr name cz.cvut.fit.pinadani.cardgamear:dialogPreferredPadding
         */
         public static final int AppCompatTheme_dialogPreferredPadding = 44;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#dialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:dialogTheme
+          @attr name cz.cvut.fit.pinadani.cardgamear:dialogTheme
         */
         public static final int AppCompatTheme_dialogTheme = 43;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:dividerHorizontal
+          @attr name cz.cvut.fit.pinadani.cardgamear:dividerHorizontal
         */
         public static final int AppCompatTheme_dividerHorizontal = 57;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#dividerVertical}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:dividerVertical
+          @attr name cz.cvut.fit.pinadani.cardgamear:dividerVertical
         */
         public static final int AppCompatTheme_dividerVertical = 56;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:dropDownListViewStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:dropDownListViewStyle
         */
         public static final int AppCompatTheme_dropDownListViewStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5541,21 +5587,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:dropdownListPreferredItemHeight
+          @attr name cz.cvut.fit.pinadani.cardgamear:dropdownListPreferredItemHeight
         */
         public static final int AppCompatTheme_dropdownListPreferredItemHeight = 47;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#editTextBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:editTextBackground
+          @attr name cz.cvut.fit.pinadani.cardgamear:editTextBackground
         */
         public static final int AppCompatTheme_editTextBackground = 64;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#editTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5563,81 +5609,81 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name cz.cvut.fit.pinadani:editTextColor
+          @attr name cz.cvut.fit.pinadani.cardgamear:editTextColor
         */
         public static final int AppCompatTheme_editTextColor = 63;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#editTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:editTextStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:editTextStyle
         */
         public static final int AppCompatTheme_editTextStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:homeAsUpIndicator
+          @attr name cz.cvut.fit.pinadani.cardgamear:homeAsUpIndicator
         */
         public static final int AppCompatTheme_homeAsUpIndicator = 49;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:imageButtonStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:imageButtonStyle
         */
         public static final int AppCompatTheme_imageButtonStyle = 65;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:listChoiceBackgroundIndicator
+          @attr name cz.cvut.fit.pinadani.cardgamear:listChoiceBackgroundIndicator
         */
         public static final int AppCompatTheme_listChoiceBackgroundIndicator = 82;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:listDividerAlertDialog
+          @attr name cz.cvut.fit.pinadani.cardgamear:listDividerAlertDialog
         */
         public static final int AppCompatTheme_listDividerAlertDialog = 45;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#listMenuViewStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#listMenuViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:listMenuViewStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:listMenuViewStyle
         */
         public static final int AppCompatTheme_listMenuViewStyle = 114;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:listPopupWindowStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:listPopupWindowStyle
         */
         public static final int AppCompatTheme_listPopupWindowStyle = 76;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5649,11 +5695,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:listPreferredItemHeight
+          @attr name cz.cvut.fit.pinadani.cardgamear:listPreferredItemHeight
         */
         public static final int AppCompatTheme_listPreferredItemHeight = 70;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5665,11 +5711,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:listPreferredItemHeightLarge
+          @attr name cz.cvut.fit.pinadani.cardgamear:listPreferredItemHeightLarge
         */
         public static final int AppCompatTheme_listPreferredItemHeightLarge = 72;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5681,11 +5727,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:listPreferredItemHeightSmall
+          @attr name cz.cvut.fit.pinadani.cardgamear:listPreferredItemHeightSmall
         */
         public static final int AppCompatTheme_listPreferredItemHeightSmall = 71;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5697,11 +5743,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:listPreferredItemPaddingLeft
+          @attr name cz.cvut.fit.pinadani.cardgamear:listPreferredItemPaddingLeft
         */
         public static final int AppCompatTheme_listPreferredItemPaddingLeft = 73;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5713,31 +5759,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:listPreferredItemPaddingRight
+          @attr name cz.cvut.fit.pinadani.cardgamear:listPreferredItemPaddingRight
         */
         public static final int AppCompatTheme_listPreferredItemPaddingRight = 74;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#panelBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:panelBackground
+          @attr name cz.cvut.fit.pinadani.cardgamear:panelBackground
         */
         public static final int AppCompatTheme_panelBackground = 79;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:panelMenuListTheme
+          @attr name cz.cvut.fit.pinadani.cardgamear:panelMenuListTheme
         */
         public static final int AppCompatTheme_panelMenuListTheme = 81;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5749,211 +5795,211 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:panelMenuListWidth
+          @attr name cz.cvut.fit.pinadani.cardgamear:panelMenuListWidth
         */
         public static final int AppCompatTheme_panelMenuListWidth = 80;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:popupMenuStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:popupMenuStyle
         */
         public static final int AppCompatTheme_popupMenuStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:popupWindowStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:popupWindowStyle
         */
         public static final int AppCompatTheme_popupWindowStyle = 62;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:radioButtonStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:radioButtonStyle
         */
         public static final int AppCompatTheme_radioButtonStyle = 107;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:ratingBarStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:ratingBarStyle
         */
         public static final int AppCompatTheme_ratingBarStyle = 108;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#ratingBarStyleIndicator}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#ratingBarStyleIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:ratingBarStyleIndicator
+          @attr name cz.cvut.fit.pinadani.cardgamear:ratingBarStyleIndicator
         */
         public static final int AppCompatTheme_ratingBarStyleIndicator = 109;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#ratingBarStyleSmall}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#ratingBarStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:ratingBarStyleSmall
+          @attr name cz.cvut.fit.pinadani.cardgamear:ratingBarStyleSmall
         */
         public static final int AppCompatTheme_ratingBarStyleSmall = 110;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:searchViewStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:searchViewStyle
         */
         public static final int AppCompatTheme_searchViewStyle = 69;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:seekBarStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:seekBarStyle
         */
         public static final int AppCompatTheme_seekBarStyle = 111;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:selectableItemBackground
+          @attr name cz.cvut.fit.pinadani.cardgamear:selectableItemBackground
         */
         public static final int AppCompatTheme_selectableItemBackground = 53;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:selectableItemBackgroundBorderless
+          @attr name cz.cvut.fit.pinadani.cardgamear:selectableItemBackgroundBorderless
         */
         public static final int AppCompatTheme_selectableItemBackgroundBorderless = 54;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:spinnerDropDownItemStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:spinnerDropDownItemStyle
         */
         public static final int AppCompatTheme_spinnerDropDownItemStyle = 48;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:spinnerStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:spinnerStyle
         */
         public static final int AppCompatTheme_spinnerStyle = 112;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#switchStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:switchStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:switchStyle
         */
         public static final int AppCompatTheme_switchStyle = 113;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:textAppearanceLargePopupMenu
+          @attr name cz.cvut.fit.pinadani.cardgamear:textAppearanceLargePopupMenu
         */
         public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:textAppearanceListItem
+          @attr name cz.cvut.fit.pinadani.cardgamear:textAppearanceListItem
         */
         public static final int AppCompatTheme_textAppearanceListItem = 77;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:textAppearanceListItemSmall
+          @attr name cz.cvut.fit.pinadani.cardgamear:textAppearanceListItemSmall
         */
         public static final int AppCompatTheme_textAppearanceListItemSmall = 78;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#textAppearancePopupMenuHeader}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#textAppearancePopupMenuHeader}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:textAppearancePopupMenuHeader
+          @attr name cz.cvut.fit.pinadani.cardgamear:textAppearancePopupMenuHeader
         */
         public static final int AppCompatTheme_textAppearancePopupMenuHeader = 42;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:textAppearanceSearchResultSubtitle
+          @attr name cz.cvut.fit.pinadani.cardgamear:textAppearanceSearchResultSubtitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 67;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:textAppearanceSearchResultTitle
+          @attr name cz.cvut.fit.pinadani.cardgamear:textAppearanceSearchResultTitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultTitle = 66;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:textAppearanceSmallPopupMenu
+          @attr name cz.cvut.fit.pinadani.cardgamear:textAppearanceSmallPopupMenu
         */
         public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5961,11 +6007,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name cz.cvut.fit.pinadani:textColorAlertDialogListItem
+          @attr name cz.cvut.fit.pinadani.cardgamear:textColorAlertDialogListItem
         */
         public static final int AppCompatTheme_textColorAlertDialogListItem = 97;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5973,31 +6019,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name cz.cvut.fit.pinadani:textColorSearchUrl
+          @attr name cz.cvut.fit.pinadani.cardgamear:textColorSearchUrl
         */
         public static final int AppCompatTheme_textColorSearchUrl = 68;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:toolbarNavigationButtonStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:toolbarNavigationButtonStyle
         */
         public static final int AppCompatTheme_toolbarNavigationButtonStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:toolbarStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:toolbarStyle
         */
         public static final int AppCompatTheme_toolbarStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#windowActionBar}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6007,11 +6053,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:windowActionBar
+          @attr name cz.cvut.fit.pinadani.cardgamear:windowActionBar
         */
         public static final int AppCompatTheme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6021,11 +6067,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:windowActionBarOverlay
+          @attr name cz.cvut.fit.pinadani.cardgamear:windowActionBarOverlay
         */
         public static final int AppCompatTheme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6035,11 +6081,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:windowActionModeOverlay
+          @attr name cz.cvut.fit.pinadani.cardgamear:windowActionModeOverlay
         */
         public static final int AppCompatTheme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6054,11 +6100,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:windowFixedHeightMajor
+          @attr name cz.cvut.fit.pinadani.cardgamear:windowFixedHeightMajor
         */
         public static final int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6073,11 +6119,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:windowFixedHeightMinor
+          @attr name cz.cvut.fit.pinadani.cardgamear:windowFixedHeightMinor
         */
         public static final int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6092,11 +6138,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:windowFixedWidthMajor
+          @attr name cz.cvut.fit.pinadani.cardgamear:windowFixedWidthMajor
         */
         public static final int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6111,11 +6157,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:windowFixedWidthMinor
+          @attr name cz.cvut.fit.pinadani.cardgamear:windowFixedWidthMinor
         */
         public static final int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6130,11 +6176,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:windowMinWidthMajor
+          @attr name cz.cvut.fit.pinadani.cardgamear:windowMinWidthMajor
         */
         public static final int AppCompatTheme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6149,11 +6195,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:windowMinWidthMinor
+          @attr name cz.cvut.fit.pinadani.cardgamear:windowMinWidthMinor
         */
         public static final int AppCompatTheme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6163,7 +6209,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:windowNoTitle
+          @attr name cz.cvut.fit.pinadani.cardgamear:windowNoTitle
         */
         public static final int AppCompatTheme_windowNoTitle = 3;
         /** Attributes that can be used with a BottomNavigationView.
@@ -6172,11 +6218,11 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomNavigationView_elevation cz.cvut.fit.pinadani:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemBackground cz.cvut.fit.pinadani:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemIconTint cz.cvut.fit.pinadani:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_itemTextColor cz.cvut.fit.pinadani:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationView_menu cz.cvut.fit.pinadani:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_elevation cz.cvut.fit.pinadani.cardgamear:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemBackground cz.cvut.fit.pinadani.cardgamear:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemIconTint cz.cvut.fit.pinadani.cardgamear:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_itemTextColor cz.cvut.fit.pinadani.cardgamear:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationView_menu cz.cvut.fit.pinadani.cardgamear:menu}</code></td><td></td></tr>
            </table>
            @see #BottomNavigationView_elevation
            @see #BottomNavigationView_itemBackground
@@ -6189,7 +6235,7 @@ containing a value of this type.
             0x7f0100e3
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#elevation}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#elevation}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -6201,21 +6247,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:elevation
+          @attr name cz.cvut.fit.pinadani.cardgamear:elevation
         */
         public static final int BottomNavigationView_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#itemBackground}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:itemBackground
+          @attr name cz.cvut.fit.pinadani.cardgamear:itemBackground
         */
         public static final int BottomNavigationView_itemBackground = 4;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#itemIconTint}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -6226,11 +6272,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:itemIconTint
+          @attr name cz.cvut.fit.pinadani.cardgamear:itemIconTint
         */
         public static final int BottomNavigationView_itemIconTint = 2;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#itemTextColor}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
@@ -6241,17 +6287,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:itemTextColor
+          @attr name cz.cvut.fit.pinadani.cardgamear:itemTextColor
         */
         public static final int BottomNavigationView_itemTextColor = 3;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#menu}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#menu}
           attribute's value can be found in the {@link #BottomNavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:menu
+          @attr name cz.cvut.fit.pinadani.cardgamear:menu
         */
         public static final int BottomNavigationView_menu = 1;
         /** Attributes that can be used with a BottomSheetBehavior_Layout.
@@ -6260,9 +6306,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable cz.cvut.fit.pinadani:behavior_hideable}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight cz.cvut.fit.pinadani:behavior_peekHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed cz.cvut.fit.pinadani:behavior_skipCollapsed}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable cz.cvut.fit.pinadani.cardgamear:behavior_hideable}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight cz.cvut.fit.pinadani.cardgamear:behavior_peekHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed cz.cvut.fit.pinadani.cardgamear:behavior_skipCollapsed}</code></td><td></td></tr>
            </table>
            @see #BottomSheetBehavior_Layout_behavior_hideable
            @see #BottomSheetBehavior_Layout_behavior_peekHeight
@@ -6272,7 +6318,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100a2, 0x7f0100a3, 0x7f0100a4
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#behavior_hideable}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#behavior_hideable}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -6282,11 +6328,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:behavior_hideable
+          @attr name cz.cvut.fit.pinadani.cardgamear:behavior_hideable
         */
         public static final int BottomSheetBehavior_Layout_behavior_hideable = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#behavior_peekHeight}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#behavior_peekHeight}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -6306,11 +6352,11 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>auto</code></td><td>-1</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:behavior_peekHeight
+          @attr name cz.cvut.fit.pinadani.cardgamear:behavior_peekHeight
         */
         public static final int BottomSheetBehavior_Layout_behavior_peekHeight = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#behavior_skipCollapsed}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#behavior_skipCollapsed}
           attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
 
 
@@ -6320,7 +6366,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:behavior_skipCollapsed
+          @attr name cz.cvut.fit.pinadani.cardgamear:behavior_skipCollapsed
         */
         public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed = 2;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -6329,7 +6375,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking cz.cvut.fit.pinadani:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking cz.cvut.fit.pinadani.cardgamear:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
@@ -6337,7 +6383,7 @@ containing a value of this type.
             0x7f0100a5
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -6347,7 +6393,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:allowStacking
+          @attr name cz.cvut.fit.pinadani.cardgamear:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -6356,22 +6402,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity cz.cvut.fit.pinadani:collapsedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance cz.cvut.fit.pinadani:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim cz.cvut.fit.pinadani:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity cz.cvut.fit.pinadani:expandedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin cz.cvut.fit.pinadani:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom cz.cvut.fit.pinadani:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd cz.cvut.fit.pinadani:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart cz.cvut.fit.pinadani:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop cz.cvut.fit.pinadani:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance cz.cvut.fit.pinadani:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration cz.cvut.fit.pinadani:scrimAnimationDuration}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger cz.cvut.fit.pinadani:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim cz.cvut.fit.pinadani:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_title cz.cvut.fit.pinadani:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled cz.cvut.fit.pinadani:titleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId cz.cvut.fit.pinadani:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity cz.cvut.fit.pinadani.cardgamear:collapsedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance cz.cvut.fit.pinadani.cardgamear:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim cz.cvut.fit.pinadani.cardgamear:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity cz.cvut.fit.pinadani.cardgamear:expandedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin cz.cvut.fit.pinadani.cardgamear:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom cz.cvut.fit.pinadani.cardgamear:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd cz.cvut.fit.pinadani.cardgamear:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart cz.cvut.fit.pinadani.cardgamear:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop cz.cvut.fit.pinadani.cardgamear:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance cz.cvut.fit.pinadani.cardgamear:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration cz.cvut.fit.pinadani.cardgamear:scrimAnimationDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger cz.cvut.fit.pinadani.cardgamear:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim cz.cvut.fit.pinadani.cardgamear:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_title cz.cvut.fit.pinadani.cardgamear:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled cz.cvut.fit.pinadani.cardgamear:titleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId cz.cvut.fit.pinadani.cardgamear:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleGravity
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -6397,7 +6443,7 @@ containing a value of this type.
             0x7f0100b1, 0x7f0100b2, 0x7f0100b3, 0x7f0100b4
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#collapsedTitleGravity}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#collapsedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6418,21 +6464,21 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:collapsedTitleGravity
+          @attr name cz.cvut.fit.pinadani.cardgamear:collapsedTitleGravity
         */
         public static final int CollapsingToolbarLayout_collapsedTitleGravity = 13;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:collapsedTitleTextAppearance
+          @attr name cz.cvut.fit.pinadani.cardgamear:collapsedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6443,11 +6489,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:contentScrim
+          @attr name cz.cvut.fit.pinadani.cardgamear:contentScrim
         */
         public static final int CollapsingToolbarLayout_contentScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#expandedTitleGravity}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#expandedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6468,11 +6514,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:expandedTitleGravity
+          @attr name cz.cvut.fit.pinadani.cardgamear:expandedTitleGravity
         */
         public static final int CollapsingToolbarLayout_expandedTitleGravity = 14;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6484,11 +6530,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:expandedTitleMargin
+          @attr name cz.cvut.fit.pinadani.cardgamear:expandedTitleMargin
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6500,11 +6546,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:expandedTitleMarginBottom
+          @attr name cz.cvut.fit.pinadani.cardgamear:expandedTitleMarginBottom
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6516,11 +6562,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:expandedTitleMarginEnd
+          @attr name cz.cvut.fit.pinadani.cardgamear:expandedTitleMarginEnd
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6532,11 +6578,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:expandedTitleMarginStart
+          @attr name cz.cvut.fit.pinadani.cardgamear:expandedTitleMarginStart
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6548,21 +6594,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:expandedTitleMarginTop
+          @attr name cz.cvut.fit.pinadani.cardgamear:expandedTitleMarginTop
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:expandedTitleTextAppearance
+          @attr name cz.cvut.fit.pinadani.cardgamear:expandedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#scrimAnimationDuration}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#scrimAnimationDuration}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6572,11 +6618,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:scrimAnimationDuration
+          @attr name cz.cvut.fit.pinadani.cardgamear:scrimAnimationDuration
         */
         public static final int CollapsingToolbarLayout_scrimAnimationDuration = 12;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#scrimVisibleHeightTrigger}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#scrimVisibleHeightTrigger}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6588,11 +6634,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:scrimVisibleHeightTrigger
+          @attr name cz.cvut.fit.pinadani.cardgamear:scrimVisibleHeightTrigger
         */
         public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger = 11;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6603,11 +6649,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:statusBarScrim
+          @attr name cz.cvut.fit.pinadani.cardgamear:statusBarScrim
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 9;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#title}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#title}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6617,11 +6663,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:title
+          @attr name cz.cvut.fit.pinadani.cardgamear:title
         */
         public static final int CollapsingToolbarLayout_title = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#titleEnabled}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#titleEnabled}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6631,17 +6677,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:titleEnabled
+          @attr name cz.cvut.fit.pinadani.cardgamear:titleEnabled
         */
         public static final int CollapsingToolbarLayout_titleEnabled = 15;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:toolbarId
+          @attr name cz.cvut.fit.pinadani.cardgamear:toolbarId
         */
         public static final int CollapsingToolbarLayout_toolbarId = 10;
         /** Attributes that can be used with a CollapsingToolbarLayout_Layout.
@@ -6650,8 +6696,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode cz.cvut.fit.pinadani:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier cz.cvut.fit.pinadani:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode cz.cvut.fit.pinadani.cardgamear:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier cz.cvut.fit.pinadani.cardgamear:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_Layout_layout_collapseMode
            @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
@@ -6660,7 +6706,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100b5, 0x7f0100b6
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
 
 
@@ -6674,11 +6720,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:layout_collapseMode
+          @attr name cz.cvut.fit.pinadani.cardgamear:layout_collapseMode
         */
         public static final int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
 
 
@@ -6688,7 +6734,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:layout_collapseParallaxMultiplier
+          @attr name cz.cvut.fit.pinadani.cardgamear:layout_collapseParallaxMultiplier
         */
         public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a ColorStateListItem.
@@ -6697,7 +6743,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ColorStateListItem_alpha cz.cvut.fit.pinadani:alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorStateListItem_alpha cz.cvut.fit.pinadani.cardgamear:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
            </table>
@@ -6709,7 +6755,7 @@ containing a value of this type.
             0x010101a5, 0x0101031f, 0x7f0100b7
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#alpha}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#alpha}
           attribute's value can be found in the {@link #ColorStateListItem} array.
 
 
@@ -6719,7 +6765,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:alpha
+          @attr name cz.cvut.fit.pinadani.cardgamear:alpha
         */
         public static final int ColorStateListItem_alpha = 2;
         /**
@@ -6741,8 +6787,8 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint cz.cvut.fit.pinadani:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode cz.cvut.fit.pinadani:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint cz.cvut.fit.pinadani.cardgamear:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode cz.cvut.fit.pinadani.cardgamear:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
@@ -6758,7 +6804,7 @@ containing a value of this type.
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -6769,11 +6815,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:buttonTint
+          @attr name cz.cvut.fit.pinadani.cardgamear:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -6789,7 +6835,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:buttonTintMode
+          @attr name cz.cvut.fit.pinadani.cardgamear:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -6798,8 +6844,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines cz.cvut.fit.pinadani:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground cz.cvut.fit.pinadani:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines cz.cvut.fit.pinadani.cardgamear:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground cz.cvut.fit.pinadani.cardgamear:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
@@ -6808,23 +6854,23 @@ containing a value of this type.
             0x7f0100ba, 0x7f0100bb
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#keylines}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:keylines
+          @attr name cz.cvut.fit.pinadani.cardgamear:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:statusBarBackground
+          @attr name cz.cvut.fit.pinadani.cardgamear:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_Layout.
@@ -6834,12 +6880,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor cz.cvut.fit.pinadani:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity cz.cvut.fit.pinadani:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior cz.cvut.fit.pinadani:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges cz.cvut.fit.pinadani:layout_dodgeInsetEdges}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge cz.cvut.fit.pinadani:layout_insetEdge}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline cz.cvut.fit.pinadani:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor cz.cvut.fit.pinadani.cardgamear:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity cz.cvut.fit.pinadani.cardgamear:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior cz.cvut.fit.pinadani.cardgamear:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges cz.cvut.fit.pinadani.cardgamear:layout_dodgeInsetEdges}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge cz.cvut.fit.pinadani.cardgamear:layout_insetEdge}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline cz.cvut.fit.pinadani.cardgamear:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_Layout_android_layout_gravity
            @see #CoordinatorLayout_Layout_layout_anchor
@@ -6860,17 +6906,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_Layout_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:layout_anchor
+          @attr name cz.cvut.fit.pinadani.cardgamear:layout_anchor
         */
         public static final int CoordinatorLayout_Layout_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -6895,11 +6941,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:layout_anchorGravity
+          @attr name cz.cvut.fit.pinadani.cardgamear:layout_anchorGravity
         */
         public static final int CoordinatorLayout_Layout_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -6909,11 +6955,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:layout_behavior
+          @attr name cz.cvut.fit.pinadani.cardgamear:layout_behavior
         */
         public static final int CoordinatorLayout_Layout_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#layout_dodgeInsetEdges}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#layout_dodgeInsetEdges}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -6932,11 +6978,11 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 <tr><td><code>all</code></td><td>0x77</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:layout_dodgeInsetEdges
+          @attr name cz.cvut.fit.pinadani.cardgamear:layout_dodgeInsetEdges
         */
         public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges = 6;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#layout_insetEdge}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#layout_insetEdge}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -6954,11 +7000,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:layout_insetEdge
+          @attr name cz.cvut.fit.pinadani.cardgamear:layout_insetEdge
         */
         public static final int CoordinatorLayout_Layout_layout_insetEdge = 5;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
 
 
@@ -6968,7 +7014,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:layout_keyline
+          @attr name cz.cvut.fit.pinadani.cardgamear:layout_keyline
         */
         public static final int CoordinatorLayout_Layout_layout_keyline = 3;
         /** Attributes that can be used with a DesignTheme.
@@ -6977,9 +7023,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme cz.cvut.fit.pinadani:bottomSheetDialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetStyle cz.cvut.fit.pinadani:bottomSheetStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_textColorError cz.cvut.fit.pinadani:textColorError}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme cz.cvut.fit.pinadani.cardgamear:bottomSheetDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetStyle cz.cvut.fit.pinadani.cardgamear:bottomSheetStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_textColorError cz.cvut.fit.pinadani.cardgamear:textColorError}</code></td><td></td></tr>
            </table>
            @see #DesignTheme_bottomSheetDialogTheme
            @see #DesignTheme_bottomSheetStyle
@@ -6989,27 +7035,27 @@ containing a value of this type.
             0x7f0100c2, 0x7f0100c3, 0x7f0100c4
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#bottomSheetDialogTheme}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#bottomSheetDialogTheme}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:bottomSheetDialogTheme
+          @attr name cz.cvut.fit.pinadani.cardgamear:bottomSheetDialogTheme
         */
         public static final int DesignTheme_bottomSheetDialogTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#bottomSheetStyle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#bottomSheetStyle}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:bottomSheetStyle
+          @attr name cz.cvut.fit.pinadani.cardgamear:bottomSheetStyle
         */
         public static final int DesignTheme_bottomSheetStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#textColorError}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#textColorError}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
@@ -7020,7 +7066,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:textColorError
+          @attr name cz.cvut.fit.pinadani.cardgamear:textColorError
         */
         public static final int DesignTheme_textColorError = 2;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -7029,14 +7075,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength cz.cvut.fit.pinadani:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength cz.cvut.fit.pinadani:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength cz.cvut.fit.pinadani:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color cz.cvut.fit.pinadani:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize cz.cvut.fit.pinadani:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars cz.cvut.fit.pinadani:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars cz.cvut.fit.pinadani:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness cz.cvut.fit.pinadani:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength cz.cvut.fit.pinadani.cardgamear:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength cz.cvut.fit.pinadani.cardgamear:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength cz.cvut.fit.pinadani.cardgamear:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color cz.cvut.fit.pinadani.cardgamear:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize cz.cvut.fit.pinadani.cardgamear:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars cz.cvut.fit.pinadani.cardgamear:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars cz.cvut.fit.pinadani.cardgamear:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness cz.cvut.fit.pinadani.cardgamear:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -7052,7 +7098,7 @@ containing a value of this type.
             0x7f0100c9, 0x7f0100ca, 0x7f0100cb, 0x7f0100cc
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7064,11 +7110,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:arrowHeadLength
+          @attr name cz.cvut.fit.pinadani.cardgamear:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7080,11 +7126,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:arrowShaftLength
+          @attr name cz.cvut.fit.pinadani.cardgamear:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#barLength}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7096,11 +7142,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:barLength
+          @attr name cz.cvut.fit.pinadani.cardgamear:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#color}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7111,11 +7157,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:color
+          @attr name cz.cvut.fit.pinadani.cardgamear:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7127,11 +7173,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:drawableSize
+          @attr name cz.cvut.fit.pinadani.cardgamear:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7143,11 +7189,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:gapBetweenBars
+          @attr name cz.cvut.fit.pinadani.cardgamear:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7157,11 +7203,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:spinBars
+          @attr name cz.cvut.fit.pinadani.cardgamear:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#thickness}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -7173,7 +7219,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:thickness
+          @attr name cz.cvut.fit.pinadani.cardgamear:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a FloatingActionButton.
@@ -7182,14 +7228,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint cz.cvut.fit.pinadani:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode cz.cvut.fit.pinadani:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth cz.cvut.fit.pinadani:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation cz.cvut.fit.pinadani:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize cz.cvut.fit.pinadani:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ cz.cvut.fit.pinadani:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor cz.cvut.fit.pinadani:rippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_useCompatPadding cz.cvut.fit.pinadani:useCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint cz.cvut.fit.pinadani.cardgamear:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode cz.cvut.fit.pinadani.cardgamear:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth cz.cvut.fit.pinadani.cardgamear:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation cz.cvut.fit.pinadani.cardgamear:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize cz.cvut.fit.pinadani.cardgamear:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ cz.cvut.fit.pinadani.cardgamear:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor cz.cvut.fit.pinadani.cardgamear:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_useCompatPadding cz.cvut.fit.pinadani.cardgamear:useCompatPadding}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_backgroundTint
            @see #FloatingActionButton_backgroundTintMode
@@ -7205,7 +7251,7 @@ containing a value of this type.
             0x7f0100d0, 0x7f0100d1, 0x7f01013e, 0x7f01013f
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7216,11 +7262,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:backgroundTint
+          @attr name cz.cvut.fit.pinadani.cardgamear:backgroundTint
         */
         public static final int FloatingActionButton_backgroundTint = 6;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7236,11 +7282,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:backgroundTintMode
+          @attr name cz.cvut.fit.pinadani.cardgamear:backgroundTintMode
         */
         public static final int FloatingActionButton_backgroundTintMode = 7;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7252,11 +7298,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:borderWidth
+          @attr name cz.cvut.fit.pinadani.cardgamear:borderWidth
         */
         public static final int FloatingActionButton_borderWidth = 4;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#elevation}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7268,11 +7314,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:elevation
+          @attr name cz.cvut.fit.pinadani.cardgamear:elevation
         */
         public static final int FloatingActionButton_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7286,11 +7332,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:fabSize
+          @attr name cz.cvut.fit.pinadani.cardgamear:fabSize
         */
         public static final int FloatingActionButton_fabSize = 2;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7302,11 +7348,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:pressedTranslationZ
+          @attr name cz.cvut.fit.pinadani.cardgamear:pressedTranslationZ
         */
         public static final int FloatingActionButton_pressedTranslationZ = 3;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7317,11 +7363,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:rippleColor
+          @attr name cz.cvut.fit.pinadani.cardgamear:rippleColor
         */
         public static final int FloatingActionButton_rippleColor = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#useCompatPadding}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#useCompatPadding}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7331,7 +7377,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:useCompatPadding
+          @attr name cz.cvut.fit.pinadani.cardgamear:useCompatPadding
         */
         public static final int FloatingActionButton_useCompatPadding = 5;
         /** Attributes that can be used with a FloatingActionButton_Behavior_Layout.
@@ -7340,7 +7386,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide cz.cvut.fit.pinadani:behavior_autoHide}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide cz.cvut.fit.pinadani.cardgamear:behavior_autoHide}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
          */
@@ -7348,7 +7394,7 @@ containing a value of this type.
             0x7f0100d2
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#behavior_autoHide}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#behavior_autoHide}
           attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
 
 
@@ -7358,7 +7404,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:behavior_autoHide
+          @attr name cz.cvut.fit.pinadani.cardgamear:behavior_autoHide
         */
         public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
         /** Attributes that can be used with a ForegroundLinearLayout.
@@ -7369,7 +7415,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding cz.cvut.fit.pinadani:foregroundInsidePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding cz.cvut.fit.pinadani.cardgamear:foregroundInsidePadding}</code></td><td></td></tr>
            </table>
            @see #ForegroundLinearLayout_android_foreground
            @see #ForegroundLinearLayout_android_foregroundGravity
@@ -7391,7 +7437,7 @@ containing a value of this type.
         */
         public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#foregroundInsidePadding}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#foregroundInsidePadding}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
 
 
@@ -7401,7 +7447,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:foregroundInsidePadding
+          @attr name cz.cvut.fit.pinadani.cardgamear:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -7415,10 +7461,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider cz.cvut.fit.pinadani:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding cz.cvut.fit.pinadani:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild cz.cvut.fit.pinadani:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers cz.cvut.fit.pinadani:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider cz.cvut.fit.pinadani.cardgamear:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding cz.cvut.fit.pinadani.cardgamear:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild cz.cvut.fit.pinadani.cardgamear:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers cz.cvut.fit.pinadani.cardgamear:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -7466,17 +7512,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#divider}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:divider
+          @attr name cz.cvut.fit.pinadani.cardgamear:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7488,11 +7534,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:dividerPadding
+          @attr name cz.cvut.fit.pinadani.cardgamear:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7502,11 +7548,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:measureWithLargestChild
+          @attr name cz.cvut.fit.pinadani.cardgamear:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7521,7 +7567,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:showDividers
+          @attr name cz.cvut.fit.pinadani.cardgamear:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -7600,9 +7646,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LoadingImageView_circleCrop cz.cvut.fit.pinadani:circleCrop}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatio cz.cvut.fit.pinadani:imageAspectRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust cz.cvut.fit.pinadani:imageAspectRatioAdjust}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_circleCrop cz.cvut.fit.pinadani.cardgamear:circleCrop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio cz.cvut.fit.pinadani.cardgamear:imageAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust cz.cvut.fit.pinadani.cardgamear:imageAspectRatioAdjust}</code></td><td></td></tr>
            </table>
            @see #LoadingImageView_circleCrop
            @see #LoadingImageView_imageAspectRatio
@@ -7612,7 +7658,7 @@ containing a value of this type.
             0x7f0100d7, 0x7f0100d8, 0x7f0100d9
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#circleCrop}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#circleCrop}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -7622,11 +7668,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:circleCrop
+          @attr name cz.cvut.fit.pinadani.cardgamear:circleCrop
         */
         public static final int LoadingImageView_circleCrop = 2;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#imageAspectRatio}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#imageAspectRatio}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -7636,11 +7682,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:imageAspectRatio
+          @attr name cz.cvut.fit.pinadani.cardgamear:imageAspectRatio
         */
         public static final int LoadingImageView_imageAspectRatio = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#imageAspectRatioAdjust}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#imageAspectRatioAdjust}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -7654,7 +7700,7 @@ containing a value of this type.
 <tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
 <tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:imageAspectRatioAdjust
+          @attr name cz.cvut.fit.pinadani.cardgamear:imageAspectRatioAdjust
         */
         public static final int LoadingImageView_imageAspectRatioAdjust = 0;
         /** Attributes that can be used with a MenuGroup.
@@ -7723,9 +7769,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout cz.cvut.fit.pinadani:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass cz.cvut.fit.pinadani:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass cz.cvut.fit.pinadani:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout cz.cvut.fit.pinadani.cardgamear:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass cz.cvut.fit.pinadani.cardgamear:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass cz.cvut.fit.pinadani.cardgamear:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -7739,7 +7785,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction cz.cvut.fit.pinadani:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction cz.cvut.fit.pinadani.cardgamear:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -7767,17 +7813,17 @@ containing a value of this type.
             0x7f0100dd
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:actionLayout
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7787,11 +7833,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:actionProviderClass
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7801,7 +7847,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:actionViewClass
+          @attr name cz.cvut.fit.pinadani.cardgamear:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -7883,7 +7929,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7899,7 +7945,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:showAsAction
+          @attr name cz.cvut.fit.pinadani.cardgamear:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -7915,8 +7961,8 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing cz.cvut.fit.pinadani:preserveIconSpacing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_subMenuArrow cz.cvut.fit.pinadani:subMenuArrow}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing cz.cvut.fit.pinadani.cardgamear:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_subMenuArrow cz.cvut.fit.pinadani.cardgamear:subMenuArrow}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -7976,7 +8022,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -7986,17 +8032,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:preserveIconSpacing
+          @attr name cz.cvut.fit.pinadani.cardgamear:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#subMenuArrow}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#subMenuArrow}
           attribute's value can be found in the {@link #MenuView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:subMenuArrow
+          @attr name cz.cvut.fit.pinadani.cardgamear:subMenuArrow
         */
         public static final int MenuView_subMenuArrow = 8;
         /** Attributes that can be used with a NavigationView.
@@ -8008,13 +8054,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation cz.cvut.fit.pinadani:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout cz.cvut.fit.pinadani:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground cz.cvut.fit.pinadani:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint cz.cvut.fit.pinadani:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextAppearance cz.cvut.fit.pinadani:itemTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor cz.cvut.fit.pinadani:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu cz.cvut.fit.pinadani:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation cz.cvut.fit.pinadani.cardgamear:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout cz.cvut.fit.pinadani.cardgamear:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground cz.cvut.fit.pinadani.cardgamear:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint cz.cvut.fit.pinadani.cardgamear:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextAppearance cz.cvut.fit.pinadani.cardgamear:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor cz.cvut.fit.pinadani.cardgamear:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu cz.cvut.fit.pinadani.cardgamear:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -8051,7 +8097,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#elevation}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -8063,31 +8109,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:elevation
+          @attr name cz.cvut.fit.pinadani.cardgamear:elevation
         */
         public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:headerLayout
+          @attr name cz.cvut.fit.pinadani.cardgamear:headerLayout
         */
         public static final int NavigationView_headerLayout = 9;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:itemBackground
+          @attr name cz.cvut.fit.pinadani.cardgamear:itemBackground
         */
         public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -8098,21 +8144,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:itemIconTint
+          @attr name cz.cvut.fit.pinadani.cardgamear:itemIconTint
         */
         public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#itemTextAppearance}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:itemTextAppearance
+          @attr name cz.cvut.fit.pinadani.cardgamear:itemTextAppearance
         */
         public static final int NavigationView_itemTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -8123,17 +8169,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:itemTextColor
+          @attr name cz.cvut.fit.pinadani.cardgamear:itemTextColor
         */
         public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#menu}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:menu
+          @attr name cz.cvut.fit.pinadani.cardgamear:menu
         */
         public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a PopupWindow.
@@ -8144,7 +8190,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor cz.cvut.fit.pinadani:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor cz.cvut.fit.pinadani.cardgamear:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupAnimationStyle
            @see #PopupWindow_android_popupBackground
@@ -8166,7 +8212,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -8176,7 +8222,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:overlapAnchor
+          @attr name cz.cvut.fit.pinadani.cardgamear:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 2;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -8185,7 +8231,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor cz.cvut.fit.pinadani:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor cz.cvut.fit.pinadani.cardgamear:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -8193,7 +8239,7 @@ containing a value of this type.
             0x7f0100e7
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -8203,7 +8249,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:state_above_anchor
+          @attr name cz.cvut.fit.pinadani.cardgamear:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a RecycleListView.
@@ -8212,8 +8258,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons cz.cvut.fit.pinadani:paddingBottomNoButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecycleListView_paddingTopNoTitle cz.cvut.fit.pinadani:paddingTopNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons cz.cvut.fit.pinadani.cardgamear:paddingBottomNoButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecycleListView_paddingTopNoTitle cz.cvut.fit.pinadani.cardgamear:paddingTopNoTitle}</code></td><td></td></tr>
            </table>
            @see #RecycleListView_paddingBottomNoButtons
            @see #RecycleListView_paddingTopNoTitle
@@ -8222,7 +8268,7 @@ containing a value of this type.
             0x7f0100e8, 0x7f0100e9
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#paddingBottomNoButtons}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#paddingBottomNoButtons}
           attribute's value can be found in the {@link #RecycleListView} array.
 
 
@@ -8234,11 +8280,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:paddingBottomNoButtons
+          @attr name cz.cvut.fit.pinadani.cardgamear:paddingBottomNoButtons
         */
         public static final int RecycleListView_paddingBottomNoButtons = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#paddingTopNoTitle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#paddingTopNoTitle}
           attribute's value can be found in the {@link #RecycleListView} array.
 
 
@@ -8250,7 +8296,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:paddingTopNoTitle
+          @attr name cz.cvut.fit.pinadani.cardgamear:paddingTopNoTitle
         */
         public static final int RecycleListView_paddingTopNoTitle = 1;
         /** Attributes that can be used with a RecyclerView.
@@ -8261,10 +8307,10 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager cz.cvut.fit.pinadani:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout cz.cvut.fit.pinadani:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount cz.cvut.fit.pinadani:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd cz.cvut.fit.pinadani:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager cz.cvut.fit.pinadani.cardgamear:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout cz.cvut.fit.pinadani.cardgamear:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount cz.cvut.fit.pinadani.cardgamear:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd cz.cvut.fit.pinadani.cardgamear:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_descendantFocusability
            @see #RecyclerView_android_orientation
@@ -8290,7 +8336,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -8300,11 +8346,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:layoutManager
+          @attr name cz.cvut.fit.pinadani.cardgamear:layoutManager
         */
         public static final int RecyclerView_layoutManager = 2;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -8314,11 +8360,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:reverseLayout
+          @attr name cz.cvut.fit.pinadani.cardgamear:reverseLayout
         */
         public static final int RecyclerView_reverseLayout = 4;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -8328,11 +8374,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:spanCount
+          @attr name cz.cvut.fit.pinadani.cardgamear:spanCount
         */
         public static final int RecyclerView_spanCount = 3;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -8342,7 +8388,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:stackFromEnd
+          @attr name cz.cvut.fit.pinadani.cardgamear:stackFromEnd
         */
         public static final int RecyclerView_stackFromEnd = 5;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -8351,7 +8397,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground cz.cvut.fit.pinadani:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground cz.cvut.fit.pinadani.cardgamear:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
@@ -8359,7 +8405,7 @@ containing a value of this type.
             0x7f0100ee
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -8367,7 +8413,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name cz.cvut.fit.pinadani:insetForeground
+          @attr name cz.cvut.fit.pinadani.cardgamear:insetForeground
         */
         public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Layout.
@@ -8376,7 +8422,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop cz.cvut.fit.pinadani:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop cz.cvut.fit.pinadani.cardgamear:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Layout_behavior_overlapTop
          */
@@ -8384,7 +8430,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100ef
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
 
 
@@ -8396,7 +8442,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:behavior_overlapTop
+          @attr name cz.cvut.fit.pinadani.cardgamear:behavior_overlapTop
         */
         public static final int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -8409,19 +8455,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon cz.cvut.fit.pinadani:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon cz.cvut.fit.pinadani:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint cz.cvut.fit.pinadani:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon cz.cvut.fit.pinadani:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault cz.cvut.fit.pinadani:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout cz.cvut.fit.pinadani:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground cz.cvut.fit.pinadani:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint cz.cvut.fit.pinadani:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon cz.cvut.fit.pinadani:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon cz.cvut.fit.pinadani:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground cz.cvut.fit.pinadani:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout cz.cvut.fit.pinadani:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon cz.cvut.fit.pinadani:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon cz.cvut.fit.pinadani.cardgamear:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon cz.cvut.fit.pinadani.cardgamear:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint cz.cvut.fit.pinadani.cardgamear:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon cz.cvut.fit.pinadani.cardgamear:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault cz.cvut.fit.pinadani.cardgamear:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout cz.cvut.fit.pinadani.cardgamear:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground cz.cvut.fit.pinadani.cardgamear:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint cz.cvut.fit.pinadani.cardgamear:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon cz.cvut.fit.pinadani.cardgamear:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon cz.cvut.fit.pinadani.cardgamear:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground cz.cvut.fit.pinadani.cardgamear:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout cz.cvut.fit.pinadani.cardgamear:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon cz.cvut.fit.pinadani.cardgamear:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -8473,27 +8519,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:closeIcon
+          @attr name cz.cvut.fit.pinadani.cardgamear:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:commitIcon
+          @attr name cz.cvut.fit.pinadani.cardgamear:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8503,21 +8549,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:defaultQueryHint
+          @attr name cz.cvut.fit.pinadani.cardgamear:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:goIcon
+          @attr name cz.cvut.fit.pinadani.cardgamear:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8527,31 +8573,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:iconifiedByDefault
+          @attr name cz.cvut.fit.pinadani.cardgamear:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#layout}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:layout
+          @attr name cz.cvut.fit.pinadani.cardgamear:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:queryBackground
+          @attr name cz.cvut.fit.pinadani.cardgamear:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8561,57 +8607,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:queryHint
+          @attr name cz.cvut.fit.pinadani.cardgamear:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:searchHintIcon
+          @attr name cz.cvut.fit.pinadani.cardgamear:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:searchIcon
+          @attr name cz.cvut.fit.pinadani.cardgamear:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:submitBackground
+          @attr name cz.cvut.fit.pinadani.cardgamear:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:suggestionRowLayout
+          @attr name cz.cvut.fit.pinadani.cardgamear:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:voiceIcon
+          @attr name cz.cvut.fit.pinadani.cardgamear:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a SignInButton.
@@ -8620,9 +8666,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SignInButton_buttonSize cz.cvut.fit.pinadani:buttonSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_colorScheme cz.cvut.fit.pinadani:colorScheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_scopeUris cz.cvut.fit.pinadani:scopeUris}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_buttonSize cz.cvut.fit.pinadani.cardgamear:buttonSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_colorScheme cz.cvut.fit.pinadani.cardgamear:colorScheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_scopeUris cz.cvut.fit.pinadani.cardgamear:scopeUris}</code></td><td></td></tr>
            </table>
            @see #SignInButton_buttonSize
            @see #SignInButton_colorScheme
@@ -8632,7 +8678,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100fd, 0x7f0100fe, 0x7f0100ff
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#buttonSize}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#buttonSize}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
@@ -8648,11 +8694,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>wide</code></td><td>1</td><td></td></tr>
 <tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:buttonSize
+          @attr name cz.cvut.fit.pinadani.cardgamear:buttonSize
         */
         public static final int SignInButton_buttonSize = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#colorScheme}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#colorScheme}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
@@ -8668,18 +8714,18 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>light</code></td><td>1</td><td></td></tr>
 <tr><td><code>auto</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:colorScheme
+          @attr name cz.cvut.fit.pinadani.cardgamear:colorScheme
         */
         public static final int SignInButton_colorScheme = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#scopeUris}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#scopeUris}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name cz.cvut.fit.pinadani:scopeUris
+          @attr name cz.cvut.fit.pinadani.cardgamear:scopeUris
         */
         public static final int SignInButton_scopeUris = 2;
         /** Attributes that can be used with a SnackbarLayout.
@@ -8689,8 +8735,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation cz.cvut.fit.pinadani:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth cz.cvut.fit.pinadani:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation cz.cvut.fit.pinadani.cardgamear:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth cz.cvut.fit.pinadani.cardgamear:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
@@ -8706,7 +8752,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#elevation}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -8718,11 +8764,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:elevation
+          @attr name cz.cvut.fit.pinadani.cardgamear:elevation
         */
         public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -8734,7 +8780,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:maxActionInlineWidth
+          @attr name cz.cvut.fit.pinadani.cardgamear:maxActionInlineWidth
         */
         public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
@@ -8747,7 +8793,7 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme cz.cvut.fit.pinadani:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme cz.cvut.fit.pinadani.cardgamear:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_entries
@@ -8784,13 +8830,13 @@ containing a value of this type.
         */
         public static final int Spinner_android_prompt = 2;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:popupTheme
+          @attr name cz.cvut.fit.pinadani.cardgamear:popupTheme
         */
         public static final int Spinner_popupTheme = 4;
         /** Attributes that can be used with a SwitchCompat.
@@ -8802,17 +8848,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText cz.cvut.fit.pinadani:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack cz.cvut.fit.pinadani:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth cz.cvut.fit.pinadani:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding cz.cvut.fit.pinadani:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance cz.cvut.fit.pinadani:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding cz.cvut.fit.pinadani:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTint cz.cvut.fit.pinadani:thumbTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTintMode cz.cvut.fit.pinadani:thumbTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track cz.cvut.fit.pinadani:track}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTint cz.cvut.fit.pinadani:trackTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTintMode cz.cvut.fit.pinadani:trackTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText cz.cvut.fit.pinadani.cardgamear:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack cz.cvut.fit.pinadani.cardgamear:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth cz.cvut.fit.pinadani.cardgamear:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding cz.cvut.fit.pinadani.cardgamear:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance cz.cvut.fit.pinadani.cardgamear:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding cz.cvut.fit.pinadani.cardgamear:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTint cz.cvut.fit.pinadani.cardgamear:thumbTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTintMode cz.cvut.fit.pinadani.cardgamear:thumbTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track cz.cvut.fit.pinadani.cardgamear:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTint cz.cvut.fit.pinadani.cardgamear:trackTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTintMode cz.cvut.fit.pinadani.cardgamear:trackTintMode}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -8854,7 +8900,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#showText}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8864,11 +8910,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:showText
+          @attr name cz.cvut.fit.pinadani.cardgamear:showText
         */
         public static final int SwitchCompat_showText = 13;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8878,11 +8924,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:splitTrack
+          @attr name cz.cvut.fit.pinadani.cardgamear:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 12;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8894,11 +8940,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:switchMinWidth
+          @attr name cz.cvut.fit.pinadani.cardgamear:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 10;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8910,21 +8956,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:switchPadding
+          @attr name cz.cvut.fit.pinadani.cardgamear:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 11;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:switchTextAppearance
+          @attr name cz.cvut.fit.pinadani.cardgamear:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8936,11 +8982,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:thumbTextPadding
+          @attr name cz.cvut.fit.pinadani.cardgamear:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#thumbTint}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#thumbTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8951,11 +8997,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:thumbTint
+          @attr name cz.cvut.fit.pinadani.cardgamear:thumbTint
         */
         public static final int SwitchCompat_thumbTint = 3;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#thumbTintMode}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#thumbTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8972,21 +9018,21 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:thumbTintMode
+          @attr name cz.cvut.fit.pinadani.cardgamear:thumbTintMode
         */
         public static final int SwitchCompat_thumbTintMode = 4;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#track}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:track
+          @attr name cz.cvut.fit.pinadani.cardgamear:track
         */
         public static final int SwitchCompat_track = 5;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#trackTint}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#trackTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8997,11 +9043,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:trackTint
+          @attr name cz.cvut.fit.pinadani.cardgamear:trackTint
         */
         public static final int SwitchCompat_trackTint = 6;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#trackTintMode}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#trackTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -9018,7 +9064,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:trackTintMode
+          @attr name cz.cvut.fit.pinadani.cardgamear:trackTintMode
         */
         public static final int SwitchCompat_trackTintMode = 7;
         /** Attributes that can be used with a TabItem.
@@ -9062,22 +9108,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground cz.cvut.fit.pinadani:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart cz.cvut.fit.pinadani:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity cz.cvut.fit.pinadani:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor cz.cvut.fit.pinadani:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight cz.cvut.fit.pinadani:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth cz.cvut.fit.pinadani:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth cz.cvut.fit.pinadani:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode cz.cvut.fit.pinadani:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding cz.cvut.fit.pinadani:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom cz.cvut.fit.pinadani:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd cz.cvut.fit.pinadani:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart cz.cvut.fit.pinadani:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop cz.cvut.fit.pinadani:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor cz.cvut.fit.pinadani:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance cz.cvut.fit.pinadani:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor cz.cvut.fit.pinadani:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground cz.cvut.fit.pinadani.cardgamear:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart cz.cvut.fit.pinadani.cardgamear:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity cz.cvut.fit.pinadani.cardgamear:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor cz.cvut.fit.pinadani.cardgamear:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight cz.cvut.fit.pinadani.cardgamear:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth cz.cvut.fit.pinadani.cardgamear:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth cz.cvut.fit.pinadani.cardgamear:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode cz.cvut.fit.pinadani.cardgamear:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding cz.cvut.fit.pinadani.cardgamear:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom cz.cvut.fit.pinadani.cardgamear:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd cz.cvut.fit.pinadani.cardgamear:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart cz.cvut.fit.pinadani.cardgamear:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop cz.cvut.fit.pinadani.cardgamear:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor cz.cvut.fit.pinadani.cardgamear:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance cz.cvut.fit.pinadani.cardgamear:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor cz.cvut.fit.pinadani.cardgamear:tabTextColor}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -9103,17 +9149,17 @@ containing a value of this type.
             0x7f010118, 0x7f010119, 0x7f01011a, 0x7f01011b
         };
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:tabBackground
+          @attr name cz.cvut.fit.pinadani.cardgamear:tabBackground
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9125,11 +9171,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:tabContentStart
+          @attr name cz.cvut.fit.pinadani.cardgamear:tabContentStart
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9142,11 +9188,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:tabGravity
+          @attr name cz.cvut.fit.pinadani.cardgamear:tabGravity
         */
         public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9157,11 +9203,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:tabIndicatorColor
+          @attr name cz.cvut.fit.pinadani.cardgamear:tabIndicatorColor
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9173,11 +9219,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:tabIndicatorHeight
+          @attr name cz.cvut.fit.pinadani.cardgamear:tabIndicatorHeight
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9189,11 +9235,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:tabMaxWidth
+          @attr name cz.cvut.fit.pinadani.cardgamear:tabMaxWidth
         */
         public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9205,11 +9251,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:tabMinWidth
+          @attr name cz.cvut.fit.pinadani.cardgamear:tabMinWidth
         */
         public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9222,11 +9268,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:tabMode
+          @attr name cz.cvut.fit.pinadani.cardgamear:tabMode
         */
         public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9238,11 +9284,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:tabPadding
+          @attr name cz.cvut.fit.pinadani.cardgamear:tabPadding
         */
         public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9254,11 +9300,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:tabPaddingBottom
+          @attr name cz.cvut.fit.pinadani.cardgamear:tabPaddingBottom
         */
         public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9270,11 +9316,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:tabPaddingEnd
+          @attr name cz.cvut.fit.pinadani.cardgamear:tabPaddingEnd
         */
         public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9286,11 +9332,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:tabPaddingStart
+          @attr name cz.cvut.fit.pinadani.cardgamear:tabPaddingStart
         */
         public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9302,11 +9348,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:tabPaddingTop
+          @attr name cz.cvut.fit.pinadani.cardgamear:tabPaddingTop
         */
         public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9317,21 +9363,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:tabSelectedTextColor
+          @attr name cz.cvut.fit.pinadani.cardgamear:tabSelectedTextColor
         */
         public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:tabTextAppearance
+          @attr name cz.cvut.fit.pinadani.cardgamear:tabTextAppearance
         */
         public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -9342,7 +9388,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:tabTextColor
+          @attr name cz.cvut.fit.pinadani.cardgamear:tabTextColor
         */
         public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
@@ -9360,7 +9406,7 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps cz.cvut.fit.pinadani:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps cz.cvut.fit.pinadani.cardgamear:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
@@ -9433,14 +9479,14 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name cz.cvut.fit.pinadani:textAllCaps
+          @attr name cz.cvut.fit.pinadani.cardgamear:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 9;
         /** Attributes that can be used with a TextInputLayout.
@@ -9451,20 +9497,20 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterEnabled cz.cvut.fit.pinadani:counterEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterMaxLength cz.cvut.fit.pinadani:counterMaxLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance cz.cvut.fit.pinadani:counterOverflowTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterTextAppearance cz.cvut.fit.pinadani:counterTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled cz.cvut.fit.pinadani:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance cz.cvut.fit.pinadani:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled cz.cvut.fit.pinadani:hintAnimationEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintEnabled cz.cvut.fit.pinadani:hintEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance cz.cvut.fit.pinadani:hintTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription cz.cvut.fit.pinadani:passwordToggleContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable cz.cvut.fit.pinadani:passwordToggleDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled cz.cvut.fit.pinadani:passwordToggleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleTint cz.cvut.fit.pinadani:passwordToggleTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode cz.cvut.fit.pinadani:passwordToggleTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterEnabled cz.cvut.fit.pinadani.cardgamear:counterEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterMaxLength cz.cvut.fit.pinadani.cardgamear:counterMaxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance cz.cvut.fit.pinadani.cardgamear:counterOverflowTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterTextAppearance cz.cvut.fit.pinadani.cardgamear:counterTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled cz.cvut.fit.pinadani.cardgamear:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance cz.cvut.fit.pinadani.cardgamear:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled cz.cvut.fit.pinadani.cardgamear:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintEnabled cz.cvut.fit.pinadani.cardgamear:hintEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance cz.cvut.fit.pinadani.cardgamear:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription cz.cvut.fit.pinadani.cardgamear:passwordToggleContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable cz.cvut.fit.pinadani.cardgamear:passwordToggleDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled cz.cvut.fit.pinadani.cardgamear:passwordToggleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleTint cz.cvut.fit.pinadani.cardgamear:passwordToggleTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode cz.cvut.fit.pinadani.cardgamear:passwordToggleTintMode}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_android_textColorHint
@@ -9502,7 +9548,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#counterEnabled}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#counterEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -9512,11 +9558,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:counterEnabled
+          @attr name cz.cvut.fit.pinadani.cardgamear:counterEnabled
         */
         public static final int TextInputLayout_counterEnabled = 6;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#counterMaxLength}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -9526,31 +9572,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:counterMaxLength
+          @attr name cz.cvut.fit.pinadani.cardgamear:counterMaxLength
         */
         public static final int TextInputLayout_counterMaxLength = 7;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#counterOverflowTextAppearance}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:counterOverflowTextAppearance
+          @attr name cz.cvut.fit.pinadani.cardgamear:counterOverflowTextAppearance
         */
         public static final int TextInputLayout_counterOverflowTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#counterTextAppearance}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:counterTextAppearance
+          @attr name cz.cvut.fit.pinadani.cardgamear:counterTextAppearance
         */
         public static final int TextInputLayout_counterTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -9560,21 +9606,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:errorEnabled
+          @attr name cz.cvut.fit.pinadani.cardgamear:errorEnabled
         */
         public static final int TextInputLayout_errorEnabled = 4;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:errorTextAppearance
+          @attr name cz.cvut.fit.pinadani.cardgamear:errorTextAppearance
         */
         public static final int TextInputLayout_errorTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#hintAnimationEnabled}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -9584,11 +9630,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:hintAnimationEnabled
+          @attr name cz.cvut.fit.pinadani.cardgamear:hintAnimationEnabled
         */
         public static final int TextInputLayout_hintAnimationEnabled = 10;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#hintEnabled}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#hintEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -9598,21 +9644,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:hintEnabled
+          @attr name cz.cvut.fit.pinadani.cardgamear:hintEnabled
         */
         public static final int TextInputLayout_hintEnabled = 3;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:hintTextAppearance
+          @attr name cz.cvut.fit.pinadani.cardgamear:hintTextAppearance
         */
         public static final int TextInputLayout_hintTextAppearance = 2;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#passwordToggleContentDescription}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#passwordToggleContentDescription}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -9622,21 +9668,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:passwordToggleContentDescription
+          @attr name cz.cvut.fit.pinadani.cardgamear:passwordToggleContentDescription
         */
         public static final int TextInputLayout_passwordToggleContentDescription = 13;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#passwordToggleDrawable}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#passwordToggleDrawable}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:passwordToggleDrawable
+          @attr name cz.cvut.fit.pinadani.cardgamear:passwordToggleDrawable
         */
         public static final int TextInputLayout_passwordToggleDrawable = 12;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#passwordToggleEnabled}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#passwordToggleEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -9646,11 +9692,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:passwordToggleEnabled
+          @attr name cz.cvut.fit.pinadani.cardgamear:passwordToggleEnabled
         */
         public static final int TextInputLayout_passwordToggleEnabled = 11;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#passwordToggleTint}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#passwordToggleTint}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -9661,11 +9707,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:passwordToggleTint
+          @attr name cz.cvut.fit.pinadani.cardgamear:passwordToggleTint
         */
         public static final int TextInputLayout_passwordToggleTint = 14;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#passwordToggleTintMode}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#passwordToggleTintMode}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -9681,7 +9727,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:passwordToggleTintMode
+          @attr name cz.cvut.fit.pinadani.cardgamear:passwordToggleTintMode
         */
         public static final int TextInputLayout_passwordToggleTintMode = 15;
         /** Attributes that can be used with a Toolbar.
@@ -9692,33 +9738,33 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_buttonGravity cz.cvut.fit.pinadani:buttonGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription cz.cvut.fit.pinadani:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon cz.cvut.fit.pinadani:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd cz.cvut.fit.pinadani:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions cz.cvut.fit.pinadani:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft cz.cvut.fit.pinadani:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight cz.cvut.fit.pinadani:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart cz.cvut.fit.pinadani:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation cz.cvut.fit.pinadani:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo cz.cvut.fit.pinadani:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription cz.cvut.fit.pinadani:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight cz.cvut.fit.pinadani:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription cz.cvut.fit.pinadani:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon cz.cvut.fit.pinadani:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme cz.cvut.fit.pinadani:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle cz.cvut.fit.pinadani:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance cz.cvut.fit.pinadani:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor cz.cvut.fit.pinadani:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title cz.cvut.fit.pinadani:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargin cz.cvut.fit.pinadani:titleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom cz.cvut.fit.pinadani:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd cz.cvut.fit.pinadani:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart cz.cvut.fit.pinadani:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop cz.cvut.fit.pinadani:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins cz.cvut.fit.pinadani:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance cz.cvut.fit.pinadani:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor cz.cvut.fit.pinadani:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_buttonGravity cz.cvut.fit.pinadani.cardgamear:buttonGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription cz.cvut.fit.pinadani.cardgamear:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon cz.cvut.fit.pinadani.cardgamear:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd cz.cvut.fit.pinadani.cardgamear:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions cz.cvut.fit.pinadani.cardgamear:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft cz.cvut.fit.pinadani.cardgamear:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight cz.cvut.fit.pinadani.cardgamear:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart cz.cvut.fit.pinadani.cardgamear:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation cz.cvut.fit.pinadani.cardgamear:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo cz.cvut.fit.pinadani.cardgamear:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription cz.cvut.fit.pinadani.cardgamear:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight cz.cvut.fit.pinadani.cardgamear:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription cz.cvut.fit.pinadani.cardgamear:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon cz.cvut.fit.pinadani.cardgamear:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme cz.cvut.fit.pinadani.cardgamear:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle cz.cvut.fit.pinadani.cardgamear:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance cz.cvut.fit.pinadani.cardgamear:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor cz.cvut.fit.pinadani.cardgamear:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title cz.cvut.fit.pinadani.cardgamear:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargin cz.cvut.fit.pinadani.cardgamear:titleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom cz.cvut.fit.pinadani.cardgamear:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd cz.cvut.fit.pinadani.cardgamear:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart cz.cvut.fit.pinadani.cardgamear:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop cz.cvut.fit.pinadani.cardgamear:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins cz.cvut.fit.pinadani.cardgamear:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance cz.cvut.fit.pinadani.cardgamear:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor cz.cvut.fit.pinadani.cardgamear:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -9773,7 +9819,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#buttonGravity}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#buttonGravity}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9786,11 +9832,11 @@ containing a value of this type.
 <tr><td><code>top</code></td><td>0x30</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:buttonGravity
+          @attr name cz.cvut.fit.pinadani.cardgamear:buttonGravity
         */
         public static final int Toolbar_buttonGravity = 21;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9800,21 +9846,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:collapseContentDescription
+          @attr name cz.cvut.fit.pinadani.cardgamear:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 23;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:collapseIcon
+          @attr name cz.cvut.fit.pinadani.cardgamear:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 22;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9826,11 +9872,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:contentInsetEnd
+          @attr name cz.cvut.fit.pinadani.cardgamear:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9842,11 +9888,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:contentInsetEndWithActions
+          @attr name cz.cvut.fit.pinadani.cardgamear:contentInsetEndWithActions
         */
         public static final int Toolbar_contentInsetEndWithActions = 10;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9858,11 +9904,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:contentInsetLeft
+          @attr name cz.cvut.fit.pinadani.cardgamear:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9874,11 +9920,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:contentInsetRight
+          @attr name cz.cvut.fit.pinadani.cardgamear:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9890,11 +9936,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:contentInsetStart
+          @attr name cz.cvut.fit.pinadani.cardgamear:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9906,21 +9952,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:contentInsetStartWithNavigation
+          @attr name cz.cvut.fit.pinadani.cardgamear:contentInsetStartWithNavigation
         */
         public static final int Toolbar_contentInsetStartWithNavigation = 9;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#logo}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:logo
+          @attr name cz.cvut.fit.pinadani.cardgamear:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9930,11 +9976,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:logoDescription
+          @attr name cz.cvut.fit.pinadani.cardgamear:logoDescription
         */
         public static final int Toolbar_logoDescription = 26;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9946,11 +9992,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:maxButtonHeight
+          @attr name cz.cvut.fit.pinadani.cardgamear:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 20;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9960,31 +10006,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:navigationContentDescription
+          @attr name cz.cvut.fit.pinadani.cardgamear:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 25;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:navigationIcon
+          @attr name cz.cvut.fit.pinadani.cardgamear:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 24;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:popupTheme
+          @attr name cz.cvut.fit.pinadani.cardgamear:popupTheme
         */
         public static final int Toolbar_popupTheme = 11;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9994,21 +10040,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:subtitle
+          @attr name cz.cvut.fit.pinadani.cardgamear:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:subtitleTextAppearance
+          @attr name cz.cvut.fit.pinadani.cardgamear:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 13;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10019,11 +10065,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:subtitleTextColor
+          @attr name cz.cvut.fit.pinadani.cardgamear:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 28;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#title}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10033,11 +10079,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:title
+          @attr name cz.cvut.fit.pinadani.cardgamear:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#titleMargin}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#titleMargin}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10049,11 +10095,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:titleMargin
+          @attr name cz.cvut.fit.pinadani.cardgamear:titleMargin
         */
         public static final int Toolbar_titleMargin = 14;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10065,11 +10111,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:titleMarginBottom
+          @attr name cz.cvut.fit.pinadani.cardgamear:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 18;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10081,11 +10127,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:titleMarginEnd
+          @attr name cz.cvut.fit.pinadani.cardgamear:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 16;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10097,11 +10143,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:titleMarginStart
+          @attr name cz.cvut.fit.pinadani.cardgamear:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 15;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10113,11 +10159,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:titleMarginTop
+          @attr name cz.cvut.fit.pinadani.cardgamear:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 17;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10129,21 +10175,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:titleMargins
+          @attr name cz.cvut.fit.pinadani.cardgamear:titleMargins
         */
         public static final int Toolbar_titleMargins = 19;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:titleTextAppearance
+          @attr name cz.cvut.fit.pinadani.cardgamear:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 12;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -10154,7 +10200,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:titleTextColor
+          @attr name cz.cvut.fit.pinadani.cardgamear:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 27;
         /** Attributes that can be used with a View.
@@ -10165,9 +10211,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd cz.cvut.fit.pinadani:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart cz.cvut.fit.pinadani:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme cz.cvut.fit.pinadani:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd cz.cvut.fit.pinadani.cardgamear:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart cz.cvut.fit.pinadani.cardgamear:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme cz.cvut.fit.pinadani.cardgamear:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -10192,7 +10238,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -10204,11 +10250,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:paddingEnd
+          @attr name cz.cvut.fit.pinadani.cardgamear:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -10220,17 +10266,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:paddingStart
+          @attr name cz.cvut.fit.pinadani.cardgamear:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#theme}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name cz.cvut.fit.pinadani:theme
+          @attr name cz.cvut.fit.pinadani.cardgamear:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -10240,8 +10286,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint cz.cvut.fit.pinadani:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode cz.cvut.fit.pinadani:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint cz.cvut.fit.pinadani.cardgamear:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode cz.cvut.fit.pinadani.cardgamear:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
@@ -10257,7 +10303,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -10268,11 +10314,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name cz.cvut.fit.pinadani:backgroundTint
+          @attr name cz.cvut.fit.pinadani.cardgamear:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link cz.cvut.fit.pinadani.cardgamear.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -10288,7 +10334,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name cz.cvut.fit.pinadani:backgroundTintMode
+          @attr name cz.cvut.fit.pinadani.cardgamear:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.

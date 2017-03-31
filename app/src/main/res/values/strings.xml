@@ -22,14 +22,37 @@
 
     <string name="hint_email">Email</string>
     <string name="login_hint_password">Heslo</string>
-    <string name="login_button_login">Login</string>
+    <string name="login_button_login">Přihlásit</string>
     <string name="login_forgot_password">Zapomenuté heslo</string>
     <string name="cancel">Zrušit</string>
     <string name="text_wait">Čekejte prosím</string>
     <string name="login_fail">Chyba při přihlašování</string>
+    <string name="sign_up_fail">Chyba při registraci</string>
+    <string name="sign_up_success">Registrace proběhla v pořádku</string>
+    <string name="reset_password_succes">Na email Vám bylo odesláno nové heslo</string>
+    <string name="reset_password_fail">Chyba při obnovení hesla</string>
     <string name="valid_empty_field">Prosím vyplňte toto pole</string>
     <string name="invalid_email">Prosím zadejte správný email</string>
     <string name="invalid_email_or_password">Chybný email nebo heslo</string>
     <string name="registration">Registrace</string>
     <string name="do_registration">Registrovat</string>
+    <string name="forgot_password_title">Zapomenuté heslo</string>
+    <string name="valid_email_fail_email">Vyplňte prosím správný email.</string>
+    <string name="valid_email_fail_empty">Zadejte prosím Váš email.</string>
+    <string name="valid_password_fail_empty">Vyplňte prosím Vaše heslo.</string>
+    <string name="button_reset_password">Obnovit heslo</string>
+    <string name="sign_up_title">Registrace</string>
+    <string name="login_success">Přihlášení proběhlo v pořádku</string>
+    <string name="singleplayer">Hra jednoho hráč</string>
+    <string name="muliplayer">Hra dvou hráčů</string>
+    <string name="user_settings">Nastavení účtu</string>
+    <string name="login">Přihlásit</string>
+    <string name="logout">Odhlásit</string>
+    <string name="login_fail_week_password">Špatné heslo. Heslo musí mít alespoň 6 znaků</string>
+    <string name="login_fail_invalid_email">Špatně zadaný email</string>
+    <string name="login_fail_invalid_password_or_email">Špatné přihlašovací údaje</string>
+    <string name="sign_up_fail_check">Zkontrolujte prosím zadané údaje. Heslo musí obsahovat alespoň
+        6 znaků.
+    </string>
+    <string name="reset_password_fail_invalid_user">Neexistující uživatel</string>
 </resources>

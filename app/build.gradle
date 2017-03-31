@@ -1,13 +1,10 @@
 apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'com.neenbedankt.android-apt'
 
 def VUFORIA_SDK_DIR = '../../..'
 def NATIVE_LIB_DIR = 'build/lib'
 def JAR_DIR = 'build/java/vuforia'
-
-ext {
-    firebaseLibVersion = '10.0.1'
-    supportLibVersion = '25.3.0'
-}
 
 android {
     compileSdkVersion 25
@@ -17,8 +14,8 @@ android {
         jniLibs.srcDir "$VUFORIA_SDK_DIR/$NATIVE_LIB_DIR/"
     }
     defaultConfig {
-        applicationId 'cz.cvut.fit.pinadani'
-        minSdkVersion 11
+        applicationId 'cz.cvut.fit.pinadani.cardgamear'
+        minSdkVersion 14
         targetSdkVersion 22
         versionCode 1
         versionName "0.1"
@@ -41,6 +38,10 @@ android {
     }
     productFlavors {
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 repositories {
@@ -49,6 +50,10 @@ repositories {
 
 ext {
     gdxVersion = '1.9.5'
+    firebaseLibVersion = '10.0.1'
+    supportLibVersion = '25.3.0'
+    retrofitVersion = '2.1.0'
+    okhttpVersion = '3.4.1'
 }
 
 dependencies {
@@ -65,7 +70,26 @@ dependencies {
     // Firebase
     compile "com.google.firebase:firebase-core:${firebaseLibVersion}"
     compile "com.google.firebase:firebase-auth:${firebaseLibVersion}"
+    compile "com.google.firebase:firebase-database:${firebaseLibVersion}"
 
     // Butter Knife
     compile 'com.jakewharton:butterknife:7.0.1'
+
+    // RETROFIT + OKHTTP
+    compile "com.squareup.retrofit2:retrofit:${retrofitVersion}"
+    compile "com.squareup.retrofit2:adapter-rxjava:${retrofitVersion}"
+    compile "com.squareup.retrofit2:converter-gson:${retrofitVersion}"
+    compile "com.squareup.okhttp3:okhttp-urlconnection:${okhttpVersion}"
+    compile "com.squareup.okhttp3:okhttp:${okhttpVersion}"
+    compile "com.squareup.okhttp3:logging-interceptor:${okhttpVersion}"
+
+
+    compile 'com.jakewharton.rxbinding:rxbinding-appcompat-v7:0.4.0'
+    compile 'io.reactivex:rxandroid:1.1.0'
+    compile 'info.android15.nucleus:nucleus:2.0.3'
+    provided 'org.glassfish:javax.annotation:10.0-b28'
+    apt 'com.google.dagger:dagger-compiler:2.0.2'
+    compile 'com.google.dagger:dagger:2.0.2'
 }
+
+apply plugin: 'com.google.gms.google-services'

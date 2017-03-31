@@ -14,7 +14,6 @@ import cz.cvut.fit.pinadani.cardgamear.R;
 
 /**
  * TODO add class description
- * Created by JMENO_PRIJMENI[jmeno.prijmeni@ackee.cz] on {12/2/2016}
  **/
 public class BaseActivity extends AppCompatActivity {
     public static final String TAG = BaseActivity.class.getName();

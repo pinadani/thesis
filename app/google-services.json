@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "539513050879",
-    "firebase_url": "https://cartgamear.firebaseio.com",
-    "project_id": "cartgamear",
-    "storage_bucket": "cartgamear.appspot.com"
+    "project_number": "271007100784",
+    "firebase_url": "https://cardgamear.firebaseio.com",
+    "project_id": "cardgamear",
+    "storage_bucket": "cardgamear.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:539513050879:android:96c5c64786e0f807",
+        "mobilesdk_app_id": "1:271007100784:android:edec8bbc28cbf582",
         "android_client_info": {
           "package_name": "cz.cvut.fit.pinadani.cardgamear"
         }
       },
       "oauth_client": [
         {
-          "client_id": "539513050879-qla2pg6po28u44h9go8vaoc5rvjrig9s.apps.googleusercontent.com",
+          "client_id": "271007100784-2dj2jri0kh9in0vr7d4bgr0qkdk4p61s.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "cz.fit.cvut.pinadani.cardgamear",
-            "certificate_hash": "23B94F23D5938BF752EFADB26188CDC8B58B05C5"
+            "package_name": "cz.cvut.fit.pinadani.cardgamear",
+            "certificate_hash": "23b94f23d5938bf752efadb26188cdc8b58b05c5"
           }
         },
         {
-          "client_id": "539513050879-jo7g307i20a2tt7tklgrpvoe4fcca0bg.apps.googleusercontent.com",
+          "client_id": "271007100784-rvsl44g63b1uch1sbfh5oa9hk03kvr87.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDqgbZ-MRZt80tayJS0utX3aFmdov1b77w"
+          "current_key": "AIzaSyDanM9rSlqgjFnGOjUjxdyK-AA3s93qjts"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "539513050879-jo7g307i20a2tt7tklgrpvoe4fcca0bg.apps.googleusercontent.com",
+              "client_id": "271007100784-rvsl44g63b1uch1sbfh5oa9hk03kvr87.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

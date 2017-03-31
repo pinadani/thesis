@@ -27,9 +27,9 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
+    <color name="color_accent">#FF4081</color>
     <color name="color_primary">#3F51B5</color>
     <color name="color_primary_dark">#303F9F</color>
-    <color name="colora_accent">#FF4081</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
@@ -641,6 +641,7 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="button_OK">OK</string>
+    <string name="button_reset_password">Obnovit heslo</string>
     <string name="cancel">Zrušit</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
@@ -660,22 +661,53 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="default_web_client_id" translatable="false">271007100784-rvsl44g63b1uch1sbfh5oa9hk03kvr87.apps.googleusercontent.com</string>
+    <string name="do_registration">Registrovat</string>
+    <string name="firebase_database_url" translatable="false">https://cardgamear.firebaseio.com</string>
+    <string name="forgot_password_title">Zapomenuté heslo</string>
+    <string name="gcm_defaultSenderId" translatable="false">271007100784</string>
+    <string name="google_api_key" translatable="false">AIzaSyDanM9rSlqgjFnGOjUjxdyK-AA3s93qjts</string>
+    <string name="google_app_id" translatable="false">1:271007100784:android:edec8bbc28cbf582</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDanM9rSlqgjFnGOjUjxdyK-AA3s93qjts</string>
+    <string name="google_storage_bucket" translatable="false">cardgamear.appspot.com</string>
     <string name="hint_email">Email</string>
     <string name="invalid_email">Prosím zadejte správný email</string>
     <string name="invalid_email_or_password">Chybný email nebo heslo</string>
-    <string name="login_button_login">Login</string>
+    <string name="login">Přihlásit</string>
+    <string name="login_button_login">Přihlásit</string>
     <string name="login_fail">Chyba při přihlašování</string>
+    <string name="login_fail_invalid_email">Špatně zadaný email</string>
+    <string name="login_fail_invalid_password_or_email">Špatné přihlašovací údaje</string>
+    <string name="login_fail_week_password">Špatné heslo. Heslo musí mít alespoň 6 znaků</string>
     <string name="login_forgot_password">Zapomenuté heslo</string>
     <string name="login_hint_password">Heslo</string>
+    <string name="login_success">Přihlášení proběhlo v pořádku</string>
+    <string name="logout">Odhlásit</string>
+    <string name="muliplayer">Hra dvou hráčů</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="registration">Registrace</string>
+    <string name="reset_password_fail">Chyba při obnovení hesla</string>
+    <string name="reset_password_fail_invalid_user">Neexistující uživatel</string>
+    <string name="reset_password_succes">Na email Vám bylo odesláno nové heslo</string>
     <string name="search_menu_title">Search</string>
+    <string name="sign_up_fail">Chyba při registraci</string>
+    <string name="sign_up_fail_check">Zkontrolujte prosím zadané údaje. Heslo musí obsahovat alespoň
+        6 znaků.
+    </string>
+    <string name="sign_up_success">Registrace proběhla v pořádku</string>
+    <string name="sign_up_title">Registrace</string>
+    <string name="singleplayer">Hra jednoho hráč</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="text_wait">Čekejte prosím</string>
+    <string name="user_settings">Nastavení účtu</string>
+    <string name="valid_email_fail_email">Vyplňte prosím správný email.</string>
+    <string name="valid_email_fail_empty">Zadejte prosím Váš email.</string>
     <string name="valid_empty_field">Prosím vyplňte toto pole</string>
+    <string name="valid_password_fail_empty">Vyplňte prosím Vaše heslo.</string>
     <string name="vuforia_key">AYhKm7n/////AAAAGahKLdo9B0CmnlKK8ivIMSUe3MMyBS8kz9SaIEbIWFdDVptCnhuBpqIhGGY6LkJj9iROhcU9t6GnMvi+cI4kQehv8nlRTdLvzGiG1G3qh7lZRKOkDQHekALQckiQgfehP6Q3pS1Hgwn1uWzVeL/aSjhwE5cQrAW+Tu23HgOzE0FxpikUs5wg0yBHTWO+GMbm27CewBY7fM/HKBDf4tINziHwEftz3pxEDbED0tzJpv0FIpN6E6Jen+e0yqYAPmPVAyjC2CwUqgSrlo/wwMrckq/rOsfEOOqWc/iW7okVLMf4Y/IbIxOjU+fwYQc5hZJV5BLyjmXyo0nK18EDDpi7VJMXfpZ+RJ6xjQum5eyz4Nv1</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
@@ -684,6 +716,16 @@
     <style name="Animation.Design.BottomSheetDialog" parent="Animation.AppCompat.Dialog">
         <item name="android:windowEnterAnimation">@anim/design_bottom_sheet_slide_in</item>
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+
+        <item name="android:colorPrimary">@color/color_primary</item>
+        <item name="android:colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="android:colorAccent">@color/color_accent</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -1719,6 +1761,8 @@
         <item name="android:paddingTop">8dp</item>
         <item name="android:background">#e1e1e1</item>
         <item name="android:layout_height">48dp</item>
+    </style>
+    <style name="MainMenuButton" parent="LoginButton">
     </style>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>

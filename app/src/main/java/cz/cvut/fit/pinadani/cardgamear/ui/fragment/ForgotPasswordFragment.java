@@ -9,13 +9,21 @@ import android.widget.EditText;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import cz.cvut.fit.pinadani.cardgamear.R;
+import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.ForgotPasswordPresenter;
+import cz.cvut.fit.pinadani.cardgamear.mvp.view.IForgotPasswordView;
+import cz.cvut.fit.pinadani.cardgamear.ui.fragment.base.BaseNucleusFragment;
+import cz.cvut.fit.pinadani.cardgamear.utils.UiUtils;
+import nucleus.factory.RequiresPresenter;
 
 /**
  * Fragment to get forgot password
  * Created by Daniel Pina
  **/
-public class ForgotPasswordFragment extends BaseFragment {
+@RequiresPresenter(ForgotPasswordPresenter.class)
+public class ForgotPasswordFragment extends BaseNucleusFragment<ForgotPasswordPresenter>
+        implements IForgotPasswordView {
     public static final String TAG = ForgotPasswordFragment.class.getName();
 
     @Bind(R.id.edit_email)
@@ -36,75 +44,33 @@ public class ForgotPasswordFragment extends BaseFragment {
 
     @Override
     protected String getTitle() {
-        return null;
+        return getString(R.string.forgot_password_title);
     }
 
-//    @Override
-//    protected String getTitle() {
-//        return getString(R.string.forgot_password_title);
-//    }
-//
-//    @Override
-//    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-//        super.onCreateOptionsMenu(menu, inflater);
-//        inflater.inflate(R.menu.done, menu);
-//    }
-//
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//
-//        switch (item.getItemId()) {
-//            case R.id.action_done:
-//                GoogleAnalyticsUtils
-//                        .trackSettingsEvent(R.string.google_analytics_action_new_password);
-//                View view = getActivity().getCurrentFocus();
-//                if (view != null) {
-//                    InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
-//                    imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
-//                }
-//                getPresenter().sendEmail(mEditEmail.getText().toString());
-//                return true;
-//            default:
-//                break;
-//        }
-//        return super.onOptionsItemSelected(item);
-//    }
-//
-//    @Override
-//    protected String getGAName() {
-//        return TAG;
-//    }
-//
-//    @Override
-//    public void showProgress(boolean showProgress) {
-//        mProgress.setVisibility(showProgress ? View.VISIBLE : View.GONE);
-//    }
-//
-//    @Override
-//    public void showStatus(boolean status) {
-//        if (status) {
-//            Snackbar.make(getView(), R.string.email_was_send, Snackbar.LENGTH_LONG).show();
-//        } else {
-//            Snackbar.make(getView(), R.string.send_email_failed, Snackbar.LENGTH_LONG).show();
-//        }
-//
-//    }
-//
-//    @Override
-//    public void pressBack() {
-//        GoogleAnalyticsUtils
-//                .trackSettingsEvent(R.string.google_analytics_action_new_password_back);
-//    }
-//
-//    @SuppressWarnings("ConstantConditions")
-//    @Override
-//    public void showValidFailEmpty() {
-//        Snackbar.make(getView(), R.string.valid_email_fail_empty, Snackbar.LENGTH_LONG).show();
-//    }
-//
-//    @SuppressWarnings("ConstantConditions")
-//    @Override
-//    public void showValidFailEmail() {
-//        Snackbar.make(getView(), R.string.valid_email_fail_email, Snackbar.LENGTH_LONG).show();
-//    }
+    @Override
+    public void pressBack() {
+    }
+
+    @SuppressWarnings("ConstantConditions")
+    @Override
+    public void showValidFailEmpty() {
+        showSnackbar(R.string.valid_email_fail_empty);
+    }
+
+    @SuppressWarnings("ConstantConditions")
+    @Override
+    public void showValidFailEmail() {
+        showSnackbar(R.string.valid_email_fail_email);
+    }
+
+    @OnClick(R.id.btn_reset_password)
+    public void onResetPasswordClicked(){
+        UiUtils.hideKeyboard(mEditEmail);
+        getPresenter().sendEmail(mEditEmail.getText().toString());
+    }
+
+    @Override
+    protected void initAB() {
+        baseSettingsAB();
+    }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/container_content_login"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/color_primary"
@@ -72,38 +72,48 @@
                 android:textColor="#213247"/>
         </FrameLayout>
 
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/rounded_corners">
-            <Button
-                android:id="@+id/btn_registration"
-                style="@style/LoginButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="?android:attr/selectableItemBackground"
-                android:text="@string/registration"
-                android:textColor="#213247"/>
-        </FrameLayout>
 
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/transparent_rounded_corners"
-            android:paddingTop="@dimen/tiny_gap">
-
-            <Button
-                android:id="@+id/btn_forgot_password"
-                android:layout_width="match_parent"
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="16dp"
+                      android:orientation="horizontal">
+            <FrameLayout
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:background="?android:attr/selectableItemBackground"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
-                android:text="@string/login_forgot_password"
-                android:textAllCaps="false"
-                android:textColor="@android:color/white"/>
-        </FrameLayout>
+                android:layout_weight="1"
+                android:background="@drawable/transparent_rounded_corners">
+                <Button
+                    android:id="@+id/btn_registration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/registration"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:gravity="left|center_vertical"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/transparent_rounded_corners">
+
+                <Button
+                    android:id="@+id/btn_forgot_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/login_forgot_password"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:gravity="right|center_vertical"/>
+            </FrameLayout>
+        </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
 
