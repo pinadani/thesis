@@ -62,4 +62,21 @@
     <string name="none_paired">Žádné spárovaná zařízení</string>
     <string name="none_found">Žádné zařízení nebylo nalezeno</string>
     <string name="connect_bluetooth_title">Hledání soupeře</string>
+    <string name="profile_name">Username</string>
+    <string name="profile_email">Email *</string>
+    <string name="name">Jméno</string>
+    <string name="second_name">Přijímení</string>
+    <string name="username">Přezdívka *</string>
+    <string name="button_change_password">Změnit heslo</string>
+    <string name="profile">Profil</string>
+    <string name="done">Uložit</string>
+    <string name="changes_saved">Změny byly uloženy</string>
+    <string name="update_fail">Update fail</string>
+    <string name="update_success">Změny byly uloženy</string>
+    <string name="get_data_fail">Chyba při získávání dat</string>
+    <string name="old_password">Staré heslo</string>
+    <string name="new_password">Nové heslo</string>
+    <string name="change_password_title">Změna hesla</string>
+    <string name="password_update_success">Heslo bylo úspěšně změněno</string>
+    <string name="password_update_fail">Při změně hesla se něco pokazilo</string>
 </resources>

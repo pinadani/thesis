@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.FrameLayout;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -23,6 +24,9 @@ public class MainMenuFragment extends BaseNucleusFragment<MainMenuPresenter> imp
 
     @Bind(R.id.btn_login_logout)
     Button mLoginLogoutButton;
+
+    @Bind(R.id.layout_user)
+    FrameLayout mUserLayout;
 
     @Nullable
     @Override
@@ -59,8 +63,18 @@ public class MainMenuFragment extends BaseNucleusFragment<MainMenuPresenter> imp
         mLoginLogoutButton.setText(getString(textResId));
     }
 
+    @Override
+    public void showProfileButton(boolean show) {
+        mUserLayout.setVisibility(show ? View.VISIBLE : View.GONE);
+    }
+
     @OnClick(R.id.btn_multiplayer)
     public void onMultiPlayerBtnClicked() {
         BaseFragmentActivity.startActivity(getActivity(), ConnectBluetoothFragment.class.getName());
+    }
+
+    @OnClick(R.id.btn_user)
+    public void onUserBtnClicked() {
+        BaseFragmentActivity.startActivity(getActivity(), ProfileFragment.class.getName());
     }
 }

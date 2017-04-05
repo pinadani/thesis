@@ -49,7 +49,7 @@ public class SignUpPresenter extends BasePresenter<ISignUpView> {
         if (!isValid(email, password)) {
             return;
         }
-
+        getView().showProgress(true);
         mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(getView().getFragmentActivity(), task -> {
                     Log.d(TAG, "createUserWithEmail:onComplete:" + task.isSuccessful());
@@ -95,6 +95,9 @@ public class SignUpPresenter extends BasePresenter<ISignUpView> {
         mDatabase.child("users").child(userId).setValue(user)
                 .addOnCompleteListener(task -> {
                     Log.d(TAG, "createUserinDatabase:onComplete:" + task.isSuccessful());
+                    if (getView() != null) {
+                        getView().showProgress(false);
+                    }
 
                     // If sign in fails, display a message to the user. If sign in succeeds
                     // the auth state listener will be notified and logic to handle the

@@ -115,6 +115,7 @@
     <orderEntry type="library" exported="" name="gdx-1.9.5" level="project" />
     <orderEntry type="library" exported="" name="transition-25.3.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-base-10.0.1" level="project" />
+    <orderEntry type="library" exported="" name="cardview-v7-25.3.0" level="project" />
     <orderEntry type="library" exported="" name="javax.annotation-10.0-b28" level="project" />
     <orderEntry type="library" exported="" name="okhttp-urlconnection-3.4.1" level="project" />
     <orderEntry type="library" exported="" name="firebase-database-connection-10.0.1" level="project" />

@@ -32,6 +32,10 @@
         "source": "C:\\Users\\Daniel\\.android\\build-cache\\1d22c39a0cfb2c21bb54a808f99e135561932483\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_base.xml",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\src\\main\\res\\layout\\activity_base.xml"
     },
@@ -118,6 +122,10 @@
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_registration.xml",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\src\\main\\res\\layout\\fragment_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_change_password.xml",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\src\\main\\res\\layout\\fragment_change_password.xml"
     },
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",

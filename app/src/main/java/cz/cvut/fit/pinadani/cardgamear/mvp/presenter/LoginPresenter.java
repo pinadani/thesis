@@ -27,7 +27,6 @@ public class LoginPresenter extends BasePresenter<ILoginView> {
 
 
     private FirebaseAuth mAuth;
-    private FirebaseAuth.AuthStateListener mAuthListener;
 
     @Override
     protected void onCreate(Bundle savedState) {

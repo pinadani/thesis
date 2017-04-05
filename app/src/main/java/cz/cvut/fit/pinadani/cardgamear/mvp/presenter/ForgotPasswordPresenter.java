@@ -11,7 +11,6 @@ import com.google.firebase.auth.FirebaseAuthInvalidUserException;
 import cz.cvut.fit.pinadani.cardgamear.R;
 import cz.cvut.fit.pinadani.cardgamear.mvp.view.IForgotPasswordView;
 import cz.cvut.fit.pinadani.cardgamear.utils.App;
-import cz.cvut.fit.pinadani.cardgamear.utils.UiUtils;
 
 /**
  * Presenter for get new password logic

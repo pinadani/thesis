@@ -38,6 +38,7 @@ public class MainMenuPresenter extends BasePresenter<IMainMenuView> {
             mLogged = user != null;
             if (getView() != null) {
                 getView().setLoginButtonText(mLogged ? R.string.logout : R.string.login);
+                getView().showProfileButton(mLogged);
             }
             if (mLogged) {
                 mSpInteractor.setUserEmail(user.getEmail());

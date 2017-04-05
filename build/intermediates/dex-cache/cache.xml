@@ -183,6 +183,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\9083d61152f913cac671827ac0c05fa776b0df84\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_0d70f7e98d640096bd738a6dbccc4f5122cabe85.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Daniel\.android\build-cache\069931705e5565b202f1f6ab3e495cb2c2aa8832\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
