@@ -1,5 +1,6 @@
 package cz.cvut.fit.pinadani.cardgamear.ui.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -14,6 +15,7 @@ import butterknife.OnClick;
 import cz.cvut.fit.pinadani.cardgamear.R;
 import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.MainMenuPresenter;
 import cz.cvut.fit.pinadani.cardgamear.mvp.view.IMainMenuView;
+import cz.cvut.fit.pinadani.cardgamear.renderer.ArActivity;
 import cz.cvut.fit.pinadani.cardgamear.ui.activity.BaseFragmentActivity;
 import cz.cvut.fit.pinadani.cardgamear.ui.fragment.base.BaseNucleusFragment;
 import nucleus.factory.RequiresPresenter;
@@ -71,6 +73,12 @@ public class MainMenuFragment extends BaseNucleusFragment<MainMenuPresenter> imp
     @OnClick(R.id.btn_multiplayer)
     public void onMultiPlayerBtnClicked() {
         BaseFragmentActivity.startActivity(getActivity(), ConnectBluetoothFragment.class.getName());
+    }
+
+    @OnClick(R.id.btn_singleplayer)
+    public void onSinglePlayerBtnClicked() {
+        Intent singlePlayerIntent = new Intent(getActivity(), ArActivity.class);
+        getActivity().startActivity(singlePlayerIntent);
     }
 
     @OnClick(R.id.btn_user)

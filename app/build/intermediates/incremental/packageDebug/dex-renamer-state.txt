@@ -1,4 +1,4 @@
-#Wed Apr 05 18:43:48 CEST 2017
+#Wed Apr 05 18:58:31 CEST 2017
 base.0=C\:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=C\:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
