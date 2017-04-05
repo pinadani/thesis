@@ -640,8 +640,10 @@
     <string name="app_name">Card Game Pinadani</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="bt_not_enabled_leaving">Bluetooth neni k dispozici</string>
     <string name="button_OK">OK</string>
     <string name="button_reset_password">Obnovit heslo</string>
+    <string name="button_scan">Najít další zařízení</string>
     <string name="cancel">Zrušit</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
@@ -661,6 +663,7 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="connect_bluetooth_title">Hledání soupeře</string>
     <string name="default_web_client_id" translatable="false">271007100784-rvsl44g63b1uch1sbfh5oa9hk03kvr87.apps.googleusercontent.com</string>
     <string name="do_registration">Registrovat</string>
     <string name="firebase_database_url" translatable="false">https://cardgamear.firebaseio.com</string>
@@ -684,6 +687,8 @@
     <string name="login_success">Přihlášení proběhlo v pořádku</string>
     <string name="logout">Odhlásit</string>
     <string name="muliplayer">Hra dvou hráčů</string>
+    <string name="none_found">Žádné zařízení nebylo nalezeno</string>
+    <string name="none_paired">Žádné spárovaná zařízení</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -703,6 +708,8 @@
     <string name="singleplayer">Hra jednoho hráč</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="text_wait">Čekejte prosím</string>
+    <string name="title_other_devices">Další dostupná zařízení</string>
+    <string name="title_paired_devices">Spárovaná zařízení</string>
     <string name="user_settings">Nastavení účtu</string>
     <string name="valid_email_fail_email">Vyplňte prosím správný email.</string>
     <string name="valid_email_fail_empty">Zadejte prosím Váš email.</string>
@@ -1747,6 +1754,14 @@
         <item name="tabBackground">?attr/selectableItemBackground</item>
         <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
         <item name="tabSelectedTextColor">?android:textColorPrimary</item>
+    </style>
+    <style name="ConnectBluetoothTitle">
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:textColor">@android:color/black</item>
     </style>
     <style name="LoginButton">
         <item name="android:paddingLeft">16dp</item>

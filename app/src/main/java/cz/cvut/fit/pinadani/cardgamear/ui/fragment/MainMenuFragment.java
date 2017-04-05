@@ -13,6 +13,7 @@ import butterknife.OnClick;
 import cz.cvut.fit.pinadani.cardgamear.R;
 import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.MainMenuPresenter;
 import cz.cvut.fit.pinadani.cardgamear.mvp.view.IMainMenuView;
+import cz.cvut.fit.pinadani.cardgamear.ui.activity.BaseFragmentActivity;
 import cz.cvut.fit.pinadani.cardgamear.ui.fragment.base.BaseNucleusFragment;
 import nucleus.factory.RequiresPresenter;
 
@@ -56,5 +57,10 @@ public class MainMenuFragment extends BaseNucleusFragment<MainMenuPresenter> imp
     @Override
     public void setLoginButtonText(int textResId) {
         mLoginLogoutButton.setText(getString(textResId));
+    }
+
+    @OnClick(R.id.btn_multiplayer)
+    public void onMultiPlayerBtnClicked() {
+        BaseFragmentActivity.startActivity(getActivity(), ConnectBluetoothFragment.class.getName());
     }
 }

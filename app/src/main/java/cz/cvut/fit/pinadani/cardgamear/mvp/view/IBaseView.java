@@ -1,5 +1,6 @@
 package cz.cvut.fit.pinadani.cardgamear.mvp.view;
 
+import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 
 /**
@@ -15,4 +16,8 @@ public interface IBaseView {
     void showProgress(boolean show);
 
     FragmentActivity getFragmentActivity();
+
+    void startActivityForResult(Intent intent, int requestCode);
+
+    void startActivity(Intent intent);
 }

@@ -55,4 +55,11 @@
         6 znaků.
     </string>
     <string name="reset_password_fail_invalid_user">Neexistující uživatel</string>
+    <string name="bt_not_enabled_leaving">Bluetooth neni k dispozici</string>
+    <string name="title_paired_devices">Spárovaná zařízení</string>
+    <string name="title_other_devices">Další dostupná zařízení</string>
+    <string name="button_scan">Najít další zařízení</string>
+    <string name="none_paired">Žádné spárovaná zařízení</string>
+    <string name="none_found">Žádné zařízení nebylo nalezeno</string>
+    <string name="connect_bluetooth_title">Hledání soupeře</string>
 </resources>
