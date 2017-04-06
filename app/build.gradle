@@ -51,7 +51,7 @@ repositories {
 ext {
     gdxVersion = '1.9.5'
     firebaseLibVersion = '10.0.1'
-    supportLibVersion = '25.3.0'
+    supportLibVersion = '25.3.1'
     retrofitVersion = '2.1.0'
     okhttpVersion = '3.4.1'
 }
@@ -91,6 +91,9 @@ dependencies {
     provided 'org.glassfish:javax.annotation:10.0-b28'
     apt 'com.google.dagger:dagger-compiler:2.0.2'
     compile 'com.google.dagger:dagger:2.0.2'
+
+    //Joystick
+    compile 'com.github.erz05:JoyStick:1.1.0'
 
 }
 

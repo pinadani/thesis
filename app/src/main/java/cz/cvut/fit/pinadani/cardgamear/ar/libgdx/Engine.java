@@ -40,5 +40,4 @@ public class Engine extends Game {
         super.render();
         fps.log();
     }
-
 }

@@ -65,6 +65,13 @@
     <color name="foreground_material_light">@android:color/black</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
+    <color name="holo_blue_bright_50_alpha">#7f00ddff</color>
+    <color name="holo_blue_dark_50_alpha">#7f0099cc</color>
+    <color name="holo_blue_light_50_alpha">#7F33b5e5</color>
+    <color name="holo_green_dark_50_alpha">#7f669900</color>
+    <color name="holo_green_light_50_alpha">#7F99cc00</color>
+    <color name="holo_red_dark_50_alpha">#7fcc0000</color>
+    <color name="holo_red_light_50_alpha">#7Fff4444</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -305,6 +312,7 @@
         </attr><attr name="elevation"/><attr format="dimension" name="pressedTranslationZ"/><attr format="dimension" name="borderWidth"/><attr format="boolean" name="useCompatPadding"/></declare-styleable>
     <declare-styleable name="FloatingActionButton_Behavior_Layout"><attr format="boolean" name="behavior_autoHide"/></declare-styleable>
     <declare-styleable name="ForegroundLinearLayout"><attr name="android:foreground"/><attr name="android:foregroundGravity"/><attr format="boolean" name="foregroundInsidePadding"/></declare-styleable>
+    <declare-styleable name="JoyStick"><attr format="color" name="padColor"/><attr format="color" name="buttonColor"/><attr format="boolean" name="stayPut"/><attr format="integer" name="percentage"/><attr format="reference" name="backgroundDrawable"/><attr format="reference" name="buttonDrawable"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers">
             <flag name="none" value="0"/>
             <flag name="beginning" value="1"/>
@@ -754,7 +762,7 @@
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        
+        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/color_primary</item>
         <item name="colorPrimaryDark">@color/color_primary_dark</item>
         <item name="colorAccent">@color/color_accent</item>

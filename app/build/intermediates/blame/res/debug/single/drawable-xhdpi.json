@@ -16,6 +16,10 @@
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\src\\main\\res\\drawable-xhdpi\\ic_person_outline_black.png"
     },
     {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_pause.png",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\src\\main\\res\\drawable-xhdpi\\ic_pause.png"
+    },
+    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_edit_black.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\src\\main\\res\\drawable-xhdpi\\ic_edit_black.png"
     },
@@ -24,8 +28,20 @@
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\src\\main\\res\\drawable-xhdpi\\ic_done.png"
     },
     {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_square.png",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\src\\main\\res\\drawable-xhdpi\\ic_square.png"
+    },
+    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_mode_edit.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\src\\main\\res\\drawable-xhdpi\\ic_mode_edit.png"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_cross.png",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\src\\main\\res\\drawable-xhdpi\\ic_cross.png"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_triangle.png",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\src\\main\\res\\drawable-xhdpi\\ic_triangle.png"
     },
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon.png",

@@ -26,6 +26,7 @@ import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.AppSession;
 import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.SessionControl;
 import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.VuforiaException;
 import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.VuforiaRenderer;
+import cz.cvut.fit.pinadani.cardgamear.utils.UiUtils;
 
 
 public class ArActivity extends AndroidApplication implements SessionControl {
@@ -47,8 +48,7 @@ public class ArActivity extends AndroidApplication implements SessionControl {
         Log.d(LOGTAG, "onCreate");
 
         session = new AppSession(this);
-        session.initAR(this, ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-
+        session.initAR(this, ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         mRenderer = new VuforiaRenderer(session);
 
         FrameLayout container = (FrameLayout) findViewById(R.id.ar_container);
@@ -61,8 +61,9 @@ public class ArActivity extends AndroidApplication implements SessionControl {
         mEngine = new Engine(mRenderer);
         View glView = initializeForView(mEngine, config);
 
-        container.addView(glView);
+        container.addView(glView, 0);
 
+        UiUtils.hideSystemUI(getWindow());
     }
 
 
