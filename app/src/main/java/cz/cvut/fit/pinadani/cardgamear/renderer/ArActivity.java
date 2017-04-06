@@ -6,10 +6,12 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
+import com.erz.joysticklibrary.JoyStick;
 import com.vuforia.CameraDevice;
 import com.vuforia.DataSet;
 import com.vuforia.HINT;
@@ -53,12 +55,20 @@ public class ArActivity extends AndroidApplication implements SessionControl {
 
         FrameLayout container = (FrameLayout) findViewById(R.id.ar_container);
 
+        ImageButton pauseBtn = (ImageButton) findViewById(R.id.btn_pause);
+        JoyStick joystick = (JoyStick) findViewById(R.id.joy1);
+        ImageButton attackFirstBtn = (ImageButton) findViewById(R.id.btn_trinagle);
+        ImageButton attackSecondBtn = (ImageButton) findViewById(R.id.btn_square);
+        ImageButton defenceBtn = (ImageButton) findViewById(R.id.btn_cross);
+
         AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
         config.useAccelerometer = false;
         config.useCompass = false;
         //config.useGL20 = true;
 
         mEngine = new Engine(mRenderer);
+        mEngine.setButtons(pauseBtn, joystick, attackFirstBtn, attackSecondBtn, defenceBtn);
+
         View glView = initializeForView(mEngine, config);
 
         container.addView(glView, 0);

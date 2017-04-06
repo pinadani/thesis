@@ -1,9 +1,11 @@
 package cz.cvut.fit.pinadani.cardgamear.ar.libgdx;
 
 import android.util.Log;
+import android.widget.ImageButton;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.graphics.FPSLogger;
+import com.erz.joysticklibrary.JoyStick;
 
 import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.VuforiaRenderer;
 
@@ -11,9 +13,16 @@ import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.VuforiaRenderer;
  * Instance of libgdx Game class responsible for rendering 3D content over augmented reality.
  */
 public class Engine extends Game {
+    ImageButton pauseBtn;
+    ImageButton attackFirstBtn;
+    ImageButton attackSecondBtn;
+    ImageButton defenceBtn;
+
+    JoyStick joystick;
 
     private FPSLogger fps;
     private VuforiaRenderer vuforiaRenderer;
+    private Display mDisplay;
 
     public Engine(VuforiaRenderer vuforiaRenderer) {
         this.vuforiaRenderer = vuforiaRenderer;
@@ -21,7 +30,8 @@ public class Engine extends Game {
 
     @Override
     public void create() {
-        Display mDisplay = new Display(vuforiaRenderer);
+        mDisplay = new Display(vuforiaRenderer);
+        mDisplay.getRenderer().setButtons(pauseBtn, joystick, attackFirstBtn, attackSecondBtn, defenceBtn);
         setScreen(mDisplay);
         vuforiaRenderer.initRendering();
         fps = new FPSLogger();
@@ -39,5 +49,13 @@ public class Engine extends Game {
     public void render() {
         super.render();
         fps.log();
+    }
+
+    public void setButtons(ImageButton pauseBtn, JoyStick joystick, ImageButton attackFirstBtn, ImageButton attackSecondBtn, ImageButton defenceBtn) {
+        this.pauseBtn = pauseBtn;
+        this.attackFirstBtn = attackFirstBtn;
+        this.attackSecondBtn = attackSecondBtn;
+        this.defenceBtn = defenceBtn;
+        this.joystick = joystick;
     }
 }

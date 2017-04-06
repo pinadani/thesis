@@ -62,4 +62,9 @@ public class Display implements Screen {
     public void resume() {
 
     }
+
+
+    public Renderer getRenderer() {
+        return mRenderer;
+    }
 }

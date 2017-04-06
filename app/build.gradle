@@ -8,7 +8,7 @@ def JAR_DIR = 'build/java/vuforia'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion '25.0.2'
+    buildToolsVersion '25.0.0'
     sourceSets.main {
         jni.srcDirs = []
         jniLibs.srcDir "$VUFORIA_SDK_DIR/$NATIVE_LIB_DIR/"
@@ -51,7 +51,7 @@ repositories {
 ext {
     gdxVersion = '1.9.5'
     firebaseLibVersion = '10.0.1'
-    supportLibVersion = '25.3.1'
+    supportLibVersion = '25.3.0'
     retrofitVersion = '2.1.0'
     okhttpVersion = '3.4.1'
 }

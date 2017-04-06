@@ -1,7 +1,8 @@
 package cz.cvut.fit.pinadani.cardgamear.ar.libgdx;
 
+import android.widget.ImageButton;
+
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.PerspectiveCamera;
 import com.badlogic.gdx.graphics.g3d.Environment;
@@ -9,6 +10,7 @@ import com.badlogic.gdx.graphics.g3d.ModelBatch;
 import com.badlogic.gdx.graphics.g3d.attributes.ColorAttribute;
 import com.badlogic.gdx.graphics.g3d.environment.DirectionalLight;
 import com.badlogic.gdx.math.Vector3;
+import com.erz.joysticklibrary.JoyStick;
 import com.vuforia.Matrix44F;
 import com.vuforia.Tool;
 import com.vuforia.TrackableResult;
@@ -22,7 +24,14 @@ import cz.cvut.fit.pinadani.cardgamear.model.Model3DList;
 /**
  * Class responsible for rendering and scene transformations.
  */
-public class Renderer implements InputProcessor {
+public class Renderer {
+
+    ImageButton pauseBtn;
+    ImageButton attackFirstBtn;
+    ImageButton attackSecondBtn;
+    ImageButton defenceBtn;
+
+    JoyStick joystick;
 
     private PerspectiveCamera mCamera;
     private Environment mEnvironment;
@@ -47,7 +56,6 @@ public class Renderer implements InputProcessor {
 
         modelBatch = new ModelBatch();
 
-        Gdx.input.setInputProcessor(this);
     }
 
     public void render(Model3DList models) {
@@ -135,56 +143,31 @@ public class Renderer implements InputProcessor {
         modelBatch.dispose();
     }
 
-    @Override
-    public boolean keyDown(int keycode) {
-        return false;
+    public void setButtons(ImageButton pauseBtn, JoyStick joystick, ImageButton attackFirstBtn, ImageButton attackSecondBtn, ImageButton defenceBtn) {
+        this.pauseBtn = pauseBtn;
+        this.attackFirstBtn = attackFirstBtn;
+        this.attackSecondBtn = attackSecondBtn;
+        this.defenceBtn = defenceBtn;
+        this.joystick = joystick;
+
+        setListeners();
     }
 
-    @Override
-    public boolean keyUp(int keycode) {
-        return false;
-    }
+    private void setListeners() {
+        pauseBtn.setOnClickListener(view -> {
+            //TODO
+        });
 
-    @Override
-    public boolean keyTyped(char character) {
-        return false;
-    }
+        attackFirstBtn.setOnClickListener(view -> {
+            //TODO
+        });
 
-    @Override
-    public boolean touchDown(int screenX, int screenY, int pointer, int button) {
-        if(screenY < 1000) {
-            if (screenX < 500) {
-                vector = new Vector3(-400, 400, 0);
-            } else {
-                vector = new Vector3(400, 400, 0);
-            }
-        } else {
-            if (screenX < 500) {
-                vector = new Vector3(-400, -400, 0);
-            } else {
-                vector = new Vector3(400, -400, 0);
-            }
-        }
-        return false;
-    }
+        attackSecondBtn.setOnClickListener(view -> {
+            //TODO
+        });
 
-    @Override
-    public boolean touchUp(int screenX, int screenY, int pointer, int button) {
-        return false;
-    }
-
-    @Override
-    public boolean touchDragged(int screenX, int screenY, int pointer) {
-        return false;
-    }
-
-    @Override
-    public boolean mouseMoved(int screenX, int screenY) {
-        return false;
-    }
-
-    @Override
-    public boolean scrolled(int amount) {
-        return false;
+        defenceBtn.setOnClickListener(view -> {
+            //TODO
+        });
     }
 }
