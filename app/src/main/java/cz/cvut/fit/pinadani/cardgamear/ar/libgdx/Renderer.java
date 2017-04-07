@@ -1,5 +1,6 @@
 package cz.cvut.fit.pinadani.cardgamear.ar.libgdx;
 
+import android.view.View;
 import android.widget.ImageButton;
 
 import com.badlogic.gdx.Gdx;
@@ -17,6 +18,7 @@ import com.vuforia.Tool;
 import com.vuforia.TrackableResult;
 import com.vuforia.VIDEO_BACKGROUND_REFLECTION;
 
+import cz.cvut.fit.pinadani.cardgamear.R;
 import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.SampleMath;
 import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.VuforiaRenderer;
 import cz.cvut.fit.pinadani.cardgamear.model.Model3D;
@@ -31,6 +33,7 @@ public class Renderer {
     ImageButton attackFirstBtn;
     ImageButton attackSecondBtn;
     ImageButton defenceBtn;
+    View pausedOverlay;
 
     JoyStick joystick;
 
@@ -38,6 +41,8 @@ public class Renderer {
     private Environment mEnvironment;
     private ModelBatch modelBatch;
     private VuforiaRenderer vuforiaRenderer;
+
+    private boolean mPausedGame = false;
 
     public Renderer(VuforiaRenderer arRenderer) {
         mEnvironment = new Environment();
@@ -128,7 +133,9 @@ public class Renderer {
             mCamera.up.set(data[4], data[5], data[6]);
             mCamera.direction.set(data[8], data[9], data[10]);
 
-            models.updateModels(joystick.getAngleDegrees(), joystick.getPower(), new Vector2(data[4], data[5]));
+            if (!mPausedGame) {
+                models.updateModels(joystick.getAngleDegrees(), joystick.getPower(), new Vector2(data[4], data[5]));
+            }
             //update filed of view
             mCamera.fieldOfView = filedOfView;
 
@@ -144,19 +151,25 @@ public class Renderer {
         modelBatch.dispose();
     }
 
-    public void setButtons(ImageButton pauseBtn, JoyStick joystick, ImageButton attackFirstBtn, ImageButton attackSecondBtn, ImageButton defenceBtn) {
+    public void setButtons(ImageButton pauseBtn, JoyStick joystick, ImageButton attackFirstBtn, ImageButton attackSecondBtn, ImageButton defenceBtn, View pausedOverlay) {
         this.pauseBtn = pauseBtn;
         this.attackFirstBtn = attackFirstBtn;
         this.attackSecondBtn = attackSecondBtn;
         this.defenceBtn = defenceBtn;
         this.joystick = joystick;
+        this.pausedOverlay = pausedOverlay;
 
         setListeners();
     }
 
     private void setListeners() {
+        pausedOverlay.findViewById(R.id.btn_play).setOnClickListener(view -> {
+            pausedOverlay.setVisibility(View.GONE);
+            mPausedGame = false;
+        });
         pauseBtn.setOnClickListener(view -> {
-            //TODO
+            pausedOverlay.setVisibility(View.VISIBLE);
+            mPausedGame = true;
         });
 
         attackFirstBtn.setOnClickListener(view -> {
