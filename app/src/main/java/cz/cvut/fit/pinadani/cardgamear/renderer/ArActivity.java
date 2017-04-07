@@ -50,7 +50,7 @@ public class ArActivity extends AndroidApplication implements SessionControl {
         Log.d(LOGTAG, "onCreate");
 
         session = new AppSession(this);
-        session.initAR(this, ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        session.initAR(this, ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         mRenderer = new VuforiaRenderer(session);
 
         FrameLayout container = (FrameLayout) findViewById(R.id.ar_container);

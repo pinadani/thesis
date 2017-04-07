@@ -31,6 +31,7 @@ public class Engine extends Game {
     @Override
     public void create() {
         mDisplay = new Display(vuforiaRenderer);
+        mDisplay.setJoystick(joystick);
         mDisplay.getRenderer().setButtons(pauseBtn, joystick, attackFirstBtn, attackSecondBtn, defenceBtn);
         setScreen(mDisplay);
         vuforiaRenderer.initRendering();

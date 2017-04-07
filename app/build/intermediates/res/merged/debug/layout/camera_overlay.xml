@@ -17,7 +17,8 @@
         android:layout_height="50dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:rotation="90"
         android:background="@android:color/transparent"
         android:src="@drawable/ic_pause"/>
     
@@ -25,7 +26,6 @@
         android:id="@+id/joy1"
         android:layout_width="140dp"
         android:layout_height="140dp"
-        android:layout_alignParentBottom="true"
         android:layout_margin="10dp"
         app:buttonColor="#55ff0000"
         app:padColor="#55ffffff"/>
@@ -35,26 +35,25 @@
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
         android:layout_margin="20dp">
 
         <ImageButton
             android:id="@+id/btn_trinagle"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:background="@drawable/round_joystick_button_green"
+            android:rotation="90"
             android:src="@drawable/ic_triangle"/>
 
         <ImageButton
             android:id="@+id/btn_square"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
             android:layout_marginTop="30dp"
             android:background="@drawable/round_joystick_button_blue"
             android:src="@drawable/ic_square"/>
@@ -65,6 +64,7 @@
             android:layout_height="50dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
             android:background="@drawable/round_joystick_button_red"
             android:src="@drawable/ic_cross"/>
 

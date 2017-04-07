@@ -2,6 +2,7 @@ package cz.cvut.fit.pinadani.cardgamear.model;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g3d.loader.G3dModelLoader;
+import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.UBJsonReader;
 
 import java.util.ArrayList;
@@ -19,13 +20,22 @@ public class Model3DList {
 
     String[] modelNames = {"maxanim.g3db"};
 
+    Model3D mMyModel = null;
+
     public Model3DList() {
+        boolean firstModel = true;
         for (String name: modelNames) {
-            mModels.add(new Model3D(mModelLoader, name));
+            Model3D model3D = new Model3D(mModelLoader, name);
+            if(firstModel){
+                mMyModel = model3D;
+                firstModel = false;
+            }
+            mModels.add(mMyModel);
         }
     }
 
-    public void updateModels() {
+    public void updateModels(double angleDegrees, double power, Vector2 cameraPosition) {
+        mMyModel.updateByJoystick(angleDegrees, power, cameraPosition);
         float delta = Gdx.graphics.getDeltaTime();
         for (Model3D model: mModels) {
             model.update(delta);

@@ -9,6 +9,7 @@ import com.badlogic.gdx.graphics.g3d.Environment;
 import com.badlogic.gdx.graphics.g3d.ModelBatch;
 import com.badlogic.gdx.graphics.g3d.attributes.ColorAttribute;
 import com.badlogic.gdx.graphics.g3d.environment.DirectionalLight;
+import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.math.Vector3;
 import com.erz.joysticklibrary.JoyStick;
 import com.vuforia.Matrix44F;
@@ -37,8 +38,6 @@ public class Renderer {
     private Environment mEnvironment;
     private ModelBatch modelBatch;
     private VuforiaRenderer vuforiaRenderer;
-
-    Vector3 vector = new Vector3(400, 0, 0);
 
     public Renderer(VuforiaRenderer arRenderer) {
         mEnvironment = new Environment();
@@ -75,12 +74,12 @@ public class Renderer {
         gl.glEnable(GL20.GL_CULL_FACE);
 
 
-        setProjectionAndCamera(results, (float) Math.toDegrees(vuforiaRenderer.fieldOfViewRadians));
+        setProjectionAndCamera(results, (float) Math.toDegrees(vuforiaRenderer
+                .fieldOfViewRadians), models);
         modelBatch.begin(mCamera);
 
         gl.glDepthMask(true);
         for (Model3D model : models.getModels()) {
-            model.setFinishPosition(vector);
             modelBatch.render(model.getModel(), mEnvironment);
         }
 
@@ -91,7 +90,7 @@ public class Renderer {
         gl.glDisable(GL20.GL_BLEND);
     }
 
-    private void setProjectionAndCamera(TrackableResult[] trackables, float filedOfView) {
+    private void setProjectionAndCamera(TrackableResult[] trackables, float filedOfView, Model3DList models) {
 
         if (trackables != null && trackables.length > 0) {
             //transform all content
@@ -128,6 +127,8 @@ public class Renderer {
             mCamera.position.set(data[12], data[13], data[14]);
             mCamera.up.set(data[4], data[5], data[6]);
             mCamera.direction.set(data[8], data[9], data[10]);
+
+            models.updateModels(joystick.getAngleDegrees(), joystick.getPower(), new Vector2(data[4], data[5]));
             //update filed of view
             mCamera.fieldOfView = filedOfView;
 

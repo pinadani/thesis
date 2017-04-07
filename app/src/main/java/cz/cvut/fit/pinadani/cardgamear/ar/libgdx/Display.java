@@ -2,6 +2,7 @@ package cz.cvut.fit.pinadani.cardgamear.ar.libgdx;
 
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.g3d.ModelBatch;
+import com.erz.joysticklibrary.JoyStick;
 
 import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.VuforiaRenderer;
 import cz.cvut.fit.pinadani.cardgamear.model.Model3DList;
@@ -10,6 +11,8 @@ import cz.cvut.fit.pinadani.cardgamear.model.Model3DList;
  * Screen implementation responsible for model loading and calling renderer properly.
  */
 public class Display implements Screen {
+
+    JoyStick joystick;
 
     public Model3DList mModels;
     public ModelBatch modelBatch;
@@ -28,7 +31,6 @@ public class Display implements Screen {
 
     @Override
     public void render(float delta) {
-        mModels.updateModels();
         mRenderer.render(mModels);
     }
 
@@ -63,6 +65,9 @@ public class Display implements Screen {
 
     }
 
+    public void setJoystick(JoyStick joystick) {
+        this.joystick = joystick;
+    }
 
     public Renderer getRenderer() {
         return mRenderer;
