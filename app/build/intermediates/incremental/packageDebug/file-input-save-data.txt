@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Apr 07 06:02:13 CEST 2017
+#Fri Apr 07 08:30:01 CEST 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\transforms\\mergeJavaRes\\debug\\jars\\2\\1f\\main.jar\\build-data.properties
 14.set=ANDROID_RESOURCE

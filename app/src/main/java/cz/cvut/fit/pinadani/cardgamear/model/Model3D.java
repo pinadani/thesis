@@ -11,6 +11,8 @@ import com.badlogic.gdx.math.Quaternion;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.math.Vector3;
 
+import java.util.ArrayList;
+
 import cz.cvut.fit.pinadani.cardgamear.utils.Constants;
 
 public class Model3D {
@@ -40,6 +42,7 @@ public class Model3D {
 
     private float mSpeed = 200;
     private float mSpeedOfChangeDirection = 50;
+    private float mSpace = 120;
 
     private AnimationController mAnimationController;
 
@@ -89,13 +92,14 @@ public class Model3D {
     /**
      * Aktualizace pozice modelu
      *
-     * @param delta cas od posledni aktualizace
+     * @param delta  cas od posledni aktualizace
+     * @param models
      */
-    void update(float delta) {
+    void update(float delta, ArrayList<Model3D> models) {
         mAnimationController.update(delta);
 
         updateAngel(delta);
-        updatePosition(delta);
+        updatePosition(delta, models);
 
         //checkAchieve();
     }
@@ -113,9 +117,10 @@ public class Model3D {
     /**
      * Aktualizace pozice modelu. Zavisle na aktualni pozici, cilove pozici a uhlu modelu.
      *
-     * @param delta cas od posledni aktualizace
+     * @param delta  cas od posledni aktualizace
+     * @param models
      */
-    private void updatePosition(float delta) {
+    private void updatePosition(float delta, ArrayList<Model3D> models) {
         double angleCoefficient = getAngleCoefficient();
         double distanceCoefficient = getDistanceCoefficient();
         float x = (float) (Math.cos(Math.toRadians(mAngle)) * -1 * angleCoefficient *
@@ -124,6 +129,23 @@ public class Model3D {
                 distanceCoefficient * mSpeed * delta);
 
         mModel.transform.trn(x, y, 0);
+
+        if (detectCollissions(models)) {
+            mModel.transform.trn(-x, -y, 0);
+        }
+    }
+
+    private boolean detectCollissions(ArrayList<Model3D> models) {
+        for (Model3D model : models) {
+            if (model.getModel() != mModel) {
+                if (getDistanceBetweenTwoPoints(model.getModel().transform.getTranslation(new
+                        Vector3()), mModel.transform.getTranslation(new Vector3())) < model
+                        .getSpace() + mSpace) {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
     /**
@@ -176,6 +198,10 @@ public class Model3D {
     private double getDistanceBetweenTwoPoints(Vector3 actualPosition, Vector2 finishPosition) {
         return Math.sqrt(Math.pow((actualPosition.x - finishPosition.x), 2) + Math.pow(
                 (actualPosition.y - finishPosition.y), 2));
+    }
+
+    private double getDistanceBetweenTwoPoints(Vector3 firstPosition, Vector3 secondPosition) {
+        return getDistanceBetweenTwoPoints(firstPosition, new Vector2(secondPosition.x, secondPosition.y));
     }
 
     private double getAngleCoefficient() {
@@ -246,7 +272,7 @@ public class Model3D {
         }
     }
 
-    public String getNextAnim() {
+    private String getNextAnim() {
         if (mNextAnim == null) {
             return ANIMATION_STAND;
         }
@@ -255,7 +281,7 @@ public class Model3D {
         return nextAnim;
     }
 
-    public void setNextAnimation(String nextAnimation) {
-        mNextAnim = nextAnimation;
+    public float getSpace() {
+        return mSpace;
     }
 }

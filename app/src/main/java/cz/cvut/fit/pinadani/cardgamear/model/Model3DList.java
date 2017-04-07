@@ -18,7 +18,7 @@ public class Model3DList {
     // Create a model loader passing in our json reader
     G3dModelLoader mModelLoader = new G3dModelLoader(mJsonReader);
 
-    String[] modelNames = {"maxanim.g3db"};
+    String[] modelNames = {"maxanim.g3db", "maxanim.g3db"};
 
     Model3D mMyModel = null;
 
@@ -29,8 +29,10 @@ public class Model3DList {
             if(firstModel){
                 mMyModel = model3D;
                 firstModel = false;
+            } else {
+                mMyModel.getModel().transform.translate(100,0,0);
             }
-            mModels.add(mMyModel);
+            mModels.add(model3D);
         }
     }
 
@@ -38,7 +40,7 @@ public class Model3DList {
         mMyModel.updateByJoystick(angleDegrees, power, cameraPosition);
         float delta = Gdx.graphics.getDeltaTime();
         for (Model3D model: mModels) {
-            model.update(delta);
+            model.update(delta, mModels);
         }
     }
 
