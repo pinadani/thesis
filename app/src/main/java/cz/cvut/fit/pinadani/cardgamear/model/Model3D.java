@@ -17,14 +17,15 @@ import cz.cvut.fit.pinadani.cardgamear.utils.Constants;
 
 public class Model3D {
     private static final String ANIMATION_WALK = "walk";
-    public static final String ANIMATION_STAND = "dab";
+    public static final String ANIMATION_STAND = "stay";
     public static final String ANIMATION_ATTACK1 = "attack";
-    public static final String ANIMATION_ATTACK2 = "attack";
-    public static final String ANIMATION_DEFENCE = "defence";
+    public static final String ANIMATION_ATTACK2 = "attack2";
+    public static final String ANIMATION_DEFENCE_BEGIN = "defencebegin";
+    public static final String ANIMATION_DEFENCE_END = "defenceend";
     public static final String ANIMATION_WIN = "win";
     public static final String ANIMATION_DII = "die";
 
-    private static final float MODEL_SCALE = 8.0f;
+    private static final float MODEL_SCALE = 2f;
 
     private Vector2 mFinishPosition = new Vector2();
     /**

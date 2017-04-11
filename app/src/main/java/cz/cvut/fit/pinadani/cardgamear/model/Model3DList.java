@@ -18,7 +18,7 @@ public class Model3DList {
     // Create a model loader passing in our json reader
     G3dModelLoader mModelLoader = new G3dModelLoader(mJsonReader);
 
-    String[] modelNames = {"maxanim.g3db", "maxanim.g3db"};
+    String[] modelNames = {"charm3.g3db", "charm3.g3db"};
 
     Model3D mMyModel = null;
 
