@@ -12,7 +12,7 @@ import cz.cvut.fit.pinadani.cardgamear.model.Model3DList;
  */
 public class Display implements Screen {
 
-    JoyStick joystick;
+    private JoyStick joystick;
 
     public Model3DList mModels;
     public ModelBatch modelBatch;

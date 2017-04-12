@@ -24,22 +24,23 @@ public class Model3DList {
 
     public Model3DList() {
         boolean firstModel = true;
-        for (String name: modelNames) {
+        for (String name : modelNames) {
             Model3D model3D = new Model3D(mModelLoader, name);
-            if(firstModel){
+            if (firstModel) {
                 mMyModel = model3D;
                 firstModel = false;
             } else {
-                mMyModel.getModel().transform.translate(100,0,0);
+                mMyModel.getModel().transform.translate(400, 0, 0);
             }
             mModels.add(model3D);
         }
     }
 
-    public void updateModels(double angleDegrees, double power, Vector2 cameraPosition) {
+    public void updateModels(double angleDegrees, double power, boolean attackFirstClicked, boolean attackSecondClicked, boolean defenceClicked, Vector2 cameraPosition) {
+        mMyModel.updateByButtons(attackFirstClicked, attackSecondClicked, defenceClicked);
         mMyModel.updateByJoystick(angleDegrees, power, cameraPosition);
         float delta = Gdx.graphics.getDeltaTime();
-        for (Model3D model: mModels) {
+        for (Model3D model : mModels) {
             model.update(delta, mModels);
         }
     }

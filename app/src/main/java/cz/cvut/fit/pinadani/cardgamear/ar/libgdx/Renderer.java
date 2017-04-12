@@ -1,5 +1,6 @@
 package cz.cvut.fit.pinadani.cardgamear.ar.libgdx;
 
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -29,18 +30,22 @@ import cz.cvut.fit.pinadani.cardgamear.model.Model3DList;
  */
 public class Renderer {
 
-    ImageButton pauseBtn;
-    ImageButton attackFirstBtn;
-    ImageButton attackSecondBtn;
-    ImageButton defenceBtn;
-    View pausedOverlay;
+    private ImageButton pauseBtn;
+    private ImageButton attackFirstBtn;
+    private ImageButton attackSecondBtn;
+    private ImageButton defenceBtn;
+    private View pausedOverlay;
 
-    JoyStick joystick;
+    private JoyStick joystick;
 
     private PerspectiveCamera mCamera;
     private Environment mEnvironment;
     private ModelBatch modelBatch;
     private VuforiaRenderer vuforiaRenderer;
+
+    private boolean isAttackFirstDown = false;
+    private boolean isAttackSecondDown = false;
+    private boolean isDefenceDown = false;
 
     private boolean mPausedGame = false;
 
@@ -85,7 +90,13 @@ public class Renderer {
 
         gl.glDepthMask(true);
         for (Model3D model : models.getModels()) {
-            modelBatch.render(model.getModel(), mEnvironment);
+            if (model.isVisible()) {
+                modelBatch.render(model.getModel(), mEnvironment);
+            }
+            if (model.isVisibleBullet()) {
+                modelBatch.render(model.getBulletModel(), mEnvironment);
+                model.checkBulletCollision(models.getModels());
+            }
         }
 
         modelBatch.end();
@@ -134,7 +145,9 @@ public class Renderer {
             mCamera.direction.set(data[8], data[9], data[10]);
 
             if (!mPausedGame) {
-                models.updateModels(joystick.getAngleDegrees(), joystick.getPower(), new Vector2(data[4], data[5]));
+                models.updateModels(joystick.getAngleDegrees(), joystick.getPower(),
+                        isAttackFirstDown, isAttackSecondDown, isDefenceDown, new Vector2
+                                (data[4], data[5]));
             }
             //update filed of view
             mCamera.fieldOfView = filedOfView;
@@ -167,21 +180,55 @@ public class Renderer {
             pausedOverlay.setVisibility(View.GONE);
             mPausedGame = false;
         });
+
         pauseBtn.setOnClickListener(view -> {
             pausedOverlay.setVisibility(View.VISIBLE);
             mPausedGame = true;
         });
 
-        attackFirstBtn.setOnClickListener(view -> {
-            //TODO
+        attackFirstBtn.setOnTouchListener((view, motionEvent) -> {
+            switch (motionEvent.getAction()) {
+                case MotionEvent.ACTION_DOWN:
+                    isDefenceDown = false;
+                    isAttackSecondDown = false;
+                    isAttackFirstDown = true;
+                    break;
+
+                case MotionEvent.ACTION_UP:
+                    isAttackFirstDown = false;
+                    break;
+            }
+            return true;
         });
 
-        attackSecondBtn.setOnClickListener(view -> {
-            //TODO
+        attackSecondBtn.setOnTouchListener((view, motionEvent) -> {
+            switch (motionEvent.getAction()) {
+                case MotionEvent.ACTION_DOWN:
+                    isAttackFirstDown = false;
+                    isDefenceDown = false;
+                    isAttackSecondDown = true;
+                    break;
+
+                case MotionEvent.ACTION_UP:
+                    isAttackSecondDown = false;
+                    break;
+            }
+            return true;
         });
 
-        defenceBtn.setOnClickListener(view -> {
-            //TODO
+        defenceBtn.setOnTouchListener((view, motionEvent) -> {
+            switch (motionEvent.getAction()) {
+                case MotionEvent.ACTION_DOWN:
+                    isAttackFirstDown = false;
+                    isAttackSecondDown = false;
+                    isDefenceDown = true;
+                    break;
+
+                case MotionEvent.ACTION_UP:
+                    isDefenceDown = false;
+                    break;
+            }
+            return true;
         });
     }
 }

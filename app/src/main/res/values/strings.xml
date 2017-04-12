@@ -19,6 +19,7 @@
     <string name="INIT_LICENSE_ERROR_UNKNOWN_ERROR">Failed to initialize Vuforia.</string>
 
     <string name="vuforia_key">AYhKm7n/////AAAAGahKLdo9B0CmnlKK8ivIMSUe3MMyBS8kz9SaIEbIWFdDVptCnhuBpqIhGGY6LkJj9iROhcU9t6GnMvi+cI4kQehv8nlRTdLvzGiG1G3qh7lZRKOkDQHekALQckiQgfehP6Q3pS1Hgwn1uWzVeL/aSjhwE5cQrAW+Tu23HgOzE0FxpikUs5wg0yBHTWO+GMbm27CewBY7fM/HKBDf4tINziHwEftz3pxEDbED0tzJpv0FIpN6E6Jen+e0yqYAPmPVAyjC2CwUqgSrlo/wwMrckq/rOsfEOOqWc/iW7okVLMf4Y/IbIxOjU+fwYQc5hZJV5BLyjmXyo0nK18EDDpi7VJMXfpZ+RJ6xjQum5eyz4Nv1</string>
+    <string name="service_id">cz.cvut.fit.pinadani.cardgamear.service</string>
 
     <string name="hint_email">Email</string>
     <string name="login_hint_password">Heslo</string>
