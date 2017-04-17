@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+    android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/wifi"
+            style="@style/ConnectionButtons"
+            android:text="@string/wifi"/>
+
+        <TextView
+            android:id="@+id/bluetooth"
+            style="@style/ConnectionButtons"
+            android:text="@string/bluetooth"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/create_game"
+            style="@style/ConnectionButtons"
+            android:text="@string/create_game"/>
+
+        <TextView
+            android:id="@+id/connect_game"
+            style="@style/ConnectionButtons"
+            android:text="@string/connect_game"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_corners">
+        <Button
+            android:id="@+id/button_start"
+            style="@style/LoginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/button_start"
+            android:textSize="24sp"
+            android:textColor="#213247"/>
+    </FrameLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:visibility="gone">
+        <TextView
+            android:id="@+id/title_paired_devices"
+            style="@style/ConnectBluetoothTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_paired_devices"/>
+
+        <ListView
+            android:id="@+id/paired_devices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stackFromBottom="true"/>
+
+        <TextView
+            android:id="@+id/title_new_devices"
+            style="@style/ConnectBluetoothTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="@string/title_other_devices"/>
+
+        <ListView
+            android:id="@+id/new_devices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stackFromBottom="true"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_corners">
+            <Button
+                android:id="@+id/button_scan"
+                style="@style/LoginButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/button_scan"
+                android:textColor="#213247"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

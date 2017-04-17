@@ -72,7 +72,7 @@ public class MainMenuFragment extends BaseNucleusFragment<MainMenuPresenter> imp
 
     @OnClick(R.id.btn_multiplayer)
     public void onMultiPlayerBtnClicked() {
-        BaseFragmentActivity.startActivity(getActivity(), ConnectBluetoothFragment.class.getName());
+        BaseFragmentActivity.startActivity(getActivity(), ConnectionFragment.class.getName());
     }
 
     @OnClick(R.id.btn_singleplayer)

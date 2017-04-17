@@ -14,7 +14,8 @@
         android:layout_above="@+id/layout_login"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/icon"/>
+        android:src="@drawable/logo"
+    android:padding="60dp"/>
 
     <LinearLayout
         android:id="@+id/layout_login"

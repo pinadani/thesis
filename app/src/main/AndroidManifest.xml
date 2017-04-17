@@ -62,7 +62,7 @@
         android:theme="@style/AppTheme"
         >
 
-        <!-- Required for Nearby Connections API -->
+        <!-- Required for Nearby NearbyConnections API -->
         <meta-data android:name="com.google.android.gms.nearby.connection.SERVICE_ID"
                    android:value="@string/service_id" />
 

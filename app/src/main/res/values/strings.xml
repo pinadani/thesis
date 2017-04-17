@@ -80,4 +80,9 @@
     <string name="change_password_title">Změna hesla</string>
     <string name="password_update_success">Heslo bylo úspěšně změněno</string>
     <string name="password_update_fail">Při změně hesla se něco pokazilo</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="create_game">Vytvořit</string>
+    <string name="connect_game">Připojit se</string>
+    <string name="button_start">Start</string>
 </resources>
