@@ -4,6 +4,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.PerspectiveCamera;
@@ -35,6 +36,7 @@ public class Renderer {
     private ImageButton attackSecondBtn;
     private ImageButton defenceBtn;
     private View pausedOverlay;
+    RoundCornerProgressBar hpProgress;
 
     private JoyStick joystick;
 
@@ -97,6 +99,7 @@ public class Renderer {
                 modelBatch.render(model.getBulletModel(), mEnvironment);
                 model.checkBulletCollision(models.getModels());
             }
+            //updateHp(model.getHP(), model.getMaxHP());
         }
 
         modelBatch.end();
@@ -104,6 +107,11 @@ public class Renderer {
         gl.glDisable(GL20.GL_CULL_FACE);
         gl.glDisable(GL20.GL_DEPTH_TEST);
         gl.glDisable(GL20.GL_BLEND);
+    }
+
+    private void updateHp(int hp, int maxHp) {
+        hpProgress.setMax(maxHp);
+        hpProgress.setProgress(hp);
     }
 
     private void setProjectionAndCamera(TrackableResult[] trackables, float filedOfView, Model3DList models) {
@@ -164,13 +172,14 @@ public class Renderer {
         modelBatch.dispose();
     }
 
-    public void setButtons(ImageButton pauseBtn, JoyStick joystick, ImageButton attackFirstBtn, ImageButton attackSecondBtn, ImageButton defenceBtn, View pausedOverlay) {
+    public void setButtons(ImageButton pauseBtn, JoyStick joystick, ImageButton attackFirstBtn, ImageButton attackSecondBtn, ImageButton defenceBtn, View pausedOverlay, RoundCornerProgressBar hpProgress) {
         this.pauseBtn = pauseBtn;
         this.attackFirstBtn = attackFirstBtn;
         this.attackSecondBtn = attackSecondBtn;
         this.defenceBtn = defenceBtn;
         this.joystick = joystick;
         this.pausedOverlay = pausedOverlay;
+        this.hpProgress = hpProgress;
 
         setListeners();
     }

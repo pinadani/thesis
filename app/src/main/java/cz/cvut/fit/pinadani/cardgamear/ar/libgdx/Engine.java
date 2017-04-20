@@ -4,6 +4,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.graphics.FPSLogger;
 import com.erz.joysticklibrary.JoyStick;
@@ -19,6 +20,7 @@ public class Engine extends Game {
     ImageButton attackSecondBtn;
     ImageButton defenceBtn;
     View pausedOverlay;
+    RoundCornerProgressBar hpProgress;
 
     JoyStick joystick;
 
@@ -35,7 +37,7 @@ public class Engine extends Game {
         mDisplay = new Display(vuforiaRenderer);
         mDisplay.setJoystick(joystick);
         mDisplay.getRenderer().setButtons(pauseBtn, joystick, attackFirstBtn, attackSecondBtn,
-                defenceBtn, pausedOverlay);
+                defenceBtn, pausedOverlay, hpProgress);
         setScreen(mDisplay);
         vuforiaRenderer.initRendering();
         fps = new FPSLogger();
@@ -55,12 +57,13 @@ public class Engine extends Game {
         fps.log();
     }
 
-    public void setButtons(ImageButton pauseBtn, JoyStick joystick, ImageButton attackFirstBtn, ImageButton attackSecondBtn, ImageButton defenceBtn, View pausedOverlay) {
+    public void setButtons(ImageButton pauseBtn, JoyStick joystick, ImageButton attackFirstBtn, ImageButton attackSecondBtn, ImageButton defenceBtn, View pausedOverlay, RoundCornerProgressBar hpProgress) {
         this.pauseBtn = pauseBtn;
         this.attackFirstBtn = attackFirstBtn;
         this.attackSecondBtn = attackSecondBtn;
         this.defenceBtn = defenceBtn;
         this.joystick = joystick;
         this.pausedOverlay = pausedOverlay;
+        this.hpProgress = hpProgress;
     }
 }

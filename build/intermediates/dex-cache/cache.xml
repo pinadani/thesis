@@ -3,39 +3,30 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\Daniel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jar="C:\Users\Daniel\.android\build-cache\0ed916d4eaee34a1229f3de9c1ae11aa77d3a081\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.0_81ac64d6ef879767a88bc41f579bf777394a7810.jar" />
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_6f4a2ed3c7c3f0ba48236c9c57a07ed51748524e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.4.1\381fc1096ba65040d8e80ea43b2e1d9bad02345e\logging-interceptor-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="381fc1096ba65040d8e80ea43b2e1d9bad02345e">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\logging-interceptor-3.4.1_038ea7f93ed89789086abff3abc2e3ff5c1e11d2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\8dd4552b5943344a0b3da316e0a8434350d72d11\output\jars\classes.jar"
+        jar="C:\Users\Daniel\.android\build-cache\55c280e448ac80d685f00e3de55428e8c221fb0b\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_bc9be0ebe66e3e7ba6e1f6a98d123350feb7dc99.jar" />
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_c28ca1eac8a5df6ca166d892f286b29f3b01a7ac.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\1d22c39a0cfb2c21bb54a808f99e135561932483\output\jars\classes.jar"
+        jar="C:\Users\Daniel\.android\build-cache\e20c020ffe94d512f21e0a28ae4a24ec992239a6\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_58b571335f6c201a6cd14795bd1c3be9ba561173.jar" />
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_d3a0d41590448e39fd91014b10a36dcf00a6f05d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -48,66 +39,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Daniel\AndroidStudioProjects\diplomka\build\java\vuforia\Vuforia.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="22.0.1"
-        sha1="ea4d543e6035333459e815f2e49632cafa536b64">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\Vuforia_a8867adab70d356874f87a95863b53ba8474d232.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.5\293bbe05bfb5ca812c849e4d1f494f56509d5a6e\gdx-backend-android-1.9.5.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="22.0.1"
-        sha1="293bbe05bfb5ca812c849e4d1f494f56509d5a6e">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.5_160b55f03f0390f941aac226e09f1a793eab87f4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.1.0\693eddc23e87ab13f9cf5001707ce8e7e1d1ff01\adapter-rxjava-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\adapter-rxjava-2.1.0_0e0a1a49c87c6d93ed372822da5d013a25de2eb5.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.5\293bbe05bfb5ca812c849e4d1f494f56509d5a6e\gdx-backend-android-1.9.5.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="293bbe05bfb5ca812c849e4d1f494f56509d5a6e">
         <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.5_160b55f03f0390f941aac226e09f1a793eab87f4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\069931705e5565b202f1f6ab3e495cb2c2aa8832\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_ec1175be4033ff42544f69dca0aa1e5266d739d0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\d8232209ed4c12e1047c9fd76f060d6cd2e9a159\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_21776ad39cc82e8cf235e8404f03bde1b63a31f7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\8245803c02fa1597084388eda7917671e2d83722\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ffc09f4e5bdebe068e5101f587dadc42b60fbfe4">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_da61002637763234195154340925a55e371d8513.jar" />
     </item>
     <item
         is-multidex="false"
@@ -120,24 +57,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\559155dcff0da88c873b8f9b7d7f7c7504ee3d42\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="518768f3200963fbfec652f498da2c9d39245234">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_f8a4f734e0375bb8736f28ffad832482098d3a71.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\javax.inject-1_c0592d4889690ff85ac1bbaaf123c130f2e57ec8.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Daniel\.android\build-cache\e444ba845a0a0a5777e5f1dd500b7292d6fe2c2f\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -146,211 +65,112 @@
         <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_c4c6d11b546d6864af23f16181e049f6362a0332.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\1fb1ecc9d735c6bcf7e8b554d84fc49f415e0b80\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\okio-1.9.0_cb1d3d9f433e660e2635f4c23fe7bb732e0ece29.jar" />
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b7439b8c7d0c5b340800498166cca7c151ae6f8b\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\a178d319e5f39ebb84d321e60643f02b90c9e4fa\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\e20c020ffe94d512f21e0a28ae4a24ec992239a6\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_c88c124abe20c530b19838a61ea1e8b7b3eee5de.jar" />
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d3a0d41590448e39fd91014b10a36dcf00a6f05d\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="63994437f62bc861bc20c605d12962f7246116d1">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.4.1_b894408a2352d18e8dd0944f690648f00239fd18.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\da6210c4da1484691fcb969a7dd17021588fae11\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\0ed916d4eaee34a1229f3de9c1ae11aa77d3a081\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_7540cc93490ed0768e8b99f90c48abc92941b388.jar" />
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6f4a2ed3c7c3f0ba48236c9c57a07ed51748524e\classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Daniel\AndroidStudioProjects\diplomka\build\java\vuforia\Vuforia.jar"
+        jar="C:\Users\Daniel\.android\build-cache\3b47a8ac7689dc9252e131c24190c21545cc53dc\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="ea4d543e6035333459e815f2e49632cafa536b64">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\Vuforia_a8867adab70d356874f87a95863b53ba8474d232.jar" />
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_4fed2a5d2717aaeb5cc0b9fa15a03063bb2505b2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.google.dagger\dagger\2.0.2\de8416eda7b2fd7c25836b140c39e1cbf10542f6\dagger-2.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="de8416eda7b2fd7c25836b140c39e1cbf10542f6">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\dagger-2.0.2_483dce96e83c102e2952f563a4db311bab2e197c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.5\dc65bb2f51828c58b1b2b3ac585357204d54ee5f\gdx-1.9.5.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="22.0.1"
-        sha1="dc65bb2f51828c58b1b2b3ac585357204d54ee5f">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\gdx-1.9.5_8e4d5826e1cdb18f0e3f32348bb94e05bb24299c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\4d7055a2bf9bdfbcaf1c5b3fa3d9066bdb5d2c90\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_7f1adbe301efdfc62616f5a579849768fc94afdc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\info.android15.nucleus\nucleus\2.0.3\bad57f1d3c8d41bb8d9fc0d0504063deac583a20\nucleus-2.0.3.jar"
+        jar="C:\Users\Daniel\.android\build-cache\ef1f725780930baac72fc3852b88cd50b445299e\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="bad57f1d3c8d41bb8d9fc0d0504063deac583a20">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\nucleus-2.0.3_c65de13e09b47b349bbd01113134858fe4c8a896.jar" />
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_c964c6797c7a29f13c18ea08e6eab6d2dde48700.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.5\ece7b5d0870e66d8226dab6dcf47a2b12afff061\rxjava-1.1.5.jar"
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\3b47a8ac7689dc9252e131c24190c21545cc53dc\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\rxjava-1.1.5_a9ee6c6689c6dc4d79bdbef699ad0d2a05e4fcea.jar" />
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4fed2a5d2717aaeb5cc0b9fa15a03063bb2505b2\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\a2b6fe16dac0fae73cdf6220c7966bfd9b4e314a\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\ef1f725780930baac72fc3852b88cd50b445299e\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_b3a49e4a93c119d112f7e3ead5c39f55476dc297.jar" />
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c964c6797c7a29f13c18ea08e6eab6d2dde48700\classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\179a12ad490d03620f3a670fe3dfb2b6e0e82f8e\output\jars\classes.jar"
+        jar="C:\Users\Daniel\.android\build-cache\5b73945704c4426371b06e7ea7108f83e4d9fa4a\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_eb999a2af3507947d2dfc49218dd4efeb75d59a3.jar" />
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_c999fedc04789009809a66c174ae1f97da2323f6.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\0c58f32498697caf554f73b1a2bbed5ed2fb6cd0\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\5b73945704c4426371b06e7ea7108f83e4d9fa4a\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="217995104aae4cbe13bf45bff0c45e4b94171b36">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_42f9442e74cf237f22853850f0f481b1c0a94dd1.jar" />
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c999fedc04789009809a66c174ae1f97da2323f6\classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.5\dc65bb2f51828c58b1b2b3ac585357204d54ee5f\gdx-1.9.5.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="dc65bb2f51828c58b1b2b3ac585357204d54ee5f">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\gdx-1.9.5_8e4d5826e1cdb18f0e3f32348bb94e05bb24299c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\okio-1.9.0_cb1d3d9f433e660e2635f4c23fe7bb732e0ece29.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\ea815132287517e3981270181a2b07d73f497f94\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_434494a61a678dc05282716d5e85cc825f5258a7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\753955c7688f803931286122b4a9ada37d891d61\output\jars\classes.jar"
+        jar="C:\Users\Daniel\.android\build-cache\3ad65ec6c12455ad9d017ee7367fa6c0cb8b820e\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_3818cf681de777287a3684b63abb40405a2fc4e9.jar" />
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_8c3af90204f43a30aaa5d257dacab58b2970cea2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jar="C:\Users\Daniel\.android\build-cache\5ee85f5c3b9ef906f7e3c7761e616d1e4a6e35fa\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1_2827bbc1b76f9f3bc132f34ed45aff9f787736a3.jar" />
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_284868347308372535509e92a2c9b5836423aa15.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\gson-2.7_91a14602d1c4c1edf9a549adad1007e8666f98d4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.4.1\381fc1096ba65040d8e80ea43b2e1d9bad02345e\logging-interceptor-3.4.1.jar"
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\55c280e448ac80d685f00e3de55428e8c221fb0b\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="381fc1096ba65040d8e80ea43b2e1d9bad02345e">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\logging-interceptor-3.4.1_038ea7f93ed89789086abff3abc2e3ff5c1e11d2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_4b86d8ea366dd5427e6158f95f944079d87a9b91.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\f1286d880f78af50ebc74019a14ade57d5aa72b1\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_7c921c64da8f82409b3c05277118284757357176.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\90420ac42c85d96ed11ab4cdf1274c471f1ba21d\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_d13bc2346e4230e4752d0755cef377f1d35cdd67.jar" />
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c28ca1eac8a5df6ca166d892f286b29f3b01a7ac\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -360,6 +180,24 @@
         revision="25.0.2"
         sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
         <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_ec1175be4033ff42544f69dca0aa1e5266d739d0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\3ad65ec6c12455ad9d017ee7367fa6c0cb8b820e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8c3af90204f43a30aaa5d257dacab58b2970cea2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\5ee85f5c3b9ef906f7e3c7761e616d1e4a6e35fa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_284868347308372535509e92a2c9b5836423aa15\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -372,15 +210,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1_88a00613f517eb1d2521e13b50b301ec3b5db704.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
         jumboMode="false"
         optimize="true"
@@ -390,12 +219,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.5\dc65bb2f51828c58b1b2b3ac585357204d54ee5f\gdx-1.9.5.jar"
+        jar="C:\Users\Daniel\.android\build-cache\824feade38bef25614c428a5851ba94cde83e2e5\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="dc65bb2f51828c58b1b2b3ac585357204d54ee5f">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\gdx-1.9.5_8e4d5826e1cdb18f0e3f32348bb94e05bb24299c.jar" />
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_94a03b647b1ec81af9aa5c8fa2361e75519e98d0.jar" />
     </item>
     <item
         is-multidex="false"
@@ -407,49 +236,13 @@
         <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_434494a61a678dc05282716d5e85cc825f5258a7.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="63994437f62bc861bc20c605d12962f7246116d1">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.4.1_b894408a2352d18e8dd0944f690648f00239fd18.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\2329c26b922c061bb1e6b4ff3d962925cfb7e236\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_6e1de7eaaa77c6e52ccdd31aec4f7278e05fa5f8.jar" />
-    </item>
-    <item
         is-multidex="true"
-        jar="C:\Users\Daniel\AndroidStudioProjects\Vuforia2\samples\Card Game AR\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="b8e7484381770e8b32c1849e9e1925802894fb69">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\Vuforia2\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_749b49192f0c9a72fa3311f7b18a4f6322248d19\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\8245803c02fa1597084388eda7917671e2d83722\output\jars\classes.jar"
+        jar="C:\Users\Daniel\.android\build-cache\ea815132287517e3981270181a2b07d73f497f94\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="ffc09f4e5bdebe068e5101f587dadc42b60fbfe4">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_da61002637763234195154340925a55e371d8513.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\21fe6dbb63d2aca7e7d1baa2f21cbad8957d87e4\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_39283754b27bcc1b22339f5f3cdf372c680a3c10.jar" />
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_434494a61a678dc05282716d5e85cc825f5258a7\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -470,31 +263,31 @@
         <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_7f1adbe301efdfc62616f5a579849768fc94afdc.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\5eadeac7474c5d2f13d4fa1e169962b5ccdaa69e\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\4a0567d1d74dc28bee2c73d1da3b71ca50cb53f6\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_69bf1c7afdfffc0c8b1ea59cc37944bf6dd8b898.jar" />
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_69a0d5e03e3ad4905362560e678dd26110cdada5\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\2d1791a33b12317e7a926481a44bd54978963c42\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\229805b9fc4aa9ae7bd5be6183f9951e7f38c81d\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_d6b043f41abd0aef46bafe4d7a54ed86a4b9b69b.jar" />
+        sha1="cea3c0edbda1279bc261187fb3b6f874bfc841f4">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_19da236a85f5e6d35801141563b660d316f47dc5\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.5\293bbe05bfb5ca812c849e4d1f494f56509d5a6e\gdx-backend-android-1.9.5.jar"
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\4d7055a2bf9bdfbcaf1c5b3fa3d9066bdb5d2c90\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="293bbe05bfb5ca812c849e4d1f494f56509d5a6e">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.5_160b55f03f0390f941aac226e09f1a793eab87f4.jar" />
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7f1adbe301efdfc62616f5a579849768fc94afdc\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -506,31 +299,13 @@
         <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_69a0d5e03e3ad4905362560e678dd26110cdada5.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        is-multidex="true"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.google.dagger\dagger\2.0.2\de8416eda7b2fd7c25836b140c39e1cbf10542f6\dagger-2.0.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\gson-2.7_91a14602d1c4c1edf9a549adad1007e8666f98d4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\9083d61152f913cac671827ac0c05fa776b0df84\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_0d70f7e98d640096bd738a6dbccc4f5122cabe85.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\a2b6fe16dac0fae73cdf6220c7966bfd9b4e314a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_b3a49e4a93c119d112f7e3ead5c39f55476dc297.jar" />
+        sha1="de8416eda7b2fd7c25836b140c39e1cbf10542f6">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\dagger-2.0.2_483dce96e83c102e2952f563a4db311bab2e197c\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -540,15 +315,6 @@
         revision="25.0.2"
         sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
         <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_3818cf681de777287a3684b63abb40405a2fc4e9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\5523fc4c3907736c633f3a0ae50b5f4aaa00c663\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_2f01e6515598893136b044ff25c173dd8b1df574.jar" />
     </item>
     <item
         is-multidex="true"
@@ -561,57 +327,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\javax.inject-1_c0592d4889690ff85ac1bbaaf123c130f2e57ec8.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.google.dagger\dagger\2.0.2\de8416eda7b2fd7c25836b140c39e1cbf10542f6\dagger-2.0.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="de8416eda7b2fd7c25836b140c39e1cbf10542f6">
         <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\dagger-2.0.2_483dce96e83c102e2952f563a4db311bab2e197c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\da6210c4da1484691fcb969a7dd17021588fae11\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_7540cc93490ed0768e8b99f90c48abc92941b388.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\229805b9fc4aa9ae7bd5be6183f9951e7f38c81d\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cea3c0edbda1279bc261187fb3b6f874bfc841f4">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_19da236a85f5e6d35801141563b660d316f47dc5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.5\ece7b5d0870e66d8226dab6dcf47a2b12afff061\rxjava-1.1.5.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\rxjava-1.1.5_a9ee6c6689c6dc4d79bdbef699ad0d2a05e4fcea.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_4b86d8ea366dd5427e6158f95f944079d87a9b91.jar" />
     </item>
     <item
         is-multidex="false"
@@ -624,24 +345,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1_88a00613f517eb1d2521e13b50b301ec3b5db704.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_227033d2c7a27d61818695ee1c9484757a36329d.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\info.android15.nucleus\nucleus\2.0.3\bad57f1d3c8d41bb8d9fc0d0504063deac583a20\nucleus-2.0.3.jar"
         jumboMode="false"
         optimize="true"
@@ -651,12 +354,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\21fe6dbb63d2aca7e7d1baa2f21cbad8957d87e4\output\jars\classes.jar"
+        jar="C:\Users\Daniel\.android\build-cache\37a2534e54c5db133c8a3562f5c6d80cdf7c117d\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_39283754b27bcc1b22339f5f3cdf372c680a3c10.jar" />
+        revision="25.0.0"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_aff5218d47f5de936ae400deebadda14189448db.jar" />
     </item>
     <item
         is-multidex="false"
@@ -669,30 +372,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Daniel\AndroidStudioProjects\Vuforia2\build\java\vuforia\Vuforia.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="ea4d543e6035333459e815f2e49632cafa536b64">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\Vuforia2\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\2\Vuforia_0b1f5a425e44761fc84c20e81f5651b3f729e1df\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\f1286d880f78af50ebc74019a14ade57d5aa72b1\output\jars\classes.jar"
+        jar="C:\Users\Daniel\.android\build-cache\bb94ab8e0386250247465b2d7ffe367c399a7963\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_7c921c64da8f82409b3c05277118284757357176.jar" />
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_23101601066f830416bab10f528ba187078e52e3\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Daniel\.android\build-cache\e444ba845a0a0a5777e5f1dd500b7292d6fe2c2f\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\824feade38bef25614c428a5851ba94cde83e2e5\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_c4c6d11b546d6864af23f16181e049f6362a0332.jar" />
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_94a03b647b1ec81af9aa5c8fa2361e75519e98d0\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -723,12 +417,1479 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\37a2534e54c5db133c8a3562f5c6d80cdf7c117d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_aff5218d47f5de936ae400deebadda14189448db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\56ebfdd3d5a579e8d7f093179a9cdfb6f49ae188\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ccf90507743ffb01dac14e3a7b52f0a93c2634a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\bb94ab8e0386250247465b2d7ffe367c399a7963\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_23101601066f830416bab10f528ba187078e52e3.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\1d22c39a0cfb2c21bb54a808f99e135561932483\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_58b571335f6c201a6cd14795bd1c3be9ba561173\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.4.1\381fc1096ba65040d8e80ea43b2e1d9bad02345e\logging-interceptor-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="381fc1096ba65040d8e80ea43b2e1d9bad02345e">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\logging-interceptor-3.4.1_038ea7f93ed89789086abff3abc2e3ff5c1e11d2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\576b6fbc2da24450b34c2a39705aba293dedfaee\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_705c26f9df6b133b7141a97fd115d92c84a28740\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\8dd4552b5943344a0b3da316e0a8434350d72d11\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_bc9be0ebe66e3e7ba6e1f6a98d123350feb7dc99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\1d22c39a0cfb2c21bb54a808f99e135561932483\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_58b571335f6c201a6cd14795bd1c3be9ba561173.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\8708922f10c4a9f27532b5aefcad9e966ba74885\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_0ba9b1a9f008876dff049cc0c0570c0b92750a89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\AndroidStudioProjects\diplomka\build\java\vuforia\Vuforia.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="ea4d543e6035333459e815f2e49632cafa536b64">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\Vuforia_a8867adab70d356874f87a95863b53ba8474d232.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\559155dcff0da88c873b8f9b7d7f7c7504ee3d42\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f8a4f734e0375bb8736f28ffad832482098d3a71\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\8245803c02fa1597084388eda7917671e2d83722\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffc09f4e5bdebe068e5101f587dadc42b60fbfe4">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_da61002637763234195154340925a55e371d8513.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\559155dcff0da88c873b8f9b7d7f7c7504ee3d42\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_f8a4f734e0375bb8736f28ffad832482098d3a71.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\8708922f10c4a9f27532b5aefcad9e966ba74885\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0ba9b1a9f008876dff049cc0c0570c0b92750a89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\47767b1eb3e2598b19b8e2c3779590ba9f32eea7\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_50647b4c7a4612e42474d6bec1b0b0a381c8afb7\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\47767b1eb3e2598b19b8e2c3779590ba9f32eea7\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_50647b4c7a4612e42474d6bec1b0b0a381c8afb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\576b6fbc2da24450b34c2a39705aba293dedfaee\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_705c26f9df6b133b7141a97fd115d92c84a28740.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_88a00613f517eb1d2521e13b50b301ec3b5db704\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\82db62c4231ddb3b5161452701e12e756874497c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_67f4e31640a536c37bfbf0228acf2c3723eb257b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\a2b6fe16dac0fae73cdf6220c7966bfd9b4e314a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_b3a49e4a93c119d112f7e3ead5c39f55476dc297.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\82db62c4231ddb3b5161452701e12e756874497c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_67f4e31640a536c37bfbf0228acf2c3723eb257b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\a2b6fe16dac0fae73cdf6220c7966bfd9b4e314a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b3a49e4a93c119d112f7e3ead5c39f55476dc297\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_4b86d8ea366dd5427e6158f95f944079d87a9b91\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\999ed933ad6663b841db51c2b770fa5da1d6ea8d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_634c2156c0b16b6a0f87872cee7ae3e1842a4723\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\62c3c2d6199c9efea6a7c47b3c9ef13b721e7840\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_214e7d5522156c5035b98faf6109182b51ef8985\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\gson-2.7_91a14602d1c4c1edf9a549adad1007e8666f98d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_4b86d8ea366dd5427e6158f95f944079d87a9b91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\999ed933ad6663b841db51c2b770fa5da1d6ea8d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_634c2156c0b16b6a0f87872cee7ae3e1842a4723.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\62c3c2d6199c9efea6a7c47b3c9ef13b721e7840\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_214e7d5522156c5035b98faf6109182b51ef8985.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1_88a00613f517eb1d2521e13b50b301ec3b5db704.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\b118774c25f184f0c72c241ec41186ebc6a19afc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_c5f7157fd9d11feab59feffd0a429910817efd90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\0312a8ba8e8f81be93bd614c8c7a0e88c383714e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_5899605e137c055f2454d358fdc8c35a3d953f39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\8245803c02fa1597084388eda7917671e2d83722\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffc09f4e5bdebe068e5101f587dadc42b60fbfe4">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_da61002637763234195154340925a55e371d8513.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\8245803c02fa1597084388eda7917671e2d83722\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffc09f4e5bdebe068e5101f587dadc42b60fbfe4">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_da61002637763234195154340925a55e371d8513\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\0822eb900a5253fbc2d6badde722be736d4c29ad\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fd52ca19e4b7e6efaa19796216dbe336bf2ed168\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\0d4f7a7c36b7ec5940140075cd2671810875c385\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5b24b1ffbf4307c7989f0d2e04ddad66b850c182\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\171f796314dfdfdb27718099c9a298e10a699c1e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_468864630db8b8a1cdc75ef01cd54fcab3e9b573.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\0d4f7a7c36b7ec5940140075cd2671810875c385\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_5b24b1ffbf4307c7989f0d2e04ddad66b850c182.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\b118774c25f184f0c72c241ec41186ebc6a19afc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c5f7157fd9d11feab59feffd0a429910817efd90\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\gson-2.7_91a14602d1c4c1edf9a549adad1007e8666f98d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\9083d61152f913cac671827ac0c05fa776b0df84\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_0d70f7e98d640096bd738a6dbccc4f5122cabe85.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\171f796314dfdfdb27718099c9a298e10a699c1e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_468864630db8b8a1cdc75ef01cd54fcab3e9b573\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\0fe6a6a3d8507605a52a7bd53929764cbddbaa29\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_93c2a927cae5545e6eb32a58d0b8402c92bae2db.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\a97e32201c0f96153e4e9da5d8b17ecc6d6915cf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_254a250c58787102d449d126da7ae191a4d7c2da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\0fe6a6a3d8507605a52a7bd53929764cbddbaa29\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_93c2a927cae5545e6eb32a58d0b8402c92bae2db\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\70a30d9184e83a5dd312da4623bcba5bddc0ed86\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_1cac85cab17b0809124eed2cca0ae725a776ae5d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_91a14602d1c4c1edf9a549adad1007e8666f98d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\da6210c4da1484691fcb969a7dd17021588fae11\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_7540cc93490ed0768e8b99f90c48abc92941b388.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\229805b9fc4aa9ae7bd5be6183f9951e7f38c81d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cea3c0edbda1279bc261187fb3b6f874bfc841f4">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_19da236a85f5e6d35801141563b660d316f47dc5.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\9083d61152f913cac671827ac0c05fa776b0df84\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0d70f7e98d640096bd738a6dbccc4f5122cabe85\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1_88a00613f517eb1d2521e13b50b301ec3b5db704.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\0312a8ba8e8f81be93bd614c8c7a0e88c383714e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5899605e137c055f2454d358fdc8c35a3d953f39\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\70a30d9184e83a5dd312da4623bcba5bddc0ed86\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1cac85cab17b0809124eed2cca0ae725a776ae5d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\AndroidStudioProjects\Vuforia2\build\java\vuforia\Vuforia.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ea4d543e6035333459e815f2e49632cafa536b64">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\Vuforia2\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\2\Vuforia_0b1f5a425e44761fc84c20e81f5651b3f729e1df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\e7d3130965818dd1f9b0ae71c84dced52570d80a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2da0060967c068a9873eb68a38070e8d6a5483e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\8dd4552b5943344a0b3da316e0a8434350d72d11\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bc9be0ebe66e3e7ba6e1f6a98d123350feb7dc99\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\e7d3130965818dd1f9b0ae71c84dced52570d80a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_2da0060967c068a9873eb68a38070e8d6a5483e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\69f5b458a4cac2ca7fca055e040fdfd84516bb0f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_6c97d66985302493453335b7be105f0e2bdfe0eb.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\69f5b458a4cac2ca7fca055e040fdfd84516bb0f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6c97d66985302493453335b7be105f0e2bdfe0eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.1_2827bbc1b76f9f3bc132f34ed45aff9f787736a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\069931705e5565b202f1f6ab3e495cb2c2aa8832\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_ec1175be4033ff42544f69dca0aa1e5266d739d0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\40ce4deda8073d024883fd5c76dc37d75abd265e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="88c6386ad8356b89487b43bcaae4827b1abe999c">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4a358785da1f74f9c7b8752df9f38bf4f4deb141\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\d8232209ed4c12e1047c9fd76f060d6cd2e9a159\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_21776ad39cc82e8cf235e8404f03bde1b63a31f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\f878c58a962c4c733202d03a10e79e2dc0029360\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_298ae02e5db5f0cbf6e720d7ea94747b3a5c4900.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\179a12ad490d03620f3a670fe3dfb2b6e0e82f8e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_eb999a2af3507947d2dfc49218dd4efeb75d59a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\javax.inject-1_c0592d4889690ff85ac1bbaaf123c130f2e57ec8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\f878c58a962c4c733202d03a10e79e2dc0029360\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_298ae02e5db5f0cbf6e720d7ea94747b3a5c4900\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\069931705e5565b202f1f6ab3e495cb2c2aa8832\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ec1175be4033ff42544f69dca0aa1e5266d739d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\9613a8c87d9760b4956b68df9a989d7d1ddf918b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_134341e386e5dccb6c99ab420a85849c315d377f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\info.android15.nucleus\nucleus\2.0.3\bad57f1d3c8d41bb8d9fc0d0504063deac583a20\nucleus-2.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bad57f1d3c8d41bb8d9fc0d0504063deac583a20">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\nucleus-2.0.3_c65de13e09b47b349bbd01113134858fe4c8a896\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\a97e32201c0f96153e4e9da5d8b17ecc6d6915cf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_254a250c58787102d449d126da7ae191a4d7c2da.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\9613a8c87d9760b4956b68df9a989d7d1ddf918b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_134341e386e5dccb6c99ab420a85849c315d377f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\40ce4deda8073d024883fd5c76dc37d75abd265e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="88c6386ad8356b89487b43bcaae4827b1abe999c">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_4a358785da1f74f9c7b8752df9f38bf4f4deb141.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\da6210c4da1484691fcb969a7dd17021588fae11\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_7540cc93490ed0768e8b99f90c48abc92941b388.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.5\dc65bb2f51828c58b1b2b3ac585357204d54ee5f\gdx-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="dc65bb2f51828c58b1b2b3ac585357204d54ee5f">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\gdx-1.9.5_8e4d5826e1cdb18f0e3f32348bb94e05bb24299c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\info.android15.nucleus\nucleus\2.0.3\bad57f1d3c8d41bb8d9fc0d0504063deac583a20\nucleus-2.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bad57f1d3c8d41bb8d9fc0d0504063deac583a20">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\nucleus-2.0.3_c65de13e09b47b349bbd01113134858fe4c8a896.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\818b7e346b3abb605a6c62468ece17893fad41f0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_253905b75324d8293a63195c61f2b1d045b78237.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\818b7e346b3abb605a6c62468ece17893fad41f0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_253905b75324d8293a63195c61f2b1d045b78237\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\fce39dc3a73ecc2786e519accd811fbd03dec6c4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_d8986960d62d36a487bb35cba6099bc5ebb5e232.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\179a12ad490d03620f3a670fe3dfb2b6e0e82f8e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_eb999a2af3507947d2dfc49218dd4efeb75d59a3.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\fce39dc3a73ecc2786e519accd811fbd03dec6c4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d8986960d62d36a487bb35cba6099bc5ebb5e232\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\okio-1.9.0_cb1d3d9f433e660e2635f4c23fe7bb732e0ece29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\ea815132287517e3981270181a2b07d73f497f94\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_434494a61a678dc05282716d5e85cc825f5258a7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\a523ace203f0f410ace4d289d6214d3ac4ca8051\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_12ecf350282e3d984f9797f4dfa114bf8fb587ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1_2827bbc1b76f9f3bc132f34ed45aff9f787736a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.4.1\381fc1096ba65040d8e80ea43b2e1d9bad02345e\logging-interceptor-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="381fc1096ba65040d8e80ea43b2e1d9bad02345e">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\logging-interceptor-3.4.1_038ea7f93ed89789086abff3abc2e3ff5c1e11d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\f1286d880f78af50ebc74019a14ade57d5aa72b1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_7c921c64da8f82409b3c05277118284757357176.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\a523ace203f0f410ace4d289d6214d3ac4ca8051\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_12ecf350282e3d984f9797f4dfa114bf8fb587ba.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.4.1\381fc1096ba65040d8e80ea43b2e1d9bad02345e\logging-interceptor-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="381fc1096ba65040d8e80ea43b2e1d9bad02345e">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.4.1_038ea7f93ed89789086abff3abc2e3ff5c1e11d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\da6210c4da1484691fcb969a7dd17021588fae11\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7540cc93490ed0768e8b99f90c48abc92941b388\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\d7facc5caa137b97c0e7915ab05b3e535eafd2dc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_ec7ff2cf35b5ba9eae45d8a567f1acdb35a9b9fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\2329c26b922c061bb1e6b4ff3d962925cfb7e236\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_6e1de7eaaa77c6e52ccdd31aec4f7278e05fa5f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\21fe6dbb63d2aca7e7d1baa2f21cbad8957d87e4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_39283754b27bcc1b22339f5f3cdf372c680a3c10.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\aa75cfc54d50aad419cec36e51aa9fa10b2cce51\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f50374000254c8116936a37d94c7abe5a6fb2b4e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\21fe6dbb63d2aca7e7d1baa2f21cbad8957d87e4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_39283754b27bcc1b22339f5f3cdf372c680a3c10\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\aa75cfc54d50aad419cec36e51aa9fa10b2cce51\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_f50374000254c8116936a37d94c7abe5a6fb2b4e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\c5cd703fdbf4b92a7f2e9bfb26a045812a3ab31c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_01361ee60d624b8a447841ac7cb317e0b0e0474e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\a2b6fe16dac0fae73cdf6220c7966bfd9b4e314a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_b3a49e4a93c119d112f7e3ead5c39f55476dc297.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\c5cd703fdbf4b92a7f2e9bfb26a045812a3ab31c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_01361ee60d624b8a447841ac7cb317e0b0e0474e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\5523fc4c3907736c633f3a0ae50b5f4aaa00c663\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_2f01e6515598893136b044ff25c173dd8b1df574.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\d8232209ed4c12e1047c9fd76f060d6cd2e9a159\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_21776ad39cc82e8cf235e8404f03bde1b63a31f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.5\ece7b5d0870e66d8226dab6dcf47a2b12afff061\rxjava-1.1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\rxjava-1.1.5_a9ee6c6689c6dc4d79bdbef699ad0d2a05e4fcea.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\5523fc4c3907736c633f3a0ae50b5f4aaa00c663\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2f01e6515598893136b044ff25c173dd8b1df574\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_4b86d8ea366dd5427e6158f95f944079d87a9b91.jar" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Daniel\AndroidStudioProjects\Vuforia2\samples\Card Game AR\app\libs\jpct_ae.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="36a7a26e620771cb8506481b5bd4a69ded2b7c8a">
         <dex dex="C:\Users\Daniel\AndroidStudioProjects\Vuforia2\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\2\jpct_ae_c704530117a25d78698446c04cdeec5d4439fbb5\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\bfd72e67c7cafbdf1150e2a8a57744170e2dd105\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_624351c80ba08f9b5620cd4aed42569a14620699.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.0_81ac64d6ef879767a88bc41f579bf777394a7810.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\bfd72e67c7cafbdf1150e2a8a57744170e2dd105\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_624351c80ba08f9b5620cd4aed42569a14620699\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.5\293bbe05bfb5ca812c849e4d1f494f56509d5a6e\gdx-backend-android-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="293bbe05bfb5ca812c849e4d1f494f56509d5a6e">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.5_160b55f03f0390f941aac226e09f1a793eab87f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.1.0\693eddc23e87ab13f9cf5001707ce8e7e1d1ff01\adapter-rxjava-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\adapter-rxjava-2.1.0_0e0a1a49c87c6d93ed372822da5d013a25de2eb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\cf85ab7b247718f1b8def1fd5fd8b0a71848db18\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_b3d908b3793dbd5e04e2ed981911a15ae1597235.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\a178d319e5f39ebb84d321e60643f02b90c9e4fa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c88c124abe20c530b19838a61ea1e8b7b3eee5de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.1.0\693eddc23e87ab13f9cf5001707ce8e7e1d1ff01\adapter-rxjava-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava-2.1.0_0e0a1a49c87c6d93ed372822da5d013a25de2eb5\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\okio-1.9.0_cb1d3d9f433e660e2635f4c23fe7bb732e0ece29.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.0_81ac64d6ef879767a88bc41f579bf777394a7810\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\a178d319e5f39ebb84d321e60643f02b90c9e4fa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_c88c124abe20c530b19838a61ea1e8b7b3eee5de.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_cb1d3d9f433e660e2635f4c23fe7bb732e0ece29\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.4.1_b894408a2352d18e8dd0944f690648f00239fd18.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.5\ece7b5d0870e66d8226dab6dcf47a2b12afff061\rxjava-1.1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.5_a9ee6c6689c6dc4d79bdbef699ad0d2a05e4fcea\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\3eb8270ed8b3e02ba56b691ea38f801e290e1286\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_c7a1bb8d1e861e273924fad4084ddcedae84a955.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\47767b1eb3e2598b19b8e2c3779590ba9f32eea7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f8c735559e14cd36ffa005448495c4915a6cacd9\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\AndroidStudioProjects\diplomka\build\java\vuforia\Vuforia.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea4d543e6035333459e815f2e49632cafa536b64">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\Vuforia_a8867adab70d356874f87a95863b53ba8474d232.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.google.dagger\dagger\2.0.2\de8416eda7b2fd7c25836b140c39e1cbf10542f6\dagger-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de8416eda7b2fd7c25836b140c39e1cbf10542f6">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\dagger-2.0.2_483dce96e83c102e2952f563a4db311bab2e197c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\4d7055a2bf9bdfbcaf1c5b3fa3d9066bdb5d2c90\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_7f1adbe301efdfc62616f5a579849768fc94afdc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\47767b1eb3e2598b19b8e2c3779590ba9f32eea7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_f8c735559e14cd36ffa005448495c4915a6cacd9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.5\ece7b5d0870e66d8226dab6dcf47a2b12afff061\rxjava-1.1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\rxjava-1.1.5_a9ee6c6689c6dc4d79bdbef699ad0d2a05e4fcea.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\3eb8270ed8b3e02ba56b691ea38f801e290e1286\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c7a1bb8d1e861e273924fad4084ddcedae84a955\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\AndroidStudioProjects\diplomka\build\java\vuforia\Vuforia.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea4d543e6035333459e815f2e49632cafa536b64">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\2\Vuforia_a8867adab70d356874f87a95863b53ba8474d232\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\0c58f32498697caf554f73b1a2bbed5ed2fb6cd0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="217995104aae4cbe13bf45bff0c45e4b94171b36">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_42f9442e74cf237f22853850f0f481b1c0a94dd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.5\dc65bb2f51828c58b1b2b3ac585357204d54ee5f\gdx-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dc65bb2f51828c58b1b2b3ac585357204d54ee5f">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\gdx-1.9.5_8e4d5826e1cdb18f0e3f32348bb94e05bb24299c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\d7facc5caa137b97c0e7915ab05b3e535eafd2dc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ec7ff2cf35b5ba9eae45d8a567f1acdb35a9b9fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\753955c7688f803931286122b4a9ada37d891d61\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_3818cf681de777287a3684b63abb40405a2fc4e9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\753955c7688f803931286122b4a9ada37d891d61\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3818cf681de777287a3684b63abb40405a2fc4e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\90420ac42c85d96ed11ab4cdf1274c471f1ba21d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d13bc2346e4230e4752d0755cef377f1d35cdd67\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\90420ac42c85d96ed11ab4cdf1274c471f1ba21d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_d13bc2346e4230e4752d0755cef377f1d35cdd67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.5\dc65bb2f51828c58b1b2b3ac585357204d54ee5f\gdx-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dc65bb2f51828c58b1b2b3ac585357204d54ee5f">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\gdx-1.9.5_8e4d5826e1cdb18f0e3f32348bb94e05bb24299c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.4.1_b894408a2352d18e8dd0944f690648f00239fd18.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\AndroidStudioProjects\Vuforia2\samples\Card Game AR\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b8e7484381770e8b32c1849e9e1925802894fb69">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\Vuforia2\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_749b49192f0c9a72fa3311f7b18a4f6322248d19\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\101cc3d3803eea21ea7afa5ebf7df5f9dd2a6bf9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_d52674db12f97516e5e8d61541ee3167564e63d8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\5eadeac7474c5d2f13d4fa1e169962b5ccdaa69e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_69bf1c7afdfffc0c8b1ea59cc37944bf6dd8b898\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\0c58f32498697caf554f73b1a2bbed5ed2fb6cd0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="217995104aae4cbe13bf45bff0c45e4b94171b36">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_42f9442e74cf237f22853850f0f481b1c0a94dd1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\101cc3d3803eea21ea7afa5ebf7df5f9dd2a6bf9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d52674db12f97516e5e8d61541ee3167564e63d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.5\dc65bb2f51828c58b1b2b3ac585357204d54ee5f\gdx-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dc65bb2f51828c58b1b2b3ac585357204d54ee5f">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\gdx-1.9.5_8e4d5826e1cdb18f0e3f32348bb94e05bb24299c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.5\293bbe05bfb5ca812c849e4d1f494f56509d5a6e\gdx-backend-android-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="293bbe05bfb5ca812c849e4d1f494f56509d5a6e">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\gdx-backend-android-1.9.5_160b55f03f0390f941aac226e09f1a793eab87f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\5eadeac7474c5d2f13d4fa1e169962b5ccdaa69e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_69bf1c7afdfffc0c8b1ea59cc37944bf6dd8b898.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\2d1791a33b12317e7a926481a44bd54978963c42\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_d6b043f41abd0aef46bafe4d7a54ed86a4b9b69b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.5\293bbe05bfb5ca812c849e4d1f494f56509d5a6e\gdx-backend-android-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="293bbe05bfb5ca812c849e4d1f494f56509d5a6e">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.5_160b55f03f0390f941aac226e09f1a793eab87f4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\d6a210c0c61576518b55bfd52f51034b079736ab\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_79dfa9e851eed84dc2e9119c65b1279dba7969a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\2d1791a33b12317e7a926481a44bd54978963c42\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d6b043f41abd0aef46bafe4d7a54ed86a4b9b69b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\javax.inject-1_c0592d4889690ff85ac1bbaaf123c130f2e57ec8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_227033d2c7a27d61818695ee1c9484757a36329d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\javax.inject-1_c0592d4889690ff85ac1bbaaf123c130f2e57ec8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\f1286d880f78af50ebc74019a14ade57d5aa72b1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7c921c64da8f82409b3c05277118284757357176\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_227033d2c7a27d61818695ee1c9484757a36329d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\cf85ab7b247718f1b8def1fd5fd8b0a71848db18\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b3d908b3793dbd5e04e2ed981911a15ae1597235\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\21fe6dbb63d2aca7e7d1baa2f21cbad8957d87e4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_39283754b27bcc1b22339f5f3cdf372c680a3c10.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-urlconnection-3.4.1_b894408a2352d18e8dd0944f690648f00239fd18\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\f1286d880f78af50ebc74019a14ade57d5aa72b1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_7c921c64da8f82409b3c05277118284757357176.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\757a593e153eb1c0f620b0b5c0b4b99b415da161\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cd93ae885d6e7bcfe7b955a757df18b146df5120\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\e444ba845a0a0a5777e5f1dd500b7292d6fe2c2f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_c4c6d11b546d6864af23f16181e049f6362a0332.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\d6a210c0c61576518b55bfd52f51034b079736ab\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_79dfa9e851eed84dc2e9119c65b1279dba7969a6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\2329c26b922c061bb1e6b4ff3d962925cfb7e236\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6e1de7eaaa77c6e52ccdd31aec4f7278e05fa5f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.android\build-cache\757a593e153eb1c0f620b0b5c0b4b99b415da161\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\pre-dexed\debug\classes_cd93ae885d6e7bcfe7b955a757df18b146df5120.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Daniel\.android\build-cache\e444ba845a0a0a5777e5f1dd500b7292d6fe2c2f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c4c6d11b546d6864af23f16181e049f6362a0332\classes.dex" />
     </item>
 
 </items>

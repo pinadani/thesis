@@ -54,6 +54,9 @@ public class Model3D {
     private float mSpace = 120;
     private float mBulletSpace = 30;
 
+    private int mHP = 100;
+    private int mMaxHP = 100;
+
     private boolean mVisible = true;
     private boolean mVisibleBullet = false;
 
@@ -464,5 +467,21 @@ public class Model3D {
             }
         }
         return false;
+    }
+
+    public int getHP() {
+        return mHP;
+    }
+
+    public void setHP(int HP) {
+        mHP = HP;
+    }
+
+    public int getMaxHP() {
+        return mMaxHP;
+    }
+
+    public void setMaxHP(int maxHP) {
+        mMaxHP = maxHP;
     }
 }

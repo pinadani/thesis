@@ -189,6 +189,7 @@ ADDED from C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\a
 		ADDED from C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\src\main\AndroidManifest.xml:86:19-67
 uses-sdk
 INJECTED from C:\Users\Daniel\AndroidStudioProjects\diplomka\samples\Card Game AR\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Daniel\.android\build-cache\0822eb900a5253fbc2d6badde722be736d4c29ad\output\AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:design:25.3.0] C:\Users\Daniel\.android\build-cache\1d22c39a0cfb2c21bb54a808f99e135561932483\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\Daniel\.android\build-cache\4a0567d1d74dc28bee2c73d1da3b71ca50cb53f6\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.3.0] C:\Users\Daniel\.android\build-cache\56ebfdd3d5a579e8d7f093179a9cdfb6f49ae188\output\AndroidManifest.xml:20:5-44
@@ -258,6 +259,7 @@ MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Daniel\.a
 MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Daniel\.android\build-cache\a178d319e5f39ebb84d321e60643f02b90c9e4fa\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Daniel\.android\build-cache\559155dcff0da88c873b8f9b7d7f7c7504ee3d42\output\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Daniel\.android\build-cache\8dd4552b5943344a0b3da316e0a8434350d72d11\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.akexorcist:RoundCornerProgressBar:2.0.3] C:\Users\Daniel\.android\build-cache\40ce4deda8073d024883fd5c76dc37d75abd265e\output\AndroidManifest.xml:8:5-10:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.0] C:\Users\Daniel\.android\build-cache\1d22c39a0cfb2c21bb54a808f99e135561932483\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion

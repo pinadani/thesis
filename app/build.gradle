@@ -19,6 +19,7 @@ android {
         targetSdkVersion 22
         versionCode 1
         versionName "0.1"
+        multiDexEnabled true
     }
     archivesBaseName = rootProject.projectDir.getName()
     buildTypes {
@@ -97,6 +98,12 @@ dependencies {
 
     // connection
     compile "com.google.android.gms:play-services:${firebaseLibVersion}"
+
+    // HO status
+    compile 'com.akexorcist:RoundCornerProgressBar:2.0.3'
+
+    // multidex
+    compile 'com.android.support:multidex:1.0.1'
 
 }
 
