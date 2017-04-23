@@ -1,5 +1,6 @@
 package cz.cvut.fit.pinadani.cardgamear.ar.libgdx;
 
+import android.app.Activity;
 import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
@@ -38,11 +39,13 @@ import cz.cvut.fit.pinadani.cardgamear.utils.SerializationUtils;
  */
 public class Renderer {
 
+
     private ImageButton pauseBtn;
     private ImageButton attackFirstBtn;
     private ImageButton attackSecondBtn;
     private ImageButton defenceBtn;
-    private View pausedOverlay;
+    private View pausedMeOverlay;
+    private View pausedOponentOverlay;
     //RoundCornerProgressBar hpProgress;
 
     private JoyStick joystick;
@@ -57,11 +60,15 @@ public class Renderer {
     private boolean isAttackSecondDown = false;
     private boolean isDefenceDown = false;
 
-    private boolean mPausedGame = false;
+    private boolean mMyPausedGame = false;
+    private boolean mOponentPausedGame = false;
 
     private ModelState mModelState = null;
 
-    public Renderer(VuforiaRenderer arRenderer) {
+    private final Activity mActivity;
+
+    public Renderer(VuforiaRenderer arRenderer, Activity activity) {
+        mActivity = activity;
         mEnvironment = new Environment();
         mEnvironment.set(new ColorAttribute(ColorAttribute.AmbientLight, 0.4f, 0.4f, 0.4f, 1f));
         mEnvironment.add(new DirectionalLight().set(0.8f, 0.8f, 0.8f, -1f, -0.8f, -0.2f));
@@ -130,6 +137,19 @@ public class Renderer {
 
     private void setProjectionAndCamera(TrackableResult[] trackables, float filedOfView, Model3DList models) {
 
+        updateMyModelState(models.getModels().get(0), mMyPausedGame);
+        if (!mMyPausedGame) {
+            if (mModelState != null && mModelState.paused) {
+                mOponentPausedGame = true;
+                mActivity.runOnUiThread(() -> pausedOponentOverlay.setVisibility(View.VISIBLE));
+            } else {
+                mOponentPausedGame = false;
+                mActivity.runOnUiThread(() -> pausedOponentOverlay.setVisibility(View.GONE));
+            }
+        } else {
+            mActivity.runOnUiThread(() -> pausedMeOverlay.setVisibility(View.VISIBLE));
+        }
+
         if (trackables != null && trackables.length > 0) {
             //transform all content
             TrackableResult trackable = trackables[0];
@@ -166,12 +186,12 @@ public class Renderer {
             mCamera.up.set(data[4], data[5], data[6]);
             mCamera.direction.set(data[8], data[9], data[10]);
 
-            if (!mPausedGame) {
+            if (!mMyPausedGame && !mOponentPausedGame) {
                 models.updateModels(joystick.getAngleDegrees(), joystick.getPower(),
                         isAttackFirstDown, isAttackSecondDown, isDefenceDown, new Vector2
                                 (data[4], data[5]), mModelState);
-                updateMyModelState(models.getModels().get(0));
             }
+
             //update filed of view
             mCamera.fieldOfView = filedOfView;
 
@@ -183,9 +203,9 @@ public class Renderer {
         mCamera.update();
     }
 
-    private void updateMyModelState(Model3D model3D) {
+    private void updateMyModelState(Model3D model3D, boolean myPausedGame) {
         if (mBluetoothService != null) {
-            mBluetoothService.write(model3D.getStateBundle());
+            mBluetoothService.write(model3D.getStateBundle(myPausedGame));
         }
     }
 
@@ -195,27 +215,29 @@ public class Renderer {
 
     public void setButtons(ImageButton pauseBtn, JoyStick joystick, ImageButton attackFirstBtn,
                            ImageButton attackSecondBtn, ImageButton defenceBtn, View
-                                   pausedOverlay, ProgressBar hpProgress, Handler handler) {
+                                   pausedOverlay, View pausedOponentOverlay, ProgressBar
+                                   hpProgress, Handler handler) {
         this.pauseBtn = pauseBtn;
         this.attackFirstBtn = attackFirstBtn;
         this.attackSecondBtn = attackSecondBtn;
         this.defenceBtn = defenceBtn;
         this.joystick = joystick;
-        this.pausedOverlay = pausedOverlay;
+        this.pausedMeOverlay = pausedOverlay;
+        this.pausedOponentOverlay = pausedOponentOverlay;
         //this.hpProgress = hpProgress;
 
         setListeners();
     }
 
     private void setListeners() {
-        pausedOverlay.findViewById(R.id.btn_play).setOnClickListener(view -> {
-            pausedOverlay.setVisibility(View.GONE);
-            mPausedGame = false;
+        pausedMeOverlay.findViewById(R.id.btn_play).setOnClickListener(view -> {
+            pausedMeOverlay.setVisibility(View.GONE);
+            mMyPausedGame = false;
         });
 
         pauseBtn.setOnClickListener(view -> {
-            pausedOverlay.setVisibility(View.VISIBLE);
-            mPausedGame = true;
+            pausedMeOverlay.setVisibility(View.VISIBLE);
+            mMyPausedGame = true;
         });
 
         attackFirstBtn.setOnTouchListener((view, motionEvent) -> {

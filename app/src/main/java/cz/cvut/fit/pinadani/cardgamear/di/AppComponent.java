@@ -2,6 +2,7 @@ package cz.cvut.fit.pinadani.cardgamear.di;
 
 import javax.inject.Singleton;
 
+import cz.cvut.fit.pinadani.cardgamear.ar.libgdx.Display;
 import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.ChangePasswordPresenter;
 import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.ConnectionPresenter;
 import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.ForgotPasswordPresenter;
@@ -9,6 +10,7 @@ import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.LoginPresenter;
 import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.MainMenuPresenter;
 import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.ProfilePresenter;
 import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.SignUpPresenter;
+import cz.cvut.fit.pinadani.cardgamear.service.BluetoothService;
 import dagger.Component;
 
 /**
@@ -33,4 +35,8 @@ public interface AppComponent {
     void inject(ProfilePresenter profilePresenter);
 
     void inject(ChangePasswordPresenter changePasswordPresenter);
+
+    void inject(Display display);
+
+    void inject(BluetoothService bluetoothService);
 }

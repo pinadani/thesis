@@ -96,7 +96,7 @@ public class Model3D {
         mModel.transform.set(new Matrix4());
         mModel.transform.rotate(1.0F, 0.0F, 0.0F, 90.0F);
         mModel.transform.scale(MODEL_SCALE, MODEL_SCALE, MODEL_SCALE);
-
+        mFinishPosition = new Vector2(0,0);
         if (TextUtils.equals(name, "charm3.g3db")) {
             Model bulletModel = modelLoader.loadModel(Gdx.files.getFileHandle("fireball.g3db", Files
                     .FileType.Internal));
@@ -486,10 +486,12 @@ public class Model3D {
         mMaxHP = maxHP;
     }
 
-    public byte[] getStateBundle() {
+    public byte[] getStateBundle(boolean myPausedGame) {
         Vector3 actualPosition = mModel.transform.getTranslation(new Vector3());
         ModelState modelState = new ModelState(actualPosition.x, actualPosition.y, actualPosition
-                .z, mAngle, mHP);
+                .z, mFinishPosition.x, mFinishPosition.y, mAngle, mBulletAngle, mHP,  myPausedGame,
+                mVisibleBullet, mModel.transform.cpy());
+
         return SerializationUtils.serialize(modelState);
     }
 
@@ -500,5 +502,17 @@ public class Model3D {
         mAngle = modelState.angle;
         mHP = modelState.hp;
         mModel.transform.setTranslation(modelState.x, modelState.y, modelState.z);
+        mFinishPosition.set(modelState.finishX, modelState.finishY);
+        mBulletAngle = modelState.bulletAngle;
+        mVisibleBullet = modelState.visibleBullet;
+        mModel.transform.set(modelState.matrix4);
+    }
+
+    public void setAngle(int angle) {
+        mAngle = angle;
+    }
+
+    public void setFinishPosition(Vector2 position) {
+        mFinishPosition = position;
     }
 }

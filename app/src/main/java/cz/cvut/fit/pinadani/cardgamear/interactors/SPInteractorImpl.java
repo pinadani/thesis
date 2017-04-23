@@ -15,6 +15,7 @@ public class SPInteractorImpl implements ISPInteractor {
     private static final String ACCESS_TOKEN_KEY = "auth_token";
     private static final String USER_EMAIL_KEY = "user_email";
     private static final String USER_ID = "user_id";
+    private static final String START_PLAYER = "start_player";
 
     private SharedPreferences mSharedPreferences;
     private Context mCtx;
@@ -67,6 +68,16 @@ public class SPInteractorImpl implements ISPInteractor {
     @Override
     public void setBTHandler(Handler handler) {
         mHandler = handler;
+    }
+
+    @Override
+    public void setStartPlayer(boolean startPlayer) {
+        mSharedPreferences.edit().putBoolean(START_PLAYER, startPlayer).apply();
+    }
+
+    @Override
+    public boolean isStartPlayer() {
+        return mSharedPreferences.getBoolean(START_PLAYER, false);
     }
 
     @Override

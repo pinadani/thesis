@@ -69,6 +69,7 @@ public class ArActivity extends AndroidApplication implements SessionControl {
         ImageButton attackSecondBtn = (ImageButton) findViewById(R.id.btn_square);
         ImageButton defenceBtn = (ImageButton) findViewById(R.id.btn_cross);
         View pausedOverlay = findViewById(R.id.paused_overlay);
+        View pausedOponentOverlay = findViewById(R.id.paused_oponent_overlay);
         //RoundCornerProgressBar hpProgress = (RoundCornerProgressBar) findViewById(R.id.hp_status);
 
         AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
@@ -76,9 +77,9 @@ public class ArActivity extends AndroidApplication implements SessionControl {
         config.useCompass = false;
         //config.useGL20 = true;
 
-        mEngine = new Engine(mRenderer);
+        mEngine = new Engine(mRenderer, this);
         mEngine.setButtons(pauseBtn, joystick, attackFirstBtn, attackSecondBtn, defenceBtn,
-                pausedOverlay, null, mHandler);
+                pausedOverlay, pausedOponentOverlay, null, mHandler);
 
         View glView = initializeForView(mEngine, config);
 

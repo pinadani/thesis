@@ -1,5 +1,6 @@
 package cz.cvut.fit.pinadani.cardgamear.utils;
 
+
 import com.badlogic.gdx.utils.SerializationException;
 
 import java.io.ByteArrayInputStream;
@@ -178,7 +179,8 @@ public class SerializationUtils {
         } catch (ClassNotFoundException ex) {
             throw new SerializationException(ex);
         } catch (IOException ex) {
-            throw new SerializationException(ex);
+            //throw new SerializationException(ex);
+            return null;
         } finally {
             try {
                 if (in != null) {

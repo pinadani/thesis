@@ -1,16 +1,26 @@
 package cz.cvut.fit.pinadani.cardgamear.ar.libgdx;
 
+import android.app.Activity;
+
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.g3d.ModelBatch;
 import com.erz.joysticklibrary.JoyStick;
 
+import javax.inject.Inject;
+
 import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.VuforiaRenderer;
+import cz.cvut.fit.pinadani.cardgamear.interactors.ISPInteractor;
 import cz.cvut.fit.pinadani.cardgamear.model.Model3DList;
+import cz.cvut.fit.pinadani.cardgamear.utils.App;
 
 /**
  * Screen implementation responsible for model loading and calling renderer properly.
  */
 public class Display implements Screen {
+
+
+    @Inject
+    ISPInteractor mSpInteractor;
 
     private JoyStick joystick;
 
@@ -19,13 +29,14 @@ public class Display implements Screen {
 
     private Renderer mRenderer;
 
-    public Display(VuforiaRenderer vuforiaRenderer) {
+    public Display(VuforiaRenderer vuforiaRenderer, Activity activity) {
+        App.getAppComponent().inject(this);
 
         modelBatch = new ModelBatch();
 
-        mModels = new Model3DList();
+        mModels = new Model3DList(mSpInteractor.isStartPlayer());
 
-        mRenderer = new Renderer(vuforiaRenderer);
+        mRenderer = new Renderer(vuforiaRenderer, activity);
     }
 
 

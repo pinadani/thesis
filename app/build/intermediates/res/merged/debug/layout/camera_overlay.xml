@@ -59,14 +59,14 @@
     </RelativeLayout>
 
     <!--<com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar-->
-        <!--android:id="@+id/hp_status"-->
-        <!--android:layout_width="200dp"-->
-        <!--android:layout_height="30dp"-->
-        <!--app:rcProgress="100"-->
-        <!--app:rcMax="100"-->
-        <!--app:rcRadius="5dp"-->
-        <!--app:rcReverse="true"-->
-        <!--app:rcProgressColor="@color/holo_red_light_50_alpha" />-->
+    <!--android:id="@+id/hp_status"-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="30dp"-->
+    <!--app:rcProgress="100"-->
+    <!--app:rcMax="100"-->
+    <!--app:rcRadius="5dp"-->
+    <!--app:rcReverse="true"-->
+    <!--app:rcProgressColor="@color/holo_red_light_50_alpha" />-->
 
     <ImageButton
         android:id="@+id/btn_pause"
@@ -96,6 +96,25 @@
             android:background="@android:color/transparent"
             android:rotation="90"
             android:src="@drawable/ic_play"
+        />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/paused_oponent_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_75_alpha"
+        android:clickable="true"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="90"
+            android:text="@string/paused"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
         />
     </RelativeLayout>
 

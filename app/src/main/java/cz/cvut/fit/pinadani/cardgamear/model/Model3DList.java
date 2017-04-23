@@ -23,7 +23,7 @@ public class Model3DList {
     Model3D mMyModel = null;
     Model3D mOponentModel = null;
 
-    public Model3DList() {
+    public Model3DList(boolean startPlayer) {
         boolean firstModel = true;
         for (String name : modelNames) {
             Model3D model3D = new Model3D(mModelLoader, name);
@@ -32,9 +32,18 @@ public class Model3DList {
                 firstModel = false;
             } else {
                 mOponentModel = model3D;
-                mOponentModel.getModel().transform.translate(400, 0, 0);
             }
             mModels.add(model3D);
+        }
+
+        if(startPlayer){
+            mOponentModel.getModel().transform.translate(0, 0, 400);
+            mOponentModel.setFinishPosition(new Vector2(0,400));
+            //mOponentModel.setAngle(270);
+        } else {
+            mMyModel.getModel().transform.translate(0, 0, 400);
+            mMyModel.setFinishPosition(new Vector2(0,400));
+           // mOponentModel.setAngle(270);
         }
     }
 

@@ -15,7 +15,11 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.UUID;
 
+import javax.inject.Inject;
+
 import cz.cvut.fit.pinadani.cardgamear.ar.libgdx.Renderer;
+import cz.cvut.fit.pinadani.cardgamear.interactors.ISPInteractor;
+import cz.cvut.fit.pinadani.cardgamear.utils.App;
 import cz.cvut.fit.pinadani.cardgamear.utils.Constants;
 
 /**
@@ -23,6 +27,11 @@ import cz.cvut.fit.pinadani.cardgamear.utils.Constants;
  * Created by JMENO_PRIJMENI[jmeno.prijmeni@ackee.cz] on {4/2/2017}
  **/
 public class BluetoothService {
+
+
+    @Inject
+    ISPInteractor mSpInteractor;
+
     // Debugging
     private static final String TAG = "BluetoothService";
 
@@ -33,8 +42,6 @@ public class BluetoothService {
     // Unique UUID for this application
     private static final UUID MY_UUID_SECURE =
             UUID.fromString("3874b435-4386-49ec-a8a7-5adb247eb0b6");
-    private static final UUID MY_UUID_INSECURE =
-            UUID.fromString("8ce255c0-200a-11e0-ac64-0800200c9a66");
 
     // Member fields
     private final BluetoothAdapter mAdapter;
@@ -60,6 +67,8 @@ public class BluetoothService {
      * @param handler A Handler to send messages back to the UI Activity
      */
     public BluetoothService(Context context, Handler handler) {
+
+        App.getAppComponent().inject(this);
         mAdapter = BluetoothAdapter.getDefaultAdapter();
         mState = STATE_NONE;
         mNewState = mState;
@@ -318,6 +327,7 @@ public class BluetoothService {
                     Log.e(TAG, "Socket Type: " + "Secure" + "accept() failed", e);
                     break;
                 }
+                mSpInteractor.setStartPlayer(false);
 
                 // If a connection was accepted
                 if (socket != null) {
@@ -405,7 +415,7 @@ public class BluetoothService {
                 connectionFailed();
                 return;
             }
-
+            mSpInteractor.setStartPlayer(true);
             // Reset the ConnectThread because we're done
             synchronized (BluetoothService.this) {
                 mConnectThread = null;

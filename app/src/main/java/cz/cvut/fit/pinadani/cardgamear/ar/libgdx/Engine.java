@@ -1,5 +1,6 @@
 package cz.cvut.fit.pinadani.cardgamear.ar.libgdx;
 
+import android.app.Activity;
 import android.os.Handler;
 import android.util.Log;
 import android.view.View;
@@ -22,6 +23,7 @@ public class Engine extends Game {
     ImageButton attackSecondBtn;
     ImageButton defenceBtn;
     View pausedOverlay;
+    View pausedOponentOverlay;
     //RoundCornerProgressBar hpProgress;
 
     JoyStick joystick;
@@ -30,17 +32,19 @@ public class Engine extends Game {
     private FPSLogger fps;
     private VuforiaRenderer vuforiaRenderer;
     private Display mDisplay;
+    private Activity mActivity;
 
-    public Engine(VuforiaRenderer vuforiaRenderer) {
+    public Engine(VuforiaRenderer vuforiaRenderer, Activity activity) {
         this.vuforiaRenderer = vuforiaRenderer;
+        this.mActivity = activity;
     }
 
     @Override
     public void create() {
-        mDisplay = new Display(vuforiaRenderer);
+        mDisplay = new Display(vuforiaRenderer, mActivity);
         mDisplay.setJoystick(joystick);
         mDisplay.getRenderer().setButtons(pauseBtn, joystick, attackFirstBtn, attackSecondBtn,
-                defenceBtn, pausedOverlay, null, mHandler);
+                defenceBtn, pausedOverlay, pausedOponentOverlay, null, mHandler);
         setScreen(mDisplay);
         vuforiaRenderer.initRendering();
         fps = new FPSLogger();
@@ -62,13 +66,14 @@ public class Engine extends Game {
 
     public void setButtons(ImageButton pauseBtn, JoyStick joystick, ImageButton attackFirstBtn,
                            ImageButton attackSecondBtn, ImageButton defenceBtn, View
-                                   pausedOverlay, ProgressBar hpProgress, Handler handler) {
+                                   pausedOverlay, View pausedOponentOverlay, ProgressBar hpProgress, Handler handler) {
         this.pauseBtn = pauseBtn;
         this.attackFirstBtn = attackFirstBtn;
         this.attackSecondBtn = attackSecondBtn;
         this.defenceBtn = defenceBtn;
         this.joystick = joystick;
         this.pausedOverlay = pausedOverlay;
+        this.pausedOponentOverlay = pausedOponentOverlay;
         //this.hpProgress = hpProgress;
         this.mHandler = handler;
     }

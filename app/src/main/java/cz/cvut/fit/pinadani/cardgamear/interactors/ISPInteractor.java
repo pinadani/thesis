@@ -27,4 +27,8 @@ public interface ISPInteractor {
     Handler getBTHandler();
 
     void setBTHandler(Handler handler);
+
+    void setStartPlayer(boolean startPlayer);
+
+    boolean isStartPlayer();
 }
