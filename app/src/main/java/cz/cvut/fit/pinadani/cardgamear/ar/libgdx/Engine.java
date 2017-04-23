@@ -1,10 +1,12 @@
 package cz.cvut.fit.pinadani.cardgamear.ar.libgdx;
 
+import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ProgressBar;
 
-import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
+//import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.graphics.FPSLogger;
 import com.erz.joysticklibrary.JoyStick;
@@ -20,9 +22,10 @@ public class Engine extends Game {
     ImageButton attackSecondBtn;
     ImageButton defenceBtn;
     View pausedOverlay;
-    RoundCornerProgressBar hpProgress;
+    //RoundCornerProgressBar hpProgress;
 
     JoyStick joystick;
+    Handler mHandler;
 
     private FPSLogger fps;
     private VuforiaRenderer vuforiaRenderer;
@@ -37,7 +40,7 @@ public class Engine extends Game {
         mDisplay = new Display(vuforiaRenderer);
         mDisplay.setJoystick(joystick);
         mDisplay.getRenderer().setButtons(pauseBtn, joystick, attackFirstBtn, attackSecondBtn,
-                defenceBtn, pausedOverlay, hpProgress);
+                defenceBtn, pausedOverlay, null, mHandler);
         setScreen(mDisplay);
         vuforiaRenderer.initRendering();
         fps = new FPSLogger();
@@ -57,13 +60,16 @@ public class Engine extends Game {
         fps.log();
     }
 
-    public void setButtons(ImageButton pauseBtn, JoyStick joystick, ImageButton attackFirstBtn, ImageButton attackSecondBtn, ImageButton defenceBtn, View pausedOverlay, RoundCornerProgressBar hpProgress) {
+    public void setButtons(ImageButton pauseBtn, JoyStick joystick, ImageButton attackFirstBtn,
+                           ImageButton attackSecondBtn, ImageButton defenceBtn, View
+                                   pausedOverlay, ProgressBar hpProgress, Handler handler) {
         this.pauseBtn = pauseBtn;
         this.attackFirstBtn = attackFirstBtn;
         this.attackSecondBtn = attackSecondBtn;
         this.defenceBtn = defenceBtn;
         this.joystick = joystick;
         this.pausedOverlay = pausedOverlay;
-        this.hpProgress = hpProgress;
+        //this.hpProgress = hpProgress;
+        this.mHandler = handler;
     }
 }

@@ -1,5 +1,6 @@
 package cz.cvut.fit.pinadani.cardgamear.ui.fragment;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -27,6 +28,7 @@ import cz.cvut.fit.pinadani.cardgamear.R;
 import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.ConnectionPresenter;
 import cz.cvut.fit.pinadani.cardgamear.mvp.view.IConnectionView;
 import cz.cvut.fit.pinadani.cardgamear.service.NearbyConnections;
+import cz.cvut.fit.pinadani.cardgamear.ui.activity.DeviceListActivity;
 import cz.cvut.fit.pinadani.cardgamear.ui.fragment.base.BaseNucleusFragment;
 import cz.cvut.fit.pinadani.cardgamear.ui.fragment.dialog.DeviceListDialog;
 import nucleus.factory.RequiresPresenter;
@@ -134,6 +136,31 @@ public class ConnectionFragment extends BaseNucleusFragment<ConnectionPresenter>
         getActivity().unregisterReceiver(mReceiver);
     }
 
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        switch (requestCode) {
+            case ConnectionPresenter.REQUEST_CONNECT_DEVICE_SECURE:
+                // When DeviceListActivity returns with a device to connect
+                if (resultCode == Activity.RESULT_OK) {
+                    getPresenter().connectDevice(data.getExtras()
+                            .getString(DeviceListActivity.EXTRA_DEVICE_ADDRESS));
+                }
+                break;
+
+//            case REQUEST_ENABLE_BT:
+//                // When the request to enable Bluetooth returns
+//                if (resultCode == Activity.RESULT_OK) {
+//                    // Bluetooth is now enabled, so set up a chat session
+//                    setupChat();
+//                } else {
+//                    // User did not enable Bluetooth or an error occurred
+//                    Log.d(TAG, "BT not enabled");
+//                    Toast.makeText(getActivity(), R.string.bt_not_enabled_leaving,
+//                            Toast.LENGTH_SHORT).show();
+//                    getActivity().finish();
+//                }
+        }
+    }
+
     /**
      * The BroadcastReceiver that listens for discovered devices and changes the title when
      * discovery is finished
@@ -175,12 +202,6 @@ public class ConnectionFragment extends BaseNucleusFragment<ConnectionPresenter>
     @Override
     protected void initAB() {
         baseSettingsAB();
-    }
-
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-//        getPresenter().onActivityResult(requestCode, resultCode, data);
     }
 
     @Override
@@ -299,9 +320,9 @@ public class ConnectionFragment extends BaseNucleusFragment<ConnectionPresenter>
             }
         } else {
             if(mCreateGameTV.getTypeface() == Typeface.DEFAULT_BOLD) {
-                getPresenter().createBluetooth();
+                getPresenter().createBluetooth(getActivity());
             } else {
-                getPresenter().connectBluetooth();
+                getPresenter().connectBluetooth(getFragmentActivity());
             }
         }
     }

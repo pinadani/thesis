@@ -2,6 +2,7 @@ package cz.cvut.fit.pinadani.cardgamear.mvp.presenter;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -15,9 +16,14 @@ import android.widget.Toast;
 
 import java.util.Set;
 
+import javax.inject.Inject;
+
+import cz.cvut.fit.pinadani.cardgamear.interactors.ISPInteractor;
 import cz.cvut.fit.pinadani.cardgamear.mvp.view.IConnectionView;
+import cz.cvut.fit.pinadani.cardgamear.renderer.ArActivity;
 import cz.cvut.fit.pinadani.cardgamear.service.BluetoothService;
 import cz.cvut.fit.pinadani.cardgamear.service.NearbyConnections;
+import cz.cvut.fit.pinadani.cardgamear.ui.activity.DeviceListActivity;
 import cz.cvut.fit.pinadani.cardgamear.utils.App;
 import cz.cvut.fit.pinadani.cardgamear.utils.Constants;
 
@@ -28,7 +34,7 @@ public class ConnectionPresenter extends BasePresenter<IConnectionView> {
     public static final String TAG = ConnectionPresenter.class.getName();
 
     // Intent request codes
-    private static final int REQUEST_CONNECT_DEVICE_SECURE = 1;
+    public static final int REQUEST_CONNECT_DEVICE_SECURE = 1;
     private static final int REQUEST_CONNECT_DEVICE_INSECURE = 2;
     private static final int REQUEST_ENABLE_BT = 3;
 
@@ -61,6 +67,9 @@ public class ConnectionPresenter extends BasePresenter<IConnectionView> {
 
     private NearbyConnections mWifiService = null;
 
+    @Inject
+    ISPInteractor mSpInteractor;
+
     @Override
     protected void onCreate(Bundle savedState) {
         super.onCreate(savedState);
@@ -81,6 +90,10 @@ public class ConnectionPresenter extends BasePresenter<IConnectionView> {
 
         if(mWifiService == null) {
             mWifiService = new NearbyConnections(connectionView);
+        }
+
+        if((mBluetoothService != null) && (mBluetoothService.getState() != 0)) {
+            //mBluetoothService.stop();
         }
 
         if (mBluetoothService == null) {
@@ -126,6 +139,14 @@ public class ConnectionPresenter extends BasePresenter<IConnectionView> {
                         if (null != activity) {
                             Toast.makeText(activity, "Connected to "
                                     + mConnectedDeviceName, Toast.LENGTH_SHORT).show();
+
+                            // Launch the DeviceListActivity to see devices and do scan
+                            ((App)App.getContext()).setHandler(mHandler);
+                            ((App)App.getContext()).setBluetoothService(mBluetoothService);
+
+                            Intent multiPlayerIntent = new Intent(activity, ArActivity.class);
+                            multiPlayerIntent.putExtra(Constants.SINGLE_PLAYER, false);
+                            activity.startActivity(multiPlayerIntent);
                         }
                         break;
                     case Constants.MESSAGE_TOAST:
@@ -134,10 +155,41 @@ public class ConnectionPresenter extends BasePresenter<IConnectionView> {
                                     Toast.LENGTH_SHORT).show();
                         }
                         break;
+                    case Constants.MESSAGE_WRITE:
+                        byte[] writeBuf = (byte[]) msg.obj;
+                        // construct a string from the buffer
+                        String writeMessage = new String(writeBuf);
+                        mConversationArrayAdapter.add("Me:  " + writeMessage);
+                        break;
+                    case Constants.MESSAGE_READ:
+                        byte[] readBuf = (byte[]) msg.obj;
+                        // construct a string from the valid bytes in the buffer
+                        String readMessage = new String(readBuf, 0, msg.arg1);
+                        mConversationArrayAdapter.add(mConnectedDeviceName + ":  " + readMessage);
+                        break;
                 }
+            } else {
+
             }
         }
     };
+
+    /**
+            * Sends a message.
+     *
+             * @param message A string of text to send.
+     */
+    private void sendMessage(String message) {
+        // Check that there's actually something to send
+        if (message.length() > 0) {
+            // Get the message bytes and tell the BluetoothChatService to write
+            byte[] send = message.getBytes();
+            mBluetoothService.write(send);
+
+            // Reset out string buffer to zero and clear the edit text field
+            mOutStringBuffer.setLength(0);
+        }
+    }
 
     /**
      * Start device discover with the BluetoothAdapter
@@ -180,23 +232,30 @@ public class ConnectionPresenter extends BasePresenter<IConnectionView> {
      *
      * @param address device MAC address
      */
-    private void connectDevice(String address) {
+    public void connectDevice(String address) {
         // Get the BluetoothDevice object
         BluetoothDevice device = mBluetoothAdapter.getRemoteDevice(address);
         // Attempt to connect to the device
-        mBluetoothService.connect(device);
+        mBluetoothService.connect(device, true);
     }
 
     public AdapterView.OnItemClickListener getDeviceClickListener() {
         return mDeviceClickListener;
     }
 
-    public void createBluetooth() {
-
+    public void createBluetooth(FragmentActivity activity) {
+// Launch the DeviceListActivity to see devices and do scan
+        Intent serverIntent = new Intent(activity, DeviceListActivity.class);
+        activity.startActivityForResult(serverIntent, REQUEST_CONNECT_DEVICE_SECURE);
     }
 
-    public void connectBluetooth() {
-
+    public void connectBluetooth(FragmentActivity activity) {
+        if (mBluetoothAdapter.getScanMode() !=
+                BluetoothAdapter.SCAN_MODE_CONNECTABLE_DISCOVERABLE) {
+            Intent discoverableIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_DISCOVERABLE);
+            discoverableIntent.putExtra(BluetoothAdapter.EXTRA_DISCOVERABLE_DURATION, 300);
+            activity.startActivity(discoverableIntent);
+        }
     }
 
     public void connectWifi() {

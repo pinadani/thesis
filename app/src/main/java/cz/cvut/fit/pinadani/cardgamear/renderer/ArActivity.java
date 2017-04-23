@@ -3,13 +3,13 @@ package cz.cvut.fit.pinadani.cardgamear.renderer;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
-import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 import com.erz.joysticklibrary.JoyStick;
@@ -29,7 +29,10 @@ import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.AppSession;
 import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.SessionControl;
 import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.VuforiaException;
 import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.VuforiaRenderer;
+import cz.cvut.fit.pinadani.cardgamear.utils.App;
 import cz.cvut.fit.pinadani.cardgamear.utils.UiUtils;
+
+//import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
 
 
 public class ArActivity extends AndroidApplication implements SessionControl {
@@ -42,6 +45,8 @@ public class ArActivity extends AndroidApplication implements SessionControl {
     private Engine mEngine;
 
     VuforiaRenderer mRenderer;
+    Handler mHandler;
+    private boolean isSinglePlayer = true;
 
 
     @Override
@@ -49,6 +54,8 @@ public class ArActivity extends AndroidApplication implements SessionControl {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.camera_overlay);
         Log.d(LOGTAG, "onCreate");
+
+        mHandler = ((App) App.getContext()).getHandler();
 
         session = new AppSession(this);
         session.initAR(this, ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
@@ -62,7 +69,7 @@ public class ArActivity extends AndroidApplication implements SessionControl {
         ImageButton attackSecondBtn = (ImageButton) findViewById(R.id.btn_square);
         ImageButton defenceBtn = (ImageButton) findViewById(R.id.btn_cross);
         View pausedOverlay = findViewById(R.id.paused_overlay);
-        RoundCornerProgressBar hpProgress = (RoundCornerProgressBar) findViewById(R.id.hp_status);
+        //RoundCornerProgressBar hpProgress = (RoundCornerProgressBar) findViewById(R.id.hp_status);
 
         AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
         config.useAccelerometer = false;
@@ -71,7 +78,7 @@ public class ArActivity extends AndroidApplication implements SessionControl {
 
         mEngine = new Engine(mRenderer);
         mEngine.setButtons(pauseBtn, joystick, attackFirstBtn, attackSecondBtn, defenceBtn,
-                pausedOverlay, hpProgress);
+                pausedOverlay, null, mHandler);
 
         View glView = initializeForView(mEngine, config);
 

@@ -21,6 +21,7 @@ public class Model3DList {
     String[] modelNames = {"charm3.g3db", "charm3.g3db"};
 
     Model3D mMyModel = null;
+    Model3D mOponentModel = null;
 
     public Model3DList() {
         boolean firstModel = true;
@@ -30,15 +31,17 @@ public class Model3DList {
                 mMyModel = model3D;
                 firstModel = false;
             } else {
-                mMyModel.getModel().transform.translate(400, 0, 0);
+                mOponentModel = model3D;
+                mOponentModel.getModel().transform.translate(400, 0, 0);
             }
             mModels.add(model3D);
         }
     }
 
-    public void updateModels(double angleDegrees, double power, boolean attackFirstClicked, boolean attackSecondClicked, boolean defenceClicked, Vector2 cameraPosition) {
+    public void updateModels(double angleDegrees, double power, boolean attackFirstClicked, boolean attackSecondClicked, boolean defenceClicked, Vector2 cameraPosition, ModelState modelState) {
         mMyModel.updateByButtons(attackFirstClicked, attackSecondClicked, defenceClicked);
         mMyModel.updateByJoystick(angleDegrees, power, cameraPosition);
+        mOponentModel.updateState(modelState);
         float delta = Gdx.graphics.getDeltaTime();
         for (Model3D model : mModels) {
             model.update(delta, mModels);

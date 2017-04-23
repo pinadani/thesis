@@ -2,6 +2,7 @@ package cz.cvut.fit.pinadani.cardgamear.interactors;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.os.Handler;
 
 /**
  * Implementation of shared preferences interactor
@@ -17,6 +18,7 @@ public class SPInteractorImpl implements ISPInteractor {
 
     private SharedPreferences mSharedPreferences;
     private Context mCtx;
+    private Handler mHandler = null;
 
     public SPInteractorImpl(Context ctx) {
         mCtx = ctx;
@@ -55,6 +57,16 @@ public class SPInteractorImpl implements ISPInteractor {
     @Override
     public String getUserId() {
         return mSharedPreferences.getString(USER_ID, null);
+    }
+
+    @Override
+    public Handler getBTHandler() {
+        return mHandler;
+    }
+
+    @Override
+    public void setBTHandler(Handler handler) {
+        mHandler = handler;
     }
 
     @Override

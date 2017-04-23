@@ -15,18 +15,19 @@ import com.badlogic.gdx.math.Vector3;
 import java.util.ArrayList;
 
 import cz.cvut.fit.pinadani.cardgamear.utils.Constants;
+import cz.cvut.fit.pinadani.cardgamear.utils.SerializationUtils;
 
 public class Model3D {
     private static final String ANIMATION_WALK = "walk";
-                                    public static final String ANIMATION_STAND = "stay";
-                                    public static final String ANIMATION_ATTACK1 = "attack";
-                                    public static final String ANIMATION_ATTACK2 = "attack2";
-                                    public static final String ANIMATION_DEFENCE_BEGIN = "defencebegin";
-                                    public static final String ANIMATION_DEFENCE_END = "defenceend";
-                                    public static final String ANIMATION_WIN = "win";
-                                    public static final String ANIMATION_DII = "die";
+    public static final String ANIMATION_STAND = "stay";
+    public static final String ANIMATION_ATTACK1 = "attack";
+    public static final String ANIMATION_ATTACK2 = "attack2";
+    public static final String ANIMATION_DEFENCE_BEGIN = "defencebegin";
+    public static final String ANIMATION_DEFENCE_END = "defenceend";
+    public static final String ANIMATION_WIN = "win";
+    public static final String ANIMATION_DII = "die";
 
-                                    private static final float BULLET_LIFETIME = 2;
+    private static final float BULLET_LIFETIME = 2;
 
     private static final float MODEL_SCALE = 2f;
 
@@ -126,7 +127,7 @@ public class Model3D {
      */
     void update(float delta, ArrayList<Model3D> models) {
         mAnimationController.update(delta);
-        if(mVisibleBullet){
+        if (mVisibleBullet) {
             updateBulletPosition(delta);
         }
         if (!mMakeAttackFirst && !mMakeAttackSecond) {
@@ -145,7 +146,7 @@ public class Model3D {
 
         mBulletLifeTime -= delta;
 
-        if(mBulletLifeTime < 0){
+        if (mBulletLifeTime < 0) {
             mVisibleBullet = false;
         }
     }
@@ -383,9 +384,9 @@ public class Model3D {
         mBulletModel.transform.setTranslation(actualPosition.x, actualPosition.y, actualPosition.z);
         mBulletAngle = mAngle;
 
-            Vector2 bulletVector = new Vector2((float) Math.cos(Math.toRadians(mAngle)) * mSpace
-                    * -1,
-                    (float) Math.sin(Math.toRadians(mAngle * -1))* mSpace);
+        Vector2 bulletVector = new Vector2((float) Math.cos(Math.toRadians(mAngle)) * mSpace
+                * -1,
+                (float) Math.sin(Math.toRadians(mAngle * -1)) * mSpace);
 
         mBulletModel.transform.trn(bulletVector.x, bulletVector.y, 0);
         mVisibleBullet = true;
@@ -483,5 +484,21 @@ public class Model3D {
 
     public void setMaxHP(int maxHP) {
         mMaxHP = maxHP;
+    }
+
+    public byte[] getStateBundle() {
+        Vector3 actualPosition = mModel.transform.getTranslation(new Vector3());
+        ModelState modelState = new ModelState(actualPosition.x, actualPosition.y, actualPosition
+                .z, mAngle, mHP);
+        return SerializationUtils.serialize(modelState);
+    }
+
+    public void updateState(ModelState modelState) {
+        if(modelState == null){
+            return;
+        }
+        mAngle = modelState.angle;
+        mHP = modelState.hp;
+        mModel.transform.setTranslation(modelState.x, modelState.y, modelState.z);
     }
 }

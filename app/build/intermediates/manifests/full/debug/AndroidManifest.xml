@@ -8,9 +8,7 @@
         android:minSdkVersion="14"
         android:targetSdkVersion="22" />
 
-    <uses-feature
-        android:glEsVersion="0x00020000"
-        android:required="true" />
+    <uses-feature android:glEsVersion="0x00020000" />
 
     <!--
          The application requires a camera.
@@ -46,8 +44,9 @@
 
     <meta-data
         android:name="android.support.VERSION"
-        android:value="25.3.0" /> <!-- Optional permission for Analytics to run. -->
-    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions required for GCM -->
+        android:value="25.3.0" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
@@ -96,71 +95,11 @@
         </activity>
         <activity android:name="cz.cvut.fit.pinadani.cardgamear.ui.activity.BaseActivity" />
         <activity android:name="cz.cvut.fit.pinadani.cardgamear.ui.activity.BaseFragmentActivity" />
-
-        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
-            android:name="com.google.android.gms.ads.AdActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:theme="@android:style/Theme.Translucent" />
-        <activity
-            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
-            android:theme="@style/Theme.IAPTheme" />
-        <activity
-            android:name="com.google.android.gms.appinvite.PreviewActivity"
-            android:exported="true"
-            android:theme="@style/Theme.AppInvite.Preview" >
-            <intent-filter>
-                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-            android:excludeFromRecents="true"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <!--
-Service handling Google Sign-In user revocation. For apps that do not integrate with
-            Google Sign-In, this service will never be started.
-        -->
-        <service
-            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-            android:exported="true"
-            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-
-        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
-
-        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
-        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
-        <!--
- FirebaseMessagingService performs security checks at runtime,
-             no need for explicit permissions despite exported="true"
-        -->
-        <service
-            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-            android:exported="true" >
-            <intent-filter android:priority="-500" >
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
-        <service
-            android:name="com.google.android.gms.tagmanager.TagManagerService"
-            android:enabled="true"
-            android:exported="false" />
-
-        <activity
-            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
-            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
-            <intent-filter>
-                <data android:scheme="tagmanager.c.cz.cvut.fit.pinadani.cardgamear" />
-
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-            </intent-filter>
-        </activity>
+            android:name="cz.cvut.fit.pinadani.cardgamear.ui.activity.DeviceListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/select_device"
+            android:theme="@android:style/Theme.Holo.Dialog" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

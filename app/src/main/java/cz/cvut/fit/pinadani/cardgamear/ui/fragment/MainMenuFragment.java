@@ -18,6 +18,7 @@ import cz.cvut.fit.pinadani.cardgamear.mvp.view.IMainMenuView;
 import cz.cvut.fit.pinadani.cardgamear.renderer.ArActivity;
 import cz.cvut.fit.pinadani.cardgamear.ui.activity.BaseFragmentActivity;
 import cz.cvut.fit.pinadani.cardgamear.ui.fragment.base.BaseNucleusFragment;
+import cz.cvut.fit.pinadani.cardgamear.utils.Constants;
 import nucleus.factory.RequiresPresenter;
 
 @RequiresPresenter(MainMenuPresenter.class)
@@ -78,6 +79,7 @@ public class MainMenuFragment extends BaseNucleusFragment<MainMenuPresenter> imp
     @OnClick(R.id.btn_singleplayer)
     public void onSinglePlayerBtnClicked() {
         Intent singlePlayerIntent = new Intent(getActivity(), ArActivity.class);
+        singlePlayerIntent.putExtra(Constants.SINGLE_PLAYER, true);
         getActivity().startActivity(singlePlayerIntent);
     }
 

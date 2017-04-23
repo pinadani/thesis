@@ -19,7 +19,6 @@ android {
         targetSdkVersion 22
         versionCode 1
         versionName "0.1"
-        multiDexEnabled true
     }
     archivesBaseName = rootProject.projectDir.getName()
     buildTypes {
@@ -77,14 +76,6 @@ dependencies {
     // Butter Knife
     compile 'com.jakewharton:butterknife:7.0.1'
 
-    // RETROFIT + OKHTTP
-    compile "com.squareup.retrofit2:retrofit:${retrofitVersion}"
-    compile "com.squareup.retrofit2:adapter-rxjava:${retrofitVersion}"
-    compile "com.squareup.retrofit2:converter-gson:${retrofitVersion}"
-    compile "com.squareup.okhttp3:okhttp-urlconnection:${okhttpVersion}"
-    compile "com.squareup.okhttp3:okhttp:${okhttpVersion}"
-    compile "com.squareup.okhttp3:logging-interceptor:${okhttpVersion}"
-
 
     compile 'com.jakewharton.rxbinding:rxbinding-appcompat-v7:0.4.0'
     compile 'io.reactivex:rxandroid:1.1.0'
@@ -97,13 +88,13 @@ dependencies {
     compile 'com.github.erz05:JoyStick:1.1.0'
 
     // connection
-    compile "com.google.android.gms:play-services:${firebaseLibVersion}"
+    compile "com.google.android.gms:play-services-nearby:${firebaseLibVersion}"
 
     // HO status
-    compile 'com.akexorcist:RoundCornerProgressBar:2.0.3'
+    //compile 'com.akexorcist:RoundCornerProgressBar:2.0.3'
 
     // multidex
-    compile 'com.android.support:multidex:1.0.1'
+    //compile 'com.android.support:multidex:1.0.1'
 
 }
 

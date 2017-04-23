@@ -1,5 +1,7 @@
 package cz.cvut.fit.pinadani.cardgamear.interactors;
 
+import android.os.Handler;
+
 /**
  * Interactor that stores data to shared preferences
  * Created by daniel.pina@ackee.cz
@@ -21,4 +23,8 @@ public interface ISPInteractor {
     void setUserId(String userId);
 
     String getUserId();
+
+    Handler getBTHandler();
+
+    void setBTHandler(Handler handler);
 }

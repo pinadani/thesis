@@ -1,10 +1,11 @@
 package cz.cvut.fit.pinadani.cardgamear.ar.libgdx;
 
+import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ProgressBar;
 
-import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.PerspectiveCamera;
@@ -25,6 +26,12 @@ import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.SampleMath;
 import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.VuforiaRenderer;
 import cz.cvut.fit.pinadani.cardgamear.model.Model3D;
 import cz.cvut.fit.pinadani.cardgamear.model.Model3DList;
+import cz.cvut.fit.pinadani.cardgamear.model.ModelState;
+import cz.cvut.fit.pinadani.cardgamear.service.BluetoothService;
+import cz.cvut.fit.pinadani.cardgamear.utils.App;
+import cz.cvut.fit.pinadani.cardgamear.utils.SerializationUtils;
+
+//import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
 
 /**
  * Class responsible for rendering and scene transformations.
@@ -36,7 +43,7 @@ public class Renderer {
     private ImageButton attackSecondBtn;
     private ImageButton defenceBtn;
     private View pausedOverlay;
-    RoundCornerProgressBar hpProgress;
+    //RoundCornerProgressBar hpProgress;
 
     private JoyStick joystick;
 
@@ -44,6 +51,7 @@ public class Renderer {
     private Environment mEnvironment;
     private ModelBatch modelBatch;
     private VuforiaRenderer vuforiaRenderer;
+    private BluetoothService mBluetoothService;
 
     private boolean isAttackFirstDown = false;
     private boolean isAttackSecondDown = false;
@@ -51,11 +59,17 @@ public class Renderer {
 
     private boolean mPausedGame = false;
 
+    private ModelState mModelState = null;
+
     public Renderer(VuforiaRenderer arRenderer) {
         mEnvironment = new Environment();
         mEnvironment.set(new ColorAttribute(ColorAttribute.AmbientLight, 0.4f, 0.4f, 0.4f, 1f));
         mEnvironment.add(new DirectionalLight().set(0.8f, 0.8f, 0.8f, -1f, -0.8f, -0.2f));
 
+        mBluetoothService = ((App) App.getContext()).getBluetoothService();
+        if (mBluetoothService != null) {
+            mBluetoothService.setRenderer(this);
+        }
         mCamera = new PerspectiveCamera(60, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
         mCamera.near = 1f;
         mCamera.far = 30000f;
@@ -110,8 +124,8 @@ public class Renderer {
     }
 
     private void updateHp(int hp, int maxHp) {
-        hpProgress.setMax(maxHp);
-        hpProgress.setProgress(hp);
+        //hpProgress.setMax(maxHp);
+        //hpProgress.setProgress(hp);
     }
 
     private void setProjectionAndCamera(TrackableResult[] trackables, float filedOfView, Model3DList models) {
@@ -155,7 +169,8 @@ public class Renderer {
             if (!mPausedGame) {
                 models.updateModels(joystick.getAngleDegrees(), joystick.getPower(),
                         isAttackFirstDown, isAttackSecondDown, isDefenceDown, new Vector2
-                                (data[4], data[5]));
+                                (data[4], data[5]), mModelState);
+                updateMyModelState(models.getModels().get(0));
             }
             //update filed of view
             mCamera.fieldOfView = filedOfView;
@@ -168,18 +183,26 @@ public class Renderer {
         mCamera.update();
     }
 
+    private void updateMyModelState(Model3D model3D) {
+        if (mBluetoothService != null) {
+            mBluetoothService.write(model3D.getStateBundle());
+        }
+    }
+
     public void dispose() {
         modelBatch.dispose();
     }
 
-    public void setButtons(ImageButton pauseBtn, JoyStick joystick, ImageButton attackFirstBtn, ImageButton attackSecondBtn, ImageButton defenceBtn, View pausedOverlay, RoundCornerProgressBar hpProgress) {
+    public void setButtons(ImageButton pauseBtn, JoyStick joystick, ImageButton attackFirstBtn,
+                           ImageButton attackSecondBtn, ImageButton defenceBtn, View
+                                   pausedOverlay, ProgressBar hpProgress, Handler handler) {
         this.pauseBtn = pauseBtn;
         this.attackFirstBtn = attackFirstBtn;
         this.attackSecondBtn = attackSecondBtn;
         this.defenceBtn = defenceBtn;
         this.joystick = joystick;
         this.pausedOverlay = pausedOverlay;
-        this.hpProgress = hpProgress;
+        //this.hpProgress = hpProgress;
 
         setListeners();
     }
@@ -239,5 +262,9 @@ public class Renderer {
             }
             return true;
         });
+    }
+
+    public void setModelState(byte[] buf) {
+        mModelState = (ModelState) SerializationUtils.deserialize(buf);
     }
 }
