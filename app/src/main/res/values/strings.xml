@@ -62,7 +62,7 @@
     <string name="button_scan">Najít další zařízení</string>
     <string name="none_paired">Žádné spárovaná zařízení</string>
     <string name="none_found">Žádné zařízení nebylo nalezeno</string>
-    <string name="connect_bluetooth_title">Hledání soupeře</string>
+    <string name="connect_bluetooth_title">Propojení hráčů</string>
     <string name="profile_name">Username</string>
     <string name="profile_email">Email *</string>
     <string name="name">Jméno</string>
@@ -90,4 +90,6 @@
     <string name="paused">Paused</string>
     <string name="statisticks">Žebříček</string>
     <string name="score">Skóre</string>
+    <string name="button_start_bluetooth">Udělat toto zařízení viditelné</string>
+    <string name="button_connect">Propojit zařizení</string>
 </resources>

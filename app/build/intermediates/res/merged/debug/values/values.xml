@@ -670,9 +670,11 @@
     <string name="bt_not_enabled_leaving">Bluetooth neni k dispozici</string>
     <string name="button_OK">OK</string>
     <string name="button_change_password">Změnit heslo</string>
+    <string name="button_connect">Propojit zařizení</string>
     <string name="button_reset_password">Obnovit heslo</string>
     <string name="button_scan">Najít další zařízení</string>
     <string name="button_start">Start</string>
+    <string name="button_start_bluetooth">Udělat toto zařízení viditelné</string>
     <string name="cancel">Zrušit</string>
     <string name="change_password_title">Změna hesla</string>
     <string name="changes_saved">Změny byly uloženy</string>
@@ -694,7 +696,7 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="connect_bluetooth_title">Hledání soupeře</string>
+    <string name="connect_bluetooth_title">Propojení hráčů</string>
     <string name="connect_game">Připojit se</string>
     <string name="create_game">Vytvořit</string>
     <string name="default_web_client_id" translatable="false">271007100784-rvsl44g63b1uch1sbfh5oa9hk03kvr87.apps.googleusercontent.com</string>

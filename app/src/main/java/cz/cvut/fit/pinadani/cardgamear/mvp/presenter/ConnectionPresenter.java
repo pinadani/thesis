@@ -36,7 +36,7 @@ public class ConnectionPresenter extends BasePresenter<IConnectionView> {
     // Intent request codes
     public static final int REQUEST_CONNECT_DEVICE_SECURE = 1;
     private static final int REQUEST_CONNECT_DEVICE_INSECURE = 2;
-    private static final int REQUEST_ENABLE_BT = 3;
+    public static final int REQUEST_ENABLE_BT = 3;
 
     public static String DEVICE_ADDRESS = "device_address";
 
@@ -83,6 +83,16 @@ public class ConnectionPresenter extends BasePresenter<IConnectionView> {
         // Get local Bluetooth adapter
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
 
+        if (!mBluetoothAdapter.isEnabled()) {
+            Intent enableIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+            connectionView.startActivityForResult(enableIntent, REQUEST_ENABLE_BT);
+            // Otherwise, setup the chat session
+        } else {
+            setupBluetooth(connectionView);
+        }
+    }
+
+    public void setupBluetooth(IConnectionView connectionView) {
         // Get a set of currently paired devices
         Set<BluetoothDevice> pairedDevices = mBluetoothAdapter.getBondedDevices();
 
@@ -98,7 +108,7 @@ public class ConnectionPresenter extends BasePresenter<IConnectionView> {
 
         if (mBluetoothService == null) {
             // Initialize the BluetoothChatService to perform bluetooth connections
-            mBluetoothService = new BluetoothService(getView().getFragmentActivity(), mHandler);
+            mBluetoothService = new BluetoothService(connectionView.getFragmentActivity(), mHandler);
         }
 
         // Performing this check in onResume() covers the case in which BT was
@@ -112,7 +122,6 @@ public class ConnectionPresenter extends BasePresenter<IConnectionView> {
             }
         }
     }
-
 
 
     @Override

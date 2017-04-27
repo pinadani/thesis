@@ -8,9 +8,9 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,6 +18,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Set;
 
@@ -61,18 +62,6 @@ public class ConnectionFragment extends BaseNucleusFragment<ConnectionPresenter>
 
     @Bind(R.id.title_new_devices)
     TextView mNewDevicesTitle;
-
-    @Bind(R.id.wifi)
-    TextView mWifiTV;
-
-    @Bind(R.id.bluetooth)
-    TextView mBluetoothTV;
-
-    @Bind(R.id.create_game)
-    TextView mCreateGameTV;
-
-    @Bind(R.id.connect_game)
-    TextView mConnectToGameTV;
 
     /** The current state of the application **/
     @NearbyConnections.NearbyConnectionState
@@ -145,6 +134,18 @@ public class ConnectionFragment extends BaseNucleusFragment<ConnectionPresenter>
                             .getString(DeviceListActivity.EXTRA_DEVICE_ADDRESS));
                 }
                 break;
+            case ConnectionPresenter.REQUEST_ENABLE_BT:
+                // When the request to enable Bluetooth returns
+                if (resultCode == Activity.RESULT_OK) {
+                    // Bluetooth is now enabled, so set up a chat session
+                    getPresenter().setupBluetooth(this);
+                } else {
+                    // User did not enable Bluetooth or an error occurred
+                    Log.d(TAG, "BT not enabled");
+                    Toast.makeText(getActivity(), R.string.bt_not_enabled_leaving,
+                            Toast.LENGTH_SHORT).show();
+                    getActivity().finish();
+                }
 
 //            case REQUEST_ENABLE_BT:
 //                // When the request to enable Bluetooth returns
@@ -231,11 +232,10 @@ public class ConnectionFragment extends BaseNucleusFragment<ConnectionPresenter>
             case NearbyConnections.STATE_IDLE:
                 // The GoogleAPIClient is not connected, we can't yet start advertising or
                 // discovery so hide all buttons
-                getActivity().findViewById(R.id.button_start).setVisibility(View.GONE);
                 break;
             case NearbyConnections.STATE_READY:
                 // The GoogleAPIClient is connected, we can begin advertising or discovery.
-                getActivity().findViewById(R.id.button_start).setVisibility(View.VISIBLE);
+                getActivity().findViewById(R.id.button_connect).setVisibility(View.VISIBLE);
                 break;
             case NearbyConnections.STATE_ADVERTISING:
                 break;
@@ -244,7 +244,7 @@ public class ConnectionFragment extends BaseNucleusFragment<ConnectionPresenter>
             case NearbyConnections.STATE_CONNECTED:
                 // We are connected to another device via the Connections API, so we can
                 // show the message UI.
-                getActivity().findViewById(R.id.button_start).setVisibility(View.VISIBLE);
+                getActivity().findViewById(R.id.button_connect).setVisibility(View.VISIBLE);
                 break;
         }
     }
@@ -286,44 +286,13 @@ public class ConnectionFragment extends BaseNucleusFragment<ConnectionPresenter>
         }
     }
 
-    @OnClick(R.id.wifi)
-    public void onWifiClicked(){
-        mWifiTV.setTypeface(null, Typeface.BOLD);
-        mBluetoothTV.setTypeface(null, Typeface.NORMAL);
+    @OnClick(R.id.button_start_bluetooth)
+    public void onStartClicked(){
+        getPresenter().connectBluetooth(getFragmentActivity());
     }
 
-    @OnClick(R.id.bluetooth)
-    public void onBluetoothClicked(){
-        mBluetoothTV.setTypeface(null, Typeface.BOLD);
-        mWifiTV.setTypeface(null, Typeface.NORMAL);
-    }
-
-    @OnClick(R.id.create_game)
-    public void onCreateGameClicked(){
-        mCreateGameTV.setTypeface(null, Typeface.BOLD);
-        mConnectToGameTV.setTypeface(null, Typeface.NORMAL);
-    }
-
-    @OnClick(R.id.connect_game)
+    @OnClick(R.id.button_connect)
     public void onConnectClicked(){
-        mConnectToGameTV.setTypeface(null, Typeface.BOLD);
-        mCreateGameTV.setTypeface(null, Typeface.NORMAL);
-    }
-
-    @OnClick(R.id.button_start)
-    public void onstartClicked(){
-        if(mWifiTV.getTypeface() == Typeface.DEFAULT_BOLD) {
-            if(mCreateGameTV.getTypeface() == Typeface.DEFAULT_BOLD) {
-                getPresenter().createWifi();
-            } else {
-                getPresenter().connectWifi();
-            }
-        } else {
-            if(mCreateGameTV.getTypeface() == Typeface.DEFAULT_BOLD) {
-                getPresenter().createBluetooth(getActivity());
-            } else {
-                getPresenter().connectBluetooth(getFragmentActivity());
-            }
-        }
+        getPresenter().createBluetooth(getActivity());
     }
 }
