@@ -10,6 +10,7 @@ import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.LoginPresenter;
 import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.MainMenuPresenter;
 import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.ProfilePresenter;
 import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.SignUpPresenter;
+import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.StatisticsPresenter;
 import cz.cvut.fit.pinadani.cardgamear.service.BluetoothService;
 import dagger.Component;
 
@@ -35,6 +36,8 @@ public interface AppComponent {
     void inject(ProfilePresenter profilePresenter);
 
     void inject(ChangePasswordPresenter changePasswordPresenter);
+
+    void inject(StatisticsPresenter statisticsPresenter);
 
     void inject(Display display);
 

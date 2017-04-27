@@ -117,6 +117,7 @@
     <orderEntry type="library" exported="" name="nucleus-2.0.3" level="project" />
     <orderEntry type="library" exported="" name="gdx-backend-android-1.9.5" level="project" />
     <orderEntry type="library" exported="" name="JoyStick-1.1.0" level="project" />
+    <orderEntry type="library" exported="" name="RoundCornerProgressBar-2.0.3" level="project" />
     <orderEntry type="library" exported="" name="firebase-analytics-impl-10.0.1" level="project" />
     <orderEntry type="library" exported="" name="dagger-2.0.2" level="project" />
     <orderEntry type="library" exported="" name="javax.inject-1" level="project" />

@@ -5,8 +5,8 @@ import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.ProgressBar;
 
+import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.PerspectiveCamera;
@@ -46,7 +46,7 @@ public class Renderer {
     private ImageButton defenceBtn;
     private View pausedMeOverlay;
     private View pausedOponentOverlay;
-    //RoundCornerProgressBar hpProgress;
+    RoundCornerProgressBar hpProgress;
 
     private JoyStick joystick;
 
@@ -118,9 +118,12 @@ public class Renderer {
             }
             if (model.isVisibleBullet()) {
                 modelBatch.render(model.getBulletModel(), mEnvironment);
-                model.checkBulletCollision(models.getModels());
+                //model.checkBulletCollision(models.getModels());
             }
-            //updateHp(model.getHP(), model.getMaxHP());
+
+            if (model.checkGetHits(models.getModels())) {
+                updateHp(model.getHP(), model.getMaxHP());
+            }
         }
 
         modelBatch.end();
@@ -131,8 +134,9 @@ public class Renderer {
     }
 
     private void updateHp(int hp, int maxHp) {
-        //hpProgress.setMax(maxHp);
-        //hpProgress.setProgress(hp);
+        mActivity.runOnUiThread(() -> {
+            hpProgress.setProgress(hp);
+        });
     }
 
     private void setProjectionAndCamera(TrackableResult[] trackables, float filedOfView, Model3DList models) {
@@ -215,7 +219,7 @@ public class Renderer {
 
     public void setButtons(ImageButton pauseBtn, JoyStick joystick, ImageButton attackFirstBtn,
                            ImageButton attackSecondBtn, ImageButton defenceBtn, View
-                                   pausedOverlay, View pausedOponentOverlay, ProgressBar
+                                   pausedOverlay, View pausedOponentOverlay, RoundCornerProgressBar
                                    hpProgress, Handler handler) {
         this.pauseBtn = pauseBtn;
         this.attackFirstBtn = attackFirstBtn;
@@ -224,7 +228,7 @@ public class Renderer {
         this.joystick = joystick;
         this.pausedMeOverlay = pausedOverlay;
         this.pausedOponentOverlay = pausedOponentOverlay;
-        //this.hpProgress = hpProgress;
+        this.hpProgress = hpProgress;
 
         setListeners();
     }

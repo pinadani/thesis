@@ -31,6 +31,9 @@ public class MainMenuFragment extends BaseNucleusFragment<MainMenuPresenter> imp
     @Bind(R.id.layout_user)
     FrameLayout mUserLayout;
 
+    @Bind(R.id.layout_statistics)
+    FrameLayout mStatisticsLayout;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -51,7 +54,7 @@ public class MainMenuFragment extends BaseNucleusFragment<MainMenuPresenter> imp
 
     @Override
     protected void initAB() {
-        if(getFragmentActivity().getSupportActionBar() != null) {
+        if (getFragmentActivity().getSupportActionBar() != null) {
             getFragmentActivity().getSupportActionBar().hide();
         }
     }
@@ -69,6 +72,7 @@ public class MainMenuFragment extends BaseNucleusFragment<MainMenuPresenter> imp
     @Override
     public void showProfileButton(boolean show) {
         mUserLayout.setVisibility(show ? View.VISIBLE : View.GONE);
+        mStatisticsLayout.setVisibility(show ? View.VISIBLE : View.GONE);
     }
 
     @OnClick(R.id.btn_multiplayer)
@@ -86,5 +90,10 @@ public class MainMenuFragment extends BaseNucleusFragment<MainMenuPresenter> imp
     @OnClick(R.id.btn_user)
     public void onUserBtnClicked() {
         BaseFragmentActivity.startActivity(getActivity(), ProfileFragment.class.getName());
+    }
+
+    @OnClick(R.id.btn_statistics)
+    public void onStatisticsBtnClicked() {
+        BaseFragmentActivity.startActivity(getActivity(), StatisticsFragment.class.getName());
     }
 }

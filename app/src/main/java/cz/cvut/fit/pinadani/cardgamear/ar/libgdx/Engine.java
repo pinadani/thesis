@@ -5,14 +5,15 @@ import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.ProgressBar;
 
-//import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
+import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.graphics.FPSLogger;
 import com.erz.joysticklibrary.JoyStick;
 
 import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.VuforiaRenderer;
+
+//import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
 
 /**
  * Instance of libgdx Game class responsible for rendering 3D content over augmented reality.
@@ -24,7 +25,7 @@ public class Engine extends Game {
     ImageButton defenceBtn;
     View pausedOverlay;
     View pausedOponentOverlay;
-    //RoundCornerProgressBar hpProgress;
+    RoundCornerProgressBar hpProgress;
 
     JoyStick joystick;
     Handler mHandler;
@@ -44,7 +45,7 @@ public class Engine extends Game {
         mDisplay = new Display(vuforiaRenderer, mActivity);
         mDisplay.setJoystick(joystick);
         mDisplay.getRenderer().setButtons(pauseBtn, joystick, attackFirstBtn, attackSecondBtn,
-                defenceBtn, pausedOverlay, pausedOponentOverlay, null, mHandler);
+                defenceBtn, pausedOverlay, pausedOponentOverlay, hpProgress, mHandler);
         setScreen(mDisplay);
         vuforiaRenderer.initRendering();
         fps = new FPSLogger();
@@ -66,7 +67,8 @@ public class Engine extends Game {
 
     public void setButtons(ImageButton pauseBtn, JoyStick joystick, ImageButton attackFirstBtn,
                            ImageButton attackSecondBtn, ImageButton defenceBtn, View
-                                   pausedOverlay, View pausedOponentOverlay, ProgressBar hpProgress, Handler handler) {
+                                   pausedOverlay, View pausedOponentOverlay, RoundCornerProgressBar hpProgress,
+                           Handler handler) {
         this.pauseBtn = pauseBtn;
         this.attackFirstBtn = attackFirstBtn;
         this.attackSecondBtn = attackSecondBtn;
@@ -74,7 +76,7 @@ public class Engine extends Game {
         this.joystick = joystick;
         this.pausedOverlay = pausedOverlay;
         this.pausedOponentOverlay = pausedOponentOverlay;
-        //this.hpProgress = hpProgress;
+        this.hpProgress = hpProgress;
         this.mHandler = handler;
     }
 }

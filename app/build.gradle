@@ -91,7 +91,7 @@ dependencies {
     compile "com.google.android.gms:play-services-nearby:${firebaseLibVersion}"
 
     // HO status
-    //compile 'com.akexorcist:RoundCornerProgressBar:2.0.3'
+    compile 'com.akexorcist:RoundCornerProgressBar:2.0.3'
 
     // multidex
     //compile 'com.android.support:multidex:1.0.1'

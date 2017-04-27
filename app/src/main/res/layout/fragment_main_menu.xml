@@ -40,6 +40,23 @@
     </FrameLayout>
 
     <FrameLayout
+        android:id="@+id/layout_statistics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_corners">
+        <Button
+            android:id="@+id/btn_statistics"
+            style="@style/MainMenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/statisticks"
+            android:textColor="#213247"/>
+    </FrameLayout>
+
+
+    <FrameLayout
         android:id="@+id/layout_user"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

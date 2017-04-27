@@ -20,6 +20,10 @@
         "source": "C:\\Users\\Daniel\\.android\\build-cache\\1fb1ecc9d735c6bcf7e8b554d84fc49f415e0b80\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_item_row.xml",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\src\\main\\res\\layout\\listview_item_row.xml"
+    },
+    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "C:\\Users\\Daniel\\.android\\build-cache\\1d22c39a0cfb2c21bb54a808f99e135561932483\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
@@ -184,6 +188,10 @@
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\src\\main\\res\\layout\\fragment_forgot_password.xml"
     },
     {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_round_corner_progress_bar.xml",
+        "source": "C:\\Users\\Daniel\\.android\\build-cache\\40ce4deda8073d024883fd5c76dc37d75abd265e\\output\\res\\layout\\layout_round_corner_progress_bar.xml"
+    },
+    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\Daniel\\.android\\build-cache\\1fb1ecc9d735c6bcf7e8b554d84fc49f415e0b80\\output\\res\\layout\\notification_template_part_time.xml"
     },
@@ -218,6 +226,10 @@
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\Daniel\\.android\\build-cache\\1fb1ecc9d735c6bcf7e8b554d84fc49f415e0b80\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_statistics.xml",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\src\\main\\res\\layout\\fragment_statistics.xml"
     },
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
@@ -260,8 +272,16 @@
         "source": "C:\\Users\\Daniel\\.android\\build-cache\\1fb1ecc9d735c6bcf7e8b554d84fc49f415e0b80\\output\\res\\layout\\notification_template_custom_big.xml"
     },
     {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_icon_round_corner_progress_bar.xml",
+        "source": "C:\\Users\\Daniel\\.android\\build-cache\\40ce4deda8073d024883fd5c76dc37d75abd265e\\output\\res\\layout\\layout_icon_round_corner_progress_bar.xml"
+    },
+    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\Daniel\\.android\\build-cache\\1fb1ecc9d735c6bcf7e8b554d84fc49f415e0b80\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_text_round_corner_progress_bar.xml",
+        "source": "C:\\Users\\Daniel\\.android\\build-cache\\40ce4deda8073d024883fd5c76dc37d75abd265e\\output\\res\\layout\\layout_text_round_corner_progress_bar.xml"
     },
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",

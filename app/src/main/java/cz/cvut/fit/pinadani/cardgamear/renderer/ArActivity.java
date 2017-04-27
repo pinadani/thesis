@@ -10,6 +10,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 import com.erz.joysticklibrary.JoyStick;
@@ -70,7 +71,7 @@ public class ArActivity extends AndroidApplication implements SessionControl {
         ImageButton defenceBtn = (ImageButton) findViewById(R.id.btn_cross);
         View pausedOverlay = findViewById(R.id.paused_overlay);
         View pausedOponentOverlay = findViewById(R.id.paused_oponent_overlay);
-        //RoundCornerProgressBar hpProgress = (RoundCornerProgressBar) findViewById(R.id.hp_status);
+        RoundCornerProgressBar hpProgress = (RoundCornerProgressBar) findViewById(R.id.hp_status);
 
         AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
         config.useAccelerometer = false;
@@ -79,7 +80,7 @@ public class ArActivity extends AndroidApplication implements SessionControl {
 
         mEngine = new Engine(mRenderer, this);
         mEngine.setButtons(pauseBtn, joystick, attackFirstBtn, attackSecondBtn, defenceBtn,
-                pausedOverlay, pausedOponentOverlay, null, mHandler);
+                pausedOverlay, pausedOponentOverlay, hpProgress, mHandler);
 
         View glView = initializeForView(mEngine, config);
 

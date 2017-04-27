@@ -11,6 +11,23 @@
         android:layout_height="match_parent">
     </FrameLayout>
 
+    <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+        android:id="@+id/hp_status"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="-75dp"
+        android:layout_marginRight="-75dp"
+        android:layout_marginTop="100dp"
+        android:clickable="false"
+        android:rotation="90"
+        app:rcMax="100"
+        app:rcProgress="100"
+        app:rcProgressColor="#55ff0000"
+        app:rcRadius="5dp"
+        app:rcReverse="true"/>
+
     <com.erz.joysticklibrary.JoyStick
         android:id="@+id/joy1"
         android:layout_width="140dp"
@@ -58,15 +75,6 @@
             android:src="@drawable/ic_cross"/>
     </RelativeLayout>
 
-    <!--<com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar-->
-    <!--android:id="@+id/hp_status"-->
-    <!--android:layout_width="200dp"-->
-    <!--android:layout_height="30dp"-->
-    <!--app:rcProgress="100"-->
-    <!--app:rcMax="100"-->
-    <!--app:rcRadius="5dp"-->
-    <!--app:rcReverse="true"-->
-    <!--app:rcProgressColor="@color/holo_red_light_50_alpha" />-->
 
     <ImageButton
         android:id="@+id/btn_pause"

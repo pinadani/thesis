@@ -6,10 +6,11 @@ import com.google.firebase.database.IgnoreExtraProperties;
  * TODO add class description
  **/
 @IgnoreExtraProperties
-public class User {
+public class User implements Comparable<User> {
     private String mUsername;
     private String mEmail;
     private String mName;
+    private int mScore;
 
     public User() {
     }
@@ -23,6 +24,13 @@ public class User {
         mUsername = username;
         mEmail = email;
         mName = name;
+    }
+
+    public User(String username, String email, String name, int score) {
+        mUsername = username;
+        mEmail = email;
+        mName = name;
+        mScore = score;
     }
 
     public String getUsername() {
@@ -47,5 +55,26 @@ public class User {
 
     public void setName(String name) {
         mName = name;
+    }
+
+    @Override
+    public int compareTo(User f) {
+
+        if (mScore < f.mScore) {
+            return 1;
+        } else if (mScore > f.mScore) {
+            return -1;
+        } else {
+            return 0;
+        }
+
+    }
+
+    public int getScore() {
+        return mScore;
+    }
+
+    public void setScore(int score) {
+        mScore = score;
     }
 }

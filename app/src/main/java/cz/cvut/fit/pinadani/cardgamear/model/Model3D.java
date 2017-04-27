@@ -49,14 +49,18 @@ public class Model3D {
 
     private ArrayList<String> mNextAnim = new ArrayList<>();
 
-    private float mSpeed = 200;
+    private float mSpeed = 250;
     private float mBulletSpeed = 500;
-    private float mSpeedOfChangeDirection = 50;
+    private float mSpeedOfChangeDirection = 70;
     private float mSpace = 120;
     private float mBulletSpace = 30;
 
     private int mHP = 100;
     private int mMaxHP = 100;
+
+    private int mShortAttackPower = 20;
+    private int mLongAttackPower = 15;
+
 
     private boolean mVisible = true;
     private boolean mVisibleBullet = false;
@@ -66,10 +70,13 @@ public class Model3D {
     private AnimationController mAnimationController;
 
     private boolean mMakeAttackFirst = false;
+    private boolean mMakeHitWithAttackFirst = false;
     private boolean mMakeAttackSecond = false;
     private boolean mMakeDefence = false;
     private boolean mMakeDefenceEnd = false;
     private boolean mMakeDefenceBegin = false;
+
+    private int shortHitRange = 40;
 
 
     /**
@@ -96,7 +103,7 @@ public class Model3D {
         mModel.transform.set(new Matrix4());
         mModel.transform.rotate(1.0F, 0.0F, 0.0F, 90.0F);
         mModel.transform.scale(MODEL_SCALE, MODEL_SCALE, MODEL_SCALE);
-        mFinishPosition = new Vector2(0,0);
+        mFinishPosition = new Vector2(0, 0);
         if (TextUtils.equals(name, "charm3.g3db")) {
             Model bulletModel = modelLoader.loadModel(Gdx.files.getFileHandle("fireball.g3db", Files
                     .FileType.Internal));
@@ -346,6 +353,7 @@ public class Model3D {
 
             if (attackFirstClicked) {
                 mMakeAttackFirst = true;
+                mMakeHitWithAttackFirst = false;
                 mAnimationController.setAnimation(ANIMATION_ATTACK1, new AnimationController.AnimationListener() {
                     @Override
                     public void onEnd(AnimationController.AnimationDesc animation) {
@@ -456,6 +464,49 @@ public class Model3D {
         return mSpace;
     }
 
+    public boolean checkGetHits(ArrayList<Model3D> models) {
+        return checkShortAttack(models) || checkLongAttack(models);
+    }
+
+    public boolean checkShortAttack(ArrayList<Model3D> models) {
+        Vector3 actualPosition = mModel.transform.getTranslation(new Vector3());
+
+        for (Model3D model : models) {
+            if (model.getModel() != mModel && model.mMakeAttackFirst && !model.mMakeHitWithAttackFirst) {
+
+                boolean amIInRange = getDistanceBetweenTwoPoints(model.getModel().transform.getTranslation(new
+                        Vector3()), mModel.transform.getTranslation(new Vector3())) < model
+                        .getSpace() + getSpace() + shortHitRange;
+
+                boolean lookAtMe = Math.abs(getAngleBetweenTwoPoints(model.getModel().transform
+                        .getTranslation(new Vector3()), new Vector2(actualPosition.x,
+                        actualPosition.y)) - model.mAngle) < 20;
+
+                if (amIInRange && lookAtMe) {
+                    mMakeHitWithAttackFirst = true;
+                    mHP -= model.mShortAttackPower;
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    public boolean checkLongAttack(ArrayList<Model3D> models) {
+        for (Model3D model : models) {
+            if (model.getModel() != mModel && model.isVisibleBullet()) {
+                if (getDistanceBetweenTwoPoints(mModel.transform.getTranslation(new
+                        Vector3()), model.getBulletModel().transform.getTranslation(new Vector3()
+                )) < model.mBulletSpace + mSpace) {
+                    model.mVisibleBullet = false;
+                    mHP -= model.mLongAttackPower;
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
     public boolean checkBulletCollision(ArrayList<Model3D> models) {
         for (Model3D model : models) {
             if (model.getModel() != mModel) {
@@ -489,14 +540,14 @@ public class Model3D {
     public byte[] getStateBundle(boolean myPausedGame) {
         Vector3 actualPosition = mModel.transform.getTranslation(new Vector3());
         ModelState modelState = new ModelState(actualPosition.x, actualPosition.y, actualPosition
-                .z, mFinishPosition.x, mFinishPosition.y, mAngle, mBulletAngle, mHP,  myPausedGame,
-                mVisibleBullet, mModel.transform.cpy());
+                .z, mFinishPosition.x, mFinishPosition.y, mAngle, mBulletAngle, mHP, myPausedGame,
+                mVisibleBullet, mModel.transform.cpy(), mBulletModel.transform.cpy());
 
         return SerializationUtils.serialize(modelState);
     }
 
     public void updateState(ModelState modelState) {
-        if(modelState == null){
+        if (modelState == null) {
             return;
         }
         mAngle = modelState.angle;
@@ -505,7 +556,8 @@ public class Model3D {
         mFinishPosition.set(modelState.finishX, modelState.finishY);
         mBulletAngle = modelState.bulletAngle;
         mVisibleBullet = modelState.visibleBullet;
-        mModel.transform.set(modelState.matrix4);
+        mModel.transform.set(modelState.model);
+        mBulletModel.transform.set(modelState.bullet);
     }
 
     public void setAngle(int angle) {

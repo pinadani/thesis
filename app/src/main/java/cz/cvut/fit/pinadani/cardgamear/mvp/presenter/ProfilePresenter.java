@@ -53,11 +53,12 @@ public class ProfilePresenter extends BasePresenter<IProfileView> {
     @Override
     protected void onTakeView(IProfileView profileView) {
         super.onTakeView(profileView);
-        profileView.showProgress(showInitProgress);
 
         if (mUser != null) {
             profileView.setUserData(mUser);
+            showInitProgress = false;
         } else {
+            profileView.showProgress(showInitProgress);
             mDatabase.child("users")
                     .child(mFirebaseUser.getUid())
                     .addListenerForSingleValueEvent(new ValueEventListener() {
