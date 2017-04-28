@@ -9,23 +9,31 @@ import com.badlogic.gdx.graphics.g3d.ModelInstance;
 import com.badlogic.gdx.graphics.g3d.loader.G3dModelLoader;
 import com.badlogic.gdx.graphics.g3d.utils.AnimationController;
 import com.badlogic.gdx.math.Matrix4;
+import com.badlogic.gdx.math.Quaternion;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.math.Vector3;
 
 import java.util.ArrayList;
 
 import cz.cvut.fit.pinadani.cardgamear.utils.Constants;
-import cz.cvut.fit.pinadani.cardgamear.utils.SerializationUtils;
 
 public class Model3D {
     private static final String ANIMATION_WALK = "walk";
     public static final String ANIMATION_STAND = "stay";
     public static final String ANIMATION_ATTACK1 = "attack";
-    public static final String ANIMATION_ATTACK2 = "attack2";
     public static final String ANIMATION_DEFENCE_BEGIN = "defencebegin";
     public static final String ANIMATION_DEFENCE_END = "defenceend";
     public static final String ANIMATION_WIN = "win";
-    public static final String ANIMATION_DII = "die";
+    public static final String ANIMATION_DIE = "win";
+
+    private static final int ANIMATION_WALK_ID = 0;
+    public static final int ANIMATION_STAND_ID = 1;
+    public static final int ANIMATION_ATTACK1_ID = 2;
+    public static final int ANIMATION_DEFENCE_BEGIN_ID = 3;
+    public static final int ANIMATION_DEFENCE_END_ID = 4;
+    public static final int ANIMATION_WIN_ID = 5;
+    public static final int ANIMATION_DIE_ID = 6;
+
 
     private static final float BULLET_LIFETIME = 2;
 
@@ -77,6 +85,9 @@ public class Model3D {
     private boolean mMakeDefenceBegin = false;
 
     private int shortHitRange = 40;
+    private boolean mDied = false;
+    private boolean mWin = false;
+    private int mActualAnimation = ANIMATION_STAND_ID;
 
 
     /**
@@ -133,11 +144,20 @@ public class Model3D {
      * @param models
      */
     void update(float delta, ArrayList<Model3D> models) {
+        if (mHP <= 0) {
+            mDied = true;
+            mAnimationController.setAnimation(ANIMATION_DIE, 0);
+            mActualAnimation = ANIMATION_DIE_ID;
+        }
+        if(mWin){
+            mAnimationController.setAnimation(ANIMATION_WIN, 0);
+            mActualAnimation = ANIMATION_WIN_ID;
+        }
         mAnimationController.update(delta);
         if (mVisibleBullet) {
             updateBulletPosition(delta);
         }
-        if (!mMakeAttackFirst && !mMakeAttackSecond) {
+        if (!mMakeAttackFirst && !mMakeAttackSecond && !mDied && !mWin) {
             updateAngel(delta);
             if (!mMakeDefence) {
                 updatePosition(delta, models);
@@ -310,11 +330,13 @@ public class Model3D {
 
 
     public void updateByButtons(boolean attackFirstClicked, boolean attackSecondClicked, boolean defenceClicked) {
-        if (!mMakeAttackFirst && !mMakeAttackSecond) {
+        if (!mMakeAttackFirst && !mMakeAttackSecond && !mDied && !mWin) {
 
             if (!mMakeDefence && defenceClicked) {
                 mMakeDefenceBegin = true;
                 mMakeDefence = true;
+
+                mActualAnimation = ANIMATION_DEFENCE_BEGIN_ID;
                 mAnimationController.setAnimation(ANIMATION_DEFENCE_BEGIN, new AnimationController.AnimationListener() {
                     @Override
                     public void onEnd(AnimationController.AnimationDesc animation) {
@@ -331,6 +353,7 @@ public class Model3D {
 
             if (mMakeDefence && !defenceClicked && !mMakeDefenceEnd && !mMakeDefenceBegin) {
                 mMakeDefenceEnd = true;
+                mActualAnimation = ANIMATION_DEFENCE_END_ID;
                 mAnimationController.setAnimation(ANIMATION_DEFENCE_END, new AnimationController.AnimationListener() {
                     @Override
                     public void onEnd(AnimationController.AnimationDesc animation) {
@@ -354,6 +377,7 @@ public class Model3D {
             if (attackFirstClicked) {
                 mMakeAttackFirst = true;
                 mMakeHitWithAttackFirst = false;
+                mActualAnimation = ANIMATION_ATTACK1_ID;
                 mAnimationController.setAnimation(ANIMATION_ATTACK1, new AnimationController.AnimationListener() {
                     @Override
                     public void onEnd(AnimationController.AnimationDesc animation) {
@@ -370,6 +394,7 @@ public class Model3D {
 
             if (attackSecondClicked && !mVisibleBullet) {
                 mMakeAttackSecond = true;
+                mActualAnimation = ANIMATION_ATTACK1_ID;
                 mAnimationController.setAnimation(ANIMATION_ATTACK1, new AnimationController.AnimationListener() {
                     @Override
                     public void onEnd(AnimationController.AnimationDesc animation) {
@@ -403,7 +428,7 @@ public class Model3D {
     }
 
     void updateByJoystick(double angleDegrees, double power, Vector2 cameraPosition) {
-        if (!mMakeAttackFirst && !mMakeAttackSecond) {
+        if (!mMakeAttackFirst && !mMakeAttackSecond && !mDied && !mWin) {
 
             Vector3 actualPosition = mModel.transform.getTranslation(new Vector3());
 
@@ -411,6 +436,7 @@ public class Model3D {
             if (power != 0) {
                 if (!mMakeDefence) {
                     mAnimationController.setAnimation(ANIMATION_WALK, -1);
+                    mActualAnimation = ANIMATION_WALK_ID;
                 }
                 //setNextAnimation(ANIMATION_WALK);
                 angleDegrees = (angleDegrees + 180) % 360;
@@ -431,6 +457,7 @@ public class Model3D {
             } else {
                 if (!mMakeDefence) {
                     mAnimationController.setAnimation(ANIMATION_STAND, -1);
+                    mActualAnimation = ANIMATION_STAND_ID;
                 }
                 //setNextAnimation(null);
                 mFinishPosition.x = actualPosition.x;
@@ -446,6 +473,7 @@ public class Model3D {
             if (mMakeDefence) {
                 return null;
             } else {
+                mActualAnimation = ANIMATION_STAND_ID;
                 return ANIMATION_STAND;
             }
         }
@@ -464,47 +492,43 @@ public class Model3D {
         return mSpace;
     }
 
-    public boolean checkGetHits(ArrayList<Model3D> models) {
-        return checkShortAttack(models) || checkLongAttack(models);
+    public int checkGetHits(Model3D model3D) {
+        return checkShortAttack(model3D) + checkLongAttack(model3D);
     }
 
-    public boolean checkShortAttack(ArrayList<Model3D> models) {
+    public int checkShortAttack(Model3D model3D) {
         Vector3 actualPosition = mModel.transform.getTranslation(new Vector3());
 
-        for (Model3D model : models) {
-            if (model.getModel() != mModel && model.mMakeAttackFirst && !model.mMakeHitWithAttackFirst) {
 
-                boolean amIInRange = getDistanceBetweenTwoPoints(model.getModel().transform.getTranslation(new
-                        Vector3()), mModel.transform.getTranslation(new Vector3())) < model
-                        .getSpace() + getSpace() + shortHitRange;
+        if (model3D.mMakeAttackFirst && !model3D.mMakeHitWithAttackFirst) {
 
-                boolean lookAtMe = Math.abs(getAngleBetweenTwoPoints(model.getModel().transform
-                        .getTranslation(new Vector3()), new Vector2(actualPosition.x,
-                        actualPosition.y)) - model.mAngle) < 20;
+            boolean amIInRange = getDistanceBetweenTwoPoints(model3D.getModel().transform.getTranslation(new
+                    Vector3()), mModel.transform.getTranslation(new Vector3())) < model3D
+                    .getSpace() + getSpace() + shortHitRange;
 
-                if (amIInRange && lookAtMe) {
-                    mMakeHitWithAttackFirst = true;
-                    mHP -= model.mShortAttackPower;
-                    return true;
-                }
+            boolean lookAtMe = Math.abs(getAngleBetweenTwoPoints(model3D.getModel().transform
+                    .getTranslation(new Vector3()), new Vector2(actualPosition.x,
+                    actualPosition.y)) - model3D.mAngle) < 20;
+
+            if (amIInRange && lookAtMe) {
+                mMakeHitWithAttackFirst = true;
+                return model3D.mShortAttackPower;
             }
         }
-        return false;
+
+        return 0;
     }
 
-    public boolean checkLongAttack(ArrayList<Model3D> models) {
-        for (Model3D model : models) {
-            if (model.getModel() != mModel && model.isVisibleBullet()) {
-                if (getDistanceBetweenTwoPoints(mModel.transform.getTranslation(new
-                        Vector3()), model.getBulletModel().transform.getTranslation(new Vector3()
-                )) < model.mBulletSpace + mSpace) {
-                    model.mVisibleBullet = false;
-                    mHP -= model.mLongAttackPower;
-                    return true;
-                }
+    public int checkLongAttack(Model3D model3D) {
+        if (model3D.isVisibleBullet()) {
+            if (getDistanceBetweenTwoPoints(mModel.transform.getTranslation(new
+                    Vector3()), model3D.getBulletModel().transform.getTranslation(new Vector3()
+            )) < model3D.mBulletSpace + mSpace) {
+                model3D.mVisibleBullet = false;
+                return model3D.mLongAttackPower;
             }
         }
-        return false;
+        return 0;
     }
 
     public boolean checkBulletCollision(ArrayList<Model3D> models) {
@@ -537,13 +561,15 @@ public class Model3D {
         mMaxHP = maxHP;
     }
 
-    public byte[] getStateBundle(boolean myPausedGame) {
+    public ModelState getStateBundle(boolean myPausedGame) {
         Vector3 actualPosition = mModel.transform.getTranslation(new Vector3());
+        Quaternion quaternion = mModel.transform.getRotation(new Quaternion());
         ModelState modelState = new ModelState(actualPosition.x, actualPosition.y, actualPosition
-                .z, mFinishPosition.x, mFinishPosition.y, mAngle, mBulletAngle, mHP, myPausedGame,
-                mVisibleBullet, mModel.transform.cpy(), mBulletModel.transform.cpy());
+                .z, mFinishPosition.x, mFinishPosition.y, quaternion.x, quaternion.y, quaternion
+                .z, quaternion.w, mAngle, mBulletAngle,
+                myPausedGame, mVisibleBullet, mActualAnimation);
 
-        return SerializationUtils.serialize(modelState);
+        return modelState;
     }
 
     public void updateState(ModelState modelState) {
@@ -551,13 +577,17 @@ public class Model3D {
             return;
         }
         mAngle = modelState.angle;
-        mHP = modelState.hp;
         mModel.transform.setTranslation(modelState.x, modelState.y, modelState.z);
         mFinishPosition.set(modelState.finishX, modelState.finishY);
         mBulletAngle = modelState.bulletAngle;
         mVisibleBullet = modelState.visibleBullet;
-        mModel.transform.set(modelState.model);
-        mBulletModel.transform.set(modelState.bullet);
+        mModel.transform.set(modelState.x, modelState.y, modelState.z, modelState.quaternionX,
+                modelState.quaternionY, modelState.quaternionZ, modelState.quaternionW);
+
+//        mModel.transform.set(new Matrix4(new Vector3(modelState.x, modelState.y, modelState.z),
+//                new Quaternion(modelState.quaternionX, modelState.quaternionY,modelState
+//                        .quaternionZ, modelState.quaternionW), new Vector3(1, 1, 1)));
+
     }
 
     public void setAngle(int angle) {
@@ -566,5 +596,39 @@ public class Model3D {
 
     public void setFinishPosition(Vector2 position) {
         mFinishPosition = position;
+    }
+
+    public void reduceHP(int loseHPs) {
+        mHP -= loseHPs;
+    }
+
+    public void updateAnimation(int animation) {
+        switch (animation) {
+            case ANIMATION_WALK_ID:
+                mAnimationController.setAnimation(ANIMATION_WALK, -1);
+                break;
+            case ANIMATION_STAND_ID:
+                mAnimationController.setAnimation(ANIMATION_STAND, -1);
+                break;
+            case ANIMATION_ATTACK1_ID:
+                mAnimationController.setAnimation(ANIMATION_ATTACK1, -1);
+                break;
+            case ANIMATION_DEFENCE_BEGIN_ID:
+                mAnimationController.setAnimation(ANIMATION_DEFENCE_BEGIN, -1);
+                break;
+            case ANIMATION_DEFENCE_END_ID:
+                mAnimationController.setAnimation(ANIMATION_DEFENCE_END, -1);
+                break;
+            case ANIMATION_WIN_ID:
+                mAnimationController.setAnimation(ANIMATION_WIN, -1);
+                break;
+            case ANIMATION_DIE_ID:
+                mAnimationController.setAnimation(ANIMATION_DIE, -1);
+                break;
+        }
+    }
+
+    public void setWin(boolean win) {
+        mWin = win;
     }
 }

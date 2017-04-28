@@ -39,18 +39,22 @@ public class Model3DList {
         if(startPlayer){
             mOponentModel.getModel().transform.translate(0, 0, 400);
             mOponentModel.setFinishPosition(new Vector2(0,400));
-            //mOponentModel.setAngle(270);
         } else {
             mMyModel.getModel().transform.translate(0, 0, 400);
             mMyModel.setFinishPosition(new Vector2(0,400));
-           // mOponentModel.setAngle(270);
         }
     }
 
     public void updateModels(double angleDegrees, double power, boolean attackFirstClicked, boolean attackSecondClicked, boolean defenceClicked, Vector2 cameraPosition, ModelState modelState) {
         mMyModel.updateByButtons(attackFirstClicked, attackSecondClicked, defenceClicked);
         mMyModel.updateByJoystick(angleDegrees, power, cameraPosition);
-        mOponentModel.updateState(modelState);
+        if(modelState != null) {
+            mOponentModel.updateAnimation(modelState.animation);
+            mOponentModel.updateState(modelState);
+        }
+        if(mOponentModel.getHP() <= 0){
+            mMyModel.setWin(true);
+        }
         float delta = Gdx.graphics.getDeltaTime();
         for (Model3D model : mModels) {
             model.update(delta, mModels);
@@ -59,5 +63,13 @@ public class Model3DList {
 
     public ArrayList<Model3D> getModels() {
         return mModels;
+    }
+
+    public Model3D getMyModel() {
+        return mMyModel;
+    }
+
+    public Model3D getOponentModel() {
+        return mOponentModel;
     }
 }

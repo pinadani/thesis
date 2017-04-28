@@ -48,6 +48,7 @@ public class Renderer {
     private View pausedOponentOverlay;
     RoundCornerProgressBar hpProgress;
 
+    private boolean mSendEverySecond = true;
     private JoyStick joystick;
 
     private PerspectiveCamera mCamera;
@@ -120,10 +121,12 @@ public class Renderer {
                 modelBatch.render(model.getBulletModel(), mEnvironment);
                 //model.checkBulletCollision(models.getModels());
             }
+        }
 
-            if (model.checkGetHits(models.getModels())) {
-                updateHp(model.getHP(), model.getMaxHP());
-            }
+        models.getOponentModel().reduceHP(models.getOponentModel().checkGetHits(models.getMyModel()));
+        if(mModelState != null && mModelState.oponentHp < models.getMyModel().getHP()){
+            models.getMyModel().setHP(mModelState.oponentHp);
+            updateHp(models.getMyModel().getHP(), models.getMyModel().getMaxHP());
         }
 
         modelBatch.end();
@@ -141,8 +144,9 @@ public class Renderer {
 
     private void setProjectionAndCamera(TrackableResult[] trackables, float filedOfView, Model3DList models) {
 
-        updateMyModelState(models.getModels().get(0), mMyPausedGame);
+        updateMyModelState(models, mMyPausedGame);
         if (!mMyPausedGame) {
+            mActivity.runOnUiThread(() -> pausedMeOverlay.setVisibility(View.GONE));
             if (mModelState != null && mModelState.paused) {
                 mOponentPausedGame = true;
                 mActivity.runOnUiThread(() -> pausedOponentOverlay.setVisibility(View.VISIBLE));
@@ -194,6 +198,7 @@ public class Renderer {
                 models.updateModels(joystick.getAngleDegrees(), joystick.getPower(),
                         isAttackFirstDown, isAttackSecondDown, isDefenceDown, new Vector2
                                 (data[4], data[5]), mModelState);
+                mModelState = null;
             }
 
             //update filed of view
@@ -207,9 +212,14 @@ public class Renderer {
         mCamera.update();
     }
 
-    private void updateMyModelState(Model3D model3D, boolean myPausedGame) {
-        if (mBluetoothService != null) {
-            mBluetoothService.write(model3D.getStateBundle(myPausedGame));
+    private void updateMyModelState(Model3DList models3D, boolean myPausedGame) {
+        if (mBluetoothService != null && mSendEverySecond) {
+            ModelState modelState = models3D.getMyModel().getStateBundle(myPausedGame);
+            modelState.oponentHp = models3D.getOponentModel().getHP();
+            mBluetoothService.write(SerializationUtils.serialize(modelState));
+            mSendEverySecond = false;
+        } else {
+            mSendEverySecond = true;
         }
     }
 
@@ -291,6 +301,8 @@ public class Renderer {
     }
 
     public void setModelState(byte[] buf) {
-        mModelState = (ModelState) SerializationUtils.deserialize(buf);
+        ModelState modelState = (ModelState) SerializationUtils.deserialize(buf);
+
+        mModelState = modelState;
     }
 }

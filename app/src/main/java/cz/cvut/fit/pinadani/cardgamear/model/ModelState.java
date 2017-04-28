@@ -1,7 +1,5 @@
 package cz.cvut.fit.pinadani.cardgamear.model;
 
-import com.badlogic.gdx.math.Matrix4;
-
 import java.io.Serializable;
 
 /**
@@ -14,28 +12,49 @@ public class ModelState implements Serializable {
     public float z;
     public float finishX;
     public float finishY;
+    public float quaternionX;
+    public float quaternionY;
+    public float quaternionZ;
+    public float quaternionW;
     public double angle;
     public double bulletAngle;
-    public int hp;
+    public int oponentHp;
     public boolean paused;
     public boolean visibleBullet;
-    public Matrix4 model;
-    public Matrix4 bullet;
+    public int animation;
 
-    public ModelState(float x, float y, float z, float finishX, float finishY, double angle,
-                      double bulletAngle, int hp, boolean paused, boolean visibleBullet, Matrix4
-                              model, Matrix4 bullet) {
+    public ModelState(float x, float y, float z, float finishX, float finishY, float quaternionX, float quaternionY, float quaternionZ, float quaternionW, double angle, double bulletAngle, boolean paused, boolean visibleBullet, int animation) {
         this.x = x;
         this.y = y;
         this.z = z;
         this.finishX = finishX;
         this.finishY = finishY;
+        this.quaternionX = quaternionX;
+        this.quaternionY = quaternionY;
+        this.quaternionZ = quaternionZ;
+        this.quaternionW = quaternionW;
         this.angle = angle;
         this.bulletAngle = bulletAngle;
-        this.hp = hp;
         this.paused = paused;
         this.visibleBullet = visibleBullet;
-        this.model = model;
-        this.bullet = bullet;
+        this.animation = animation;
+    }
+
+    public ModelState(float x, float y, float z, float finishX, float finishY, float quaternionX, float quaternionY, float quaternionZ, float quaternionW, double angle, double bulletAngle, int oponentHp, boolean paused, boolean visibleBullet, int animation) {
+        this.x = x;
+        this.y = y;
+        this.z = z;
+        this.finishX = finishX;
+        this.finishY = finishY;
+        this.quaternionX = quaternionX;
+        this.quaternionY = quaternionY;
+        this.quaternionZ = quaternionZ;
+        this.quaternionW = quaternionW;
+        this.angle = angle;
+        this.bulletAngle = bulletAngle;
+        this.oponentHp = oponentHp;
+        this.paused = paused;
+        this.visibleBullet = visibleBullet;
+        this.animation = animation;
     }
 }
