@@ -13,6 +13,10 @@ public interface ISPInteractor {
 
     String getAccessToken();
 
+    void setDefaultJoystickType(boolean defaultJoystickType);
+
+    boolean isDefaultJoystickType();
+
     void clearAll();
 
 

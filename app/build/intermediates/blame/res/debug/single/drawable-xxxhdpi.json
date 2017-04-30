@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_play.png"
     },
     {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_directions.png",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_directions.png"
+    },
+    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_edit_black.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\diplomka\\samples\\Card Game AR\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_edit_black.png"
     },

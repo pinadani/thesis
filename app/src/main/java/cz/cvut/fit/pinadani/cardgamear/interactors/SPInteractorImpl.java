@@ -16,6 +16,7 @@ public class SPInteractorImpl implements ISPInteractor {
     private static final String USER_EMAIL_KEY = "user_email";
     private static final String USER_ID = "user_id";
     private static final String START_PLAYER = "start_player";
+    private static final String JOYSTICK_TYPE = "joystick_type";
 
     private SharedPreferences mSharedPreferences;
     private Context mCtx;
@@ -47,7 +48,7 @@ public class SPInteractorImpl implements ISPInteractor {
 
     @Override
     public String getEmail() {
-       return mSharedPreferences.getString(USER_EMAIL_KEY, null);
+        return mSharedPreferences.getString(USER_EMAIL_KEY, null);
     }
 
     @Override
@@ -78,6 +79,16 @@ public class SPInteractorImpl implements ISPInteractor {
     @Override
     public boolean isStartPlayer() {
         return mSharedPreferences.getBoolean(START_PLAYER, false);
+    }
+
+    @Override
+    public void setDefaultJoystickType(boolean defaultJoystickType) {
+        mSharedPreferences.edit().putBoolean(JOYSTICK_TYPE, defaultJoystickType).apply();
+    }
+
+    @Override
+    public boolean isDefaultJoystickType() {
+        return mSharedPreferences.getBoolean(JOYSTICK_TYPE, true);
     }
 
     @Override

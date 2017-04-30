@@ -723,6 +723,7 @@
     <string name="login_hint_password">Heslo</string>
     <string name="login_success">Přihlášení proběhlo v pořádku</string>
     <string name="logout">Odhlásit</string>
+    <string name="message_no_internet">Zkontrolujte své připojení k internetu</string>
     <string name="muliplayer">Hra dvou hráčů</string>
     <string name="name">Jméno</string>
     <string name="new_password">Nové heslo</string>
@@ -750,6 +751,7 @@
     <string name="second_name">Přijímení</string>
     <string name="select_device">select a device to connect</string>
     <string name="service_id">cz.cvut.fit.pinadani.cardgamear.service</string>
+    <string name="settings_direction">Primární ovládání pohybu</string>
     <string name="sign_up_fail">Chyba při registraci</string>
     <string name="sign_up_fail_check">Zkontrolujte prosím zadané údaje. Heslo musí obsahovat alespoň
         6 znaků.
@@ -759,6 +761,8 @@
     <string name="singleplayer">Hra jednoho hráč</string>
     <string name="statisticks">Žebříček</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="text_settings_direction_alternative">Alternativní</string>
+    <string name="text_settings_direction_default">Primární</string>
     <string name="text_wait">Čekejte prosím</string>
     <string name="title_other_devices">Další dostupná zařízení</string>
     <string name="title_paired_devices">Spárovaná zařízení</string>
@@ -1985,6 +1989,9 @@
         <item name="android:layout_marginLeft">12dp</item>
         <item name="android:layout_marginStart">12dp</item>
         <item name="android:tint">@android:color/darker_gray</item>
+    </style>
+    <style name="ProfileEditTextImageWhite" parent="ProfileEditTextImage">
+        <item name="android:tint">@android:color/white</item>
     </style>
     <style name="ProfileEditTextLayout">
         <item name="cardCornerRadius">5dp</item>

@@ -10,11 +10,13 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import butterknife.OnCheckedChanged;
 import butterknife.OnClick;
 import cz.cvut.fit.pinadani.cardgamear.R;
 import cz.cvut.fit.pinadani.cardgamear.model.User;
@@ -49,6 +51,9 @@ public class ProfileFragment extends BaseNucleusFragment<ProfilePresenter> imple
 
     @Bind(R.id.img_edit_email)
     ImageView mEditEmail;
+
+    @Bind(R.id.direction_checkox)
+    CheckBox mCheckBox;
 
     private MenuItem mDoneMenuItem;
 
@@ -117,7 +122,8 @@ public class ProfileFragment extends BaseNucleusFragment<ProfilePresenter> imple
 
         switch (item.getItemId()) {
             case R.id.action_done:
-                getPresenter().saveChanges(mUsername.getText().toString(), mName.getText().toString(), mEmail.getText().toString());
+                getPresenter().saveChanges(mUsername.getText().toString(), mName.getText()
+                        .toString(), mEmail.getText().toString());
                 return true;
             default:
                 break;
@@ -126,12 +132,14 @@ public class ProfileFragment extends BaseNucleusFragment<ProfilePresenter> imple
     }
 
     @Override
-    public void setUserData(User user) {
+    public void setUserData(User user, boolean defaultJoystickType) {
         if (user != null) {
             mName.setText(user.getName());
             mEmail.setText(user.getEmail());
             mUsername.setText(user.getUsername());
         }
+
+        mCheckBox.setChecked(defaultJoystickType);
     }
 
     @Override
@@ -146,8 +154,18 @@ public class ProfileFragment extends BaseNucleusFragment<ProfilePresenter> imple
         mDoneMenuItem.setVisible(false);
     }
 
+    @Override
+    public void setJoystickData(boolean defaultJoystickType) {
+        mCheckBox.setChecked(defaultJoystickType);
+    }
+
     @OnClick(R.id.btn_change_password)
     public void onChangePasswordClicked() {
         BaseFragmentActivity.startActivity(getActivity(), ChangePasswordFragment.class.getName());
+    }
+
+    @OnCheckedChanged(R.id.direction_checkox)
+    public void OnCheckedChanged() {
+        getPresenter().changeDirectionType(mCheckBox.isChecked());
     }
 }

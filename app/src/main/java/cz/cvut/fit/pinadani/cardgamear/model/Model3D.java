@@ -15,9 +15,17 @@ import com.badlogic.gdx.math.Vector3;
 
 import java.util.ArrayList;
 
+import javax.inject.Inject;
+
+import cz.cvut.fit.pinadani.cardgamear.interactors.ISPInteractor;
+import cz.cvut.fit.pinadani.cardgamear.utils.App;
 import cz.cvut.fit.pinadani.cardgamear.utils.Constants;
 
 public class Model3D {
+
+    @Inject
+    ISPInteractor mSpInteractor;
+
     private static final String ANIMATION_WALK = "walk";
     public static final String ANIMATION_STAND = "stay";
     public static final String ANIMATION_ATTACK1 = "attack";
@@ -89,6 +97,8 @@ public class Model3D {
     private boolean mWin = false;
     private int mActualAnimation = ANIMATION_STAND_ID;
 
+    private boolean mDefaultJoystickType = true;
+
 
     /**
      * Konstruktor 3D modelu. Probehne inicializace modelu a animace
@@ -97,6 +107,8 @@ public class Model3D {
      * @param name        Nazev modelu
      */
     public Model3D(G3dModelLoader modelLoader, String name) {
+        App.getAppComponent().inject(this);
+        mDefaultJoystickType = mSpInteractor.isDefaultJoystickType();
         initModel(modelLoader, name);
         initAnimationController();
     }
@@ -429,7 +441,6 @@ public class Model3D {
 
     void updateByJoystick(double angleDegrees, double power, Vector2 cameraPosition) {
         if (!mMakeAttackFirst && !mMakeAttackSecond && !mDied && !mWin) {
-
             Vector3 actualPosition = mModel.transform.getTranslation(new Vector3());
 
 
@@ -440,19 +451,33 @@ public class Model3D {
                 }
                 //setNextAnimation(ANIMATION_WALK);
                 angleDegrees = (angleDegrees + 180) % 360;
-                Vector2 joystickVector = new Vector2((float) Math.cos(Math.toRadians(angleDegrees)),
-                        (float) Math.sin(Math.toRadians(angleDegrees * 1)));
+                if(mDefaultJoystickType) {
+                    Vector2 joystickVector = new Vector2((float) Math.cos(Math.toRadians(angleDegrees)),
+                            (float) Math.sin(Math.toRadians(angleDegrees * 1)));
 
-                float finalAngle = cameraPosition.angle(joystickVector);
+                    float finalAngle = cameraPosition.angle(joystickVector);
 
-                finalAngle *= -1;
+                    finalAngle *= -1;
 
-                finalAngle = (finalAngle + 360) % 360;
+                    finalAngle = (finalAngle + 360) % 360;
 
-                Vector2 finalVector = new Vector2(0, -1);
-                finalVector.rotate(finalAngle);
-                mFinishPosition.x = (int) (actualPosition.x + finalVector.x * 800 * power / 100);
-                mFinishPosition.y = (int) (actualPosition.y + finalVector.y * 800 * power / 100);
+                    Vector2 finalVector = new Vector2(0, -1);
+                    finalVector.rotate(finalAngle);
+                    mFinishPosition.x = (int) (actualPosition.x + finalVector.x * 800 * power / 100);
+                    mFinishPosition.y = (int) (actualPosition.y + finalVector.y * 800 * power / 100);
+                } else {
+                    if(angleDegrees < 180) {
+                        angleDegrees /= 10;
+                    } else {
+                        angleDegrees = ((angleDegrees - 360) / 10) + 360;
+                    }
+
+                    float angle = (float)((mAngle * -1) + 630 + angleDegrees) % 360;
+                    Vector2 finalVector = new Vector2(0, 1);
+                    finalVector.rotate(angle * -1);
+                    mFinishPosition.x = (int) (actualPosition.x + finalVector.x * 800 * power / 100);
+                    mFinishPosition.y = (int) (actualPosition.y + finalVector.y * 800 * power / 100);
+                }
 
             } else {
                 if (!mMakeDefence) {

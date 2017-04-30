@@ -3,6 +3,7 @@ package cz.cvut.fit.pinadani.cardgamear.di;
 import javax.inject.Singleton;
 
 import cz.cvut.fit.pinadani.cardgamear.ar.libgdx.Display;
+import cz.cvut.fit.pinadani.cardgamear.model.Model3D;
 import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.ChangePasswordPresenter;
 import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.ConnectionPresenter;
 import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.ForgotPasswordPresenter;
@@ -42,4 +43,6 @@ public interface AppComponent {
     void inject(Display display);
 
     void inject(BluetoothService bluetoothService);
+
+    void inject(Model3D model3D);
 }

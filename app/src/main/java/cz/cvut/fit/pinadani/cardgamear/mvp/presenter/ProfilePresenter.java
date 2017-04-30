@@ -19,6 +19,7 @@ import cz.cvut.fit.pinadani.cardgamear.interactors.ISPInteractor;
 import cz.cvut.fit.pinadani.cardgamear.model.User;
 import cz.cvut.fit.pinadani.cardgamear.mvp.view.IProfileView;
 import cz.cvut.fit.pinadani.cardgamear.utils.App;
+import cz.cvut.fit.pinadani.cardgamear.utils.NetworkUtils;
 
 
 /**
@@ -53,9 +54,14 @@ public class ProfilePresenter extends BasePresenter<IProfileView> {
     @Override
     protected void onTakeView(IProfileView profileView) {
         super.onTakeView(profileView);
+        profileView.setJoystickData(mSpInteractor.isDefaultJoystickType());
 
+        if(!NetworkUtils.isNetworkAvailable(profileView.getFragmentActivity())) {
+            profileView.showSnackbar(R.string.message_no_internet);
+            return;
+        }
         if (mUser != null) {
-            profileView.setUserData(mUser);
+            profileView.setUserData(mUser, mSpInteractor.isDefaultJoystickType());
             showInitProgress = false;
         } else {
             profileView.showProgress(showInitProgress);
@@ -68,7 +74,7 @@ public class ProfilePresenter extends BasePresenter<IProfileView> {
                             getView().showProgress(showInitProgress);
                             if (dataSnapshot.exists()) {
                                 mUser = dataSnapshot.getValue(User.class);
-                                profileView.setUserData(mUser);
+                                profileView.setUserData(mUser, mSpInteractor.isDefaultJoystickType());
                             } else {
                                 getView().showSnackbar(R.string.get_data_fail);
                             }
@@ -85,6 +91,7 @@ public class ProfilePresenter extends BasePresenter<IProfileView> {
     }
 
     public void saveChanges(String username, String name, String email) {
+
         if (!TextUtils.equals(mUser.getEmail(), email)) {
             updateEmail(email);
         }
@@ -94,6 +101,10 @@ public class ProfilePresenter extends BasePresenter<IProfileView> {
                 !TextUtils.equals(mUser.getEmail(), email)) {
             updateUser(username, name, email);
         }
+    }
+
+    public void changeDirectionType(boolean defaultType){
+        mSpInteractor.setDefaultJoystickType(defaultType);
     }
 
     private void updateUser(String username, String name, String email) {

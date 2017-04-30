@@ -76,6 +76,10 @@
         <item name="android:tint">@android:color/darker_gray</item>
     </style>
 
+    <style name="ProfileEditTextImageWhite" parent="ProfileEditTextImage">
+        <item name="android:tint">@android:color/white</item>
+    </style>
+
     <style name="ProfileEditText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
