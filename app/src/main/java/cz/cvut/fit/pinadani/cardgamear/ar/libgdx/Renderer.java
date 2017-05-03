@@ -5,6 +5,7 @@ import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
 import com.badlogic.gdx.Gdx;
@@ -46,6 +47,7 @@ public class Renderer {
     private ImageButton defenceBtn;
     private View pausedMeOverlay;
     private View pausedOponentOverlay;
+    private View startOverlay;
     RoundCornerProgressBar hpProgress;
 
     private boolean mSendEverySecond = true;
@@ -63,10 +65,13 @@ public class Renderer {
 
     private boolean mMyPausedGame = false;
     private boolean mOponentPausedGame = false;
-
+    private boolean mGameStarted = false;
+    private boolean mGameStartedFull = false;
+    private long mTimeGameStart = 0;
     private ModelState mModelState = null;
 
     private final Activity mActivity;
+    private boolean mSinglePlayer = true;
 
     public Renderer(VuforiaRenderer arRenderer, Activity activity) {
         mActivity = activity;
@@ -144,7 +149,48 @@ public class Renderer {
 
     private void setProjectionAndCamera(TrackableResult[] trackables, float filedOfView, Model3DList models) {
 
-        updateMyModelState(models, mMyPausedGame);
+        updateMyModelState(models, mMyPausedGame, mGameStarted);
+
+
+        if(!mGameStartedFull) {
+            if (!mGameStarted) {
+                mActivity.runOnUiThread(() -> startOverlay.setVisibility(View.VISIBLE));
+            } else {
+                TextView textView = (TextView) startOverlay.findViewById(R.id.start_overlay_text);
+                if (mModelState != null && mModelState.started) {
+                    if (mTimeGameStart == 0) {
+                        mTimeGameStart = System.currentTimeMillis();
+                    } else {
+                        long timeFromStart = System.currentTimeMillis() - mTimeGameStart;
+                        if (timeFromStart < 1000) {
+                            mActivity.runOnUiThread(() ->textView.setText("3"));
+                        } else {
+                            if (timeFromStart < 2000) {
+                                mActivity.runOnUiThread(() ->textView.setText("2"));
+                            } else {
+                                if (timeFromStart < 3000) {
+                                    mActivity.runOnUiThread(() ->textView.setText("1"));
+                                } else {
+                                    if (timeFromStart < 4000) {
+                                        mActivity.runOnUiThread(() ->textView.setText("GO"));
+                                    } else {
+                                        if (timeFromStart < 5000) {
+                                            mActivity.runOnUiThread(() -> startOverlay
+                                                    .setVisibility(View.GONE));
+                                            mGameStartedFull = true;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                } else {
+                    textView.setText(R.string.wait_for_oponent_start);
+                }
+            }
+            return;
+        }
+
         if (!mMyPausedGame) {
             mActivity.runOnUiThread(() -> pausedMeOverlay.setVisibility(View.GONE));
             if (mModelState != null && mModelState.paused) {
@@ -212,10 +258,11 @@ public class Renderer {
         mCamera.update();
     }
 
-    private void updateMyModelState(Model3DList models3D, boolean myPausedGame) {
+    private void updateMyModelState(Model3DList models3D, boolean myPausedGame, boolean gameStarted) {
         if (mBluetoothService != null && mSendEverySecond) {
             ModelState modelState = models3D.getMyModel().getStateBundle(myPausedGame);
             modelState.oponentHp = models3D.getOponentModel().getHP();
+            modelState.started = gameStarted;
             mBluetoothService.write(SerializationUtils.serialize(modelState));
             mSendEverySecond = false;
         } else {
@@ -229,7 +276,8 @@ public class Renderer {
 
     public void setButtons(ImageButton pauseBtn, JoyStick joystick, ImageButton attackFirstBtn,
                            ImageButton attackSecondBtn, ImageButton defenceBtn, View
-                                   pausedOverlay, View pausedOponentOverlay, RoundCornerProgressBar
+                                   pausedOverlay, View pausedOponentOverlay, View startOverlay,
+                           RoundCornerProgressBar
                                    hpProgress, Handler handler) {
         this.pauseBtn = pauseBtn;
         this.attackFirstBtn = attackFirstBtn;
@@ -238,6 +286,7 @@ public class Renderer {
         this.joystick = joystick;
         this.pausedMeOverlay = pausedOverlay;
         this.pausedOponentOverlay = pausedOponentOverlay;
+        this.startOverlay = startOverlay;
         this.hpProgress = hpProgress;
 
         setListeners();
@@ -252,6 +301,10 @@ public class Renderer {
         pauseBtn.setOnClickListener(view -> {
             pausedMeOverlay.setVisibility(View.VISIBLE);
             mMyPausedGame = true;
+        });
+
+        startOverlay.setOnClickListener(view -> {
+            mGameStarted = true;
         });
 
         attackFirstBtn.setOnTouchListener((view, motionEvent) -> {
@@ -304,5 +357,11 @@ public class Renderer {
         ModelState modelState = (ModelState) SerializationUtils.deserialize(buf);
 
         mModelState = modelState;
+    }
+
+    public void setSinglePlayer(boolean singlePlayer) {
+        mSinglePlayer = singlePlayer;
+        mModelState = new ModelState();
+        mModelState.started = true;
     }
 }

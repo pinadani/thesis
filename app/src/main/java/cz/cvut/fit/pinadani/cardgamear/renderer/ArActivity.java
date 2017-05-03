@@ -31,6 +31,7 @@ import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.SessionControl;
 import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.VuforiaException;
 import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.VuforiaRenderer;
 import cz.cvut.fit.pinadani.cardgamear.utils.App;
+import cz.cvut.fit.pinadani.cardgamear.utils.Constants;
 import cz.cvut.fit.pinadani.cardgamear.utils.UiUtils;
 
 //import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
@@ -55,7 +56,7 @@ public class ArActivity extends AndroidApplication implements SessionControl {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.camera_overlay);
         Log.d(LOGTAG, "onCreate");
-
+        isSinglePlayer = getIntent().getBooleanExtra(Constants.SINGLE_PLAYER, true);
         mHandler = ((App) App.getContext()).getHandler();
 
         session = new AppSession(this);
@@ -71,6 +72,7 @@ public class ArActivity extends AndroidApplication implements SessionControl {
         ImageButton defenceBtn = (ImageButton) findViewById(R.id.btn_cross);
         View pausedOverlay = findViewById(R.id.paused_overlay);
         View pausedOponentOverlay = findViewById(R.id.paused_oponent_overlay);
+        View startOverlay = findViewById(R.id.start_overlay);
         RoundCornerProgressBar hpProgress = (RoundCornerProgressBar) findViewById(R.id.hp_status);
 
         AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
@@ -80,7 +82,8 @@ public class ArActivity extends AndroidApplication implements SessionControl {
 
         mEngine = new Engine(mRenderer, this);
         mEngine.setButtons(pauseBtn, joystick, attackFirstBtn, attackSecondBtn, defenceBtn,
-                pausedOverlay, pausedOponentOverlay, hpProgress, mHandler);
+                pausedOverlay, pausedOponentOverlay, startOverlay, hpProgress, mHandler);
+        mEngine.setSinglePlayer(isSinglePlayer);
 
         View glView = initializeForView(mEngine, config);
 

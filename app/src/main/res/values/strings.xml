@@ -96,4 +96,6 @@
     <string name="text_settings_direction_default">Primární</string>
     <string name="text_settings_direction_alternative">Alternativní</string>
     <string name="message_no_internet">Zkontrolujte své připojení k internetu</string>
+    <string name="click_for_start">start</string>
+    <string name="wait_for_oponent_start">počkejte na soupeře</string>
 </resources>

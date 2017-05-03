@@ -32,7 +32,7 @@ public class Model3D {
     public static final String ANIMATION_DEFENCE_BEGIN = "defencebegin";
     public static final String ANIMATION_DEFENCE_END = "defenceend";
     public static final String ANIMATION_WIN = "win";
-    public static final String ANIMATION_DIE = "win";
+    public static final String ANIMATION_DIE = "die";
 
     private static final int ANIMATION_WALK_ID = 0;
     public static final int ANIMATION_STAND_ID = 1;
@@ -216,9 +216,17 @@ public class Model3D {
 
         mModel.transform.trn(x, y, 0);
 
-        if (detectCollissions(models)) {
+        if (detectCollissions(models) || isTooFar()) {
             mModel.transform.trn(-x, -y, 0);
         }
+    }
+
+    private boolean isTooFar() {
+        if(getDistanceBetweenTwoPoints(mModel.transform.getTranslation(new Vector3()),new Vector2
+                (0,0)) > 1000 ){
+            return true;
+        }
+        return false;
     }
 
     private boolean detectCollissions(ArrayList<Model3D> models) {

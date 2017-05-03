@@ -83,4 +83,5 @@ public class Display implements Screen {
     public Renderer getRenderer() {
         return mRenderer;
     }
+
 }

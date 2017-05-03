@@ -25,6 +25,7 @@ public class Engine extends Game {
     ImageButton defenceBtn;
     View pausedOverlay;
     View pausedOponentOverlay;
+    View startOverlay;
     RoundCornerProgressBar hpProgress;
 
     JoyStick joystick;
@@ -34,6 +35,7 @@ public class Engine extends Game {
     private VuforiaRenderer vuforiaRenderer;
     private Display mDisplay;
     private Activity mActivity;
+    private boolean mSinglePlayer = true;
 
     public Engine(VuforiaRenderer vuforiaRenderer, Activity activity) {
         this.vuforiaRenderer = vuforiaRenderer;
@@ -45,7 +47,8 @@ public class Engine extends Game {
         mDisplay = new Display(vuforiaRenderer, mActivity);
         mDisplay.setJoystick(joystick);
         mDisplay.getRenderer().setButtons(pauseBtn, joystick, attackFirstBtn, attackSecondBtn,
-                defenceBtn, pausedOverlay, pausedOponentOverlay, hpProgress, mHandler);
+                defenceBtn, pausedOverlay, pausedOponentOverlay, startOverlay, hpProgress, mHandler);
+        mDisplay.getRenderer().setSinglePlayer(mSinglePlayer);
         setScreen(mDisplay);
         vuforiaRenderer.initRendering();
         fps = new FPSLogger();
@@ -67,7 +70,8 @@ public class Engine extends Game {
 
     public void setButtons(ImageButton pauseBtn, JoyStick joystick, ImageButton attackFirstBtn,
                            ImageButton attackSecondBtn, ImageButton defenceBtn, View
-                                   pausedOverlay, View pausedOponentOverlay, RoundCornerProgressBar hpProgress,
+                                   pausedOverlay, View pausedOponentOverlay, View startOverlay,
+                           RoundCornerProgressBar hpProgress,
                            Handler handler) {
         this.pauseBtn = pauseBtn;
         this.attackFirstBtn = attackFirstBtn;
@@ -76,7 +80,12 @@ public class Engine extends Game {
         this.joystick = joystick;
         this.pausedOverlay = pausedOverlay;
         this.pausedOponentOverlay = pausedOponentOverlay;
+        this.startOverlay = startOverlay;
         this.hpProgress = hpProgress;
         this.mHandler = handler;
+    }
+
+    public void setSinglePlayer(boolean singlePlayer) {
+        mSinglePlayer = singlePlayer;
     }
 }

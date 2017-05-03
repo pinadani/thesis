@@ -679,6 +679,7 @@
     <string name="change_password_title">Změna hesla</string>
     <string name="changes_saved">Změny byly uloženy</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="click_for_start">start</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -775,6 +776,7 @@
     <string name="valid_empty_field">Prosím vyplňte toto pole</string>
     <string name="valid_password_fail_empty">Vyplňte prosím Vaše heslo.</string>
     <string name="vuforia_key">AYhKm7n/////AAAAGahKLdo9B0CmnlKK8ivIMSUe3MMyBS8kz9SaIEbIWFdDVptCnhuBpqIhGGY6LkJj9iROhcU9t6GnMvi+cI4kQehv8nlRTdLvzGiG1G3qh7lZRKOkDQHekALQckiQgfehP6Q3pS1Hgwn1uWzVeL/aSjhwE5cQrAW+Tu23HgOzE0FxpikUs5wg0yBHTWO+GMbm27CewBY7fM/HKBDf4tINziHwEftz3pxEDbED0tzJpv0FIpN6E6Jen+e0yqYAPmPVAyjC2CwUqgSrlo/wwMrckq/rOsfEOOqWc/iW7okVLMf4Y/IbIxOjU+fwYQc5hZJV5BLyjmXyo0nK18EDDpi7VJMXfpZ+RJ6xjQum5eyz4Nv1</string>
+    <string name="wait_for_oponent_start">počkejte na soupeře</string>
     <string name="wifi">Wi-Fi</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

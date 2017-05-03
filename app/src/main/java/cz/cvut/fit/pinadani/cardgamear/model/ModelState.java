@@ -22,6 +22,7 @@ public class ModelState implements Serializable {
     public boolean paused;
     public boolean visibleBullet;
     public int animation;
+    public boolean started;
 
     public ModelState(float x, float y, float z, float finishX, float finishY, float quaternionX, float quaternionY, float quaternionZ, float quaternionW, double angle, double bulletAngle, boolean paused, boolean visibleBullet, int animation) {
         this.x = x;
@@ -40,7 +41,7 @@ public class ModelState implements Serializable {
         this.animation = animation;
     }
 
-    public ModelState(float x, float y, float z, float finishX, float finishY, float quaternionX, float quaternionY, float quaternionZ, float quaternionW, double angle, double bulletAngle, int oponentHp, boolean paused, boolean visibleBullet, int animation) {
+    public ModelState(float x, float y, float z, float finishX, float finishY, float quaternionX, float quaternionY, float quaternionZ, float quaternionW, double angle, double bulletAngle, int oponentHp, boolean paused, boolean visibleBullet, int animation, boolean started) {
         this.x = x;
         this.y = y;
         this.z = z;
@@ -56,5 +57,10 @@ public class ModelState implements Serializable {
         this.paused = paused;
         this.visibleBullet = visibleBullet;
         this.animation = animation;
+        this.started = started;
+    }
+
+    public ModelState() {
+
     }
 }

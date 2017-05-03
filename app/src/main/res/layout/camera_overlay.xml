@@ -126,4 +126,23 @@
         />
     </RelativeLayout>
 
+    <RelativeLayout
+        android:id="@+id/start_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_75_alpha"
+        android:clickable="true"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/start_overlay_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="90"
+            android:text="@string/click_for_start"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"/>
+    </RelativeLayout>
+
 </RelativeLayout>
