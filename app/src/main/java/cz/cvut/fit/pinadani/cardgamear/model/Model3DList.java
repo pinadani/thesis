@@ -18,12 +18,12 @@ public class Model3DList {
     // Create a model loader passing in our json reader
     G3dModelLoader mModelLoader = new G3dModelLoader(mJsonReader);
 
-    String[] modelNames = {"charm3.g3db", "charm3.g3db"};
+    String[] modelNames = {"charmanderModel.g3db","charmanderModel.g3db"};
 
     Model3D mMyModel = null;
     Model3D mOponentModel = null;
 
-    public Model3DList(boolean startPlayer) {
+    public Model3DList(boolean startPlayer, boolean singlePlayer) {
         boolean firstModel = true;
         for (String name : modelNames) {
             Model3D model3D = new Model3D(mModelLoader, name);
@@ -36,23 +36,23 @@ public class Model3DList {
             mModels.add(model3D);
         }
 
-        if(startPlayer){
-            mOponentModel.getModel().transform.translate(0, 0, 400);
-            mOponentModel.setFinishPosition(new Vector2(0,400));
+        if (startPlayer) {
+            mOponentModel.getModel().transform.translate(0, 800, 0);
+            mOponentModel.setFinishPosition(new Vector2(0, 800));
         } else {
-            mMyModel.getModel().transform.translate(0, 0, 400);
-            mMyModel.setFinishPosition(new Vector2(0,400));
+            mMyModel.getModel().transform.translate(0, 800, 0);
+            mMyModel.setFinishPosition(new Vector2(0, 800));
         }
     }
 
     public void updateModels(double angleDegrees, double power, boolean attackFirstClicked, boolean attackSecondClicked, boolean defenceClicked, Vector2 cameraPosition, ModelState modelState) {
         mMyModel.updateByButtons(attackFirstClicked, attackSecondClicked, defenceClicked);
         mMyModel.updateByJoystick(angleDegrees, power, cameraPosition);
-        if(modelState != null) {
+        if (modelState != null) {
             mOponentModel.updateAnimation(modelState.animation);
             mOponentModel.updateState(modelState);
         }
-        if(mOponentModel.getHP() <= 0){
+        if (mOponentModel.getHP() <= 0) {
             mMyModel.setWin(true);
         }
         float delta = Gdx.graphics.getDeltaTime();

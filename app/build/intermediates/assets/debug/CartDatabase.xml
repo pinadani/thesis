@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="squirtlecard" size="10.000000 13.392406" />
     <ImageTarget name="picachucard" size="100.000000 135.294113" />
     <ImageTarget name="charmandercard" size="100.000000 136.528503" />
     <ImageTarget name="logo" size="1000.000000 759.710327" />

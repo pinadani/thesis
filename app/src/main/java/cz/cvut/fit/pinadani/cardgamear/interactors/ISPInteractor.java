@@ -35,4 +35,8 @@ public interface ISPInteractor {
     void setStartPlayer(boolean startPlayer);
 
     boolean isStartPlayer();
+
+    void setSinglePlayer(boolean b);
+
+    boolean isSinglePlayer();
 }

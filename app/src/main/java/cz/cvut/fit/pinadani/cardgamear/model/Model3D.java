@@ -29,8 +29,8 @@ public class Model3D {
     private static final String ANIMATION_WALK = "walk";
     public static final String ANIMATION_STAND = "stay";
     public static final String ANIMATION_ATTACK1 = "attack";
-    public static final String ANIMATION_DEFENCE_BEGIN = "defencebegin";
-    public static final String ANIMATION_DEFENCE_END = "defenceend";
+    public static final String ANIMATION_DEFENCE_BEGIN = "defenceStart";
+    public static final String ANIMATION_DEFENCE_END = "defenceEnd";
     public static final String ANIMATION_WIN = "win";
     public static final String ANIMATION_DIE = "die";
 
@@ -45,7 +45,7 @@ public class Model3D {
 
     private static final float BULLET_LIFETIME = 2;
 
-    private static final float MODEL_SCALE = 2f;
+    private static final float MODEL_SCALE = 0.5f;
 
     private Vector2 mFinishPosition = new Vector2();
     /**

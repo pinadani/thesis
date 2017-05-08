@@ -16,6 +16,7 @@ public class SPInteractorImpl implements ISPInteractor {
     private static final String USER_EMAIL_KEY = "user_email";
     private static final String USER_ID = "user_id";
     private static final String START_PLAYER = "start_player";
+    private static final String SINGLE_PLAYER = "single_player";
     private static final String JOYSTICK_TYPE = "joystick_type";
 
     private SharedPreferences mSharedPreferences;
@@ -79,6 +80,16 @@ public class SPInteractorImpl implements ISPInteractor {
     @Override
     public boolean isStartPlayer() {
         return mSharedPreferences.getBoolean(START_PLAYER, false);
+    }
+
+    @Override
+    public void setSinglePlayer(boolean b) {
+        mSharedPreferences.edit().putBoolean(SINGLE_PLAYER, b).apply();
+    }
+
+    @Override
+    public boolean isSinglePlayer() {
+        return mSharedPreferences.getBoolean(SINGLE_PLAYER, false);
     }
 
     @Override

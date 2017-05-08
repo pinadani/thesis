@@ -28,13 +28,16 @@ public class Display implements Screen {
     public ModelBatch modelBatch;
 
     private Renderer mRenderer;
+    private boolean mSinglePlayer;
 
-    public Display(VuforiaRenderer vuforiaRenderer, Activity activity) {
+    public Display(VuforiaRenderer vuforiaRenderer, Activity activity, boolean singlePlayer) {
         App.getAppComponent().inject(this);
+
+        mSinglePlayer = singlePlayer;
 
         modelBatch = new ModelBatch();
 
-        mModels = new Model3DList(mSpInteractor.isStartPlayer());
+        mModels = new Model3DList(mSpInteractor.isStartPlayer(), mSinglePlayer);
 
         mRenderer = new Renderer(vuforiaRenderer, activity);
     }
@@ -84,4 +87,7 @@ public class Display implements Screen {
         return mRenderer;
     }
 
+    public void setSinglePlayer(boolean singlePlayer) {
+        mSinglePlayer = singlePlayer;
+    }
 }
