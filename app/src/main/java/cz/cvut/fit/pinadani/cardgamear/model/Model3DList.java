@@ -18,7 +18,7 @@ public class Model3DList {
     // Create a model loader passing in our json reader
     G3dModelLoader mModelLoader = new G3dModelLoader(mJsonReader);
 
-    String[] modelNames = {"charmanderModel.g3db","charmanderModel.g3db"};
+    String[] modelNames = {"charmanderModel.g3db", "squirtleModel.g3db"};
 
     Model3D mMyModel = null;
     Model3D mOponentModel = null;
@@ -37,15 +37,15 @@ public class Model3DList {
         }
 
         if (startPlayer) {
-            mOponentModel.getModel().transform.translate(0, 800, 0);
-            mOponentModel.setFinishPosition(new Vector2(0, 800));
+            mOponentModel.getModel().transform.translate(0, 0, 400);
+            mOponentModel.setFinishPosition(new Vector2(0, 400));
         } else {
-            mMyModel.getModel().transform.translate(0, 800, 0);
-            mMyModel.setFinishPosition(new Vector2(0, 800));
+            mMyModel.getModel().transform.translate(0, 0, 400);
+            mMyModel.setFinishPosition(new Vector2(0, 400));
         }
     }
 
-    public void updateModels(double angleDegrees, double power, boolean attackFirstClicked, boolean attackSecondClicked, boolean defenceClicked, Vector2 cameraPosition, ModelState modelState) {
+    public void updateModels(double angleDegrees, double power, boolean attackFirstClicked, boolean attackSecondClicked, boolean defenceClicked, Vector2 cameraPosition, ModelState modelState, boolean singlePlayer) {
         mMyModel.updateByButtons(attackFirstClicked, attackSecondClicked, defenceClicked);
         mMyModel.updateByJoystick(angleDegrees, power, cameraPosition);
         if (modelState != null) {
@@ -56,9 +56,8 @@ public class Model3DList {
             mMyModel.setWin(true);
         }
         float delta = Gdx.graphics.getDeltaTime();
-        for (Model3D model : mModels) {
-            model.update(delta, mModels);
-        }
+        mMyModel.update(delta, mModels, true);
+        mOponentModel.update(delta, mModels, !singlePlayer);
     }
 
     public ArrayList<Model3D> getModels() {

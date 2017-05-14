@@ -65,10 +65,10 @@ public class Model3D {
 
     private ArrayList<String> mNextAnim = new ArrayList<>();
 
-    private float mSpeed = 250;
-    private float mBulletSpeed = 500;
+    private float mSpeed = 70;
+    private float mBulletSpeed = 140;
     private float mSpeedOfChangeDirection = 70;
-    private float mSpace = 120;
+    private float mSpace = 30;
     private float mBulletSpace = 30;
 
     private int mHP = 100;
@@ -95,6 +95,7 @@ public class Model3D {
     private int shortHitRange = 40;
     private boolean mDied = false;
     private boolean mWin = false;
+    private boolean mEnd = false;
     private int mActualAnimation = ANIMATION_STAND_ID;
 
     private boolean mDefaultJoystickType = true;
@@ -126,8 +127,9 @@ public class Model3D {
         mModel.transform.set(new Matrix4());
         mModel.transform.rotate(1.0F, 0.0F, 0.0F, 90.0F);
         mModel.transform.scale(MODEL_SCALE, MODEL_SCALE, MODEL_SCALE);
+        mModel.transform.trn(0, 0, 35);
         mFinishPosition = new Vector2(0, 0);
-        if (TextUtils.equals(name, "charm3.g3db")) {
+//        if (TextUtils.equals(name, "charm3.g3db")) {
             Model bulletModel = modelLoader.loadModel(Gdx.files.getFileHandle("fireball.g3db", Files
                     .FileType.Internal));
             mBulletModel = new ModelInstance(bulletModel);
@@ -135,7 +137,7 @@ public class Model3D {
             mBulletModel.transform.set(new Matrix4());
             mBulletModel.transform.rotate(1.0F, 0.0F, 0.0F, 90.0F);
             mBulletModel.transform.scale(MODEL_SCALE, MODEL_SCALE, MODEL_SCALE);
-        }
+//        }
     }
 
     /**
@@ -151,25 +153,56 @@ public class Model3D {
 
     /**
      * Aktualizace pozice modelu
-     *
-     * @param delta  cas od posledni aktualizace
+     *  @param delta  cas od posledni aktualizace
      * @param models
+     * @param moveModel
      */
-    void update(float delta, ArrayList<Model3D> models) {
+    void update(float delta, ArrayList<Model3D> models, boolean moveModel) {
         if (mHP <= 0) {
-            mDied = true;
-            mAnimationController.setAnimation(ANIMATION_DIE, 0);
-            mActualAnimation = ANIMATION_DIE_ID;
+            if(!mEnd) {
+                mEnd = true;
+                mDied = true;
+                mAnimationController.setAnimation(ANIMATION_DIE, new AnimationController.AnimationListener() {
+                    @Override
+                    public void onEnd(AnimationController.AnimationDesc animation) {
+                        mMakeDefence = false;
+                        mMakeDefenceEnd = false;
+                    }
+
+                    @Override
+                    public void onLoop(AnimationController.AnimationDesc animation) {
+
+                    }
+                });
+            }
+            mAnimationController.update(delta);
+            return;
         }
         if(mWin){
-            mAnimationController.setAnimation(ANIMATION_WIN, 0);
-            mActualAnimation = ANIMATION_WIN_ID;
+            if(!mEnd) {
+                mEnd = true;
+                mAnimationController.setAnimation(ANIMATION_WIN, new AnimationController.AnimationListener() {
+                    @Override
+                    public void onEnd(AnimationController.AnimationDesc animation) {
+                        mMakeDefence = false;
+                        mMakeDefenceEnd = false;
+                        mAnimationController.setAnimation(ANIMATION_STAND, -1);
+                    }
+
+                    @Override
+                    public void onLoop(AnimationController.AnimationDesc animation) {
+
+                    }
+                });
+            }
+            mAnimationController.update(delta);
+            return;
         }
         mAnimationController.update(delta);
-        if (mVisibleBullet) {
+        if (mVisibleBullet && moveModel) {
             updateBulletPosition(delta);
         }
-        if (!mMakeAttackFirst && !mMakeAttackSecond && !mDied && !mWin) {
+        if (!mMakeAttackFirst && !mMakeAttackSecond && !mDied && !mWin && moveModel) {
             updateAngel(delta);
             if (!mMakeDefence) {
                 updatePosition(delta, models);
@@ -434,12 +467,13 @@ public class Model3D {
 
     private void fireFireball() {
         Vector3 actualPosition = mModel.transform.getTranslation(new Vector3());
-        mBulletModel.transform.setTranslation(actualPosition.x, actualPosition.y, actualPosition.z);
+        mBulletModel.transform.setTranslation(actualPosition.x, actualPosition.y, actualPosition
+                .z - 40);
         mBulletAngle = mAngle;
 
-        Vector2 bulletVector = new Vector2((float) Math.cos(Math.toRadians(mAngle)) * mSpace
+        Vector2 bulletVector = new Vector2((float) Math.cos(Math.toRadians(mAngle)) * mSpace * 2
                 * -1,
-                (float) Math.sin(Math.toRadians(mAngle * -1)) * mSpace);
+                (float) Math.sin(Math.toRadians(mAngle * -1)) * mSpace * 2);
 
         mBulletModel.transform.trn(bulletVector.x, bulletVector.y, 0);
         mVisibleBullet = true;
@@ -663,5 +697,13 @@ public class Model3D {
 
     public void setWin(boolean win) {
         mWin = win;
+    }
+
+    public boolean isEnd() {
+        return mEnd;
+    }
+
+    public boolean isWin() {
+        return mWin;
     }
 }

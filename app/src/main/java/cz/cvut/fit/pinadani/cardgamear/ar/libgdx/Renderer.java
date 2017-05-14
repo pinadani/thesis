@@ -67,7 +67,9 @@ public class Renderer {
     private boolean mOponentPausedGame = false;
     private boolean mGameStarted = false;
     private boolean mGameStartedFull = false;
+    private boolean mGameEndFull = false;
     private long mTimeGameStart = 0;
+    private long mTimeGameEnd = 0;
     private ModelState mModelState = null;
 
     private final Activity mActivity;
@@ -129,7 +131,7 @@ public class Renderer {
         }
 
         models.getOponentModel().reduceHP(models.getOponentModel().checkGetHits(models.getMyModel()));
-        if(mModelState != null && mModelState.oponentHp < models.getMyModel().getHP()){
+        if (mModelState != null && mModelState.oponentHp < models.getMyModel().getHP()) {
             models.getMyModel().setHP(mModelState.oponentHp);
             updateHp(models.getMyModel().getHP(), models.getMyModel().getMaxHP());
         }
@@ -152,27 +154,27 @@ public class Renderer {
         updateMyModelState(models, mMyPausedGame, mGameStarted);
 
 
-        if(!mGameStartedFull) {
+        if (!mGameStartedFull) {
             if (!mGameStarted) {
                 mActivity.runOnUiThread(() -> startOverlay.setVisibility(View.VISIBLE));
             } else {
                 TextView textView = (TextView) startOverlay.findViewById(R.id.start_overlay_text);
-                if (mModelState != null && mModelState.started) {
+                if (mModelState == null || mModelState.started) {
                     if (mTimeGameStart == 0) {
                         mTimeGameStart = System.currentTimeMillis();
                     } else {
                         long timeFromStart = System.currentTimeMillis() - mTimeGameStart;
                         if (timeFromStart < 1000) {
-                            mActivity.runOnUiThread(() ->textView.setText("3"));
+                            mActivity.runOnUiThread(() -> textView.setText("3"));
                         } else {
                             if (timeFromStart < 2000) {
-                                mActivity.runOnUiThread(() ->textView.setText("2"));
+                                mActivity.runOnUiThread(() -> textView.setText("2"));
                             } else {
                                 if (timeFromStart < 3000) {
-                                    mActivity.runOnUiThread(() ->textView.setText("1"));
+                                    mActivity.runOnUiThread(() -> textView.setText("1"));
                                 } else {
                                     if (timeFromStart < 4000) {
-                                        mActivity.runOnUiThread(() ->textView.setText("GO"));
+                                        mActivity.runOnUiThread(() -> textView.setText("GO"));
                                     } else {
                                         if (timeFromStart < 5000) {
                                             mActivity.runOnUiThread(() -> startOverlay
@@ -188,75 +190,98 @@ public class Renderer {
                     textView.setText(R.string.wait_for_oponent_start);
                 }
             }
-            return;
         }
 
-        if (!mMyPausedGame) {
-            mActivity.runOnUiThread(() -> pausedMeOverlay.setVisibility(View.GONE));
-            if (mModelState != null && mModelState.paused) {
-                mOponentPausedGame = true;
-                mActivity.runOnUiThread(() -> pausedOponentOverlay.setVisibility(View.VISIBLE));
+        if (models.getMyModel().isEnd() && !mGameEndFull) {
+            TextView textView = (TextView) startOverlay.findViewById(R.id.start_overlay_text);
+            if (mModelState == null || mModelState.started) {
+                if (mTimeGameEnd == 0) {
+                    mTimeGameEnd = System.currentTimeMillis();
+                } else {
+                    long timeFromEnd = System.currentTimeMillis() - mTimeGameEnd;
+                    if (timeFromEnd > 3000) {
+                        mActivity.runOnUiThread(() -> startOverlay.setVisibility(View.VISIBLE));
+                        if(models.getMyModel().isWin()) {
+                            mActivity.runOnUiThread(() -> textView.setText("Vyhrál jsi\nKlikni " +
+                                    "pro ukončení"));
+                        } else {
+                            mActivity.runOnUiThread(() -> textView.setText("Prohrál jsi\nKlikni " +
+                                    "pro ukončení"));
+                        }
+                        startOverlay.setOnClickListener(view -> mActivity.finish());
+                        mGameEndFull = true;
+                    }
+                }
+            }
+        }
+
+
+            if (!mMyPausedGame) {
+                mActivity.runOnUiThread(() -> pausedMeOverlay.setVisibility(View.GONE));
+                if (mModelState != null && mModelState.paused) {
+                    mOponentPausedGame = true;
+                    mActivity.runOnUiThread(() -> pausedOponentOverlay.setVisibility(View.VISIBLE));
+                } else {
+                    mOponentPausedGame = false;
+                    mActivity.runOnUiThread(() -> pausedOponentOverlay.setVisibility(View.GONE));
+                }
             } else {
-                mOponentPausedGame = false;
-                mActivity.runOnUiThread(() -> pausedOponentOverlay.setVisibility(View.GONE));
+                mActivity.runOnUiThread(() -> pausedMeOverlay.setVisibility(View.VISIBLE));
             }
-        } else {
-            mActivity.runOnUiThread(() -> pausedMeOverlay.setVisibility(View.VISIBLE));
-        }
 
-        if (trackables != null && trackables.length > 0) {
-            //transform all content
-            TrackableResult trackable = trackables[0];
+            if (mGameStartedFull && trackables != null && trackables.length > 0) {
+                //transform all content
+                TrackableResult trackable = trackables[0];
 
-            Matrix44F modelViewMatrix = Tool.convertPose2GLMatrix(trackable.getPose());
-            float[] raw = modelViewMatrix.getData();
+                Matrix44F modelViewMatrix = Tool.convertPose2GLMatrix(trackable.getPose());
+                float[] raw = modelViewMatrix.getData();
 
-            float[] rotated;
-            //switch axis and rotate to compensate coordinates change
-            if (com.vuforia.Renderer.getInstance().getVideoBackgroundConfig().getReflection() == VIDEO_BACKGROUND_REFLECTION.VIDEO_BACKGROUND_REFLECTION_ON) {
-                // Front mCamera
-                rotated = new float[]{
-                        raw[1], raw[0], raw[2], raw[3],
-                        raw[5], raw[4], raw[6], raw[7],
-                        raw[9], raw[8], raw[10], raw[11],
-                        raw[13], raw[12], raw[14], raw[15]
-                };
+                float[] rotated;
+                //switch axis and rotate to compensate coordinates change
+                if (com.vuforia.Renderer.getInstance().getVideoBackgroundConfig().getReflection() == VIDEO_BACKGROUND_REFLECTION.VIDEO_BACKGROUND_REFLECTION_ON) {
+                    // Front mCamera
+                    rotated = new float[]{
+                            raw[1], raw[0], raw[2], raw[3],
+                            raw[5], raw[4], raw[6], raw[7],
+                            raw[9], raw[8], raw[10], raw[11],
+                            raw[13], raw[12], raw[14], raw[15]
+                    };
+                } else {
+                    // Back mCamera
+                    rotated = new float[]{
+                            raw[1], -raw[0], raw[2], raw[3],
+                            raw[5], -raw[4], raw[6], raw[7],
+                            raw[9], -raw[8], raw[10], raw[11],
+                            raw[13], -raw[12], raw[14], raw[15]
+                    };
+                }
+                Matrix44F rot = new Matrix44F();
+                rot.setData(rotated);
+                Matrix44F inverse = SampleMath.Matrix44FInverse(rot);
+                Matrix44F transp = SampleMath.Matrix44FTranspose(inverse);
+
+                float[] data = transp.getData();
+                mCamera.position.set(data[12], data[13], data[14]);
+                mCamera.up.set(data[4], data[5], data[6]);
+                mCamera.direction.set(data[8], data[9], data[10]);
+
+                if (!mMyPausedGame && !mOponentPausedGame) {
+                    models.updateModels(joystick.getAngleDegrees(), joystick.getPower(),
+                            isAttackFirstDown, isAttackSecondDown, isDefenceDown, new Vector2
+                                    (data[4], data[5]), mModelState, mSinglePlayer);
+                    mModelState = null;
+                }
+
+                //update filed of view
+                mCamera.fieldOfView = filedOfView;
+
             } else {
-                // Back mCamera
-                rotated = new float[]{
-                        raw[1], -raw[0], raw[2], raw[3],
-                        raw[5], -raw[4], raw[6], raw[7],
-                        raw[9], -raw[8], raw[10], raw[11],
-                        raw[13], -raw[12], raw[14], raw[15]
-                };
-            }
-            Matrix44F rot = new Matrix44F();
-            rot.setData(rotated);
-            Matrix44F inverse = SampleMath.Matrix44FInverse(rot);
-            Matrix44F transp = SampleMath.Matrix44FTranspose(inverse);
-
-            float[] data = transp.getData();
-            mCamera.position.set(data[12], data[13], data[14]);
-            mCamera.up.set(data[4], data[5], data[6]);
-            mCamera.direction.set(data[8], data[9], data[10]);
-
-            if (!mMyPausedGame && !mOponentPausedGame) {
-                models.updateModels(joystick.getAngleDegrees(), joystick.getPower(),
-                        isAttackFirstDown, isAttackSecondDown, isDefenceDown, new Vector2
-                                (data[4], data[5]), mModelState);
-                mModelState = null;
+                mCamera.position.set(100, 100, 100);
+                mCamera.lookAt(1000, 1000, 1000);
             }
 
-            //update filed of view
-            mCamera.fieldOfView = filedOfView;
-
-        } else {
-            mCamera.position.set(100, 100, 100);
-            mCamera.lookAt(1000, 1000, 1000);
+            mCamera.update();
         }
-
-        mCamera.update();
-    }
 
     private void updateMyModelState(Model3DList models3D, boolean myPausedGame, boolean gameStarted) {
         if (mBluetoothService != null && mSendEverySecond) {
@@ -361,7 +386,7 @@ public class Renderer {
 
     public void setSinglePlayer(boolean singlePlayer) {
         mSinglePlayer = singlePlayer;
-        mModelState = new ModelState();
-        mModelState.started = true;
+//        mModelState = new ModelState();
+//        mModelState.started = true;
     }
 }
