@@ -23,6 +23,9 @@ public class Model3DList {
     Model3D mMyModel = null;
     Model3D mOponentModel = null;
 
+    private boolean mInitedSinglePlayer = false;
+
+
     public Model3DList(boolean startPlayer, boolean singlePlayer) {
         boolean firstModel = true;
         for (String name : modelNames) {
@@ -36,12 +39,15 @@ public class Model3DList {
             mModels.add(model3D);
         }
 
-        if (startPlayer) {
-            mOponentModel.getModel().transform.translate(0, 0, 400);
-            mOponentModel.setFinishPosition(new Vector2(0, 400));
-        } else {
-            mMyModel.getModel().transform.translate(0, 0, 400);
-            mMyModel.setFinishPosition(new Vector2(0, 400));
+        if(!singlePlayer) {
+            if (startPlayer) {
+                mOponentModel.getModel().transform.translate(0, 0, 400);
+                mOponentModel.setFinishPosition(new Vector2(0, 400));
+                mOponentModel.getModel().transform.rotate(0, 1, 0, 180);
+            } else {
+                mMyModel.getModel().transform.translate(0, 0, 400);
+                mMyModel.setFinishPosition(new Vector2(0, 400));
+            }
         }
     }
 
@@ -70,5 +76,23 @@ public class Model3DList {
 
     public Model3D getOponentModel() {
         return mOponentModel;
+    }
+
+    public boolean isInitedSinglePlayer() {
+        return mInitedSinglePlayer;
+    }
+
+    public void initSinglePlayer(boolean isCharmanderMyPokemon) {
+        if(!isCharmanderMyPokemon) {
+            Model3D tmpModel = mMyModel;
+            mMyModel = mOponentModel;
+            mOponentModel = tmpModel;
+        }
+
+        mOponentModel.getModel().transform.translate(0, 0, 400);
+        mOponentModel.setFinishPosition(new Vector2(0, 400));
+        mOponentModel.getModel().transform.rotate(0, 1, 0, 180);
+
+        mInitedSinglePlayer = true;
     }
 }

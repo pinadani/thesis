@@ -109,6 +109,9 @@ public class Renderer {
         if (vuforiaRenderer.mIsActive) {
             //render mCamera background and find targets
             results = vuforiaRenderer.processFrame();
+            if(!models.isInitedSinglePlayer() && results != null && results.length > 0) {
+                models.initSinglePlayer(results[0].getTrackable().getName().equals("charmandercard"));
+            }
         }
 
         gl.glEnable(GL20.GL_DEPTH_TEST);

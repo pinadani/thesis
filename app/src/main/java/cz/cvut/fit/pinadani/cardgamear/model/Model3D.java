@@ -45,7 +45,7 @@ public class Model3D {
 
     private static final float BULLET_LIFETIME = 2;
 
-    private static final float MODEL_SCALE = 0.5f;
+    private static final float MODEL_SCALE = 0.4f;
 
     private Vector2 mFinishPosition = new Vector2();
     /**
@@ -69,7 +69,7 @@ public class Model3D {
     private float mBulletSpeed = 140;
     private float mSpeedOfChangeDirection = 70;
     private float mSpace = 30;
-    private float mBulletSpace = 30;
+    private float mBulletSpace = 5;
 
     private int mHP = 100;
     private int mMaxHP = 100;
@@ -560,7 +560,8 @@ public class Model3D {
     }
 
     public int checkGetHits(Model3D model3D) {
-        return checkShortAttack(model3D) + checkLongAttack(model3D);
+        int demage = checkShortAttack(model3D) + checkLongAttack(model3D);
+        return mMakeDefence ? (demage / 5) : demage;
     }
 
     public int checkShortAttack(Model3D model3D) {
@@ -578,7 +579,7 @@ public class Model3D {
                     actualPosition.y)) - model3D.mAngle) < 20;
 
             if (amIInRange && lookAtMe) {
-                mMakeHitWithAttackFirst = true;
+                model3D.mMakeHitWithAttackFirst = true;
                 return model3D.mShortAttackPower;
             }
         }
