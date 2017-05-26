@@ -26,8 +26,10 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import cz.cvut.fit.pinadani.cardgamear.R;
+import cz.cvut.fit.pinadani.cardgamear.ar.libgdx.Engine;
 import cz.cvut.fit.pinadani.cardgamear.mvp.presenter.ConnectionPresenter;
 import cz.cvut.fit.pinadani.cardgamear.mvp.view.IConnectionView;
+import cz.cvut.fit.pinadani.cardgamear.renderer.ArActivity;
 import cz.cvut.fit.pinadani.cardgamear.service.NearbyConnections;
 import cz.cvut.fit.pinadani.cardgamear.ui.activity.DeviceListActivity;
 import cz.cvut.fit.pinadani.cardgamear.ui.fragment.base.BaseNucleusFragment;
@@ -146,6 +148,10 @@ public class ConnectionFragment extends BaseNucleusFragment<ConnectionPresenter>
                             Toast.LENGTH_SHORT).show();
                     getActivity().finish();
                 }
+                break;
+            case ArActivity.REQUEST_CODE:
+                getPresenter().increasePoints(resultCode == Engine.WIN);
+                break;
 
 //            case REQUEST_ENABLE_BT:
 //                // When the request to enable Bluetooth returns
@@ -295,4 +301,6 @@ public class ConnectionFragment extends BaseNucleusFragment<ConnectionPresenter>
     public void onConnectClicked(){
         getPresenter().createBluetooth(getActivity());
     }
+
+
 }

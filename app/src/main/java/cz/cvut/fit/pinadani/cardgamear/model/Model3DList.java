@@ -39,28 +39,35 @@ public class Model3DList {
             mModels.add(model3D);
         }
 
-        if(!singlePlayer) {
-            if (startPlayer) {
-                mOponentModel.getModel().transform.translate(0, 0, 400);
-                mOponentModel.setFinishPosition(new Vector2(0, 400));
-                mOponentModel.getModel().transform.rotate(0, 1, 0, 180);
-            } else {
+        if (!singlePlayer) {
+            if (!startPlayer) {
+                Model3D tmpModel = mMyModel;
+                mMyModel = mOponentModel;
+                mOponentModel = tmpModel;
+
                 mMyModel.getModel().transform.translate(0, 0, 400);
                 mMyModel.setFinishPosition(new Vector2(0, 400));
             }
+            mInitedSinglePlayer = true;
         }
     }
 
     public void updateModels(double angleDegrees, double power, boolean attackFirstClicked, boolean attackSecondClicked, boolean defenceClicked, Vector2 cameraPosition, ModelState modelState, boolean singlePlayer) {
+
         mMyModel.updateByButtons(attackFirstClicked, attackSecondClicked, defenceClicked);
         mMyModel.updateByJoystick(angleDegrees, power, cameraPosition);
+        if (mOponentModel.getHP() <= 0) {
+            mMyModel.setWin(true);
+            if (modelState != null) {
+                modelState.animation = Model3D.ANIMATION_DIE_ID;
+            }
+        }
+
         if (modelState != null) {
             mOponentModel.updateAnimation(modelState.animation);
             mOponentModel.updateState(modelState);
         }
-        if (mOponentModel.getHP() <= 0) {
-            mMyModel.setWin(true);
-        }
+
         float delta = Gdx.graphics.getDeltaTime();
         mMyModel.update(delta, mModels, true);
         mOponentModel.update(delta, mModels, !singlePlayer);
@@ -83,7 +90,7 @@ public class Model3DList {
     }
 
     public void initSinglePlayer(boolean isCharmanderMyPokemon) {
-        if(!isCharmanderMyPokemon) {
+        if (!isCharmanderMyPokemon) {
             Model3D tmpModel = mMyModel;
             mMyModel = mOponentModel;
             mOponentModel = tmpModel;

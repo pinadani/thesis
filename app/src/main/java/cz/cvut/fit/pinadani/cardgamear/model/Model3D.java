@@ -9,7 +9,6 @@ import com.badlogic.gdx.graphics.g3d.ModelInstance;
 import com.badlogic.gdx.graphics.g3d.loader.G3dModelLoader;
 import com.badlogic.gdx.graphics.g3d.utils.AnimationController;
 import com.badlogic.gdx.math.Matrix4;
-import com.badlogic.gdx.math.Quaternion;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.math.Vector3;
 
@@ -65,9 +64,9 @@ public class Model3D {
 
     private ArrayList<String> mNextAnim = new ArrayList<>();
 
-    private float mSpeed = 70;
+    private float mSpeed = 60;
     private float mBulletSpeed = 140;
-    private float mSpeedOfChangeDirection = 70;
+    private float mSpeedOfChangeDirection = 80;
     private float mSpace = 30;
     private float mBulletSpace = 5;
 
@@ -130,13 +129,13 @@ public class Model3D {
         mModel.transform.trn(0, 0, 35);
         mFinishPosition = new Vector2(0, 0);
 //        if (TextUtils.equals(name, "charm3.g3db")) {
-            Model bulletModel = modelLoader.loadModel(Gdx.files.getFileHandle("fireball.g3db", Files
-                    .FileType.Internal));
-            mBulletModel = new ModelInstance(bulletModel);
+        Model bulletModel = modelLoader.loadModel(Gdx.files.getFileHandle("fireball.g3db", Files
+                .FileType.Internal));
+        mBulletModel = new ModelInstance(bulletModel);
 
-            mBulletModel.transform.set(new Matrix4());
-            mBulletModel.transform.rotate(1.0F, 0.0F, 0.0F, 90.0F);
-            mBulletModel.transform.scale(MODEL_SCALE, MODEL_SCALE, MODEL_SCALE);
+        mBulletModel.transform.set(new Matrix4());
+        mBulletModel.transform.rotate(1.0F, 0.0F, 0.0F, 90.0F);
+        mBulletModel.transform.scale(MODEL_SCALE, MODEL_SCALE, MODEL_SCALE);
 //        }
     }
 
@@ -153,13 +152,14 @@ public class Model3D {
 
     /**
      * Aktualizace pozice modelu
-     *  @param delta  cas od posledni aktualizace
+     *
+     * @param delta     cas od posledni aktualizace
      * @param models
      * @param moveModel
      */
     void update(float delta, ArrayList<Model3D> models, boolean moveModel) {
         if (mHP <= 0) {
-            if(!mEnd) {
+            if (!mEnd) {
                 mEnd = true;
                 mDied = true;
                 mAnimationController.setAnimation(ANIMATION_DIE, new AnimationController.AnimationListener() {
@@ -178,8 +178,8 @@ public class Model3D {
             mAnimationController.update(delta);
             return;
         }
-        if(mWin){
-            if(!mEnd) {
+        if (mWin) {
+            if (!mEnd) {
                 mEnd = true;
                 mAnimationController.setAnimation(ANIMATION_WIN, new AnimationController.AnimationListener() {
                     @Override
@@ -255,8 +255,8 @@ public class Model3D {
     }
 
     private boolean isTooFar() {
-        if(getDistanceBetweenTwoPoints(mModel.transform.getTranslation(new Vector3()),new Vector2
-                (0,0)) > 1000 ){
+        if (getDistanceBetweenTwoPoints(mModel.transform.getTranslation(new Vector3()), new Vector2
+                (0, 0)) > 1000) {
             return true;
         }
         return false;
@@ -471,9 +471,8 @@ public class Model3D {
                 .z - 40);
         mBulletAngle = mAngle;
 
-        Vector2 bulletVector = new Vector2((float) Math.cos(Math.toRadians(mAngle)) * mSpace * 2
-                * -1,
-                (float) Math.sin(Math.toRadians(mAngle * -1)) * mSpace * 2);
+        Vector2 bulletVector = new Vector2((float) Math.cos(Math.toRadians(mAngle)) * mSpace
+                * -1, (float) Math.sin(Math.toRadians(mAngle * -1)) * mSpace);
 
         mBulletModel.transform.trn(bulletVector.x, bulletVector.y, 0);
         mVisibleBullet = true;
@@ -493,7 +492,7 @@ public class Model3D {
                 }
                 //setNextAnimation(ANIMATION_WALK);
                 angleDegrees = (angleDegrees + 180) % 360;
-                if(mDefaultJoystickType) {
+                if (mDefaultJoystickType) {
                     Vector2 joystickVector = new Vector2((float) Math.cos(Math.toRadians(angleDegrees)),
                             (float) Math.sin(Math.toRadians(angleDegrees * 1)));
 
@@ -508,13 +507,13 @@ public class Model3D {
                     mFinishPosition.x = (int) (actualPosition.x + finalVector.x * 800 * power / 100);
                     mFinishPosition.y = (int) (actualPosition.y + finalVector.y * 800 * power / 100);
                 } else {
-                    if(angleDegrees < 180) {
+                    if (angleDegrees < 180) {
                         angleDegrees /= 10;
                     } else {
                         angleDegrees = ((angleDegrees - 360) / 10) + 360;
                     }
 
-                    float angle = (float)((mAngle * -1) + 630 + angleDegrees) % 360;
+                    float angle = (float) ((mAngle * -1) + 630 + angleDegrees) % 360;
                     Vector2 finalVector = new Vector2(0, 1);
                     finalVector.rotate(angle * -1);
                     mFinishPosition.x = (int) (actualPosition.x + finalVector.x * 800 * power / 100);
@@ -630,12 +629,8 @@ public class Model3D {
     }
 
     public ModelState getStateBundle(boolean myPausedGame) {
-        Vector3 actualPosition = mModel.transform.getTranslation(new Vector3());
-        Quaternion quaternion = mModel.transform.getRotation(new Quaternion());
-        ModelState modelState = new ModelState(actualPosition.x, actualPosition.y, actualPosition
-                .z, mFinishPosition.x, mFinishPosition.y, quaternion.x, quaternion.y, quaternion
-                .z, quaternion.w, mAngle, mBulletAngle,
-                myPausedGame, mVisibleBullet, mActualAnimation);
+        ModelState modelState = new ModelState(mFinishPosition.x, mFinishPosition.y, mAngle, mBulletAngle,
+                myPausedGame, mVisibleBullet, mActualAnimation, mModel.transform.getValues());
 
         return modelState;
     }
@@ -645,17 +640,10 @@ public class Model3D {
             return;
         }
         mAngle = modelState.angle;
-        mModel.transform.setTranslation(modelState.x, modelState.y, modelState.z);
         mFinishPosition.set(modelState.finishX, modelState.finishY);
         mBulletAngle = modelState.bulletAngle;
         mVisibleBullet = modelState.visibleBullet;
-        mModel.transform.set(modelState.x, modelState.y, modelState.z, modelState.quaternionX,
-                modelState.quaternionY, modelState.quaternionZ, modelState.quaternionW);
-
-//        mModel.transform.set(new Matrix4(new Vector3(modelState.x, modelState.y, modelState.z),
-//                new Quaternion(modelState.quaternionX, modelState.quaternionY,modelState
-//                        .quaternionZ, modelState.quaternionW), new Vector3(1, 1, 1)));
-
+        mModel.transform = new Matrix4(modelState.matrix4);
     }
 
     public void setAngle(int angle) {
@@ -691,7 +679,10 @@ public class Model3D {
                 mAnimationController.setAnimation(ANIMATION_WIN, -1);
                 break;
             case ANIMATION_DIE_ID:
-                mAnimationController.setAnimation(ANIMATION_DIE, -1);
+                if(!mDied) {
+                    mAnimationController.setAnimation(ANIMATION_DIE, -1);
+                    mDied = true;
+                }
                 break;
         }
     }

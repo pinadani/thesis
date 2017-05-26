@@ -34,10 +34,9 @@ import cz.cvut.fit.pinadani.cardgamear.utils.App;
 import cz.cvut.fit.pinadani.cardgamear.utils.Constants;
 import cz.cvut.fit.pinadani.cardgamear.utils.UiUtils;
 
-//import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
-
 
 public class ArActivity extends AndroidApplication implements SessionControl {
+    public static final int REQUEST_CODE = 25;
 
     private static final String LOGTAG = "MAIN";
 

@@ -13,12 +13,13 @@ import com.erz.joysticklibrary.JoyStick;
 
 import cz.cvut.fit.pinadani.cardgamear.ar.vuforia.VuforiaRenderer;
 
-//import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
-
 /**
  * Instance of libgdx Game class responsible for rendering 3D content over augmented reality.
  */
 public class Engine extends Game {
+    public static final int WIN = 1;
+    public static final int LOOSE = 0;
+
     ImageButton pauseBtn;
     ImageButton attackFirstBtn;
     ImageButton attackSecondBtn;

@@ -14,11 +14,20 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
 import java.util.Set;
 
 import javax.inject.Inject;
 
 import cz.cvut.fit.pinadani.cardgamear.interactors.ISPInteractor;
+import cz.cvut.fit.pinadani.cardgamear.model.User;
 import cz.cvut.fit.pinadani.cardgamear.mvp.view.IConnectionView;
 import cz.cvut.fit.pinadani.cardgamear.renderer.ArActivity;
 import cz.cvut.fit.pinadani.cardgamear.service.BluetoothService;
@@ -37,6 +46,14 @@ public class ConnectionPresenter extends BasePresenter<IConnectionView> {
     public static final int REQUEST_CONNECT_DEVICE_SECURE = 1;
     private static final int REQUEST_CONNECT_DEVICE_INSECURE = 2;
     public static final int REQUEST_ENABLE_BT = 3;
+
+    private DatabaseReference mDatabase;
+
+    private User mUser;
+    private FirebaseUser mFirebaseUser;
+    private FirebaseAuth mAuth;
+    private FirebaseAuth.AuthStateListener mAuthListener;
+
 
     public static String DEVICE_ADDRESS = "device_address";
 
@@ -74,6 +91,32 @@ public class ConnectionPresenter extends BasePresenter<IConnectionView> {
     protected void onCreate(Bundle savedState) {
         super.onCreate(savedState);
         App.getAppComponent().inject(this);
+        mFirebaseUser = FirebaseAuth.getInstance().getCurrentUser();
+        mDatabase = FirebaseDatabase.getInstance().getReference();
+
+        mAuth = FirebaseAuth.getInstance();
+
+        mAuthListener = firebaseAuth -> {
+            FirebaseUser user = firebaseAuth.getCurrentUser();
+            if (user != null) {
+
+                mDatabase.child("users")
+                        .child(mFirebaseUser.getUid())
+                        .addListenerForSingleValueEvent(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(DataSnapshot dataSnapshot) {
+                                if (dataSnapshot.exists()) {
+                                    mUser = dataSnapshot.getValue(User.class);
+                                }
+                            }
+
+                            @Override
+                            public void onCancelled(DatabaseError databaseError) {
+                            }
+                        });
+
+            }
+        };
     }
 
     @Override
@@ -90,6 +133,18 @@ public class ConnectionPresenter extends BasePresenter<IConnectionView> {
         } else {
             setupBluetooth(connectionView);
         }
+
+        mAuth.addAuthStateListener(mAuthListener);
+
+
+    }
+
+    @Override
+    protected void onDropView() {
+        super.onDropView();
+        if (mAuthListener != null) {
+            mAuth.removeAuthStateListener(mAuthListener);
+        }
     }
 
     public void setupBluetooth(IConnectionView connectionView) {
@@ -98,11 +153,11 @@ public class ConnectionPresenter extends BasePresenter<IConnectionView> {
 
         connectionView.setPairedDevices(pairedDevices);
 
-        if(mWifiService == null) {
+        if (mWifiService == null) {
             mWifiService = new NearbyConnections(connectionView);
         }
 
-        if((mBluetoothService != null) && (mBluetoothService.getState() != 0)) {
+        if ((mBluetoothService != null) && (mBluetoothService.getState() != 0)) {
             //mBluetoothService.stop();
         }
 
@@ -150,12 +205,12 @@ public class ConnectionPresenter extends BasePresenter<IConnectionView> {
                                     + mConnectedDeviceName, Toast.LENGTH_SHORT).show();
 
                             // Launch the DeviceListActivity to see devices and do scan
-                            ((App)App.getContext()).setHandler(mHandler);
-                            ((App)App.getContext()).setBluetoothService(mBluetoothService);
+                            ((App) App.getContext()).setHandler(mHandler);
+                            ((App) App.getContext()).setBluetoothService(mBluetoothService);
 
                             Intent multiPlayerIntent = new Intent(activity, ArActivity.class);
                             multiPlayerIntent.putExtra(Constants.SINGLE_PLAYER, false);
-                            activity.startActivity(multiPlayerIntent);
+                            activity.startActivityForResult(multiPlayerIntent, ArActivity.REQUEST_CODE);
                         }
                         break;
                     case Constants.MESSAGE_TOAST:
@@ -183,10 +238,11 @@ public class ConnectionPresenter extends BasePresenter<IConnectionView> {
         }
     };
 
+
     /**
-            * Sends a message.
+     * Sends a message.
      *
-             * @param message A string of text to send.
+     * @param message A string of text to send.
      */
     private void sendMessage(String message) {
         // Check that there's actually something to send
@@ -226,15 +282,15 @@ public class ConnectionPresenter extends BasePresenter<IConnectionView> {
      */
     private AdapterView.OnItemClickListener mDeviceClickListener
             = (av, v, arg2, arg3) -> {
-                // Cancel discovery because it's costly and we're about to connect
-                mBluetoothAdapter.cancelDiscovery();
+        // Cancel discovery because it's costly and we're about to connect
+        mBluetoothAdapter.cancelDiscovery();
 
-                // Get the device MAC address, which is the last 17 chars in the View
-                String info = ((TextView) v).getText().toString();
-                String address = info.substring(info.length() - 17);
+        // Get the device MAC address, which is the last 17 chars in the View
+        String info = ((TextView) v).getText().toString();
+        String address = info.substring(info.length() - 17);
 
-                connectDevice(address);
-            };
+        connectDevice(address);
+    };
 
     /**
      * Establish connection with other device
@@ -277,5 +333,25 @@ public class ConnectionPresenter extends BasePresenter<IConnectionView> {
 
     public void connectTo(String selectedEndpointId, String selectedEndpointName) {
         mWifiService.connectTo(selectedEndpointId, selectedEndpointName);
+    }
+
+    public void increasePoints(boolean win) {
+        if (mUser != null) {
+            if (win) {
+                mUser.setScore(mUser.getScore() + 10);
+            } else {
+                if (mUser.getScore() < 5) {
+                    mUser.setScore(0);
+                } else {
+                    mUser.setScore(mUser.getScore() - 5);
+                }
+            }
+            mUser.setScore(mUser.getScore());
+
+            mDatabase
+                    .child("users")
+                    .child(mFirebaseUser.getUid())
+                    .setValue(mUser);
+        }
     }
 }

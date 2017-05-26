@@ -190,7 +190,7 @@ public class Renderer {
                         }
                     }
                 } else {
-                    textView.setText(R.string.wait_for_oponent_start);
+                    mActivity.runOnUiThread(() -> textView.setText(R.string.wait_for_oponent_start));
                 }
             }
         }
@@ -204,14 +204,21 @@ public class Renderer {
                     long timeFromEnd = System.currentTimeMillis() - mTimeGameEnd;
                     if (timeFromEnd > 3000) {
                         mActivity.runOnUiThread(() -> startOverlay.setVisibility(View.VISIBLE));
+                        boolean win = true;
                         if(models.getMyModel().isWin()) {
+                            win = true;
                             mActivity.runOnUiThread(() -> textView.setText("Vyhrál jsi\nKlikni " +
                                     "pro ukončení"));
                         } else {
+                            win = false;
                             mActivity.runOnUiThread(() -> textView.setText("Prohrál jsi\nKlikni " +
                                     "pro ukončení"));
                         }
-                        startOverlay.setOnClickListener(view -> mActivity.finish());
+                        boolean finalWin = win;
+                        startOverlay.setOnClickListener(view -> {
+                            mActivity.setResult(finalWin ? Engine.WIN : Engine.LOOSE);
+                            mActivity.finish();
+                        });
                         mGameEndFull = true;
                     }
                 }
