@@ -210,7 +210,9 @@ public class ArActivity extends AndroidApplication implements SessionControl {
         }
 
         // Load the data sets:
-        if (!posterDataSet.load("CartDatabase.xml", STORAGE_TYPE.STORAGE_APPRESOURCE)) {
+        if (!posterDataSet.load(isSinglePlayer ? "CartDatabase.xml" : "CartDatabaseMultiplayer.xml",
+                STORAGE_TYPE
+                .STORAGE_APPRESOURCE)) {
             Log.d(LOGTAG, "Failed to load data set.");
             return false;
         }

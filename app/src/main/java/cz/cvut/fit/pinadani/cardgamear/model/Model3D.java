@@ -91,7 +91,7 @@ public class Model3D {
     private boolean mMakeDefenceEnd = false;
     private boolean mMakeDefenceBegin = false;
 
-    private int shortHitRange = 40;
+    private int shortHitRange = 20;
     private boolean mDied = false;
     private boolean mWin = false;
     private boolean mEnd = false;
@@ -122,6 +122,8 @@ public class Model3D {
     private void initModel(G3dModelLoader modelLoader, String name) {
         Model model = modelLoader.loadModel(Gdx.files.getFileHandle(name, Files.FileType.Internal));
         mModel = new ModelInstance(model);
+
+        mName = name;
 
         mModel.transform.set(new Matrix4());
         mModel.transform.rotate(1.0F, 0.0F, 0.0F, 90.0F);
@@ -468,11 +470,13 @@ public class Model3D {
     private void fireFireball() {
         Vector3 actualPosition = mModel.transform.getTranslation(new Vector3());
         mBulletModel.transform.setTranslation(actualPosition.x, actualPosition.y, actualPosition
-                .z - 40);
+                .z - (TextUtils.equals(mName, "squirtleModel.g3db") ? 35 : 27));
         mBulletAngle = mAngle;
 
-        Vector2 bulletVector = new Vector2((float) Math.cos(Math.toRadians(mAngle)) * mSpace
-                * -1, (float) Math.sin(Math.toRadians(mAngle * -1)) * mSpace);
+        Vector2 bulletVector = new Vector2((float) Math.cos(Math.toRadians(mAngle)) * mSpace * (TextUtils.equals
+                (mName, "squirtleModel.g3db") ? 1f : 1.5f) * -1,
+                (float) Math.sin(Math.toRadians(mAngle * -1)) * mSpace * (TextUtils.equals
+                (mName, "squirtleModel.g3db") ? 1f : 1.5f));
 
         mBulletModel.transform.trn(bulletVector.x, bulletVector.y, 0);
         mVisibleBullet = true;
@@ -575,7 +579,7 @@ public class Model3D {
 
             boolean lookAtMe = Math.abs(getAngleBetweenTwoPoints(model3D.getModel().transform
                     .getTranslation(new Vector3()), new Vector2(actualPosition.x,
-                    actualPosition.y)) - model3D.mAngle) < 20;
+                    actualPosition.y)) - model3D.mAngle % 360) < 20;
 
             if (amIInRange && lookAtMe) {
                 model3D.mMakeHitWithAttackFirst = true;
