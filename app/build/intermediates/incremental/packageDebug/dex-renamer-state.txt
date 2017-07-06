@@ -1,4 +1,4 @@
-#Mon Jun 26 23:39:16 CEST 2017
+#Thu Jul 06 18:01:58 CEST 2017
 base.0=C\:\\Users\\danie\\AndroidStudioProjects\\Diplomova prace\\Diplomka\\samples\\Card Game AR\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_c7af12e145ca648f1bab2ef1bd2ff571aedebf2e
 renamed.1=classes2.dex
 renamed.0=classes.dex
