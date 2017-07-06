@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="rxbinding-appcompat-v7-0.4.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/cb60deac2e11922a5136e7ca86a77cae9919840d/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/cb60deac2e11922a5136e7ca86a77cae9919840d/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton.rxbinding/rxbinding-appcompat-v7/0.4.0/d28a11f8b17a7f64cc410e5f02207d81f0234f69/rxbinding-appcompat-v7-0.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

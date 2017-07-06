@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="JoyStick-1.1.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/c0adf26cffdad97f409c0927139508f3e06af168/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/c0adf26cffdad97f409c0927139508f3e06af168/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.erz05/JoyStick/1.1.0/e34cc305851f1a14d05ddb2755ba4c3063be230e/JoyStick-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
